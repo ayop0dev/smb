@@ -28,7 +28,7 @@ require __DIR__ . '/header.php';
         <div class="hero__content">
           <nav class="breadcrumb" aria-label="Breadcrumb">
             <ol>
-              <li><a href="home.php">Home</a></li>
+              <li><a href="index.php">Home</a></li>
               <li><span aria-current="page">Developers</span></li>
             </ol>
           </nav>

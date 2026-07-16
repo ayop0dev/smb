@@ -13,7 +13,7 @@ $page_styles = $page_styles ?? [];
 $skip_link = $skip_link ?? '#top';
 
 $nav_items = [
-    'home' => ['home.php', 'Home'],
+    'home' => ['index.php', 'Home'],
     'about' => ['about.php', 'About'],
     'services' => ['services.php', 'Services'],
     'developers' => ['developers.php', 'Developers'],
@@ -87,7 +87,7 @@ function smb_e(string $value): string
   <header class="header" id="header">
     <div class="header__overlay" id="nav-overlay" aria-hidden="true"></div>
     <div class="container header__inner">
-      <a class="header__logo" href="home.php" aria-label="SMB Real Estate Brokers — home">
+      <a class="header__logo" href="index.php" aria-label="SMB Real Estate Brokers — home">
         <img src="assets/images/smb-logo-horizontal.png" alt="SMB Real Estate Brokers — Serving, Managing &amp; Beyond" width="80" height="46">
       </a>
       <nav class="header__nav" id="main-nav" aria-label="Main navigation">

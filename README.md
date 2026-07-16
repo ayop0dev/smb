@@ -3,7 +3,7 @@
 Static preview of the DAMAC Islands 2 landing page for **SMB Real Estate Brokers L.L.C**,
 built with HTML5, CSS3 and vanilla JavaScript per `docs/implementation-rules.md`.
 The site uses shared PHP includes (`header.php` / `footer.php`). Serve it locally with
-`php -S localhost:8000` from the project root, then open `http://localhost:8000/home.php`.
+`php -S localhost:8000` from the project root, then open `http://localhost:8000/index.php`.
 
 ---
 
@@ -13,7 +13,7 @@ The site uses shared PHP includes (`header.php` / `footer.php`). Serve it locall
 preview/
 ├── header.php                  Shared document head, SVG sprite, skip link, global header
 ├── footer.php                  Shared global footer, sticky CTA, script includes
-├── home.php … contact.php      Site pages (config vars + <main> content + includes)
+├── index.php … contact.php      Site pages (config vars + <main> content + includes)
 ├── damac-islands2.php          Project landing page (same include structure)
 ├── README.md                   This file
 └── assets/

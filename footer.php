@@ -28,7 +28,7 @@ $sticky_action = $sticky_action ?? 'Contact us';
       <div class="footer__col">
         <h3>Quick Links</h3>
         <ul>
-          <li><a href="home.php">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li><a href="about.php">About</a></li>
           <li><a href="services.php">Services</a></li>
           <li><a href="developers.php">Developers</a></li>
