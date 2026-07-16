@@ -1,0 +1,127 @@
+/* ==========================================================================
+   SMB Real Estate Brokers — Contact Page (contact.php)
+   Extends main.css (tokens/forms), home.css (cta-final, social, sticky text)
+   and about.css (inner hero, breadcrumb).
+   Loaded after all three, on contact.php only.
+   ========================================================================== */
+
+/* ---------- Contact overview ---------- */
+.methods__grid { display: grid; gap: 20px; grid-template-columns: 1fr; }
+
+.method-card {
+  display: flex; align-items: center; gap: 20px;
+  background: var(--white); border-radius: var(--r-lg);
+  border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);
+  padding: 26px 28px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.method-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
+
+.method-card__icon {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 48px; height: 48px; border-radius: 50%;
+  background: var(--bg-section-alt); color: var(--navy); flex-shrink: 0;
+}
+
+.method-card__label {
+  font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--text-muted); margin-bottom: 2px;
+}
+.method-card__value { font-size: 1.0625rem; font-weight: 700; color: var(--navy); }
+.method-card:hover .method-card__value { color: var(--gold-dark); }
+
+@media (min-width: 768px) {
+  .methods__grid { grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .method-card { flex-direction: column; align-items: flex-start; gap: 16px; }
+  .method-card__value { white-space: nowrap; }
+}
+@media (min-width: 1100px) {
+  .method-card { flex-direction: row; align-items: center; gap: 20px; }
+}
+
+/* ---------- Form + office information layout ---------- */
+.contact-layout { display: grid; gap: 48px; align-items: start; }
+
+@media (min-width: 992px) {
+  .contact-layout { grid-template-columns: 1.15fr 0.85fr; gap: 64px; }
+}
+
+/* Enquiry type selector (radio pills) */
+fieldset.field { border: 0; min-width: 0; }
+fieldset.field legend {
+  font-size: 0.875rem; font-weight: 600; color: var(--navy);
+  padding: 0; margin-bottom: 8px;
+}
+
+.pill-group { display: flex; flex-wrap: wrap; gap: 10px; }
+
+.pill-group input {
+  position: absolute; width: 1px; height: 1px;
+  margin: -1px; padding: 0; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+.pill-group label {
+  display: inline-flex; align-items: center;
+  padding: 9px 18px; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--border-light); background: var(--bg-page);
+  font-size: 0.875rem; font-weight: 600; color: var(--text-main);
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+.pill-group label:hover { border-color: var(--navy); color: var(--navy); }
+.pill-group input:checked + label {
+  background: var(--navy); border-color: var(--navy); color: var(--white);
+}
+.pill-group input:focus-visible + label {
+  outline: 2px solid var(--gold); outline-offset: 3px;
+}
+
+/* Office information */
+.office-card {
+  background: var(--white); border-radius: var(--r-xl);
+  border: 1px solid var(--border-light); box-shadow: var(--shadow-soft);
+  padding: 40px 32px;
+}
+.office-card h3 { font-size: 1.25rem; margin-bottom: 24px; }
+
+.office-card__list { display: grid; gap: 20px; }
+.office-card__list > li { display: flex; align-items: flex-start; gap: 16px; }
+.office-card__list .icon { width: 20px; height: 20px; color: var(--navy); margin-top: 3px; }
+
+.office-card__label {
+  font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--text-muted); margin-bottom: 2px;
+}
+.office-card__value { font-size: 0.9875rem; color: var(--text-main); }
+.office-card__value a { font-weight: 600; color: var(--navy); }
+.office-card__value a:hover { color: var(--gold-dark); }
+
+.office-card__temp {
+  display: inline-block; margin-top: 4px;
+  font-size: 0.8125rem; font-style: italic; color: var(--text-muted);
+}
+
+.office-card__note {
+  margin-top: 28px; padding-top: 22px; border-top: 1px solid var(--border-light);
+  font-size: 0.9375rem; color: var(--text-muted);
+}
+
+/* ---------- Map ---------- */
+.map__frame {
+  position: relative; border-radius: var(--r-xl); overflow: hidden;
+  border: 1px solid var(--border-light); background: var(--bg-section-alt);
+  min-height: 300px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 16px; text-align: center; padding: 48px 24px;
+}
+.map__frame .icon { width: 48px; height: 48px; color: var(--navy); opacity: 0.4; stroke-width: 1.2; }
+
+.map__placeholder-title { font-size: 1.0625rem; font-weight: 700; color: var(--navy); }
+.map__placeholder-text { font-size: 0.9375rem; color: var(--text-muted); max-width: 46ch; }
+
+@media (min-width: 992px) { .map__frame { min-height: 360px; } }
+
+/* ---------- Visit or speak with us ---------- */
+.visit__inner { max-width: 640px; margin-inline: auto; text-align: center; }
+.visit__inner h2 { margin-bottom: 16px; }
+.visit__inner > p { margin: 0 auto 32px; font-size: 1.0625rem; }
+.visit__buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }

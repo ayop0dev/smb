@@ -1,0 +1,132 @@
+/* ==========================================================================
+   SMB Real Estate Brokers — Services Page (services.php)
+   Extends main.css (tokens/core), home.css (cta-final, social, sticky text)
+   and about.css (inner hero, breadcrumb, split layout).
+   Loaded after all three, on services.php only.
+   ========================================================================== */
+
+/* ---------- Featured service: Off-Plan Property Advisory ---------- */
+.offplan { position: relative; background: var(--bg-dark); overflow: hidden; }
+
+.offplan__bg {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; opacity: 0.25;
+}
+.offplan::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(90deg, rgba(10, 35, 66, 0.95) 0%, rgba(10, 35, 66, 0.72) 100%);
+}
+
+.offplan__inner { position: relative; z-index: 1; }
+
+.offplan__tag {
+  display: inline-block; margin-bottom: 20px;
+  padding: 6px 16px; border-radius: 999px;
+  background: rgba(249, 186, 63, 0.15); border: 1px solid rgba(249, 186, 63, 0.4);
+  color: var(--gold); font-size: 0.75rem; font-weight: 700;
+  letter-spacing: 0.12em; text-transform: uppercase;
+}
+
+.offplan h2 { color: var(--white); }
+.offplan__text p { color: rgba(255, 255, 255, 0.8); margin-bottom: 20px; }
+
+.offplan__list { display: grid; gap: 14px; margin: 28px 0 36px; }
+.offplan__list li {
+  display: flex; align-items: flex-start; gap: 14px;
+  font-size: 0.9875rem; color: rgba(255, 255, 255, 0.9);
+}
+.offplan__list .icon {
+  width: 20px; height: 20px; color: var(--gold); margin-top: 4px;
+}
+
+.offplan__media { border-radius: var(--r-xl); overflow: hidden; }
+.offplan__media img { width: 100%; height: 100%; object-fit: cover; aspect-ratio: 4 / 3; }
+
+@media (min-width: 992px) {
+  .offplan__inner.split { grid-template-columns: 1.05fr 0.95fr; }
+  .offplan__media img { aspect-ratio: 4 / 3.6; }
+}
+
+/* ---------- Services grid ---------- */
+.services__grid { display: grid; gap: 24px; grid-template-columns: 1fr; }
+
+.service-card {
+  display: flex; flex-direction: column;
+  background: var(--white); border-radius: var(--r-lg);
+  border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);
+  padding: 32px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.service-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
+
+.service-card__icon {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 48px; height: 48px; border-radius: var(--r-sm);
+  background: var(--bg-section-alt); color: var(--navy); margin-bottom: 20px;
+}
+
+.service-card h3 { margin-bottom: 12px; font-size: 1.125rem; }
+.service-card > p { font-size: 0.9375rem; color: var(--text-muted); margin-bottom: 20px; }
+
+.service-card__link {
+  display: inline-flex; align-items: center; gap: 8px; margin-top: auto;
+  font-size: 0.875rem; font-weight: 700; color: var(--navy);
+}
+.service-card__link .icon { width: 16px; height: 16px; transition: transform 0.2s ease; }
+.service-card__link:hover { color: var(--gold-dark); }
+.service-card__link:hover .icon { transform: translateX(3px); }
+
+@media (min-width: 600px) { .services__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 992px) { .services__grid { grid-template-columns: repeat(4, 1fr); gap: 32px; } }
+
+/* ---------- Who we serve ---------- */
+.audience__grid { display: grid; gap: 20px; grid-template-columns: 1fr; }
+
+@media (min-width: 700px) { .audience__grid { grid-template-columns: repeat(2, 1fr); gap: 24px; } }
+
+/* ---------- FAQ accordion ---------- */
+.faq__list { max-width: 800px; display: grid; gap: 16px; }
+
+.faq-item {
+  background: var(--white); border: 1px solid var(--border-light);
+  border-radius: var(--r-lg); box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.faq-item summary {
+  display: flex; align-items: center; justify-content: space-between; gap: 20px;
+  padding: 22px 28px; cursor: pointer; list-style: none;
+  font-size: 1.0625rem; font-weight: 700; color: var(--navy);
+  transition: background-color 0.2s ease;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary:hover { background: var(--navy-soft); }
+.faq-item summary:focus-visible { outline-offset: -2px; }
+
+.faq-item__indicator {
+  position: relative; flex-shrink: 0;
+  width: 28px; height: 28px; border-radius: 50%;
+  border: 1px solid var(--border-light);
+}
+.faq-item__indicator::before,
+.faq-item__indicator::after {
+  content: ""; position: absolute; top: 50%; left: 50%;
+  background: var(--navy); border-radius: 1px;
+  transition: transform 0.25s ease;
+}
+.faq-item__indicator::before {
+  width: 12px; height: 1.5px; transform: translate(-50%, -50%);
+}
+.faq-item__indicator::after {
+  width: 1.5px; height: 12px; transform: translate(-50%, -50%);
+}
+.faq-item[open] .faq-item__indicator::after { transform: translate(-50%, -50%) rotate(90deg); }
+.faq-item[open] .faq-item__indicator::before { transform: translate(-50%, -50%) rotate(180deg); }
+
+.faq-item__body { padding: 0 28px 24px; }
+.faq-item__body p { font-size: 0.9375rem; color: var(--text-main); }
+
+@media (prefers-reduced-motion: reduce) {
+  .faq-item__indicator::before,
+  .faq-item__indicator::after { transition: none; }
+}

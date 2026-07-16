@@ -1,0 +1,89 @@
+/* ==========================================================================
+   SMB Real Estate Brokers — Developers Page (developers.php)
+   Extends main.css (tokens/core), home.css (why-item, cta-final, social),
+   about.css (inner hero, breadcrumb, choose list) and services.css (FAQ).
+   Loaded after all four, on developers.php only.
+   ========================================================================== */
+
+/* ---------- Introduction ---------- */
+.dev-intro__inner { max-width: 720px; }
+.dev-intro__inner p { font-size: 1.0625rem; }
+
+/* ---------- Developer logo placeholder (monogram) ---------- */
+.dev-logo {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 64px; height: 64px; border-radius: var(--r-md);
+  background: var(--bg-section-alt); border: 1px solid var(--border-light);
+  font-size: 1.5rem; font-weight: 800; color: var(--navy);
+  flex-shrink: 0;
+}
+
+.dev-logo-note {
+  font-size: 0.75rem; font-style: italic; color: var(--text-muted);
+}
+
+/* ---------- Featured developer cards ---------- */
+.devs__grid { display: grid; gap: 24px; grid-template-columns: 1fr; }
+
+.dev-card {
+  display: flex; flex-direction: column; gap: 16px;
+  background: var(--white); border-radius: var(--r-lg);
+  border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);
+  padding: 32px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.dev-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
+
+.dev-card__brand {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+}
+
+.dev-card h3 { font-size: 1.375rem; }
+.dev-card__desc { font-size: 0.9375rem; color: var(--text-muted); }
+
+.dev-card__projects {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px;
+  padding-top: 16px; border-top: 1px solid var(--border-light);
+  font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--text-muted);
+}
+.dev-card__projects span {
+  font-weight: 500; letter-spacing: normal; text-transform: none;
+  font-style: italic;
+}
+
+.dev-card__link {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 0.9375rem; font-weight: 700; color: var(--navy);
+}
+.dev-card__link .icon { width: 16px; height: 16px; transition: transform 0.2s ease; }
+.dev-card__link:hover { color: var(--gold-dark); }
+.dev-card__link:hover .icon { transform: translateX(3px); }
+
+@media (min-width: 768px) { .devs__grid { grid-template-columns: repeat(2, 1fr); gap: 32px; } }
+
+/* ---------- Why these developers (6-item criteria grid) ---------- */
+.criteria__grid { display: grid; gap: 40px; grid-template-columns: 1fr; }
+
+@media (min-width: 600px) { .criteria__grid { grid-template-columns: repeat(2, 1fr); gap: 48px; } }
+@media (min-width: 992px) { .criteria__grid { grid-template-columns: repeat(3, 1fr); gap: 48px 40px; } }
+
+/* ---------- Browse by developer ---------- */
+.browse__grid { display: grid; gap: 20px; grid-template-columns: 1fr; }
+
+.browse-item {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 20px;
+  background: var(--white); border-radius: var(--r-lg);
+  border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);
+  padding: 24px 28px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.browse-item:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
+
+.browse-item .dev-logo { width: 56px; height: 56px; font-size: 1.25rem; }
+
+.browse-item__text { flex: 1; min-width: 180px; }
+.browse-item h3 { font-size: 1.0625rem; margin-bottom: 2px; }
+.browse-item p { font-size: 0.875rem; color: var(--text-muted); }
+
+@media (min-width: 768px) { .browse__grid { grid-template-columns: repeat(2, 1fr); gap: 24px; } }
