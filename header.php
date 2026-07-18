@@ -56,6 +56,7 @@ function smb_e(string $value): string
     <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M11 4.5l1.6 4.1 4.1 1.6-4.1 1.6L11 16l-1.6-4.2-4.1-1.6 4.1-1.6z"/><path d="M18 14.5l.9 2.1 2.1.9-2.1.9-.9 2.1-.9-2.1-2.1-.9 2.1-.9z"/></symbol>
     <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="15.5" r="4"/><path d="M11 12.5 20 3.5M16.5 7l2.5 2.5M14 9.5l2 2"/></symbol>
     <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21S5.5 15.6 5.5 10.5a6.5 6.5 0 0 1 13 0C18.5 15.6 12 21 12 21z"/><circle cx="12" cy="10.5" r="2.3"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M19.5 19.5 15.3 15.3"/></symbol>
     <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l1.5 4.5L8 10c1 2.5 3.5 5 6 6l1.5-2.5L20 15v4c0 1-.8 1.8-1.8 1.8C10 20.5 3.5 14 3.2 5.8 3.2 4.8 4 4 5 4z"/></symbol>
     <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M12 3.5a8.5 8.5 0 0 0-7.3 12.8L3.5 20.5l4.3-1.1A8.5 8.5 0 1 0 12 3.5z"/><path d="M9 8.5c-.3 2.5 2.5 6 6 6.5l1-1.5-2-1.2-1 .7c-1-.5-2-1.5-2.4-2.5l.8-.9-1-2z"/></symbol>
     <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="M4.5 7.5 12 13l7.5-5.5"/></symbol>

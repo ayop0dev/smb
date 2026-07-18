@@ -17,30 +17,35 @@ require __DIR__ . '/header.php';
 
     <!-- ============ Hero ============ -->
     <section class="hero hero--home" aria-labelledby="hero-title">
-      <img class="hero__bg" src="assets/images/hero-lagoon-aerial.jpg"
+      <img class="hero__bg hero__bg--fallback" src="assets/images/hero-lagoon-aerial.jpg"
            alt="Aerial view of a Dubai waterfront community with turquoise lagoons and villas"
            fetchpriority="high">
+      <video class="hero__bg hero__bg--video" autoplay muted loop playsinline webkit-playsinline
+             preload="auto" poster="assets/images/hero-lagoon-aerial.jpg" aria-hidden="true" tabindex="-1">
+        <source src="assets/videos/hero.webm" type="video/webm">
+        <source src="assets/videos/hero.mp4" type="video/mp4">
+      </video>
       <div class="hero__scrim" aria-hidden="true"></div>
       <div class="container hero__inner">
         <div class="hero__content">
-          <p class="eyebrow eyebrow--light">SMB Real Estate Brokers L.L.C &middot; Dubai, UAE</p>
+          <p class="eyebrow eyebrow--light">SMB Real Estate L.L.C &middot; UAE</p>
           <h1 id="hero-title">Your Trusted Partner in Dubai Real&nbsp;Estate</h1>
           <p class="hero__headline">Residential &middot; Commercial &middot; Off-Plan Investment</p>
-          <p class="hero__description">
-            From first homes to income-generating portfolios, we guide buyers, owners and
-            investors through every stage of the transaction — with honest advice, local
-            market expertise and dedicated support from start to finish.
-          </p>
           <div class="hero__cta">
             <a class="btn btn--accent btn--lg" href="#projects">Explore Featured Projects</a>
             <a class="btn btn--ghost btn--lg" href="#enquire">Speak to a Consultant</a>
           </div>
-          <div class="hero__browse" aria-label="Browse properties by type">
-            <span class="hero__browse-label">Browse</span>
-            <a href="#categories">Apartments</a>
-            <a href="#categories">Villas</a>
-            <a href="#categories">Townhouses</a>
-            <a href="#categories">Commercial</a>
+          <div class="hero__search" role="search" aria-label="Browse properties by type">
+            <span class="hero__search-icon" aria-hidden="true">
+              <svg class="icon icon--sm" aria-hidden="true"><use href="#i-search"/></svg>
+            </span>
+            <span class="hero__search-divider" aria-hidden="true"></span>
+            <div class="hero__search-chips">
+              <a href="#categories">Apartments</a>
+              <a href="#categories">Villas</a>
+              <a href="#categories">Townhouses</a>
+              <a href="#categories">Commercial</a>
+            </div>
           </div>
         </div>
       </div>

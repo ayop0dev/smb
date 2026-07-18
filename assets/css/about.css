@@ -5,7 +5,10 @@
    ========================================================================== */
 
 /* ---------- Inner page hero ---------- */
-.hero--page { min-height: 440px; padding-top: calc(var(--header-h) + 48px); padding-bottom: 56px; }
+/* Consistent height across every internal page: ~50vh on mobile scaling up
+   to 76vh on desktop. min-height (not a fixed height) so a page with more
+   breadcrumb/title/description content is never clipped — it just grows. */
+.hero--page { min-height: 50vh; padding-top: calc(var(--header-h) + 48px); padding-bottom: 56px; }
 .hero--page .hero__content { max-width: 640px; }
 .hero--page .hero__description { margin-bottom: 0; }
 
@@ -22,8 +25,24 @@
 .breadcrumb a:hover { color: var(--gold); }
 .breadcrumb [aria-current="page"] { color: var(--gold); }
 
+/* Mobile only: at default type sizes the content needs more room than the
+   ~50vh target allows, so trim heading/description sizes and the spacing
+   around them just enough to fit. Desktop and tablet typography, and the
+   spacing between elements, are untouched above this breakpoint. */
+@media (max-width: 767.98px) {
+  .hero--page { padding-top: calc(var(--header-h) + 24px); padding-bottom: 40px; }
+  .hero--page .breadcrumb { margin-bottom: 16px; }
+  .hero--page .eyebrow { margin-bottom: 12px; }
+  .hero--page h1 { font-size: 2rem; margin-bottom: 8px; }
+  .hero--page .hero__description { font-size: 0.9375rem; }
+}
+
+@media (min-width: 768px) {
+  .hero--page { min-height: 64vh; }
+}
+
 @media (min-width: 992px) {
-  .hero--page { min-height: 520px; }
+  .hero--page { min-height: 76vh; }
   .hero--page .hero__inner { grid-template-columns: 1fr; }
 }
 
@@ -91,12 +110,14 @@
 }
 
 /* ---------- Team ---------- */
-.team__grid {
-  display: grid; gap: 32px;
-  max-width: 920px;
-}
+.team__grid { display: grid; gap: 32px; }
+
+/* Intro copy lives as the grid's first item so it can sit alongside the
+   cards on wide screens instead of leaving them stranded in a narrow column. */
+.team__grid .section-head { margin-bottom: 0; }
 
 .team-card {
+  display: flex; flex-direction: column;
   background: var(--white); border-radius: var(--r-lg);
   border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);
   overflow: hidden;
@@ -105,41 +126,36 @@
 .team-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
 
 .team-card__media {
-  position: relative; aspect-ratio: 4 / 5;
-  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px;
+  position: relative; aspect-ratio: 4 / 5.87; overflow: hidden;
   background: linear-gradient(180deg, var(--bg-section-alt) 0%, #e9ecf1 100%);
-  color: var(--navy);
 }
-.team-card__media .icon { width: 72px; height: 72px; stroke-width: 1; opacity: 0.35; }
-.team-card__media-note {
-  font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em;
-  text-transform: uppercase; color: var(--text-muted);
+.team-card__media img {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%; object-fit: cover; object-position: center top;
+  display: block;
 }
 
-.team-card__body { padding: 28px 28px 32px; }
+.team-card__body { display: flex; flex-direction: column; flex: 1; padding: 28px 28px 32px; }
 .team-card__name { font-size: 1.25rem; margin-bottom: 4px; }
 .team-card__role {
   font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em;
   text-transform: uppercase; color: var(--gold-dark); margin-bottom: 16px;
 }
-.team-card__bio { font-size: 0.9375rem; color: var(--text-muted); margin-bottom: 20px; }
+.team-card__bio { font-size: 0.9375rem; color: var(--text-muted); }
 
-.team-card__links { display: flex; gap: 12px; }
-.team-card__links a {
-  display: inline-flex; align-items: center; justify-content: center;
-  width: 40px; height: 40px; border-radius: 50%;
-  border: 1px solid var(--border-light); color: var(--navy);
-  transition: background-color 0.2s ease, border-color 0.2s ease;
-}
-.team-card__links a:hover { background: var(--navy-soft); border-color: transparent; }
-.team-card__links .icon { width: 18px; height: 18px; }
-
-.team-card__note {
-  margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--border-light);
-  font-size: 0.8125rem; font-style: italic; color: var(--text-muted);
+/* Tablet: intro spans the full row, the two cards share the row below. */
+@media (min-width: 700px) {
+  .team__grid { grid-template-columns: repeat(2, 1fr); }
+  .team__grid .section-head { grid-column: 1 / -1; }
 }
 
-@media (min-width: 700px) { .team__grid { grid-template-columns: repeat(2, 1fr); } }
+/* Desktop: balanced three-column row — intro, card, card. Default grid
+   stretch keeps tops aligned and makes both cards match the row's height,
+   so a longer bio doesn't leave the two cards uneven. */
+@media (min-width: 992px) {
+  .team__grid { grid-template-columns: repeat(3, 1fr); }
+  .team__grid .section-head { grid-column: auto; }
+}
 
 /* ---------- Commitment ---------- */
 .commitment .split__text p { font-size: 1.0625rem; }

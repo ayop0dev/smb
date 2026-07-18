@@ -75,6 +75,66 @@ require __DIR__ . '/header.php';
       </div>
     </section>
 
+    <!-- ============ Team ============ -->
+    <section class="team section" aria-labelledby="team-title">
+      <div class="container">
+        <div class="team__grid">
+          <div class="section-head" data-reveal>
+            <p class="eyebrow">Our Team</p>
+            <h2 id="team-title">The people behind SMB</h2>
+            <p class="section-head__sub">
+              A small, dedicated team — so every client works directly with the people
+              responsible for the result.
+            </p>
+          </div>
+          <article class="team-card" data-reveal>
+            <div class="team-card__media">
+              <img src="assets/images/HAITHAM.jpeg"
+                   alt="Portrait of Haitham Mahdy, Managing Director at SMB Real Estate Brokers"
+                   loading="lazy" width="960" height="1200">
+            </div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">Haitham Mahdy</h3>
+              <p class="team-card__role">Managing Director</p>
+              <p class="team-card__bio">
+                With more than 15 years of experience in sales, marketing, and real
+                estate across the UAE and international markets, Haitham Mahdy leads
+                SMB Real Estate Brokers with a strong focus on client success and
+                long-term relationships. Having held leadership roles with renowned
+                companies including DAMAC Properties and Royal Oasis Real Estate, he
+                combines strategic market knowledge with a hands-on approach to
+                helping clients make confident property decisions. His leadership is
+                built on transparency, professionalism, and a commitment to
+                delivering exceptional service in Dubai's dynamic real estate market.
+              </p>
+            </div>
+          </article>
+          <article class="team-card" data-reveal>
+            <div class="team-card__media">
+              <img src="assets/images/Sadam.jpeg"
+                   alt="Portrait of Saddam Barakat, Managing Director at SMB Real Estate Brokers"
+                   loading="lazy" width="960" height="1200">
+            </div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">Saddam Barakat</h3>
+              <p class="team-card__role">Managing Director</p>
+              <p class="team-card__bio">
+                Saddam Barakat brings over 18 years of experience in banking and real
+                estate, helping investors and homebuyers navigate Dubai's property
+                market with confidence. Before joining SMB Real Estate Brokers, he
+                built an impressive career with leading organizations including
+                Emaar, DAMAC Properties, Emirates NBD, and Mashreq Bank. His deep
+                understanding of market trends, investment opportunities, and client
+                needs enables him to provide practical advice and tailored property
+                solutions while ensuring every transaction is handled with integrity
+                and care.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <!-- ============ Mission & vision ============ -->
     <section class="mv section section--gray" aria-labelledby="mv-title">
       <div class="container">
@@ -181,69 +241,6 @@ require __DIR__ . '/header.php';
             </div>
           </li>
         </ol>
-      </div>
-    </section>
-
-    <!-- ============ Team ============ -->
-    <section class="team section" aria-labelledby="team-title">
-      <div class="container">
-        <div class="section-head" data-reveal>
-          <p class="eyebrow">Our Team</p>
-          <h2 id="team-title">The people behind SMB</h2>
-          <p class="section-head__sub">
-            A small, dedicated team — so every client works directly with the people
-            responsible for the result.
-          </p>
-        </div>
-        <div class="team__grid">
-          <article class="team-card" data-reveal>
-            <div class="team-card__media" role="img" aria-label="Portrait placeholder — photo to be added">
-              <svg class="icon" aria-hidden="true"><use href="#i-user"/></svg>
-              <p class="team-card__media-note">Portrait to be added</p>
-            </div>
-            <div class="team-card__body">
-              <h3 class="team-card__name">Name To Be Confirmed</h3>
-              <p class="team-card__role">Founder &amp; Managing Director</p>
-              <p class="team-card__bio">
-                Leads SMB's brokerage operations and client advisory, with a focus on
-                transparent guidance across Dubai's residential and off-plan market.
-              </p>
-              <div class="team-card__links">
-                <a href="mailto:info@smbdubai.net" aria-label="Email the Founder &amp; Managing Director">
-                  <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
-                </a>
-                <a href="#" aria-label="LinkedIn profile of the Founder &amp; Managing Director (link to be added)">
-                  <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>
-                </a>
-              </div>
-              <p class="team-card__note">Temporary profile — final name, portrait and biography to be provided.</p>
-            </div>
-          </article>
-          <article class="team-card" data-reveal>
-            <div class="team-card__media" role="img" aria-label="Portrait placeholder — photo to be added">
-              <svg class="icon" aria-hidden="true"><use href="#i-user"/></svg>
-              <p class="team-card__media-note">Portrait to be added</p>
-            </div>
-            <div class="team-card__body">
-              <h3 class="team-card__name">Name To Be Confirmed</h3>
-              <p class="team-card__role">Senior Property Consultant</p>
-              <p class="team-card__bio">
-                Supports buyers and investors from first enquiry to handover,
-                specialising in residential and commercial opportunities across
-                Dubai's key communities.
-              </p>
-              <div class="team-card__links">
-                <a href="mailto:info@smbdubai.net" aria-label="Email the Senior Property Consultant">
-                  <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
-                </a>
-                <a href="#" aria-label="LinkedIn profile of the Senior Property Consultant (link to be added)">
-                  <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>
-                </a>
-              </div>
-              <p class="team-card__note">Temporary profile — final name, portrait and biography to be provided.</p>
-            </div>
-          </article>
-        </div>
       </div>
     </section>
 

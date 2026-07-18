@@ -5,34 +5,88 @@
    ========================================================================== */
 
 /* ---------- Hero (corporate variant) ---------- */
-.hero--home { min-height: 620px; }
+/* Exactly one viewport tall on every real device. 560px is a defensive floor,
+   well below any realistic phone/tablet/desktop viewport height, that only
+   engages on pathologically short viewports (e.g. landscape phones) so the
+   content scrolls into view instead of being invisibly clipped by the
+   section's overflow:hidden — it replaces the base .hero rule's 680px floor,
+   which would otherwise clamp this taller than 100vh everywhere. The dvh
+   line is a progressive enhancement over vh — it accounts for mobile browser
+   chrome so the hero never runs taller than what's actually visible. */
+.hero--home { min-height: 560px; height: 100vh; height: 100dvh; }
 .hero--home .hero__content { max-width: 700px; }
 
-.hero__browse {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+/* Hero background video: image acts as poster + reduced-motion fallback, sitting
+   behind the video in DOM order (same absolute inset:0 box, so no layout shift).
+   Both stay below .hero__scrim, which relies on that same DOM-order stacking. */
+.hero--home .hero__bg--video { background: transparent; }
+
+@media (prefers-reduced-motion: reduce) {
+  .hero--home .hero__bg--video { display: none; }
+}
+
+.hero__search {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 14px;
+  width: fit-content; max-width: 100%;
   margin-top: 44px;
+  padding: 10px 20px 10px 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 12px 28px rgba(7, 26, 49, 0.28);
 }
-.hero__browse-label {
-  font-size: 0.75rem; font-weight: 700; letter-spacing: 0.15em;
-  text-transform: uppercase; color: rgba(255, 255, 255, 0.7);
-  margin-right: 6px;
+.hero__search-icon {
+  display: inline-flex; align-items: center; justify-content: center;
+  color: var(--gold); flex-shrink: 0;
 }
-.hero__browse a {
+.hero__search-divider {
+  width: 1px; align-self: stretch; min-height: 22px;
+  background: rgba(255, 255, 255, 0.25); flex-shrink: 0;
+}
+.hero__search-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.hero__search-chips a {
   display: inline-flex; align-items: center;
   padding: 8px 18px; border-radius: 999px;
   border: 1px solid rgba(255, 255, 255, 0.25);
   background: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(8px);
   color: var(--white); font-size: 0.875rem; font-weight: 600;
   transition: background-color 0.2s ease, border-color 0.2s ease;
 }
-.hero__browse a:hover {
+.hero__search-chips a:hover {
   background: rgba(255, 255, 255, 0.16);
   border-color: rgba(255, 255, 255, 0.4);
 }
 
+/* Below this width the pill no longer fits everything on one line at full size;
+   keep it a single row, pin the icon, and let the chips scroll horizontally
+   instead of wrapping — same colors/borders/shape as the base styles above. */
+@media (max-width: 480px) {
+  /* The nowrap chip row below must not force the implicit grid track (and with
+     it, the whole hero content column) wider than the viewport — cap its
+     automatic minimum size so the row's own overflow-x handles the excess. */
+  .hero--home .hero__inner { grid-template-columns: minmax(0, 1fr); }
+
+  .hero__search {
+    flex-wrap: nowrap;
+    width: 100%; max-width: 100%;
+    overflow: hidden;
+  }
+  .hero__search-chips {
+    flex: 1 1 auto; min-width: 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .hero__search-chips::-webkit-scrollbar { display: none; }
+  .hero__search-chips a { flex-shrink: 0; white-space: nowrap; }
+}
+
 @media (min-width: 992px) {
-  .hero--home { min-height: min(92vh, 820px); }
   .hero--home .hero__inner { grid-template-columns: 1fr; }
 }
 
