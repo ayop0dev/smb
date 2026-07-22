@@ -86,15 +86,7 @@ require __DIR__ . '/header.php';
               <h3 class="team-card__name">Haitham Mahdy</h3>
               <p class="team-card__role">Managing Director</p>
               <p class="team-card__bio">
-                With more than 15 years of experience in sales, marketing, and real
-                estate across the UAE and international markets, Haitham Mahdy leads
-                SMB Real Estate Brokers with a strong focus on client success and
-                long-term relationships. Having held leadership roles with renowned
-                companies including DAMAC Properties and Royal Oasis Real Estate, he
-                combines strategic market knowledge with a hands-on approach to
-                helping clients make confident property decisions. He leads with sound
-                judgement, direct communication and a belief that trusted relationships
-                are built over time.
+                With over 15 years of experience in sales, leadership, and real estate, Haitham Mahdy has built a career centered on delivering exceptional client experiences and sustainable investment opportunities. As Managing Director of SMB Real Estate Brokers, he leads the company with a client-first philosophy, combining strategic market insight, strong negotiation skills, and a commitment to transparency. His extensive industry knowledge enables clients to make confident decisions while receiving professional guidance at every stage of their real estate journey.
               </p>
             </div>
           </article>
@@ -108,14 +100,7 @@ require __DIR__ . '/header.php';
               <h3 class="team-card__name">Saddam Barakat</h3>
               <p class="team-card__role">Managing Director</p>
               <p class="team-card__bio">
-                Saddam Barakat brings over 18 years of experience in banking and real
-                estate, helping investors and homebuyers navigate the UAE's property
-                market with confidence. Before joining SMB Real Estate Brokers, he
-                built an impressive career with recognised organisations including
-                Emaar, DAMAC Properties, Emirates NBD and Mashreq Bank. His understanding
-                of finance, market cycles and client priorities brings a measured
-                perspective to every brief, while his attention to detail keeps each
-                transaction in capable hands.
+                Saddam Barakat is an experienced real estate professional with nearly two decades of expertise in property investment, sales, and client advisory. At SMB Real Estate Brokers, he focuses on helping buyers and investors identify opportunities that align with their financial goals and long-term vision. Known for his analytical approach, market knowledge, and dedication to personalized service, Saddam is committed to building lasting relationships based on trust, integrity, and consistent results.
               </p>
             </div>
           </article>
