@@ -10,6 +10,17 @@
 .comm-intro__inner { max-width: 720px; }
 .comm-intro__inner p { font-size: 1.0625rem; }
 
+/* Desktop-only: gives the heading enough room to fit on a single line
+   (single-column block, no competing content beside it). */
+@media (min-width: 992px) {
+  .comm-intro__inner { max-width: 800px; }
+}
+
+/* Mobile only: center this section's intro text (label, heading, paragraph). */
+@media (max-width: 767.98px) {
+  .comm-intro__inner { text-align: center; }
+}
+
 /* ---------- Featured community cards ---------- */
 .comms__grid { display: grid; gap: 24px; grid-template-columns: 1fr; }
 
@@ -18,9 +29,9 @@
   background: var(--white); border-radius: var(--r-lg);
   border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
 }
-.comm-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-soft); }
+.comm-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
 
 .comm-card__media { aspect-ratio: 16 / 10; overflow: hidden; }
 .comm-card__media img {
@@ -48,7 +59,7 @@
   margin-top: auto; padding-top: 14px;
   font-size: 0.9375rem; font-weight: 700; color: var(--navy);
 }
-.comm-card__link .icon { width: 16px; height: 16px; transition: transform 0.2s ease; }
+.comm-card__link .icon { width: 16px; height: 16px; transition: transform var(--transition-fast); }
 .comm-card__link:hover { color: var(--gold-dark); }
 .comm-card__link:hover .icon { transform: translateX(3px); }
 
@@ -63,7 +74,7 @@
   background: var(--white); border-radius: var(--r-lg);
   border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);
   padding: 20px 24px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
 }
 .comm-row:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
 
@@ -78,7 +89,7 @@
 .comm-row__cats {
   display: block; margin-top: 4px;
   font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em;
-  text-transform: uppercase; color: var(--gold-dark);
+  text-transform: uppercase; color: var(--navy);
 }
 
 @media (min-width: 768px) { .comm-rows { grid-template-columns: repeat(2, 1fr); gap: 24px; } }

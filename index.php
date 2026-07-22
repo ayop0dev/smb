@@ -13,6 +13,13 @@ $page_styles = [
 require __DIR__ . '/header.php';
 ?>
 
+  <script type="application/ld+json"><?= json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'WebSite',
+    'name' => 'SMB Real Estate Brokers',
+    'url' => $site_url . '/',
+  ], JSON_UNESCAPED_SLASHES) ?></script>
+
   <main id="top">
 
     <!-- ============ Hero ============ -->
@@ -161,9 +168,6 @@ require __DIR__ . '/header.php';
               </div>
             </div>
           </article>
-        </div>
-        <div class="projects__more" data-reveal>
-          <a class="btn btn--secondary" href="#enquire">Ask About More Projects</a>
         </div>
       </div>
     </section>
@@ -408,7 +412,7 @@ require __DIR__ . '/header.php';
                    alt="" loading="lazy" width="1800" height="1200">
             </a>
             <p class="insight-card__tag">Market Insights</p>
-            <h3><a href="#">Dubai off-plan in 2026: what buyers should know before reserving</a></h3>
+            <h3><a href="#" aria-label="Dubai off-plan in 2026: what buyers should know before reserving (article to be added)">Dubai off-plan in 2026: what buyers should know before reserving</a></h3>
             <p class="insight-card__excerpt">Payment plans, handover timelines and how to evaluate a developer's track record.</p>
             <p class="insight-card__date">July 2026 &middot; 6 min read</p>
           </article>
@@ -418,7 +422,7 @@ require __DIR__ . '/header.php';
                    alt="" loading="lazy" width="900" height="1200">
             </a>
             <p class="insight-card__tag">Buying Guides</p>
-            <h3><a href="#">Freehold ownership in Dubai: a practical guide for international buyers</a></h3>
+            <h3><a href="#" aria-label="Freehold ownership in Dubai: a practical guide for international buyers (article to be added)">Freehold ownership in Dubai: a practical guide for international buyers</a></h3>
             <p class="insight-card__excerpt">What freehold means, where you can buy and the steps from offer to title deed.</p>
             <p class="insight-card__date">June 2026 &middot; 5 min read</p>
           </article>
@@ -428,7 +432,7 @@ require __DIR__ . '/header.php';
                    alt="" loading="lazy" width="1800" height="1200">
             </a>
             <p class="insight-card__tag">Communities</p>
-            <h3><a href="#">Five Dubai communities families are choosing in 2026</a></h3>
+            <h3><a href="#" aria-label="Five Dubai communities families are choosing in 2026 (article to be added)">Five Dubai communities families are choosing in 2026</a></h3>
             <p class="insight-card__excerpt">Schools, parks and connectivity — how Dubai's family neighbourhoods compare.</p>
             <p class="insight-card__date">June 2026 &middot; 4 min read</p>
           </article>

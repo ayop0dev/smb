@@ -12,7 +12,23 @@
 .hero--page .hero__content { max-width: 640px; }
 .hero--page .hero__description { margin-bottom: 0; }
 
-.breadcrumb { margin-bottom: 24px; }
+/* Breadcrumb takes over the label row that a page eyebrow would normally
+   occupy — same gold dash treatment as .eyebrow (main.css) so it reads as
+   the hero's small label row rather than a standalone nav element. */
+.breadcrumb {
+  position: relative;
+  padding-left: 36px;
+  margin-bottom: 16px;
+}
+.breadcrumb::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 50%;
+  transform: translateY(-50%);
+  width: 20px; height: 1.5px;
+  background: var(--gold);
+  border-radius: 1px;
+}
 .breadcrumb ol { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
 .breadcrumb li {
   display: flex; align-items: center; gap: 10px;
@@ -31,8 +47,7 @@
    spacing between elements, are untouched above this breakpoint. */
 @media (max-width: 767.98px) {
   .hero--page { padding-top: calc(var(--header-h) + 24px); padding-bottom: 40px; }
-  .hero--page .breadcrumb { margin-bottom: 16px; }
-  .hero--page .eyebrow { margin-bottom: 12px; }
+  .hero--page .breadcrumb { margin-bottom: 12px; }
   .hero--page h1 { font-size: 2rem; margin-bottom: 8px; }
   .hero--page .hero__description { font-size: 0.9375rem; }
 }
@@ -70,6 +85,14 @@
   border-radius: 999px; padding: 8px 18px;
 }
 
+/* Mobile only: center this section-intro text block (label, heading,
+   paragraphs) and its supporting fact pills/CTA. The split's own image and
+   any card content elsewhere are untouched. */
+@media (max-width: 767.98px) {
+  .split__text { text-align: center; }
+  .intro-facts { justify-content: center; }
+}
+
 /* ---------- Mission & vision ---------- */
 .mv__grid { display: grid; gap: 24px; }
 
@@ -90,6 +113,13 @@
 .choose__intro p { margin-bottom: 24px; }
 .choose__intro .btn { margin-top: 8px; }
 
+/* Mobile only: center this section's intro text (label, heading, paragraph,
+   CTA). The numbered .choose__list beside it is list-based content and is
+   left untouched, matching every other card/grid on the site. */
+@media (max-width: 767.98px) {
+  .choose__intro { text-align: center; }
+}
+
 .choose__list { counter-reset: choose; }
 .choose__list li {
   counter-increment: choose;
@@ -100,7 +130,7 @@
 .choose__list li::before {
   content: "0" counter(choose);
   font-size: 0.875rem; font-weight: 800; letter-spacing: 0.1em;
-  color: var(--gold-dark); line-height: 1.9; flex-shrink: 0;
+  color: var(--navy); line-height: 1.9; flex-shrink: 0;
 }
 .choose__list h3 { font-size: 1.0625rem; margin-bottom: 4px; }
 .choose__list p { font-size: 0.9375rem; color: var(--text-muted); }
@@ -121,7 +151,7 @@
   background: var(--white); border-radius: var(--r-lg);
   border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
 }
 .team-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
 
@@ -139,7 +169,7 @@
 .team-card__name { font-size: 1.25rem; margin-bottom: 4px; }
 .team-card__role {
   font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em;
-  text-transform: uppercase; color: var(--gold-dark); margin-bottom: 16px;
+  text-transform: uppercase; color: var(--navy); margin-bottom: 16px;
 }
 .team-card__bio { font-size: 0.9375rem; color: var(--text-muted); }
 
@@ -162,4 +192,10 @@
 .commitment__rule {
   width: 48px; height: 3px; border-radius: 2px;
   background: var(--gold); margin-bottom: 28px;
+}
+
+/* Mobile only: recenter the decorative rule under the now-centered heading
+   (.split__text itself is centered by the shared rule above). */
+@media (max-width: 767.98px) {
+  .commitment__rule { margin-inline: auto; }
 }

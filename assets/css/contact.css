@@ -12,14 +12,14 @@
   display: flex; align-items: center; gap: 20px;
   background: var(--white); border-radius: var(--r-lg);
   border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);
-  padding: 26px 28px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 24px 28px;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
 }
 .method-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
 
 .method-card__icon {
   display: inline-flex; align-items: center; justify-content: center;
-  width: 48px; height: 48px; border-radius: 50%;
+  width: 48px; height: 48px; border-radius: var(--r-sm);
   background: var(--bg-section-alt); color: var(--navy); flex-shrink: 0;
 }
 
@@ -65,7 +65,7 @@ fieldset.field legend {
   padding: 9px 18px; border-radius: 999px; cursor: pointer;
   border: 1px solid var(--border-light); background: var(--bg-page);
   font-size: 0.875rem; font-weight: 600; color: var(--text-main);
-  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+  transition: background-color var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast);
 }
 .pill-group label:hover { border-color: var(--navy); color: var(--navy); }
 .pill-group input:checked + label {
@@ -125,3 +125,9 @@ fieldset.field legend {
 .visit__inner h2 { margin-bottom: 16px; }
 .visit__inner > p { margin: 0 auto 32px; font-size: 1.0625rem; }
 .visit__buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }
+
+/* Desktop-only: gives the heading enough room to fit on a single line
+   (single-column, centered block — no competing content beside it). */
+@media (min-width: 992px) {
+  .visit__inner { max-width: 940px; }
+}

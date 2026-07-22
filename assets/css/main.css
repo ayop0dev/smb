@@ -47,6 +47,10 @@
   --shadow-soft: 0 12px 32px rgba(10, 35, 66, 0.05);
   --shadow-lift: 0 20px 48px rgba(10, 35, 66, 0.07);
 
+  /* Transitions */
+  --transition-fast: 0.2s ease;  /* hover color/background/border shifts */
+  --transition-base: 0.3s ease;  /* card lift, shadow, larger state changes */
+
   /* Type */
   --font-sans: "Manrope", system-ui, -apple-system, sans-serif;
 
@@ -71,6 +75,11 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--header-h) + 24px);
   -webkit-text-size-adjust: 100%;
+  /* Safety net: the closed off-canvas mobile nav panel (position:fixed,
+     translated off-screen) can register a few px of phantom horizontal
+     scroll at very narrow widths. No element on the site relies on
+     horizontal overflow being visible, so this is a zero-side-effect fix. */
+  overflow-x: hidden;
 }
 
 body {
@@ -84,7 +93,8 @@ body {
 
 img { display: block; max-width: 100%; height: auto; }
 ul { list-style: none; }
-a { color: inherit; text-decoration: none; transition: color 0.2s ease; }
+a { color: inherit; text-decoration: none; transition: color var(--transition-fast); }
+address { font-style: normal; } /* neutralize the UA default italic so <address> is visually inert */
 
 /* ---------- Typography ---------- */
 h1, h2, h3 {
@@ -116,7 +126,7 @@ p { max-width: 65ch; } /* Limit line length for readability */
   position: absolute; top: -60px; left: 24px; z-index: 200;
   padding: 12px 24px; background: var(--navy); color: var(--white);
   border-radius: 0 0 var(--r-md) var(--r-md);
-  font-weight: 600; transition: top 0.2s ease;
+  font-weight: 600; transition: top var(--transition-fast);
 }
 .skip-link:focus-visible { top: 0; }
 
@@ -133,6 +143,15 @@ p { max-width: 65ch; } /* Limit line length for readability */
 .section-head--light h2 { color: var(--white); }
 .section-head__sub { margin-top: 16px; font-size: 1.125rem; color: var(--text-muted); }
 .section-head--light .section-head__sub { color: rgba(255, 255, 255, 0.75); }
+
+/* Mobile only: center every section's intro text block (label, heading,
+   description). The eyebrow's gold dash is a left-anchored ::before inside
+   an inline-block, so it centers as one unit along with the label text.
+   Cards, grids, forms, nav and footer are untouched — text-align doesn't
+   affect their layout, and none of them inherit from .section-head. */
+@media (max-width: 767.98px) {
+  .section-head { text-align: center; }
+}
 
 /* Eyebrows */
 .eyebrow {
@@ -174,8 +193,8 @@ p { max-width: 65ch; } /* Limit line length for readability */
   padding: 12px 24px; border: 1px solid transparent; border-radius: var(--r-md);
   font-family: inherit; font-size: 0.9375rem; font-weight: 700; line-height: 1.4;
   cursor: pointer;
-  transition: background-color 0.2s ease, border-color 0.2s ease,
-              color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  transition: background-color var(--transition-fast), border-color var(--transition-fast),
+              color var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 .btn:hover { transform: translateY(-1px); }
 .btn:active { transform: translateY(0); }
@@ -210,7 +229,7 @@ p { max-width: 65ch; } /* Limit line length for readability */
   height: var(--header-h);
   background: transparent;
   border-bottom: 1px solid transparent;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  transition: background-color var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
 }
 .header.is-scrolled {
   background: var(--navy);
@@ -233,6 +252,10 @@ p { max-width: 65ch; } /* Limit line length for readability */
 .header__phone:hover { color: var(--gold); }
 .header__phone .icon { width: 18px; height: 18px; }
 
+/* Always visible in the persistent header bar — icon-only on mobile
+   (see the max-width:991.98px block below), icon + number on desktop. */
+.header__actions .header__phone { display: inline-flex; }
+
 .header__burger {
   display: inline-flex; flex-direction: column; justify-content: center; gap: 5px;
   width: 44px; height: 44px; padding: 10px; background: transparent; border: 0; cursor: pointer;
@@ -250,7 +273,7 @@ p { max-width: 65ch; } /* Limit line length for readability */
   position: fixed; inset: 0; z-index: 1;
   background: rgba(7, 26, 49, 0.55);
   opacity: 0; visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s;
+  transition: opacity var(--transition-base), visibility 0.3s;
 }
 .header__overlay.is-visible { opacity: 1; visibility: visible; }
 
@@ -268,7 +291,7 @@ body.nav-locked { overflow: hidden; }
     overflow-y: auto;
     box-shadow: -16px 0 48px rgba(7, 26, 49, 0.35);
     transform: translateX(100%); visibility: hidden;
-    transition: transform 0.3s ease, visibility 0.3s;
+    transition: transform var(--transition-base), visibility 0.3s;
   }
   .header__nav.is-open { transform: none; visibility: visible; }
 
@@ -292,14 +315,22 @@ body.nav-locked { overflow: hidden; }
     width: 44px; height: 44px; border-radius: 50%;
     background: rgba(255, 255, 255, 0.08); border: 0; cursor: pointer;
     color: var(--white);
-    transition: background-color 0.2s ease;
+    transition: background-color var(--transition-fast);
   }
   .header__close:hover { background: rgba(255, 255, 255, 0.16); }
   .header__close .icon { width: 20px; height: 20px; }
-}
 
-@media (min-width: 480px) {
-  .header__actions .header__phone { display: inline-flex; }
+  /* Persistent header bar: icon-only phone link, matching the burger's
+     44x44 touch target and 24x24 icon. The number stays in the markup for
+     screen readers but is visually hidden until the desktop breakpoint. */
+  .header__actions .header__phone {
+    width: 44px; height: 44px; justify-content: center; gap: 0;
+  }
+  .header__actions .header__phone .icon { width: 24px; height: 24px; }
+  .header__actions .header__phone-text {
+    position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+  }
 }
 
 @media (min-width: 992px) {
@@ -321,11 +352,6 @@ body.nav-locked { overflow: hidden; }
   }
   .header__nav-extra { display: none; }
   .header__burger { display: none; }
-}
-
-/* Keep the phone number out of the bar at narrower desktop widths */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .header__actions .header__phone { display: none; }
 }
 
 /* ---------- Hero ---------- */
@@ -374,6 +400,17 @@ body.nav-locked { overflow: hidden; }
   width: 8px; height: 1.5px; background: var(--gold); border-radius: 1px;
 }
 
+/* Mobile only: center the hero's text content (label, heading, subheadline,
+   description) and its CTA row. .hero__search (homepage search pill) and
+   .hero__badges (project-page trust list) are reset back to left — they're
+   interactive/list widgets with their own deliberate mobile layout, not
+   plain descriptive text, so they're excluded from centering. */
+@media (max-width: 767.98px) {
+  .hero__content { text-align: center; }
+  .hero__cta { justify-content: center; }
+  .hero__search, .hero__badges { text-align: left; }
+}
+
 /* Floating lead card */
 .hero__card {
   background: var(--white); border-radius: var(--r-xl);
@@ -403,10 +440,10 @@ body.nav-locked { overflow: hidden; }
 .field__optional { font-weight: 500; color: var(--text-muted); font-size: 0.8125rem; }
 
 .field input, .field textarea {
-  width: 100%; font-family: inherit; font-size: 1rem; color: var(--ink);
-  background: var(--white); border: 1px solid var(--gray-200);
+  width: 100%; font-family: inherit; font-size: 1rem; color: var(--text-main);
+  background: var(--white); border: 1px solid #e2e8f0;
   border-radius: var(--r-sm); padding: 14px 16px;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.02);
 }
 .field textarea { resize: vertical; min-height: 120px; }
@@ -501,7 +538,7 @@ body.nav-locked { overflow: hidden; }
   display: flex; align-items: center; gap: 24px;
   background: var(--white); border-radius: var(--r-lg);
   box-shadow: var(--shadow-sm); border: 1px solid var(--border-light);
-  padding: 24px 32px; transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 24px 32px; transition: transform var(--transition-base), box-shadow var(--transition-base);
 }
 .stat-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
 
@@ -520,6 +557,12 @@ body.nav-locked { overflow: hidden; }
 }
 
 /* ---------- Gallery ---------- */
+/* Desktop-only: gives this project page's gallery heading enough room to fit
+   on one line (single-column block sitting above the grid, not beside it). */
+@media (min-width: 992px) {
+  .gallery .section-head { max-width: 850px; }
+}
+
 .gallery__grid {
   display: flex; gap: 24px; overflow-x: auto; scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch; padding-bottom: 16px; scrollbar-width: none;
@@ -550,7 +593,7 @@ body.nav-locked { overflow: hidden; }
 .amenity-card {
   background: var(--white); border-radius: var(--r-lg);
   box-shadow: var(--shadow-sm); border: 1px solid var(--border-light);
-  padding: 32px; transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 32px; transition: transform var(--transition-base), box-shadow var(--transition-base);
 }
 .amenity-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
 
@@ -580,12 +623,18 @@ body.nav-locked { overflow: hidden; }
 
 .location__inner { position: relative; z-index: 1; }
 
+/* Desktop-only: gives this project page's location heading enough room to
+   fit on one line (single-column block sitting above the grid, not beside it). */
+@media (min-width: 992px) {
+  .location .section-head { max-width: 800px; }
+}
+
 .location__grid { display: grid; gap: 24px; grid-template-columns: 1fr; }
 
 .place-card {
   background: rgba(255, 255, 255, 0.04); border: 1px solid var(--border-dark);
   border-radius: var(--r-lg); padding: 32px; backdrop-filter: blur(8px);
-  transition: background-color 0.3s ease, border-color 0.3s ease;
+  transition: background-color var(--transition-base), border-color var(--transition-base);
 }
 .place-card:hover { background: rgba(255, 255, 255, 0.08); border-color: rgba(255, 255, 255, 0.2); }
 
@@ -624,6 +673,16 @@ body.nav-locked { overflow: hidden; }
   .enquire__grid { grid-template-columns: 0.9fr 1.1fr; gap: 80px; align-items: start; }
 }
 
+/* Mobile only: center this section's intro text (label, heading,
+   description) and its call/WhatsApp buttons. The contact-details list
+   (icon + address/email rows) reads better left-aligned, so it's reset back;
+   the form beside it is untouched. */
+@media (max-width: 767.98px) {
+  .enquire__text { text-align: center; }
+  .enquire__buttons { justify-content: center; }
+  .enquire__details { text-align: left; }
+}
+
 /* ---------- Footer ---------- */
 .footer { background: var(--bg-dark); color: rgba(255, 255, 255, 0.7); padding-top: 80px; }
 
@@ -657,7 +716,7 @@ body.nav-locked { overflow: hidden; }
   display: inline-flex; align-items: center; justify-content: center;
   width: 40px; height: 40px; border-radius: 50%;
   border: 1px solid var(--border-dark); color: rgba(255, 255, 255, 0.8);
-  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  transition: background-color var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
 }
 .footer__social a:hover {
   background: rgba(255, 255, 255, 0.1); color: var(--white);
@@ -686,7 +745,7 @@ body.nav-locked { overflow: hidden; }
   display: flex; align-items: center; justify-content: space-between; gap: 16px;
   background: var(--navy); color: var(--white); border-radius: var(--r-md); padding: 16px 20px;
   box-shadow: var(--shadow-lift); opacity: 0; visibility: hidden; transform: translateY(16px);
-  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+  transition: opacity var(--transition-base), transform var(--transition-base), visibility 0.3s;
 }
 .sticky-cta.is-visible { opacity: 1; visibility: visible; transform: translateY(0); }
 
@@ -699,7 +758,7 @@ body.nav-locked { overflow: hidden; }
 
 .sticky-cta__action {
   display: inline-flex; align-items: center; gap: 8px; font-weight: 700;
-  font-size: 0.9375rem; color: var(--white); transition: opacity 0.2s ease;
+  font-size: 0.9375rem; color: var(--white); transition: opacity var(--transition-fast);
 }
 .sticky-cta:hover .sticky-cta__action { opacity: 0.8; }
 

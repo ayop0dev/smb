@@ -9,6 +9,17 @@
 .dev-intro__inner { max-width: 720px; }
 .dev-intro__inner p { font-size: 1.0625rem; }
 
+/* Desktop-only: gives the heading enough room to fit on a single line
+   (single-column block, no competing content beside it). */
+@media (min-width: 992px) {
+  .dev-intro__inner { max-width: 830px; }
+}
+
+/* Mobile only: center this section's intro text (label, heading, paragraph). */
+@media (max-width: 767.98px) {
+  .dev-intro__inner { text-align: center; }
+}
+
 /* ---------- Developer logo placeholder (monogram) ---------- */
 .dev-logo {
   display: inline-flex; align-items: center; justify-content: center;
@@ -30,20 +41,39 @@
   background: var(--white); border-radius: var(--r-lg);
   border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);
   padding: 32px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
 }
 .dev-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
 
-.dev-card__brand {
-  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+/* Uniform logo stage: same footprint for every card regardless of whether
+   the source logo is a wide horizontal lockup or a tall/square mark.
+   Left-aligned (not centered) so it lines up with the name/description below,
+   with generous padding so logos never touch the container edges. */
+.dev-card__logo {
+  display: flex; align-items: center; justify-content: flex-start;
+  height: 108px; padding: 24px 28px;
+  background: var(--bg-section-alt); border: 1px solid var(--border-light);
+  border-radius: var(--r-md);
 }
 
-.dev-card h3 { font-size: 1.375rem; }
+/* Logo files ship in a mix of colors (some white-on-transparent, some
+   dark/branded) — masking each shape with the source file and filling it
+   with brand navy gives every card the same single-color treatment without
+   touching the source assets. --logo-src is set per-instance inline. */
+.dev-card__logo-mark {
+  display: block; width: 100%; height: 100%;
+  background-color: var(--navy);
+  -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
+  -webkit-mask-position: left center; mask-position: left center;
+  -webkit-mask-size: contain; mask-size: contain;
+}
+
+.dev-card h3 { font-size: 1.25rem; }
 .dev-card__desc { font-size: 0.9375rem; color: var(--text-muted); }
 
 .dev-card__projects {
   display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px;
-  padding-top: 16px; border-top: 1px solid var(--border-light);
+  margin-top: auto; padding-top: 16px; border-top: 1px solid var(--border-light);
   font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.1em;
   text-transform: uppercase; color: var(--text-muted);
 }
@@ -52,17 +82,15 @@
   font-style: italic;
 }
 
-.dev-card__link {
-  display: inline-flex; align-items: center; gap: 8px;
-  font-size: 0.9375rem; font-weight: 700; color: var(--navy);
-}
-.dev-card__link .icon { width: 16px; height: 16px; transition: transform 0.2s ease; }
-.dev-card__link:hover { color: var(--gold-dark); }
-.dev-card__link:hover .icon { transform: translateX(3px); }
-
 @media (min-width: 768px) { .devs__grid { grid-template-columns: repeat(2, 1fr); gap: 32px; } }
 
 /* ---------- Why these developers (6-item criteria grid) ---------- */
+/* Desktop-only: the heading wraps by a narrow margin (~5px) at the shared
+   640px cap — a small bump is enough to fit it on one line. */
+@media (min-width: 992px) {
+  .criteria .section-head { max-width: 680px; }
+}
+
 .criteria__grid { display: grid; gap: 40px; grid-template-columns: 1fr; }
 
 @media (min-width: 600px) { .criteria__grid { grid-template-columns: repeat(2, 1fr); gap: 48px; } }
@@ -76,7 +104,7 @@
   background: var(--white); border-radius: var(--r-lg);
   border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);
   padding: 24px 28px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
 }
 .browse-item:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
 

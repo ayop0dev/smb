@@ -38,11 +38,13 @@ $sticky_action = $sticky_action ?? 'Contact us';
       </div>
       <div class="footer__col">
         <h3>Contact</h3>
-        <ul>
-          <li><a href="tel:+971504217299">+971 50 421 7299</a></li>
-          <li><a href="mailto:info@smbdubai.net">info@smbdubai.net</a></li>
-          <li>3002 Westburry Tower Office,<br>Business Bay, Dubai, UAE</li>
-        </ul>
+        <address>
+          <ul>
+            <li><a href="tel:+971504217299">+971 50 421 7299</a></li>
+            <li><a href="mailto:info@smbdubai.net">info@smbdubai.net</a></li>
+            <li>3002 Westburry Tower Office,<br>Business Bay, Dubai, UAE</li>
+          </ul>
+        </address>
       </div>
     </div>
     <div class="container footer__bottom">
@@ -52,6 +54,34 @@ $sticky_action = $sticky_action ?? 'Contact us';
       </p>
     </div>
   </footer>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "name": "SMB Real Estate Brokers L.L.C",
+    "description": "SMB Real Estate Brokers L.L.C is a Dubai-based brokerage assisting clients with selling, managing and investing in residential and commercial properties.",
+    "url": "<?= smb_e($site_url) ?>/",
+    "logo": "<?= smb_e($site_url) ?>/assets/images/smb-logo-horizontal.png",
+    "image": "<?= smb_e($site_url) ?>/assets/images/smb-logo-horizontal.png",
+    "telephone": "+971504217299",
+    "email": "info@smbdubai.net",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "3002 Westburry Tower Office, Business Bay",
+      "addressLocality": "Dubai",
+      "addressCountry": "AE"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+971504217299",
+      "email": "info@smbdubai.net",
+      "contactType": "customer service",
+      "areaServed": "AE",
+      "availableLanguage": "English"
+    }
+  }
+  </script>
 
   <!-- ============ Sticky CTA ============ -->
   <a class="sticky-cta" id="sticky-cta" href="<?= smb_e($sticky_href) ?>" aria-hidden="true" tabindex="-1">

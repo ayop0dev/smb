@@ -30,7 +30,6 @@ require __DIR__ . '/header.php';
               <li><span aria-current="page">About</span></li>
             </ol>
           </nav>
-          <p class="eyebrow eyebrow--light">About SMB</p>
           <h1 id="hero-title">Serving, Managing &amp;&nbsp;Beyond</h1>
           <p class="hero__description">
             SMB Real Estate Brokers helps clients buy, sell, manage and invest in

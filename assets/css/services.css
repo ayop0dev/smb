@@ -47,6 +47,14 @@
   .offplan__media img { aspect-ratio: 4 / 3.6; }
 }
 
+/* Mobile only: center this section's intro text (tag label, heading,
+   paragraphs, CTA). The checklist is list-based content and stays
+   left-aligned, matching every other card/grid on the site. */
+@media (max-width: 767.98px) {
+  .offplan__text { text-align: center; }
+  .offplan__list { text-align: left; }
+}
+
 /* ---------- Services grid ---------- */
 .services__grid { display: grid; gap: 24px; grid-template-columns: 1fr; }
 
@@ -55,7 +63,7 @@
   background: var(--white); border-radius: var(--r-lg);
   border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);
   padding: 32px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
 }
 .service-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
 
@@ -72,7 +80,7 @@
   display: inline-flex; align-items: center; gap: 8px; margin-top: auto;
   font-size: 0.875rem; font-weight: 700; color: var(--navy);
 }
-.service-card__link .icon { width: 16px; height: 16px; transition: transform 0.2s ease; }
+.service-card__link .icon { width: 16px; height: 16px; transition: transform var(--transition-fast); }
 .service-card__link:hover { color: var(--gold-dark); }
 .service-card__link:hover .icon { transform: translateX(3px); }
 
@@ -85,6 +93,13 @@
 @media (min-width: 700px) { .audience__grid { grid-template-columns: repeat(2, 1fr); gap: 24px; } }
 
 /* ---------- FAQ accordion ---------- */
+/* Desktop-only: the Communities page's FAQ heading needs a bit more room to
+   stay on one line (this section is shared with Services/Developers, whose
+   shorter headings already fit and are unaffected). */
+@media (min-width: 992px) {
+  .faq .section-head { max-width: 720px; }
+}
+
 .faq__list { max-width: 800px; display: grid; gap: 16px; }
 
 .faq-item {
@@ -97,7 +112,7 @@
   display: flex; align-items: center; justify-content: space-between; gap: 20px;
   padding: 22px 28px; cursor: pointer; list-style: none;
   font-size: 1.0625rem; font-weight: 700; color: var(--navy);
-  transition: background-color 0.2s ease;
+  transition: background-color var(--transition-fast);
 }
 .faq-item summary::-webkit-details-marker { display: none; }
 .faq-item summary:hover { background: var(--navy-soft); }

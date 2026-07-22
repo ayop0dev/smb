@@ -1,0 +1,4334 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-22T00:00:00+03:00",
+  "research_notes": {
+    "currency": "AED",
+    "distance_unit": "minutes by car",
+    "area_unit": "sq.ft",
+    "verification_policy": "Official developer and project sources were prioritized. Time-sensitive values were recorded only when visible on an official source accessed 2026-07-22 and remain subject to change. Unverified values are null, empty strings, or empty arrays. Editorial summaries are original."
+  },
+  "projects": [
+    {
+      "slug": "the-grand-polo-club-resort",
+      "name": "The Grand Polo Club & Resort",
+      "developer": {
+        "name": "Emaar Properties",
+        "website": "https://www.emaar.com/",
+        "project_url": "https://properties.emaar.com/en/our-communities/grand-polo-club-and-resort/"
+      },
+      "status": {
+        "launch_status": "Launched",
+        "construction_status": "Off-plan master community",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "The Grand Polo Club & Resort by Emaar Properties",
+        "meta_description": "Verified project overview and key facts for The Grand Polo Club & Resort by Emaar Properties.",
+        "og_title": "The Grand Polo Club & Resort | Emaar Properties",
+        "og_description": "An equestrian-led villa master community by Emaar, planned around polo facilities, landscaped open space, wellness and recreation."
+      },
+      "hero": {
+        "eyebrow": "Emaar Properties",
+        "headline": "The Grand Polo Club & Resort",
+        "short_description": "An equestrian-led villa master community by Emaar, planned around polo facilities, landscaped open space, wellness and recreation.",
+        "starting_price": {
+          "display": "",
+          "amount": null,
+          "currency": "AED",
+          "qualifier": "",
+          "verified": false
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "Dubai South",
+        "city": "Dubai",
+        "emirate": "Dubai",
+        "country": "United Arab Emirates",
+        "full_label": "Dubai South, Dubai, Dubai",
+        "latitude": null,
+        "longitude": null,
+        "description": "The Grand Polo Club & Resort is located in Dubai South, Dubai.",
+        "nearby_destinations": [
+          {
+            "name": "Al Maktoum International Airport",
+            "travel_time": "5 minutes",
+            "travel_mode": "car",
+            "verified": true
+          },
+          {
+            "name": "Dubai Hills Estate",
+            "travel_time": "20 minutes",
+            "travel_mode": "car",
+            "verified": true
+          },
+          {
+            "name": "Dubai Marina",
+            "travel_time": "28 minutes",
+            "travel_mode": "car",
+            "verified": true
+          },
+          {
+            "name": "Downtown Dubai",
+            "travel_time": "35 minutes",
+            "travel_mode": "car",
+            "verified": true
+          }
+        ]
+      },
+      "property_details": {
+        "property_types": [
+          "Villas"
+        ],
+        "bedrooms": [
+          "3",
+          "4",
+          "5"
+        ],
+        "ownership": "",
+        "handover": {
+          "display": "",
+          "date": null,
+          "verified": false
+        },
+        "built_up_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": 5599,
+        "tower_count": null,
+        "building_height": "",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "",
+          "booking_percentage": null,
+          "during_construction_percentage": null,
+          "handover_percentage": null,
+          "post_handover_percentage": null,
+          "verified": false
+        },
+        "service_charge": {
+          "display": "",
+          "amount": null,
+          "unit": "",
+          "verified": false
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About The Grand Polo Club & Resort",
+        "paragraphs": [
+          "An equestrian-led villa master community by Emaar, planned around polo facilities, landscaped open space, wellness and recreation."
+        ],
+        "stats": [
+          {
+            "value": "5599",
+            "label": "Units",
+            "icon": "building"
+          }
+        ]
+      },
+      "highlights": [
+        {
+          "value": "3, 4, 5",
+          "label": "Bedrooms",
+          "icon": "bed-double"
+        }
+      ],
+      "amenities": [
+        {
+          "name": "Polo fields and stables",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Clubhouse",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Landscaped open spaces",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Wellness and recreation facilities",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        }
+      ],
+      "gallery": {
+        "official_media_page": "https://properties.emaar.com/en/our-communities/grand-polo-club-and-resort/",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Residence",
+        "description": "An equestrian-led villa master community by Emaar, planned around polo facilities, landscaped open space, wellness and recreation.",
+        "offer_price": null,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "Grand Polo Club & Resort | Emaar Properties",
+          "url": "https://properties.emaar.com/en/our-communities/grand-polo-club-and-resort/",
+          "source_type": "official project page",
+          "publisher": "Emaar Properties",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "partially_verified",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview",
+          "property_details.property_types",
+          "property_details.bedrooms",
+          "property_details.total_units"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge",
+          "hero.starting_price",
+          "property_details.handover",
+          "commercial.payment_plan"
+        ],
+        "conflicts": [],
+        "notes": [
+          "No current official starting price was recorded.",
+          "External media was not downloaded; gallery references remain empty unless direct official image URLs can be rights-reviewed."
+        ]
+      }
+    },
+    {
+      "slug": "fahid-island",
+      "name": "Fahid Island",
+      "developer": {
+        "name": "Aldar Properties",
+        "website": "https://www.aldar.com/",
+        "project_url": "https://www.aldar.com/properties/en/Fahid-Island"
+      },
+      "status": {
+        "launch_status": "Launched",
+        "construction_status": "Masterplan announced",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "Fahid Island by Aldar Properties",
+        "meta_description": "Verified project overview and key facts for Fahid Island by Aldar Properties.",
+        "og_title": "Fahid Island | Aldar Properties",
+        "og_description": "Aldar’s coastal wellness masterplan between Yas Island and Saadiyat Island, with beaches, mangroves, parks and walkable public spaces."
+      },
+      "hero": {
+        "eyebrow": "Aldar Properties",
+        "headline": "Fahid Island",
+        "short_description": "Aldar’s coastal wellness masterplan between Yas Island and Saadiyat Island, with beaches, mangroves, parks and walkable public spaces.",
+        "starting_price": {
+          "display": "",
+          "amount": null,
+          "currency": "AED",
+          "qualifier": "",
+          "verified": false
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "Fahid Island",
+        "city": "Abu Dhabi",
+        "emirate": "Abu Dhabi",
+        "country": "United Arab Emirates",
+        "full_label": "Fahid Island, Abu Dhabi, Abu Dhabi",
+        "latitude": null,
+        "longitude": null,
+        "description": "Fahid Island is located in Fahid Island, Abu Dhabi.",
+        "nearby_destinations": [
+          {
+            "name": "Yas Island",
+            "travel_time": "Under 15 minutes",
+            "travel_mode": "car",
+            "verified": true
+          },
+          {
+            "name": "Saadiyat Island",
+            "travel_time": "Under 15 minutes",
+            "travel_mode": "car",
+            "verified": true
+          },
+          {
+            "name": "Zayed International Airport",
+            "travel_time": "Under 15 minutes",
+            "travel_mode": "car",
+            "verified": true
+          }
+        ]
+      },
+      "property_details": {
+        "property_types": [
+          "Apartments",
+          "Townhouses",
+          "Villas"
+        ],
+        "bedrooms": [],
+        "ownership": "",
+        "handover": {
+          "display": "",
+          "date": null,
+          "verified": false
+        },
+        "built_up_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": 6000,
+        "tower_count": null,
+        "building_height": "",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "",
+          "booking_percentage": null,
+          "during_construction_percentage": null,
+          "handover_percentage": null,
+          "post_handover_percentage": null,
+          "verified": false
+        },
+        "service_charge": {
+          "display": "",
+          "amount": null,
+          "unit": "",
+          "verified": false
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About Fahid Island",
+        "paragraphs": [
+          "Aldar’s coastal wellness masterplan between Yas Island and Saadiyat Island, with beaches, mangroves, parks and walkable public spaces."
+        ],
+        "stats": [
+          {
+            "value": "6000",
+            "label": "Units",
+            "icon": "building"
+          }
+        ]
+      },
+      "highlights": [],
+      "amenities": [
+        {
+          "name": "Beaches",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Waterfront promenade",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Berm park",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Running and cycling routes",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Mangrove boardwalk",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        }
+      ],
+      "gallery": {
+        "official_media_page": "https://www.aldar.com/properties/en/Fahid-Island",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Residence",
+        "description": "Aldar’s coastal wellness masterplan between Yas Island and Saadiyat Island, with beaches, mangroves, parks and walkable public spaces.",
+        "offer_price": null,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "Fahid Island | Aldar",
+          "url": "https://www.aldar.com/properties/en/Fahid-Island",
+          "source_type": "official project page",
+          "publisher": "Aldar Properties",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        },
+        {
+          "title": "Aldar unveils Fahid Island",
+          "url": "https://www.aldar.com/en/news-and-media/aldar-unveils-fahid-island",
+          "source_type": "official press release",
+          "publisher": "Aldar Properties",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "status",
+            "scale",
+            "construction or launch facts"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "partially_verified",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview",
+          "property_details.property_types",
+          "property_details.total_units"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge",
+          "hero.starting_price",
+          "property_details.handover",
+          "commercial.payment_plan"
+        ],
+        "conflicts": [],
+        "notes": [
+          "No current official starting price was recorded.",
+          "External media was not downloaded; gallery references remain empty unless direct official image URLs can be rights-reviewed."
+        ]
+      }
+    },
+    {
+      "slug": "damac-riverside-views",
+      "name": "Riverside Views",
+      "developer": {
+        "name": "DAMAC Properties",
+        "website": "https://www.damacproperties.com/",
+        "project_url": "https://preprod.damacproperties.com/en/projects/damac-riverside-views/"
+      },
+      "status": {
+        "launch_status": "Launched",
+        "construction_status": "Off-plan",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "Riverside Views by DAMAC Properties",
+        "meta_description": "Verified project overview and key facts for Riverside Views by DAMAC Properties.",
+        "og_title": "Riverside Views | DAMAC Properties",
+        "og_description": "A waterfront apartment development in Dubai Investments Park with wellness, water and community-focused amenities."
+      },
+      "hero": {
+        "eyebrow": "DAMAC Properties",
+        "headline": "Riverside Views",
+        "short_description": "A waterfront apartment development in Dubai Investments Park with wellness, water and community-focused amenities.",
+        "starting_price": {
+          "display": "Available on request",
+          "amount": null,
+          "currency": "AED",
+          "qualifier": "",
+          "verified": false
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "Dubai Investments Park",
+        "city": "Dubai",
+        "emirate": "Dubai",
+        "country": "United Arab Emirates",
+        "full_label": "Dubai Investments Park, Dubai, Dubai",
+        "latitude": null,
+        "longitude": null,
+        "description": "Riverside Views is located in Dubai Investments Park, Dubai.",
+        "nearby_destinations": [
+          {
+            "name": "Al Maktoum International Airport",
+            "travel_time": "23 minutes",
+            "travel_mode": "car",
+            "verified": true
+          },
+          {
+            "name": "Dubai International Airport",
+            "travel_time": "28 minutes",
+            "travel_mode": "car",
+            "verified": true
+          },
+          {
+            "name": "The Town Mall",
+            "travel_time": "10 minutes",
+            "travel_mode": "car",
+            "verified": true
+          }
+        ]
+      },
+      "property_details": {
+        "property_types": [
+          "Apartments"
+        ],
+        "bedrooms": [
+          "1",
+          "2"
+        ],
+        "ownership": "",
+        "handover": {
+          "display": "",
+          "date": null,
+          "verified": false
+        },
+        "built_up_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": null,
+        "tower_count": null,
+        "building_height": "",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "",
+          "booking_percentage": null,
+          "during_construction_percentage": null,
+          "handover_percentage": null,
+          "post_handover_percentage": null,
+          "verified": false
+        },
+        "service_charge": {
+          "display": "",
+          "amount": null,
+          "unit": "",
+          "verified": false
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About Riverside Views",
+        "paragraphs": [
+          "A waterfront apartment development in Dubai Investments Park with wellness, water and community-focused amenities."
+        ],
+        "stats": []
+      },
+      "highlights": [
+        {
+          "value": "1, 2",
+          "label": "Bedrooms",
+          "icon": "bed-double"
+        }
+      ],
+      "amenities": [
+        {
+          "name": "Therapeutic lakes",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Hydroponic farms",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Aquatic fitness",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Outdoor calisthenics",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        }
+      ],
+      "gallery": {
+        "official_media_page": "https://preprod.damacproperties.com/en/projects/damac-riverside-views/",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "Available on request",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Residence",
+        "description": "A waterfront apartment development in Dubai Investments Park with wellness, water and community-focused amenities.",
+        "offer_price": null,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "DAMAC Riverside Views | DAMAC Properties",
+          "url": "https://preprod.damacproperties.com/en/projects/damac-riverside-views/",
+          "source_type": "official project page",
+          "publisher": "DAMAC Properties",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "partially_verified",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview",
+          "property_details.property_types",
+          "property_details.bedrooms"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge",
+          "hero.starting_price",
+          "property_details.handover",
+          "commercial.payment_plan"
+        ],
+        "conflicts": [],
+        "notes": [
+          "No current official starting price was recorded.",
+          "External media was not downloaded; gallery references remain empty unless direct official image URLs can be rights-reviewed."
+        ]
+      }
+    },
+    {
+      "slug": "bay-grove-residences-dubai-islands",
+      "name": "Bay Grove Residences (Dubai Islands)",
+      "developer": {
+        "name": "Nakheel",
+        "website": "https://www.nakheel.com/",
+        "project_url": "https://www.nakheel.com/en/new-launches/baygrove-residences"
+      },
+      "status": {
+        "launch_status": "Final phase launched",
+        "construction_status": "Off-plan",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "Bay Grove Residences (Dubai Islands) by Nakheel",
+        "meta_description": "Verified project overview and key facts for Bay Grove Residences (Dubai Islands) by Nakheel.",
+        "og_title": "Bay Grove Residences (Dubai Islands) | Nakheel",
+        "og_description": "The final phase of Nakheel’s waterfront residence collection on Dubai Islands comprises four buildings with access to Crystal Beach and shared leisure facilities."
+      },
+      "hero": {
+        "eyebrow": "Nakheel",
+        "headline": "Bay Grove Residences (Dubai Islands)",
+        "short_description": "The final phase of Nakheel’s waterfront residence collection on Dubai Islands comprises four buildings with access to Crystal Beach and shared leisure facilities.",
+        "starting_price": {
+          "display": "",
+          "amount": null,
+          "currency": "AED",
+          "qualifier": "",
+          "verified": false
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "Dubai Islands",
+        "city": "Dubai",
+        "emirate": "Dubai",
+        "country": "United Arab Emirates",
+        "full_label": "Dubai Islands, Dubai, Dubai",
+        "latitude": null,
+        "longitude": null,
+        "description": "Bay Grove Residences (Dubai Islands) is located in Dubai Islands, Dubai.",
+        "nearby_destinations": [
+          {
+            "name": "Dubai International Airport",
+            "travel_time": "18 minutes",
+            "travel_mode": "car",
+            "verified": true
+          },
+          {
+            "name": "Al Mamzar Beach Park",
+            "travel_time": "8 minutes",
+            "travel_mode": "car",
+            "verified": true
+          },
+          {
+            "name": "BurJuman Mall",
+            "travel_time": "12 minutes",
+            "travel_mode": "car",
+            "verified": true
+          }
+        ]
+      },
+      "property_details": {
+        "property_types": [
+          "Apartments",
+          "Duplexes",
+          "Penthouses"
+        ],
+        "bedrooms": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "ownership": "",
+        "handover": {
+          "display": "",
+          "date": null,
+          "verified": false
+        },
+        "built_up_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": 257,
+        "tower_count": 4,
+        "building_height": "",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "",
+          "booking_percentage": null,
+          "during_construction_percentage": null,
+          "handover_percentage": null,
+          "post_handover_percentage": null,
+          "verified": false
+        },
+        "service_charge": {
+          "display": "",
+          "amount": null,
+          "unit": "",
+          "verified": false
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About Bay Grove Residences (Dubai Islands)",
+        "paragraphs": [
+          "The final phase of Nakheel’s waterfront residence collection on Dubai Islands comprises four buildings with access to Crystal Beach and shared leisure facilities."
+        ],
+        "stats": [
+          {
+            "value": "257",
+            "label": "Units",
+            "icon": "building"
+          },
+          {
+            "value": "4",
+            "label": "Towers",
+            "icon": "building-2"
+          }
+        ]
+      },
+      "highlights": [
+        {
+          "value": "1, 2, 3, 4",
+          "label": "Bedrooms",
+          "icon": "bed-double"
+        }
+      ],
+      "amenities": [
+        {
+          "name": "Crystal Beach access",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Infinity pool",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Clubhouse",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Fitness centre",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Children’s play areas",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        }
+      ],
+      "gallery": {
+        "official_media_page": "https://www.nakheel.com/en/new-launches/baygrove-residences",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Residence",
+        "description": "The final phase of Nakheel’s waterfront residence collection on Dubai Islands comprises four buildings with access to Crystal Beach and shared leisure facilities.",
+        "offer_price": null,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "Bay Grove Residences | Nakheel",
+          "url": "https://www.nakheel.com/en/new-launches/baygrove-residences",
+          "source_type": "official project page",
+          "publisher": "Nakheel",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        },
+        {
+          "title": "Nakheel unveils final phase of Bay Grove Residences",
+          "url": "https://www.nakheel.com/en/media-centre/press-releases/news-detail/2025/07/03/nakheel-unveils-final-phase-of-bay-grove-residences-on-dubai-islands",
+          "source_type": "official press release",
+          "publisher": "Nakheel",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "status",
+            "scale",
+            "construction or launch facts"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "partially_verified",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview",
+          "property_details.property_types",
+          "property_details.bedrooms",
+          "property_details.total_units"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge",
+          "hero.starting_price",
+          "property_details.handover",
+          "commercial.payment_plan"
+        ],
+        "conflicts": [],
+        "notes": [
+          "No current official starting price was recorded.",
+          "External media was not downloaded; gallery references remain empty unless direct official image URLs can be rights-reviewed."
+        ]
+      }
+    },
+    {
+      "slug": "la-tilia-at-villanova",
+      "name": "La Tilia at Villanova",
+      "developer": {
+        "name": "Dubai Properties",
+        "website": "https://www.dp.ae/",
+        "project_url": "https://villanova.dp.ae/"
+      },
+      "status": {
+        "launch_status": "Launched",
+        "construction_status": "Under construction",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "La Tilia at Villanova by Dubai Properties",
+        "meta_description": "Verified project overview and key facts for La Tilia at Villanova by Dubai Properties.",
+        "og_title": "La Tilia at Villanova | Dubai Properties",
+        "og_description": "A gated townhouse phase in Villanova with green parks, community facilities and access to major Dubai roads."
+      },
+      "hero": {
+        "eyebrow": "Dubai Properties",
+        "headline": "La Tilia at Villanova",
+        "short_description": "A gated townhouse phase in Villanova with green parks, community facilities and access to major Dubai roads.",
+        "starting_price": {
+          "display": "",
+          "amount": null,
+          "currency": "AED",
+          "qualifier": "",
+          "verified": false
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "Villanova, Dubailand",
+        "city": "Dubai",
+        "emirate": "Dubai",
+        "country": "United Arab Emirates",
+        "full_label": "Villanova, Dubailand, Dubai, Dubai",
+        "latitude": null,
+        "longitude": null,
+        "description": "La Tilia at Villanova is located in Villanova, Dubailand, Dubai.",
+        "nearby_destinations": []
+      },
+      "property_details": {
+        "property_types": [
+          "Townhouses"
+        ],
+        "bedrooms": [
+          "3",
+          "4"
+        ],
+        "ownership": "",
+        "handover": {
+          "display": "",
+          "date": null,
+          "verified": false
+        },
+        "built_up_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": 850,
+        "tower_count": null,
+        "building_height": "G+1 and G+2 homes",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "",
+          "booking_percentage": null,
+          "during_construction_percentage": null,
+          "handover_percentage": null,
+          "post_handover_percentage": null,
+          "verified": false
+        },
+        "service_charge": {
+          "display": "",
+          "amount": null,
+          "unit": "",
+          "verified": false
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About La Tilia at Villanova",
+        "paragraphs": [
+          "A gated townhouse phase in Villanova with green parks, community facilities and access to major Dubai roads."
+        ],
+        "stats": [
+          {
+            "value": "850",
+            "label": "Units",
+            "icon": "building"
+          }
+        ]
+      },
+      "highlights": [
+        {
+          "value": "3, 4",
+          "label": "Bedrooms",
+          "icon": "bed-double"
+        }
+      ],
+      "amenities": [
+        {
+          "name": "Swimming pool",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Children’s play area",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Activity area",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Sports hubs",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Parks",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        }
+      ],
+      "gallery": {
+        "official_media_page": "https://villanova.dp.ae/",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Residence",
+        "description": "A gated townhouse phase in Villanova with green parks, community facilities and access to major Dubai roads.",
+        "offer_price": null,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "La Tilia at Villanova | Dubai Properties",
+          "url": "https://villanova.dp.ae/",
+          "source_type": "official project page",
+          "publisher": "Dubai Properties",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        },
+        {
+          "title": "Dubai Properties awards contracts to expand Villanova",
+          "url": "https://www.dubaiholding.com/en/media-hub/press-releases/dubai-properties-awards-contracts-worth-aed-1-1-billion-to-expand-villanova-with-850-new-homes",
+          "source_type": "official press release",
+          "publisher": "Dubai Properties",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "status",
+            "scale",
+            "construction or launch facts"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "partially_verified",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview",
+          "property_details.property_types",
+          "property_details.bedrooms",
+          "property_details.total_units"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge",
+          "hero.starting_price",
+          "property_details.handover",
+          "commercial.payment_plan"
+        ],
+        "conflicts": [],
+        "notes": [
+          "No current official starting price was recorded.",
+          "External media was not downloaded; gallery references remain empty unless direct official image URLs can be rights-reviewed."
+        ]
+      }
+    },
+    {
+      "slug": "sobha-central",
+      "name": "Sobha Central",
+      "developer": {
+        "name": "Sobha Realty",
+        "website": "https://sobharealty.com/",
+        "project_url": "https://sobharealty.com/properties-in-dubai/sobha-central"
+      },
+      "status": {
+        "launch_status": "Launched",
+        "construction_status": "Off-plan",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "Sobha Central by Sobha Realty",
+        "meta_description": "Verified project overview and key facts for Sobha Central by Sobha Realty.",
+        "og_title": "Sobha Central | Sobha Realty",
+        "og_description": "A six-tower mixed-use community on Sheikh Zayed Road combining residences with elevated parks, retail and offices."
+      },
+      "hero": {
+        "eyebrow": "Sobha Realty",
+        "headline": "Sobha Central",
+        "short_description": "A six-tower mixed-use community on Sheikh Zayed Road combining residences with elevated parks, retail and offices.",
+        "starting_price": {
+          "display": "From AED 1.78M",
+          "amount": 1780000,
+          "currency": "AED",
+          "qualifier": "Starting price; subject to availability and change",
+          "verified": true
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "Sheikh Zayed Road",
+        "city": "Dubai",
+        "emirate": "Dubai",
+        "country": "United Arab Emirates",
+        "full_label": "Sheikh Zayed Road, Dubai, Dubai",
+        "latitude": null,
+        "longitude": null,
+        "description": "Sobha Central is located in Sheikh Zayed Road, Dubai.",
+        "nearby_destinations": [
+          {
+            "name": "Business Bay",
+            "travel_time": "10 minutes",
+            "travel_mode": "car",
+            "verified": true
+          },
+          {
+            "name": "Downtown Dubai",
+            "travel_time": "10 minutes",
+            "travel_mode": "car",
+            "verified": true
+          },
+          {
+            "name": "Dubai Marina",
+            "travel_time": "12 minutes",
+            "travel_mode": "car",
+            "verified": true
+          }
+        ]
+      },
+      "property_details": {
+        "property_types": [
+          "Apartments"
+        ],
+        "bedrooms": [
+          "1",
+          "2",
+          "3"
+        ],
+        "ownership": "",
+        "handover": {
+          "display": "December 2030 (latest listed tower)",
+          "date": "2030-12-01",
+          "verified": true
+        },
+        "built_up_area": {
+          "minimum": 564.8,
+          "maximum": 1554,
+          "unit": "sq.ft",
+          "display": "564.8-1554 sq.ft"
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": null,
+        "tower_count": 6,
+        "building_height": "Tallest tower planned at 360 metres / 95 floors",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "",
+          "booking_percentage": null,
+          "during_construction_percentage": null,
+          "handover_percentage": null,
+          "post_handover_percentage": null,
+          "verified": false
+        },
+        "service_charge": {
+          "display": "",
+          "amount": null,
+          "unit": "",
+          "verified": false
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About Sobha Central",
+        "paragraphs": [
+          "A six-tower mixed-use community on Sheikh Zayed Road combining residences with elevated parks, retail and offices."
+        ],
+        "stats": [
+          {
+            "value": "6",
+            "label": "Towers",
+            "icon": "building-2"
+          }
+        ]
+      },
+      "highlights": [
+        {
+          "value": "December 2030 (latest listed tower)",
+          "label": "Handover",
+          "icon": "calendar"
+        },
+        {
+          "value": "1, 2, 3",
+          "label": "Bedrooms",
+          "icon": "bed-double"
+        }
+      ],
+      "amenities": [
+        {
+          "name": "Elevated parks",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Retail mall",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Fitness facilities",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Outdoor cinema",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Children’s play area",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        }
+      ],
+      "gallery": {
+        "official_media_page": "https://sobharealty.com/properties-in-dubai/sobha-central",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "From AED 1.78M",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Residence",
+        "description": "A six-tower mixed-use community on Sheikh Zayed Road combining residences with elevated parks, retail and offices.",
+        "offer_price": 1780000,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "Sobha Central | Sobha Realty",
+          "url": "https://sobharealty.com/properties-in-dubai/sobha-central",
+          "source_type": "official project page",
+          "publisher": "Sobha Realty",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "verified",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview",
+          "property_details.property_types",
+          "property_details.bedrooms",
+          "hero.starting_price",
+          "property_details.handover"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge",
+          "commercial.payment_plan"
+        ],
+        "conflicts": [],
+        "notes": [
+          "Price was current on the accessed official source and is subject to change.",
+          "External media was not downloaded; gallery references remain empty unless direct official image URLs can be rights-reviewed."
+        ]
+      }
+    },
+    {
+      "slug": "the-acres-estates",
+      "name": "The Acres Estates",
+      "developer": {
+        "name": "Meraas",
+        "website": "https://meraas.com/",
+        "project_url": "https://theacres.meraas.com/home-v2"
+      },
+      "status": {
+        "launch_status": "Launched",
+        "construction_status": "Under construction",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "The Acres Estates by Meraas",
+        "meta_description": "Verified project overview and key facts for The Acres Estates by Meraas.",
+        "og_title": "The Acres Estates | Meraas",
+        "og_description": "A collection of large villas in The Acres, offered in Ivory and Amber architectural collections within a nature-led community."
+      },
+      "hero": {
+        "eyebrow": "Meraas",
+        "headline": "The Acres Estates",
+        "short_description": "A collection of large villas in The Acres, offered in Ivory and Amber architectural collections within a nature-led community.",
+        "starting_price": {
+          "display": "",
+          "amount": null,
+          "currency": "AED",
+          "qualifier": "",
+          "verified": false
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "The Acres, Dubailand",
+        "city": "Dubai",
+        "emirate": "Dubai",
+        "country": "United Arab Emirates",
+        "full_label": "The Acres, Dubailand, Dubai, Dubai",
+        "latitude": null,
+        "longitude": null,
+        "description": "The Acres Estates is located in The Acres, Dubailand, Dubai.",
+        "nearby_destinations": [
+          {
+            "name": "Dubai Polo and Equestrian Club",
+            "travel_time": "5 minutes",
+            "travel_mode": "car",
+            "verified": true
+          },
+          {
+            "name": "Global Village",
+            "travel_time": "10 minutes",
+            "travel_mode": "car",
+            "verified": true
+          }
+        ]
+      },
+      "property_details": {
+        "property_types": [
+          "Villas"
+        ],
+        "bedrooms": [
+          "5",
+          "6",
+          "7"
+        ],
+        "ownership": "",
+        "handover": {
+          "display": "",
+          "date": null,
+          "verified": false
+        },
+        "built_up_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": 186,
+        "tower_count": null,
+        "building_height": "Two-storey villas",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "",
+          "booking_percentage": null,
+          "during_construction_percentage": null,
+          "handover_percentage": null,
+          "post_handover_percentage": null,
+          "verified": false
+        },
+        "service_charge": {
+          "display": "",
+          "amount": null,
+          "unit": "",
+          "verified": false
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About The Acres Estates",
+        "paragraphs": [
+          "A collection of large villas in The Acres, offered in Ivory and Amber architectural collections within a nature-led community."
+        ],
+        "stats": [
+          {
+            "value": "186",
+            "label": "Units",
+            "icon": "building"
+          }
+        ]
+      },
+      "highlights": [
+        {
+          "value": "5, 6, 7",
+          "label": "Bedrooms",
+          "icon": "bed-double"
+        }
+      ],
+      "amenities": [
+        {
+          "name": "Community park",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Clubhouse",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Lagoon clubhouse",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Retail",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "School and kindergarten",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        }
+      ],
+      "gallery": {
+        "official_media_page": "https://theacres.meraas.com/home-v2",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Residence",
+        "description": "A collection of large villas in The Acres, offered in Ivory and Amber architectural collections within a nature-led community.",
+        "offer_price": null,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "The Acres Estates | Meraas",
+          "url": "https://theacres.meraas.com/home-v2",
+          "source_type": "official project page",
+          "publisher": "Meraas",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        },
+        {
+          "title": "Meraas construction contract announcement",
+          "url": "https://meraas.com/en/latest-post/news/meraas-awards-aed-24-billion-construction-contracts-new-phases-acres-communities",
+          "source_type": "official press release",
+          "publisher": "Meraas",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "status",
+            "scale",
+            "construction or launch facts"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "partially_verified",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview",
+          "property_details.property_types",
+          "property_details.bedrooms",
+          "property_details.total_units"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge",
+          "hero.starting_price",
+          "property_details.handover",
+          "commercial.payment_plan"
+        ],
+        "conflicts": [],
+        "notes": [
+          "No current official starting price was recorded.",
+          "External media was not downloaded; gallery references remain empty unless direct official image URLs can be rights-reviewed."
+        ]
+      }
+    },
+    {
+      "slug": "binghatti-aquarise",
+      "name": "Binghatti Aquarise",
+      "developer": {
+        "name": "Binghatti Developers",
+        "website": "https://www.binghatti.com/",
+        "project_url": "https://www.binghatti.com/en/project-details/4-bedroom-binghatti-aquarise/10068"
+      },
+      "status": {
+        "launch_status": "Launched",
+        "construction_status": "Off-plan",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "Binghatti Aquarise by Binghatti Developers",
+        "meta_description": "Verified project overview and key facts for Binghatti Aquarise by Binghatti Developers.",
+        "og_title": "Binghatti Aquarise | Binghatti Developers",
+        "og_description": "A high-rise apartment project in Business Bay with a water-inspired architectural concept."
+      },
+      "hero": {
+        "eyebrow": "Binghatti Developers",
+        "headline": "Binghatti Aquarise",
+        "short_description": "A high-rise apartment project in Business Bay with a water-inspired architectural concept.",
+        "starting_price": {
+          "display": "From AED 1,337,999",
+          "amount": 1337999,
+          "currency": "AED",
+          "qualifier": "Starting price; subject to availability and change",
+          "verified": true
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "Business Bay",
+        "city": "Dubai",
+        "emirate": "Dubai",
+        "country": "United Arab Emirates",
+        "full_label": "Business Bay, Dubai, Dubai",
+        "latitude": null,
+        "longitude": null,
+        "description": "Binghatti Aquarise is located in Business Bay, Dubai.",
+        "nearby_destinations": []
+      },
+      "property_details": {
+        "property_types": [
+          "Apartments"
+        ],
+        "bedrooms": [
+          "Studio",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "ownership": "",
+        "handover": {
+          "display": "",
+          "date": null,
+          "verified": false
+        },
+        "built_up_area": {
+          "minimum": 471,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": "From 471 sq.ft"
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": null,
+        "tower_count": 1,
+        "building_height": "25 residential floors",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "",
+          "booking_percentage": null,
+          "during_construction_percentage": null,
+          "handover_percentage": null,
+          "post_handover_percentage": null,
+          "verified": false
+        },
+        "service_charge": {
+          "display": "",
+          "amount": null,
+          "unit": "",
+          "verified": false
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About Binghatti Aquarise",
+        "paragraphs": [
+          "A high-rise apartment project in Business Bay with a water-inspired architectural concept."
+        ],
+        "stats": [
+          {
+            "value": "1",
+            "label": "Tower",
+            "icon": "building-2"
+          }
+        ]
+      },
+      "highlights": [
+        {
+          "value": "Studio, 1, 2, 3, 4",
+          "label": "Bedrooms",
+          "icon": "bed-double"
+        }
+      ],
+      "amenities": [],
+      "gallery": {
+        "official_media_page": "https://www.binghatti.com/en/project-details/4-bedroom-binghatti-aquarise/10068",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "From AED 1,337,999",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Residence",
+        "description": "A high-rise apartment project in Business Bay with a water-inspired architectural concept.",
+        "offer_price": 1337999,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "Binghatti Aquarise | Binghatti",
+          "url": "https://www.binghatti.com/en/project-details/4-bedroom-binghatti-aquarise/10068",
+          "source_type": "official project page",
+          "publisher": "Binghatti Developers",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        },
+        {
+          "title": "Aquarise Project Facts",
+          "url": "https://www2.binghatti.com/wp-content/uploads/2025/05/Aquarise-Project-Facts.pdf",
+          "source_type": "official factsheet",
+          "publisher": "Binghatti Developers",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "status",
+            "scale",
+            "construction or launch facts"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "partially_verified",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview",
+          "property_details.property_types",
+          "property_details.bedrooms",
+          "hero.starting_price"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge",
+          "property_details.handover",
+          "commercial.payment_plan"
+        ],
+        "conflicts": [],
+        "notes": [
+          "Price was current on the accessed official source and is subject to change.",
+          "External media was not downloaded; gallery references remain empty unless direct official image URLs can be rights-reviewed."
+        ]
+      }
+    },
+    {
+      "slug": "sparklz-by-danube",
+      "name": "Sparklz by Danube",
+      "developer": {
+        "name": "Danube Properties",
+        "website": "https://danubeproperties.com/",
+        "project_url": "https://danubeproperties.com/wp-content/uploads/2025/04/Sparklz_brochure_EN_compressed-1.pdf"
+      },
+      "status": {
+        "launch_status": "Launched",
+        "construction_status": "Off-plan",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "Sparklz by Danube by Danube Properties",
+        "meta_description": "Verified project overview and key facts for Sparklz by Danube by Danube Properties.",
+        "og_title": "Sparklz by Danube | Danube Properties",
+        "og_description": "A residential project in Al Furjan built around a broad leisure and wellness amenity programme."
+      },
+      "hero": {
+        "eyebrow": "Danube Properties",
+        "headline": "Sparklz by Danube",
+        "short_description": "A residential project in Al Furjan built around a broad leisure and wellness amenity programme.",
+        "starting_price": {
+          "display": "",
+          "amount": null,
+          "currency": "AED",
+          "qualifier": "",
+          "verified": false
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "Al Furjan",
+        "city": "Dubai",
+        "emirate": "Dubai",
+        "country": "United Arab Emirates",
+        "full_label": "Al Furjan, Dubai, Dubai",
+        "latitude": null,
+        "longitude": null,
+        "description": "Sparklz by Danube is located in Al Furjan, Dubai.",
+        "nearby_destinations": []
+      },
+      "property_details": {
+        "property_types": [
+          "Apartments"
+        ],
+        "bedrooms": [],
+        "ownership": "",
+        "handover": {
+          "display": "",
+          "date": null,
+          "verified": false
+        },
+        "built_up_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": null,
+        "tower_count": 1,
+        "building_height": "",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "",
+          "booking_percentage": null,
+          "during_construction_percentage": null,
+          "handover_percentage": null,
+          "post_handover_percentage": null,
+          "verified": false
+        },
+        "service_charge": {
+          "display": "",
+          "amount": null,
+          "unit": "",
+          "verified": false
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About Sparklz by Danube",
+        "paragraphs": [
+          "A residential project in Al Furjan built around a broad leisure and wellness amenity programme."
+        ],
+        "stats": [
+          {
+            "value": "1",
+            "label": "Tower",
+            "icon": "building-2"
+          }
+        ]
+      },
+      "highlights": [],
+      "amenities": [
+        {
+          "name": "Infinity pool",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Business centre",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Spa",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Gym",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Sports courts",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Children’s play area",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        }
+      ],
+      "gallery": {
+        "official_media_page": "https://danubeproperties.com/wp-content/uploads/2025/04/Sparklz_brochure_EN_compressed-1.pdf",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Residence",
+        "description": "A residential project in Al Furjan built around a broad leisure and wellness amenity programme.",
+        "offer_price": null,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "Sparklz brochure | Danube Properties",
+          "url": "https://danubeproperties.com/wp-content/uploads/2025/04/Sparklz_brochure_EN_compressed-1.pdf",
+          "source_type": "official brochure",
+          "publisher": "Danube Properties",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "partially_verified",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview",
+          "property_details.property_types"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge",
+          "hero.starting_price",
+          "property_details.handover",
+          "commercial.payment_plan"
+        ],
+        "conflicts": [],
+        "notes": [
+          "No current official starting price was recorded.",
+          "External media was not downloaded; gallery references remain empty unless direct official image URLs can be rights-reviewed."
+        ]
+      }
+    },
+    {
+      "slug": "azizi-milan",
+      "name": "Azizi Milan",
+      "developer": {
+        "name": "Azizi Developments",
+        "website": "https://www.azizidevelopments.com/",
+        "project_url": "https://www.azizidevelopments.com/"
+      },
+      "status": {
+        "launch_status": "Launched",
+        "construction_status": "Off-plan",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "Azizi Milan by Azizi Developments",
+        "meta_description": "Verified project overview and key facts for Azizi Milan by Azizi Developments.",
+        "og_title": "Azizi Milan | Azizi Developments",
+        "og_description": "A large mixed-use residential development announced by Azizi Developments in City of Arabia."
+      },
+      "hero": {
+        "eyebrow": "Azizi Developments",
+        "headline": "Azizi Milan",
+        "short_description": "A large mixed-use residential development announced by Azizi Developments in City of Arabia.",
+        "starting_price": {
+          "display": "",
+          "amount": null,
+          "currency": "AED",
+          "qualifier": "",
+          "verified": false
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "City of Arabia",
+        "city": "Dubai",
+        "emirate": "Dubai",
+        "country": "United Arab Emirates",
+        "full_label": "City of Arabia, Dubai, Dubai",
+        "latitude": null,
+        "longitude": null,
+        "description": "Azizi Milan is located in City of Arabia, Dubai.",
+        "nearby_destinations": []
+      },
+      "property_details": {
+        "property_types": [
+          "Apartments"
+        ],
+        "bedrooms": [],
+        "ownership": "",
+        "handover": {
+          "display": "",
+          "date": null,
+          "verified": false
+        },
+        "built_up_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": null,
+        "tower_count": null,
+        "building_height": "",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "",
+          "booking_percentage": null,
+          "during_construction_percentage": null,
+          "handover_percentage": null,
+          "post_handover_percentage": null,
+          "verified": false
+        },
+        "service_charge": {
+          "display": "",
+          "amount": null,
+          "unit": "",
+          "verified": false
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About Azizi Milan",
+        "paragraphs": [
+          "A large mixed-use residential development announced by Azizi Developments in City of Arabia."
+        ],
+        "stats": []
+      },
+      "highlights": [],
+      "amenities": [],
+      "gallery": {
+        "official_media_page": "https://www.azizidevelopments.com/",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Residence",
+        "description": "A large mixed-use residential development announced by Azizi Developments in City of Arabia.",
+        "offer_price": null,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "Azizi Developments official website",
+          "url": "https://www.azizidevelopments.com/",
+          "source_type": "official developer website",
+          "publisher": "Azizi Developments",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "major_gaps",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview",
+          "property_details.property_types"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge",
+          "hero.starting_price",
+          "property_details.handover",
+          "commercial.payment_plan"
+        ],
+        "conflicts": [],
+        "notes": [
+          "No current official starting price was recorded.",
+          "Accessible official information was insufficient for a fuller record."
+        ]
+      }
+    },
+    {
+      "slug": "keturah-ardh",
+      "name": "Keturah Ardh",
+      "developer": {
+        "name": "MAG Group Holding",
+        "website": "https://mag.ae/",
+        "project_url": "https://mag.ae/"
+      },
+      "status": {
+        "launch_status": "Announced",
+        "construction_status": "Unverified",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "Keturah Ardh by MAG Group Holding",
+        "meta_description": "Verified project overview and key facts for Keturah Ardh by MAG Group Holding.",
+        "og_title": "Keturah Ardh | MAG Group Holding",
+        "og_description": "Keturah Ardh has been associated with MAG Group, but detailed project facts were not verifiable on an accessible official project page during this research pass."
+      },
+      "hero": {
+        "eyebrow": "MAG Group Holding",
+        "headline": "Keturah Ardh",
+        "short_description": "Keturah Ardh has been associated with MAG Group, but detailed project facts were not verifiable on an accessible official project page during this research pass.",
+        "starting_price": {
+          "display": "",
+          "amount": null,
+          "currency": "AED",
+          "qualifier": "",
+          "verified": false
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "",
+        "city": "Dubai",
+        "emirate": "Dubai",
+        "country": "United Arab Emirates",
+        "full_label": "Dubai, Dubai",
+        "latitude": null,
+        "longitude": null,
+        "description": "",
+        "nearby_destinations": []
+      },
+      "property_details": {
+        "property_types": [],
+        "bedrooms": [],
+        "ownership": "",
+        "handover": {
+          "display": "",
+          "date": null,
+          "verified": false
+        },
+        "built_up_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": null,
+        "tower_count": null,
+        "building_height": "",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "",
+          "booking_percentage": null,
+          "during_construction_percentage": null,
+          "handover_percentage": null,
+          "post_handover_percentage": null,
+          "verified": false
+        },
+        "service_charge": {
+          "display": "",
+          "amount": null,
+          "unit": "",
+          "verified": false
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About Keturah Ardh",
+        "paragraphs": [
+          "Keturah Ardh has been associated with MAG Group, but detailed project facts were not verifiable on an accessible official project page during this research pass."
+        ],
+        "stats": []
+      },
+      "highlights": [],
+      "amenities": [],
+      "gallery": {
+        "official_media_page": "https://mag.ae/",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Residence",
+        "description": "Keturah Ardh has been associated with MAG Group, but detailed project facts were not verifiable on an accessible official project page during this research pass.",
+        "offer_price": null,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "MAG Group official website",
+          "url": "https://mag.ae/",
+          "source_type": "official developer website",
+          "publisher": "MAG Group Holding",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "major_gaps",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge",
+          "hero.starting_price",
+          "property_details.handover",
+          "commercial.payment_plan"
+        ],
+        "conflicts": [],
+        "notes": [
+          "No current official starting price was recorded.",
+          "Accessible official information was insufficient for a fuller record."
+        ]
+      }
+    },
+    {
+      "slug": "everly-place",
+      "name": "Everly Place",
+      "developer": {
+        "name": "Ellington Properties",
+        "website": "https://ellingtonproperties.ae/",
+        "project_url": "https://ellingtonproperties.ae/en/property-for-sale/everly-place-mohammed-bin-rashid-city"
+      },
+      "status": {
+        "launch_status": "Launched",
+        "construction_status": "Off-plan",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "Everly Place by Ellington Properties",
+        "meta_description": "Verified project overview and key facts for Everly Place by Ellington Properties.",
+        "og_title": "Everly Place | Ellington Properties",
+        "og_description": "A lagoon-side residential tower in Meydan Horizon offering apartments and residences with studies, plus wellness and social amenities."
+      },
+      "hero": {
+        "eyebrow": "Ellington Properties",
+        "headline": "Everly Place",
+        "short_description": "A lagoon-side residential tower in Meydan Horizon offering apartments and residences with studies, plus wellness and social amenities.",
+        "starting_price": {
+          "display": "From AED 1.8M",
+          "amount": 1800000,
+          "currency": "AED",
+          "qualifier": "Starting price; subject to availability and change",
+          "verified": true
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "Meydan Horizon, Mohammed Bin Rashid City",
+        "city": "Dubai",
+        "emirate": "Dubai",
+        "country": "United Arab Emirates",
+        "full_label": "Meydan Horizon, Mohammed Bin Rashid City, Dubai, Dubai",
+        "latitude": null,
+        "longitude": null,
+        "description": "Everly Place is located in Meydan Horizon, Mohammed Bin Rashid City, Dubai.",
+        "nearby_destinations": [
+          {
+            "name": "Ras Al Khor Wildlife Sanctuary",
+            "travel_time": "10 minutes",
+            "travel_mode": "car",
+            "verified": true
+          },
+          {
+            "name": "Business Bay",
+            "travel_time": "15 minutes",
+            "travel_mode": "car",
+            "verified": true
+          },
+          {
+            "name": "Dubai International Airport",
+            "travel_time": "15 minutes",
+            "travel_mode": "car",
+            "verified": true
+          },
+          {
+            "name": "Burj Khalifa / Dubai Mall",
+            "travel_time": "16 minutes",
+            "travel_mode": "car",
+            "verified": true
+          }
+        ]
+      },
+      "property_details": {
+        "property_types": [
+          "Apartments"
+        ],
+        "bedrooms": [
+          "1",
+          "2",
+          "3"
+        ],
+        "ownership": "",
+        "handover": {
+          "display": "",
+          "date": null,
+          "verified": false
+        },
+        "built_up_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": 209,
+        "tower_count": 1,
+        "building_height": "",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "20% booking, 50% during construction, 30% on handover",
+          "booking_percentage": 20,
+          "during_construction_percentage": 50,
+          "handover_percentage": 30,
+          "post_handover_percentage": 0,
+          "verified": true
+        },
+        "service_charge": {
+          "display": "",
+          "amount": null,
+          "unit": "",
+          "verified": false
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About Everly Place",
+        "paragraphs": [
+          "A lagoon-side residential tower in Meydan Horizon offering apartments and residences with studies, plus wellness and social amenities."
+        ],
+        "stats": [
+          {
+            "value": "209",
+            "label": "Units",
+            "icon": "building"
+          },
+          {
+            "value": "1",
+            "label": "Tower",
+            "icon": "building-2"
+          }
+        ]
+      },
+      "highlights": [
+        {
+          "value": "1, 2, 3",
+          "label": "Bedrooms",
+          "icon": "bed-double"
+        }
+      ],
+      "amenities": [
+        {
+          "name": "Infinity pool",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Club lounge",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Bowling alley",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Fitness studio",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Yoga studio",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Sauna",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Children’s play areas",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        }
+      ],
+      "gallery": {
+        "official_media_page": "https://ellingtonproperties.ae/en/property-for-sale/everly-place-mohammed-bin-rashid-city",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "From AED 1.8M",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Residence",
+        "description": "A lagoon-side residential tower in Meydan Horizon offering apartments and residences with studies, plus wellness and social amenities.",
+        "offer_price": 1800000,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "Everly Place | Ellington Properties",
+          "url": "https://ellingtonproperties.ae/en/property-for-sale/everly-place-mohammed-bin-rashid-city",
+          "source_type": "official project page",
+          "publisher": "Ellington Properties",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "verified",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview",
+          "property_details.property_types",
+          "property_details.bedrooms",
+          "property_details.total_units",
+          "hero.starting_price"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge",
+          "property_details.handover"
+        ],
+        "conflicts": [],
+        "notes": [
+          "Price was current on the accessed official source and is subject to change.",
+          "External media was not downloaded; gallery references remain empty unless direct official image URLs can be rights-reviewed."
+        ]
+      }
+    },
+    {
+      "slug": "samana-ocean-views",
+      "name": "Samana Ocean Views",
+      "developer": {
+        "name": "Samana Developers",
+        "website": "https://www.samanadevelopers.com/",
+        "project_url": "https://www.samanadevelopers.com/projects/samana-ocean-views?lang=en"
+      },
+      "status": {
+        "launch_status": "Launched",
+        "construction_status": "Unverified",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "Samana Ocean Views by Samana Developers",
+        "meta_description": "Verified project overview and key facts for Samana Ocean Views by Samana Developers.",
+        "og_title": "Samana Ocean Views | Samana Developers",
+        "og_description": "An island resort residence on Haa Alif Medhafushi in the Maldives, with interiors by ELIE SAAB Maison. The required UAE-only country field conflicts with the official location."
+      },
+      "hero": {
+        "eyebrow": "Samana Developers",
+        "headline": "Samana Ocean Views",
+        "short_description": "An island resort residence on Haa Alif Medhafushi in the Maldives, with interiors by ELIE SAAB Maison. The required UAE-only country field conflicts with the official location.",
+        "starting_price": {
+          "display": "",
+          "amount": null,
+          "currency": "AED",
+          "qualifier": "",
+          "verified": false
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "Haa Alif Medhafushi",
+        "city": "",
+        "emirate": "",
+        "country": "United Arab Emirates",
+        "full_label": "Haa Alif Medhafushi",
+        "latitude": null,
+        "longitude": null,
+        "description": "Samana Ocean Views is located in Haa Alif Medhafushi.",
+        "nearby_destinations": []
+      },
+      "property_details": {
+        "property_types": [
+          "Beach villas",
+          "Water villas",
+          "Suites"
+        ],
+        "bedrooms": [
+          "1",
+          "2",
+          "3"
+        ],
+        "ownership": "",
+        "handover": {
+          "display": "",
+          "date": null,
+          "verified": false
+        },
+        "built_up_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": null,
+        "tower_count": null,
+        "building_height": "",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "",
+          "booking_percentage": null,
+          "during_construction_percentage": null,
+          "handover_percentage": null,
+          "post_handover_percentage": null,
+          "verified": false
+        },
+        "service_charge": {
+          "display": "",
+          "amount": null,
+          "unit": "",
+          "verified": false
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About Samana Ocean Views",
+        "paragraphs": [
+          "An island resort residence on Haa Alif Medhafushi in the Maldives, with interiors by ELIE SAAB Maison. The required UAE-only country field conflicts with the official location."
+        ],
+        "stats": []
+      },
+      "highlights": [
+        {
+          "value": "1, 2, 3",
+          "label": "Bedrooms",
+          "icon": "bed-double"
+        }
+      ],
+      "amenities": [],
+      "gallery": {
+        "official_media_page": "https://www.samanadevelopers.com/projects/samana-ocean-views?lang=en",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Residence",
+        "description": "An island resort residence on Haa Alif Medhafushi in the Maldives, with interiors by ELIE SAAB Maison. The required UAE-only country field conflicts with the official location.",
+        "offer_price": null,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "SAMANA Ocean Views | Samana Developers",
+          "url": "https://www.samanadevelopers.com/projects/samana-ocean-views?lang=en",
+          "source_type": "official project page",
+          "publisher": "Samana Developers",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "major_gaps",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview",
+          "property_details.property_types",
+          "property_details.bedrooms"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge",
+          "hero.starting_price",
+          "property_details.handover",
+          "commercial.payment_plan"
+        ],
+        "conflicts": [
+          "Official source places the project in the Maldives, while the mandated schema fixes country as United Arab Emirates."
+        ],
+        "notes": [
+          "No current official starting price was recorded.",
+          "Accessible official information was insufficient for a fuller record."
+        ]
+      }
+    },
+    {
+      "slug": "downtown-residences",
+      "name": "Downtown Residences",
+      "developer": {
+        "name": "Deyaar Development",
+        "website": "https://www.deyaar.ae/",
+        "project_url": "https://www.deyaar.ae/en/media_center/deyaar-unveils-downtown-residences-in-dubai-one-of-the-worlds-tallest-vertical-residential-communities/"
+      },
+      "status": {
+        "launch_status": "Launched",
+        "construction_status": "Off-plan",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "Downtown Residences by Deyaar Development",
+        "meta_description": "Verified project overview and key facts for Downtown Residences by Deyaar Development.",
+        "og_title": "Downtown Residences | Deyaar Development",
+        "og_description": "Deyaar’s twin-tower vertical residential community near Business Bay Metro, organized into multiple amenity zones."
+      },
+      "hero": {
+        "eyebrow": "Deyaar Development",
+        "headline": "Downtown Residences",
+        "short_description": "Deyaar’s twin-tower vertical residential community near Business Bay Metro, organized into multiple amenity zones.",
+        "starting_price": {
+          "display": "",
+          "amount": null,
+          "currency": "AED",
+          "qualifier": "",
+          "verified": false
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "Business Bay / Downtown Dubai gateway",
+        "city": "Dubai",
+        "emirate": "Dubai",
+        "country": "United Arab Emirates",
+        "full_label": "Business Bay / Downtown Dubai gateway, Dubai, Dubai",
+        "latitude": null,
+        "longitude": null,
+        "description": "Downtown Residences is located in Business Bay / Downtown Dubai gateway, Dubai.",
+        "nearby_destinations": []
+      },
+      "property_details": {
+        "property_types": [
+          "Apartments",
+          "Duplexes",
+          "Penthouses",
+          "Royal Palace"
+        ],
+        "bedrooms": [
+          "1",
+          "2",
+          "3"
+        ],
+        "ownership": "",
+        "handover": {
+          "display": "Q4 2030",
+          "date": "2030-10-01",
+          "verified": true
+        },
+        "built_up_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": 522,
+        "tower_count": 2,
+        "building_height": "445 metres; more than 110 floors",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "",
+          "booking_percentage": null,
+          "during_construction_percentage": null,
+          "handover_percentage": null,
+          "post_handover_percentage": null,
+          "verified": false
+        },
+        "service_charge": {
+          "display": "",
+          "amount": null,
+          "unit": "",
+          "verified": false
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About Downtown Residences",
+        "paragraphs": [
+          "Deyaar’s twin-tower vertical residential community near Business Bay Metro, organized into multiple amenity zones."
+        ],
+        "stats": [
+          {
+            "value": "522",
+            "label": "Units",
+            "icon": "building"
+          },
+          {
+            "value": "2",
+            "label": "Towers",
+            "icon": "building-2"
+          }
+        ]
+      },
+      "highlights": [
+        {
+          "value": "Q4 2030",
+          "label": "Handover",
+          "icon": "calendar"
+        },
+        {
+          "value": "1, 2, 3",
+          "label": "Bedrooms",
+          "icon": "bed-double"
+        }
+      ],
+      "amenities": [
+        {
+          "name": "Co-working spaces",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Yoga and meditation facilities",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Spa",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Fitness spaces",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Residents club",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Screening room",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        }
+      ],
+      "gallery": {
+        "official_media_page": "https://www.deyaar.ae/en/media_center/deyaar-unveils-downtown-residences-in-dubai-one-of-the-worlds-tallest-vertical-residential-communities/",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Residence",
+        "description": "Deyaar’s twin-tower vertical residential community near Business Bay Metro, organized into multiple amenity zones.",
+        "offer_price": null,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "Deyaar unveils Downtown Residences",
+          "url": "https://www.deyaar.ae/en/media_center/deyaar-unveils-downtown-residences-in-dubai-one-of-the-worlds-tallest-vertical-residential-communities/",
+          "source_type": "official press release",
+          "publisher": "Deyaar Development",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "verified",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview",
+          "property_details.property_types",
+          "property_details.bedrooms",
+          "property_details.total_units",
+          "property_details.handover"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge",
+          "hero.starting_price",
+          "commercial.payment_plan"
+        ],
+        "conflicts": [],
+        "notes": [
+          "No current official starting price was recorded.",
+          "External media was not downloaded; gallery references remain empty unless direct official image URLs can be rights-reviewed."
+        ]
+      }
+    },
+    {
+      "slug": "lumena",
+      "name": "Lumena",
+      "developer": {
+        "name": "Omniyat",
+        "website": "https://www.omniyat.com/",
+        "project_url": "https://lumena.omniyat.com/"
+      },
+      "status": {
+        "launch_status": "Sold out",
+        "construction_status": "Off-plan",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "Lumena by Omniyat",
+        "meta_description": "Verified project overview and key facts for Lumena by Omniyat.",
+        "og_title": "Lumena | Omniyat",
+        "og_description": "A 260-metre commercial tower at the gateway to Business Bay, offering office space, retail and executive wellness and business amenities."
+      },
+      "hero": {
+        "eyebrow": "Omniyat",
+        "headline": "Lumena",
+        "short_description": "A 260-metre commercial tower at the gateway to Business Bay, offering office space, retail and executive wellness and business amenities.",
+        "starting_price": {
+          "display": "From AED 19,000,000",
+          "amount": 19000000,
+          "currency": "AED",
+          "qualifier": "Starting price; subject to availability and change",
+          "verified": true
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "Business Bay",
+        "city": "Dubai",
+        "emirate": "Dubai",
+        "country": "United Arab Emirates",
+        "full_label": "Business Bay, Dubai, Dubai",
+        "latitude": null,
+        "longitude": null,
+        "description": "Lumena is located in Business Bay, Dubai.",
+        "nearby_destinations": []
+      },
+      "property_details": {
+        "property_types": [
+          "Offices",
+          "Retail"
+        ],
+        "bedrooms": [],
+        "ownership": "",
+        "handover": {
+          "display": "2029",
+          "date": null,
+          "verified": true
+        },
+        "built_up_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": 99,
+        "tower_count": 1,
+        "building_height": "260 metres",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "5% booking, 45% during construction, 50% on handover",
+          "booking_percentage": 5,
+          "during_construction_percentage": 45,
+          "handover_percentage": 50,
+          "post_handover_percentage": 0,
+          "verified": true
+        },
+        "service_charge": {
+          "display": "",
+          "amount": null,
+          "unit": "",
+          "verified": false
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About Lumena",
+        "paragraphs": [
+          "A 260-metre commercial tower at the gateway to Business Bay, offering office space, retail and executive wellness and business amenities."
+        ],
+        "stats": [
+          {
+            "value": "99",
+            "label": "Units",
+            "icon": "building"
+          },
+          {
+            "value": "1",
+            "label": "Tower",
+            "icon": "building-2"
+          }
+        ]
+      },
+      "highlights": [
+        {
+          "value": "2029",
+          "label": "Handover",
+          "icon": "calendar"
+        }
+      ],
+      "amenities": [
+        {
+          "name": "Executive Wellness Suite",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Sky pool",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Executive Business Club",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Sky theatre",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Sky gardens",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        }
+      ],
+      "gallery": {
+        "official_media_page": "https://lumena.omniyat.com/",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "From AED 19,000,000",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Place",
+        "description": "A 260-metre commercial tower at the gateway to Business Bay, offering office space, retail and executive wellness and business amenities.",
+        "offer_price": 19000000,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "LUMENA by OMNIYAT",
+          "url": "https://lumena.omniyat.com/",
+          "source_type": "official project page",
+          "publisher": "Omniyat",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "verified",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview",
+          "property_details.property_types",
+          "property_details.total_units",
+          "hero.starting_price",
+          "property_details.handover"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge"
+        ],
+        "conflicts": [],
+        "notes": [
+          "Price was current on the accessed official source and is subject to change.",
+          "External media was not downloaded; gallery references remain empty unless direct official image URLs can be rights-reviewed."
+        ]
+      }
+    },
+    {
+      "slug": "one-park-central",
+      "name": "One Park Central",
+      "developer": {
+        "name": "Iman Developers",
+        "website": "https://www.imandevelopers.com/",
+        "project_url": "https://www.imandevelopers.com/iman-properties/one-park-central"
+      },
+      "status": {
+        "launch_status": "Launched",
+        "construction_status": "Under construction",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "One Park Central by Iman Developers",
+        "meta_description": "Verified project overview and key facts for One Park Central by Iman Developers.",
+        "og_title": "One Park Central | Iman Developers",
+        "og_description": "A mixed-use high-rise facing Central Park in JVC with residential, commercial and retail space and more than 60 amenities."
+      },
+      "hero": {
+        "eyebrow": "Iman Developers",
+        "headline": "One Park Central",
+        "short_description": "A mixed-use high-rise facing Central Park in JVC with residential, commercial and retail space and more than 60 amenities.",
+        "starting_price": {
+          "display": "From AED 650,000",
+          "amount": 650000,
+          "currency": "AED",
+          "qualifier": "Starting price; subject to availability and change",
+          "verified": true
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "Jumeirah Village Circle",
+        "city": "Dubai",
+        "emirate": "Dubai",
+        "country": "United Arab Emirates",
+        "full_label": "Jumeirah Village Circle, Dubai, Dubai",
+        "latitude": null,
+        "longitude": null,
+        "description": "One Park Central is located in Jumeirah Village Circle, Dubai.",
+        "nearby_destinations": []
+      },
+      "property_details": {
+        "property_types": [
+          "Apartments",
+          "Duplexes",
+          "Penthouses"
+        ],
+        "bedrooms": [
+          "Studio",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "ownership": "",
+        "handover": {
+          "display": "Q2 2027",
+          "date": "2027-04-01",
+          "verified": true
+        },
+        "built_up_area": {
+          "minimum": 356,
+          "maximum": 3845,
+          "unit": "sq.ft",
+          "display": "356-3845 sq.ft"
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": 482,
+        "tower_count": 1,
+        "building_height": "23 residential floors",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "",
+          "booking_percentage": null,
+          "during_construction_percentage": null,
+          "handover_percentage": null,
+          "post_handover_percentage": null,
+          "verified": false
+        },
+        "service_charge": {
+          "display": "",
+          "amount": null,
+          "unit": "",
+          "verified": false
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About One Park Central",
+        "paragraphs": [
+          "A mixed-use high-rise facing Central Park in JVC with residential, commercial and retail space and more than 60 amenities."
+        ],
+        "stats": [
+          {
+            "value": "482",
+            "label": "Units",
+            "icon": "building"
+          },
+          {
+            "value": "1",
+            "label": "Tower",
+            "icon": "building-2"
+          }
+        ]
+      },
+      "highlights": [
+        {
+          "value": "Q2 2027",
+          "label": "Handover",
+          "icon": "calendar"
+        },
+        {
+          "value": "Studio, 1, 2, 3, 4",
+          "label": "Bedrooms",
+          "icon": "bed-double"
+        }
+      ],
+      "amenities": [
+        {
+          "name": "35-metre infinity pool",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Fitness facilities",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Yoga and meditation area",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Basketball court",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Padel court",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Children’s pool",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        }
+      ],
+      "gallery": {
+        "official_media_page": "https://www.imandevelopers.com/iman-properties/one-park-central",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "From AED 650,000",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Residence",
+        "description": "A mixed-use high-rise facing Central Park in JVC with residential, commercial and retail space and more than 60 amenities.",
+        "offer_price": 650000,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "One Park Central | Iman Developers",
+          "url": "https://www.imandevelopers.com/iman-properties/one-park-central",
+          "source_type": "official project page",
+          "publisher": "Iman Developers",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        },
+        {
+          "title": "One Park Central groundbreaking",
+          "url": "https://www.imandevelopers.com/media-centers/groundbreaking-ceremony-of-one-park-central-launch",
+          "source_type": "official press release",
+          "publisher": "Iman Developers",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "status",
+            "scale",
+            "construction or launch facts"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "verified",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview",
+          "property_details.property_types",
+          "property_details.bedrooms",
+          "property_details.total_units",
+          "hero.starting_price",
+          "property_details.handover"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge",
+          "commercial.payment_plan"
+        ],
+        "conflicts": [],
+        "notes": [
+          "Price was current on the accessed official source and is subject to change.",
+          "External media was not downloaded; gallery references remain empty unless direct official image URLs can be rights-reviewed."
+        ]
+      }
+    },
+    {
+      "slug": "verdana-empire",
+      "name": "Verdana Empire",
+      "developer": {
+        "name": "Reportage Properties",
+        "website": "https://reportageuae.com/",
+        "project_url": "https://reportageuae.com/"
+      },
+      "status": {
+        "launch_status": "Launched",
+        "construction_status": "Off-plan",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "Verdana Empire by Reportage Properties",
+        "meta_description": "Verified project overview and key facts for Verdana Empire by Reportage Properties.",
+        "og_title": "Verdana Empire | Reportage Properties",
+        "og_description": "A townhouse project marketed by Reportage Properties in Dubai Investments Park; detailed current official facts were not accessible during this pass."
+      },
+      "hero": {
+        "eyebrow": "Reportage Properties",
+        "headline": "Verdana Empire",
+        "short_description": "A townhouse project marketed by Reportage Properties in Dubai Investments Park; detailed current official facts were not accessible during this pass.",
+        "starting_price": {
+          "display": "",
+          "amount": null,
+          "currency": "AED",
+          "qualifier": "",
+          "verified": false
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "Dubai Investments Park",
+        "city": "Dubai",
+        "emirate": "Dubai",
+        "country": "United Arab Emirates",
+        "full_label": "Dubai Investments Park, Dubai, Dubai",
+        "latitude": null,
+        "longitude": null,
+        "description": "Verdana Empire is located in Dubai Investments Park, Dubai.",
+        "nearby_destinations": []
+      },
+      "property_details": {
+        "property_types": [
+          "Townhouses"
+        ],
+        "bedrooms": [],
+        "ownership": "",
+        "handover": {
+          "display": "",
+          "date": null,
+          "verified": false
+        },
+        "built_up_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": null,
+        "tower_count": null,
+        "building_height": "",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "",
+          "booking_percentage": null,
+          "during_construction_percentage": null,
+          "handover_percentage": null,
+          "post_handover_percentage": null,
+          "verified": false
+        },
+        "service_charge": {
+          "display": "",
+          "amount": null,
+          "unit": "",
+          "verified": false
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About Verdana Empire",
+        "paragraphs": [
+          "A townhouse project marketed by Reportage Properties in Dubai Investments Park; detailed current official facts were not accessible during this pass."
+        ],
+        "stats": []
+      },
+      "highlights": [],
+      "amenities": [],
+      "gallery": {
+        "official_media_page": "https://reportageuae.com/",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Residence",
+        "description": "A townhouse project marketed by Reportage Properties in Dubai Investments Park; detailed current official facts were not accessible during this pass.",
+        "offer_price": null,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "Reportage Properties official website",
+          "url": "https://reportageuae.com/",
+          "source_type": "official developer website",
+          "publisher": "Reportage Properties",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "major_gaps",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview",
+          "property_details.property_types"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge",
+          "hero.starting_price",
+          "property_details.handover",
+          "commercial.payment_plan"
+        ],
+        "conflicts": [],
+        "notes": [
+          "No current official starting price was recorded.",
+          "Accessible official information was insufficient for a fuller record."
+        ]
+      }
+    },
+    {
+      "slug": "tiger-sky-tower",
+      "name": "Tiger Sky Tower",
+      "developer": {
+        "name": "Tiger Properties",
+        "website": "https://tigerproperties.ae/",
+        "project_url": "https://tigerproperties.ae/"
+      },
+      "status": {
+        "launch_status": "Launched",
+        "construction_status": "Off-plan",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "Tiger Sky Tower by Tiger Properties",
+        "meta_description": "Verified project overview and key facts for Tiger Sky Tower by Tiger Properties.",
+        "og_title": "Tiger Sky Tower | Tiger Properties",
+        "og_description": "A high-rise residential project by Tiger Properties in Business Bay; current commercial and delivery facts were not verified from an accessible official project page."
+      },
+      "hero": {
+        "eyebrow": "Tiger Properties",
+        "headline": "Tiger Sky Tower",
+        "short_description": "A high-rise residential project by Tiger Properties in Business Bay; current commercial and delivery facts were not verified from an accessible official project page.",
+        "starting_price": {
+          "display": "",
+          "amount": null,
+          "currency": "AED",
+          "qualifier": "",
+          "verified": false
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "Business Bay",
+        "city": "Dubai",
+        "emirate": "Dubai",
+        "country": "United Arab Emirates",
+        "full_label": "Business Bay, Dubai, Dubai",
+        "latitude": null,
+        "longitude": null,
+        "description": "Tiger Sky Tower is located in Business Bay, Dubai.",
+        "nearby_destinations": []
+      },
+      "property_details": {
+        "property_types": [
+          "Apartments",
+          "Penthouses"
+        ],
+        "bedrooms": [],
+        "ownership": "",
+        "handover": {
+          "display": "",
+          "date": null,
+          "verified": false
+        },
+        "built_up_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": null,
+        "tower_count": 1,
+        "building_height": "",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "",
+          "booking_percentage": null,
+          "during_construction_percentage": null,
+          "handover_percentage": null,
+          "post_handover_percentage": null,
+          "verified": false
+        },
+        "service_charge": {
+          "display": "",
+          "amount": null,
+          "unit": "",
+          "verified": false
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About Tiger Sky Tower",
+        "paragraphs": [
+          "A high-rise residential project by Tiger Properties in Business Bay; current commercial and delivery facts were not verified from an accessible official project page."
+        ],
+        "stats": [
+          {
+            "value": "1",
+            "label": "Tower",
+            "icon": "building-2"
+          }
+        ]
+      },
+      "highlights": [],
+      "amenities": [],
+      "gallery": {
+        "official_media_page": "https://tigerproperties.ae/",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Residence",
+        "description": "A high-rise residential project by Tiger Properties in Business Bay; current commercial and delivery facts were not verified from an accessible official project page.",
+        "offer_price": null,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "Tiger Properties official website",
+          "url": "https://tigerproperties.ae/",
+          "source_type": "official developer website",
+          "publisher": "Tiger Properties",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "major_gaps",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview",
+          "property_details.property_types"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge",
+          "hero.starting_price",
+          "property_details.handover",
+          "commercial.payment_plan"
+        ],
+        "conflicts": [],
+        "notes": [
+          "No current official starting price was recorded.",
+          "Accessible official information was insufficient for a fuller record."
+        ]
+      }
+    },
+    {
+      "slug": "pantheon-elysee-heights",
+      "name": "Pantheon Elysee Heights",
+      "developer": {
+        "name": "Pantheon Development",
+        "website": "https://www.pantheondevelopment.ae/",
+        "project_url": "https://www.pantheondevelopment.ae/projects/elysee-heights/"
+      },
+      "status": {
+        "launch_status": "Sold out",
+        "construction_status": "Under construction",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "Pantheon Elysee Heights by Pantheon Development",
+        "meta_description": "Verified project overview and key facts for Pantheon Elysee Heights by Pantheon Development.",
+        "og_title": "Pantheon Elysee Heights | Pantheon Development",
+        "og_description": "A sold-out apartment development in JVC offering studios and one- and two-bedroom homes with shared leisure facilities."
+      },
+      "hero": {
+        "eyebrow": "Pantheon Development",
+        "headline": "Pantheon Elysee Heights",
+        "short_description": "A sold-out apartment development in JVC offering studios and one- and two-bedroom homes with shared leisure facilities.",
+        "starting_price": {
+          "display": "Sold out",
+          "amount": null,
+          "currency": "AED",
+          "qualifier": "",
+          "verified": false
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "Jumeirah Village Circle",
+        "city": "Dubai",
+        "emirate": "Dubai",
+        "country": "United Arab Emirates",
+        "full_label": "Jumeirah Village Circle, Dubai, Dubai",
+        "latitude": null,
+        "longitude": null,
+        "description": "Pantheon Elysee Heights is located in Jumeirah Village Circle, Dubai.",
+        "nearby_destinations": []
+      },
+      "property_details": {
+        "property_types": [
+          "Apartments"
+        ],
+        "bedrooms": [
+          "Studio",
+          "1",
+          "2"
+        ],
+        "ownership": "",
+        "handover": {
+          "display": "2026",
+          "date": null,
+          "verified": true
+        },
+        "built_up_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": null,
+        "tower_count": 1,
+        "building_height": "",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "",
+          "booking_percentage": null,
+          "during_construction_percentage": null,
+          "handover_percentage": null,
+          "post_handover_percentage": null,
+          "verified": false
+        },
+        "service_charge": {
+          "display": "",
+          "amount": null,
+          "unit": "",
+          "verified": false
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About Pantheon Elysee Heights",
+        "paragraphs": [
+          "A sold-out apartment development in JVC offering studios and one- and two-bedroom homes with shared leisure facilities."
+        ],
+        "stats": [
+          {
+            "value": "1",
+            "label": "Tower",
+            "icon": "building-2"
+          }
+        ]
+      },
+      "highlights": [
+        {
+          "value": "2026",
+          "label": "Handover",
+          "icon": "calendar"
+        },
+        {
+          "value": "Studio, 1, 2",
+          "label": "Bedrooms",
+          "icon": "bed-double"
+        }
+      ],
+      "amenities": [
+        {
+          "name": "Swimming pool",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Gymnasium",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Children’s play area",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        }
+      ],
+      "gallery": {
+        "official_media_page": "https://www.pantheondevelopment.ae/projects/elysee-heights/",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "Sold out",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Residence",
+        "description": "A sold-out apartment development in JVC offering studios and one- and two-bedroom homes with shared leisure facilities.",
+        "offer_price": null,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "Elysee Heights | Pantheon Development",
+          "url": "https://www.pantheondevelopment.ae/projects/elysee-heights/",
+          "source_type": "official project page",
+          "publisher": "Pantheon Development",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "partially_verified",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview",
+          "property_details.property_types",
+          "property_details.bedrooms",
+          "property_details.handover"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge",
+          "hero.starting_price",
+          "commercial.payment_plan"
+        ],
+        "conflicts": [],
+        "notes": [
+          "No current official starting price was recorded.",
+          "External media was not downloaded; gallery references remain empty unless direct official image URLs can be rights-reviewed."
+        ]
+      }
+    },
+    {
+      "slug": "six-senses-residences-dubai-marina",
+      "name": "Six Senses Residences Dubai Marina",
+      "developer": {
+        "name": "Select Group",
+        "website": "https://www.select-group.ae/",
+        "project_url": "https://www.select-group.ae/developments/six-senses-residences-dubai-marina"
+      },
+      "status": {
+        "launch_status": "Launched",
+        "construction_status": "Under construction (25% reported)",
+        "verified_at": "2026-07-22",
+        "subject_to_change": true
+      },
+      "seo": {
+        "page_title": "Six Senses Residences Dubai Marina by Select Group",
+        "meta_description": "Verified project overview and key facts for Six Senses Residences Dubai Marina by Select Group.",
+        "og_title": "Six Senses Residences Dubai Marina | Select Group",
+        "og_description": "A Six Senses branded residential tower in Dubai Marina with 251 homes and four floors of wellness, longevity and social amenities."
+      },
+      "hero": {
+        "eyebrow": "Select Group",
+        "headline": "Six Senses Residences Dubai Marina",
+        "short_description": "A Six Senses branded residential tower in Dubai Marina with 251 homes and four floors of wellness, longevity and social amenities.",
+        "starting_price": {
+          "display": "",
+          "amount": null,
+          "currency": "AED",
+          "qualifier": "",
+          "verified": false
+        },
+        "trust_badges": []
+      },
+      "location": {
+        "community": "Dubai Marina",
+        "city": "Dubai",
+        "emirate": "Dubai",
+        "country": "United Arab Emirates",
+        "full_label": "Dubai Marina, Dubai, Dubai",
+        "latitude": null,
+        "longitude": null,
+        "description": "Six Senses Residences Dubai Marina is located in Dubai Marina, Dubai.",
+        "nearby_destinations": [
+          {
+            "name": "Dubai Marina Mall",
+            "travel_time": "5 minutes",
+            "travel_mode": "car",
+            "verified": true
+          },
+          {
+            "name": "Palm Jumeirah",
+            "travel_time": "10 minutes",
+            "travel_mode": "car",
+            "verified": true
+          },
+          {
+            "name": "Dubai International Airport",
+            "travel_time": "30 minutes",
+            "travel_mode": "car",
+            "verified": true
+          }
+        ]
+      },
+      "property_details": {
+        "property_types": [
+          "Apartments",
+          "Penthouses",
+          "Duplex Sky Mansions",
+          "Triplex Sky Mansions"
+        ],
+        "bedrooms": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "ownership": "",
+        "handover": {
+          "display": "2029",
+          "date": null,
+          "verified": true
+        },
+        "built_up_area": {
+          "minimum": 1977,
+          "maximum": 14102,
+          "unit": "sq.ft",
+          "display": "1977-14102 sq.ft"
+        },
+        "plot_area": {
+          "minimum": null,
+          "maximum": null,
+          "unit": "sq.ft",
+          "display": ""
+        },
+        "total_units": 251,
+        "tower_count": 1,
+        "building_height": "122 storeys",
+        "furnishing": ""
+      },
+      "commercial": {
+        "payment_plan": {
+          "summary": "20% booking, 20% during construction, 60% on handover",
+          "booking_percentage": 20,
+          "during_construction_percentage": 20,
+          "handover_percentage": 60,
+          "post_handover_percentage": 0,
+          "verified": true
+        },
+        "service_charge": {
+          "display": "AED 34-38 per sq.ft.",
+          "amount": null,
+          "unit": "per sq.ft.",
+          "verified": true
+        }
+      },
+      "overview": {
+        "section_eyebrow": "Project Overview",
+        "heading": "About Six Senses Residences Dubai Marina",
+        "paragraphs": [
+          "A Six Senses branded residential tower in Dubai Marina with 251 homes and four floors of wellness, longevity and social amenities."
+        ],
+        "stats": [
+          {
+            "value": "251",
+            "label": "Units",
+            "icon": "building"
+          },
+          {
+            "value": "1",
+            "label": "Tower",
+            "icon": "building-2"
+          }
+        ]
+      },
+      "highlights": [
+        {
+          "value": "2029",
+          "label": "Handover",
+          "icon": "calendar"
+        },
+        {
+          "value": "2, 3, 4, 5",
+          "label": "Bedrooms",
+          "icon": "bed-double"
+        }
+      ],
+      "amenities": [
+        {
+          "name": "Infinity pool",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Longevity clinic",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Saunas and steam room",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Fitness studios",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Residents lounge",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Cinema",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        },
+        {
+          "name": "Sky pool",
+          "description": "",
+          "category": "Lifestyle",
+          "icon": "circle-check"
+        }
+      ],
+      "gallery": {
+        "official_media_page": "https://www.select-group.ae/developments/six-senses-residences-dubai-marina",
+        "hero_image_source": "",
+        "images": []
+      },
+      "optional_sections": [],
+      "cta": {
+        "heading": "Enquire Now",
+        "description": "Fill out the form and our team will get back to you shortly.",
+        "sticky_label": "Starting from",
+        "sticky_value": "",
+        "sticky_action": "Fill the form"
+      },
+      "structured_data": {
+        "schema_type": "Residence",
+        "description": "A Six Senses branded residential tower in Dubai Marina with 251 homes and four floors of wellness, longevity and social amenities.",
+        "offer_price": null,
+        "price_currency": "AED"
+      },
+      "sources": [
+        {
+          "title": "Six Senses Residences Dubai Marina | Select Group",
+          "url": "https://www.select-group.ae/developments/six-senses-residences-dubai-marina",
+          "source_type": "official project page",
+          "publisher": "Select Group",
+          "accessed_at": "2026-07-22",
+          "supports": [
+            "project identity",
+            "developer",
+            "status",
+            "location",
+            "property details",
+            "overview",
+            "amenities",
+            "commercial details where populated"
+          ]
+        }
+      ],
+      "verification": {
+        "overall_status": "verified",
+        "verified_fields": [
+          "name",
+          "developer.name",
+          "developer.website",
+          "developer.project_url",
+          "status.launch_status",
+          "location",
+          "overview",
+          "property_details.property_types",
+          "property_details.bedrooms",
+          "property_details.total_units",
+          "property_details.handover"
+        ],
+        "unverified_fields": [
+          "location.latitude",
+          "location.longitude",
+          "property_details.ownership",
+          "property_details.plot_area",
+          "property_details.furnishing",
+          "commercial.service_charge",
+          "hero.starting_price"
+        ],
+        "conflicts": [],
+        "notes": [
+          "No current official starting price was recorded.",
+          "External media was not downloaded; gallery references remain empty unless direct official image URLs can be rights-reviewed."
+        ]
+      }
+    }
+  ]
+}

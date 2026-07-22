@@ -12,6 +12,13 @@ $current_page = $current_page ?? '';
 $page_styles = $page_styles ?? [];
 $skip_link = $skip_link ?? '#top';
 
+/* Canonical URL + absolute OG/Twitter image, derived from the running script
+   so every page gets a correct value without needing its own boilerplate. */
+$site_url = 'https://smbdubai.net';
+$current_file = basename($_SERVER['SCRIPT_NAME'] ?? 'index.php');
+$canonical_url = $site_url . ($current_file === 'index.php' ? '/' : '/' . $current_file);
+$page_og_image_url = $site_url . '/' . ltrim($page_og_image, '/');
+
 $nav_items = [
     'home' => ['index.php', 'Home'],
     'about' => ['about.php', 'About'],
@@ -25,6 +32,21 @@ function smb_e(string $value): string
 {
     return htmlspecialchars($value, ENT_QUOTES, 'UTF-8');
 }
+
+/* BreadcrumbList structured data, matching the visible "Home / X" breadcrumb
+   nav rendered on every inner page. Home has no visible breadcrumb, so it
+   (and pages outside $nav_items, e.g. the DAMAC project page) get none. */
+$breadcrumb_json = null;
+if ($current_page !== '' && $current_page !== 'home' && isset($nav_items[$current_page])) {
+    $breadcrumb_json = json_encode([
+        '@context' => 'https://schema.org',
+        '@type' => 'BreadcrumbList',
+        'itemListElement' => [
+            ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $site_url . '/'],
+            ['@type' => 'ListItem', 'position' => 2, 'name' => $nav_items[$current_page][1], 'item' => $canonical_url],
+        ],
+    ], JSON_UNESCAPED_SLASHES);
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -33,10 +55,22 @@ function smb_e(string $value): string
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?= smb_e($page_title) ?></title>
   <meta name="description" content="<?= smb_e($page_description) ?>">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="<?= smb_e($canonical_url) ?>">
   <meta property="og:title" content="<?= smb_e($page_og_title) ?>">
   <meta property="og:description" content="<?= smb_e($page_og_description) ?>">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="<?= smb_e($page_og_image) ?>">
+  <meta property="og:url" content="<?= smb_e($canonical_url) ?>">
+  <meta property="og:image" content="<?= smb_e($page_og_image_url) ?>">
+  <meta property="og:site_name" content="SMB Real Estate Brokers">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="<?= smb_e($page_og_title) ?>">
+  <meta name="twitter:description" content="<?= smb_e($page_og_description) ?>">
+  <meta name="twitter:image" content="<?= smb_e($page_og_image_url) ?>">
+  <meta name="theme-color" content="#0a2342">
+<?php if ($breadcrumb_json): ?>
+  <script type="application/ld+json"><?= $breadcrumb_json ?></script>
+<?php endif; ?>
   <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
   <link rel="preload" href="assets/fonts/Manrope-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="assets/css/main.css">
@@ -92,7 +126,7 @@ function smb_e(string $value): string
         <img src="assets/images/smb-logo-horizontal.png" alt="SMB Real Estate Brokers — Serving, Managing &amp; Beyond" width="80" height="46">
       </a>
       <nav class="header__nav" id="main-nav" aria-label="Main navigation">
-        <button class="header__close" id="nav-close" aria-label="Close menu">
+        <button type="button" class="header__close" id="nav-close" aria-label="Close menu">
           <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
         </button>
         <ul>
@@ -105,16 +139,14 @@ function smb_e(string $value): string
             <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
             +971 50 421 7299
           </a>
-          <a class="btn btn--accent btn--sm" href="contact.php#enquire">Enquire Now</a>
         </div>
       </nav>
       <div class="header__actions">
         <a class="header__phone" href="tel:+971504217299">
           <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
-          <span>+971 50 421 7299</span>
+          <span class="header__phone-text">+971 50 421 7299</span>
         </a>
-        <a class="btn btn--accent btn--sm" href="contact.php#enquire">Enquire Now</a>
-        <button class="header__burger" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
+        <button type="button" class="header__burger" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
           <span></span><span></span><span></span>
         </button>
       </div>

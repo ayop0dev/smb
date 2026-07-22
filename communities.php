@@ -33,7 +33,6 @@ require __DIR__ . '/header.php';
               <li><span aria-current="page">Communities</span></li>
             </ol>
           </nav>
-          <p class="eyebrow eyebrow--light">Dubai Communities</p>
           <h1 id="hero-title">Explore Dubai's most sought-after communities</h1>
           <p class="hero__description">
             Every great property decision starts with the right location. Browse Dubai
@@ -592,6 +591,18 @@ require __DIR__ . '/header.php';
           </details>
         </div>
       </div>
+      <script type="application/ld+json"><?= json_encode([
+        '@context' => 'https://schema.org',
+        '@type' => 'FAQPage',
+        'mainEntity' => [
+          ['@type' => 'Question', 'name' => 'Which Dubai communities are best for families?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Families usually gravitate toward master-planned villa and townhouse communities with parks, schools and space — areas like Dubai Hills Estate are a common starting point. The right fit depends on schools, commutes and budget, which is exactly what we help you compare.']],
+          ['@type' => 'Question', 'name' => 'What are my options for waterfront living?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Dubai offers several distinct waterfront lifestyles — marina high-rises, island beachfront, creek-side districts and new lagoon communities. Each has a different feel and price point; tell us yours and we will narrow it down.']],
+          ['@type' => 'Question', 'name' => 'How do I compare two communities properly?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Look past the renders: compare real commute times, the property types available at your budget, amenities you will actually use, and how established the community is. We prepare this comparison for you before any viewing.']],
+          ['@type' => 'Question', 'name' => 'Can I find both ready and off-plan properties in these areas?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Yes — established communities offer ready homes for immediate move-in, while newer districts are dominated by off-plan releases with staged payment plans. Many buyers weigh one against the other, and we can show you both sides.']],
+          ['@type' => 'Question', 'name' => 'Which areas suit investors best?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'It depends on your strategy — rental yield, capital growth or a mix. Central districts and emerging waterfront communities each behave differently. We will walk you through the realistic options against your budget and horizon rather than quoting generic numbers.']],
+          ['@type' => 'Question', 'name' => 'How do I get help choosing?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Book a short consultation — by phone, WhatsApp or at our Business Bay office. We will map your goals to two or three communities worth focusing on, with no obligation to proceed.']],
+        ],
+      ], JSON_UNESCAPED_SLASHES) ?></script>
     </section>
 
     <!-- ============ Final call to action ============ -->

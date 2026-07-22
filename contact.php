@@ -31,7 +31,6 @@ require __DIR__ . '/header.php';
               <li><span aria-current="page">Contact</span></li>
             </ol>
           </nav>
-          <p class="eyebrow eyebrow--light">Contact SMB</p>
           <h1 id="hero-title">Let's discuss your property&nbsp;goals</h1>
           <p class="hero__description">
             Contact SMB Real Estate Brokers for property enquiries, buying, selling,
@@ -86,20 +85,20 @@ require __DIR__ . '/header.php';
             <form class="lead-form lead-form--card" id="main-form" novalidate>
               <div class="field">
                 <label for="cf-name">Full Name</label>
-                <input type="text" id="cf-name" name="name" autocomplete="name" placeholder="Your full name" required>
-                <p class="field__error" aria-live="polite"></p>
+                <input type="text" id="cf-name" name="name" autocomplete="name" placeholder="Your full name" required aria-describedby="cf-name-error">
+                <p class="field__error" id="cf-name-error" aria-live="polite"></p>
               </div>
               <div class="field">
                 <label for="cf-phone">Phone Number</label>
-                <input type="tel" id="cf-phone" name="phone" autocomplete="tel" placeholder="+971 50 000 0000" required>
-                <p class="field__error" aria-live="polite"></p>
+                <input type="tel" id="cf-phone" name="phone" autocomplete="tel" placeholder="+971 50 000 0000" required aria-describedby="cf-phone-error">
+                <p class="field__error" id="cf-phone-error" aria-live="polite"></p>
               </div>
               <div class="field">
                 <label for="cf-email">Email Address</label>
-                <input type="email" id="cf-email" name="email" autocomplete="email" placeholder="name@example.com" required>
-                <p class="field__error" aria-live="polite"></p>
+                <input type="email" id="cf-email" name="email" autocomplete="email" placeholder="name@example.com" required aria-describedby="cf-email-error">
+                <p class="field__error" id="cf-email-error" aria-live="polite"></p>
               </div>
-              <fieldset class="field">
+              <fieldset class="field" aria-describedby="cf-enquiry-error">
                 <legend>Enquiry Type</legend>
                 <div class="pill-group">
                   <input type="radio" id="et-buying" name="enquiry" value="Buying Property">
@@ -113,12 +112,12 @@ require __DIR__ . '/header.php';
                   <input type="radio" id="et-general" name="enquiry" value="General Enquiry" checked>
                   <label for="et-general">General Enquiry</label>
                 </div>
-                <p class="field__error" aria-live="polite"></p>
+                <p class="field__error" id="cf-enquiry-error" aria-live="polite"></p>
               </fieldset>
               <div class="field">
                 <label for="cf-message">Message</label>
-                <textarea id="cf-message" name="message" rows="4" placeholder="Tell us what you are looking for" required></textarea>
-                <p class="field__error" aria-live="polite"></p>
+                <textarea id="cf-message" name="message" rows="4" placeholder="Tell us what you are looking for" required aria-describedby="cf-message-error"></textarea>
+                <p class="field__error" id="cf-message-error" aria-live="polite"></p>
               </div>
               <button type="submit" class="btn btn--accent btn--block btn--lg">Send Enquiry</button>
               <p class="lead-form__privacy">Our team will contact you shortly.</p>

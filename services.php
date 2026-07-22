@@ -31,7 +31,6 @@ require __DIR__ . '/header.php';
               <li><span aria-current="page">Services</span></li>
             </ol>
           </nav>
-          <p class="eyebrow eyebrow--light">Our Services</p>
           <h1 id="hero-title">Guidance for every property decision</h1>
           <p class="hero__description">
             From off-plan launches to ready homes and commercial space, SMB supports
@@ -280,6 +279,17 @@ require __DIR__ . '/header.php';
           </details>
         </div>
       </div>
+      <script type="application/ld+json"><?= json_encode([
+        '@context' => 'https://schema.org',
+        '@type' => 'FAQPage',
+        'mainEntity' => [
+          ['@type' => 'Question', 'name' => 'What does your off-plan advisory service include?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'We help you compare current launches, understand payment plans, fees and expected handover timelines, and assess how each opportunity fits your budget and goals. Once you decide, we manage the reservation and documentation, and stay involved through to handover.']],
+          ['@type' => 'Question', 'name' => 'Do you work with buyers, sellers, or both?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Both — as well as landlords, investors and businesses. We represent buyers looking for the right property and owners who want realistic valuations and qualified interest in what they are selling.']],
+          ['@type' => 'Question', 'name' => 'Can international buyers purchase property in Dubai?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => "Yes. Dubai's freehold areas allow ownership for all nationalities. We regularly assist overseas buyers and can guide you through the process remotely, from shortlisting to completion."]],
+          ['@type' => 'Question', 'name' => 'Which areas of Dubai do you cover?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => "We work across Dubai's residential and commercial communities, with particular depth in off-plan and master-planned developments. Tell us where you are looking — or let us suggest areas that fit your brief."]],
+          ['@type' => 'Question', 'name' => 'How are your services charged?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'It depends on the service and the transaction. Fees are always explained clearly and agreed before any engagement begins — transparency on costs is part of how we work.']],
+        ],
+      ], JSON_UNESCAPED_SLASHES) ?></script>
     </section>
 
     <!-- ============ Final call to action ============ -->

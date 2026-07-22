@@ -15,6 +15,26 @@ $sticky_action = 'Fill the form';
 require __DIR__ . '/header.php';
 ?>
 
+  <script type="application/ld+json"><?= json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Residence',
+    'name' => 'DAMAC Islands 2',
+    'description' => 'A master-planned waterfront community offering luxury villas and townhouses in Dubailand, Dubai. Crystal lagoons, water features and resort-style amenities, designed for a premium island lifestyle.',
+    'url' => $canonical_url,
+    'image' => $site_url . '/assets/images/hero-villa-pool.jpg',
+    'address' => [
+      '@type' => 'PostalAddress',
+      'addressLocality' => 'Dubailand, Dubai',
+      'addressCountry' => 'AE',
+    ],
+    'offers' => [
+      '@type' => 'Offer',
+      'priceCurrency' => 'AED',
+      'price' => '1900000',
+      'availability' => 'https://schema.org/InStock',
+    ],
+  ], JSON_UNESCAPED_SLASHES) ?></script>
+
   <main id="top">
 
     <!-- ============ Hero ============ -->
@@ -51,18 +71,18 @@ require __DIR__ . '/header.php';
           <form class="lead-form" id="hero-form" novalidate>
             <div class="field">
               <label for="hf-name">Full Name</label>
-              <input type="text" id="hf-name" name="name" autocomplete="name" placeholder="Your full name" required>
-              <p class="field__error" aria-live="polite"></p>
+              <input type="text" id="hf-name" name="name" autocomplete="name" placeholder="Your full name" required aria-describedby="hf-name-error">
+              <p class="field__error" id="hf-name-error" aria-live="polite"></p>
             </div>
             <div class="field">
               <label for="hf-phone">Phone Number</label>
-              <input type="tel" id="hf-phone" name="phone" autocomplete="tel" placeholder="+971 50 000 0000" required>
-              <p class="field__error" aria-live="polite"></p>
+              <input type="tel" id="hf-phone" name="phone" autocomplete="tel" placeholder="+971 50 000 0000" required aria-describedby="hf-phone-error">
+              <p class="field__error" id="hf-phone-error" aria-live="polite"></p>
             </div>
             <div class="field">
               <label for="hf-email">Email Address</label>
-              <input type="email" id="hf-email" name="email" autocomplete="email" placeholder="name@example.com" required>
-              <p class="field__error" aria-live="polite"></p>
+              <input type="email" id="hf-email" name="email" autocomplete="email" placeholder="name@example.com" required aria-describedby="hf-email-error">
+              <p class="field__error" id="hf-email-error" aria-live="polite"></p>
             </div>
             <button type="submit" class="btn btn--accent btn--block">Enquire Now</button>
             <p class="lead-form__privacy">Our team will contact you shortly.</p>
@@ -330,38 +350,40 @@ require __DIR__ . '/header.php';
               Call +971 50 421 7299
             </a>
           </div>
-          <ul class="enquire__details">
-            <li>
-              <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
-              <a href="mailto:info@smbdubai.net">info@smbdubai.net</a>
-            </li>
-            <li>
-              <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
-              <span>3002 Westburry Tower Office, Business Bay, Dubai, UAE</span>
-            </li>
-          </ul>
+          <address>
+            <ul class="enquire__details">
+              <li>
+                <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
+                <a href="mailto:info@smbdubai.net">info@smbdubai.net</a>
+              </li>
+              <li>
+                <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+                <span>3002 Westburry Tower Office, Business Bay, Dubai, UAE</span>
+              </li>
+            </ul>
+          </address>
         </div>
         <div class="enquire__form-wrap" data-reveal>
           <form class="lead-form lead-form--card" id="main-form" novalidate>
             <div class="field">
               <label for="mf-name">Full Name</label>
-              <input type="text" id="mf-name" name="name" autocomplete="name" placeholder="Your full name" required>
-              <p class="field__error" aria-live="polite"></p>
+              <input type="text" id="mf-name" name="name" autocomplete="name" placeholder="Your full name" required aria-describedby="mf-name-error">
+              <p class="field__error" id="mf-name-error" aria-live="polite"></p>
             </div>
             <div class="field">
               <label for="mf-phone">Phone Number</label>
-              <input type="tel" id="mf-phone" name="phone" autocomplete="tel" placeholder="+971 50 000 0000" required>
-              <p class="field__error" aria-live="polite"></p>
+              <input type="tel" id="mf-phone" name="phone" autocomplete="tel" placeholder="+971 50 000 0000" required aria-describedby="mf-phone-error">
+              <p class="field__error" id="mf-phone-error" aria-live="polite"></p>
             </div>
             <div class="field">
               <label for="mf-email">Email Address</label>
-              <input type="email" id="mf-email" name="email" autocomplete="email" placeholder="name@example.com" required>
-              <p class="field__error" aria-live="polite"></p>
+              <input type="email" id="mf-email" name="email" autocomplete="email" placeholder="name@example.com" required aria-describedby="mf-email-error">
+              <p class="field__error" id="mf-email-error" aria-live="polite"></p>
             </div>
             <div class="field">
               <label for="mf-message">Message <span class="field__optional">(optional)</span></label>
-              <textarea id="mf-message" name="message" rows="4" placeholder="Tell us what you are looking for"></textarea>
-              <p class="field__error" aria-live="polite"></p>
+              <textarea id="mf-message" name="message" rows="4" placeholder="Tell us what you are looking for" aria-describedby="mf-message-error"></textarea>
+              <p class="field__error" id="mf-message-error" aria-live="polite"></p>
             </div>
             <button type="submit" class="btn btn--accent btn--block btn--lg">Send Enquiry</button>
           </form>

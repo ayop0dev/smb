@@ -1,0 +1,326 @@
+﻿{
+    "audit_date":  "2026-07-22",
+    "gate_result":  "FAIL",
+    "total_projects":  20,
+    "ready_count":  8,
+    "blocked_count":  12,
+    "projects":  [
+                     {
+                         "original_slug":  "the-grand-polo-club-resort",
+                         "final_slug":  "grand-polo-club-resort",
+                         "project_name":  "Grand Polo Club \u0026 Resort",
+                         "developer":  "Emaar Properties",
+                         "implementation_status":  "ready",
+                         "blocking_reasons":  [
+
+                                              ],
+                         "official_urls":  [
+                                               "https://properties.emaar.com/en/our-communities/grand-polo-club-and-resort/"
+                                           ]
+                     },
+                     {
+                         "original_slug":  "fahid-island",
+                         "final_slug":  "fahid-island",
+                         "project_name":  "Fahid Island",
+                         "developer":  "Aldar Properties",
+                         "implementation_status":  "ready",
+                         "blocking_reasons":  [
+
+                                              ],
+                         "official_urls":  [
+                                               "https://www.aldar.com/en/news-and-media/aldar-unveils-fahid-island"
+                                           ]
+                     },
+                     {
+                         "original_slug":  "damac-riverside-views",
+                         "final_slug":  "damac-riverside-views",
+                         "project_name":  "DAMAC Riverside Views",
+                         "developer":  "DAMAC Properties",
+                         "implementation_status":  "ready",
+                         "blocking_reasons":  [
+
+                                              ],
+                         "official_urls":  [
+                                               "https://preprod.damacproperties.com/en/projects/damac-riverside-views/"
+                                           ]
+                     },
+                     {
+                         "original_slug":  "bay-grove-residences-dubai-islands",
+                         "final_slug":  "bay-grove-residences",
+                         "project_name":  "Bay Grove Residences",
+                         "developer":  "Nakheel",
+                         "implementation_status":  "ready",
+                         "blocking_reasons":  [
+
+                                              ],
+                         "official_urls":  [
+                                               "https://www.nakheel.com/en/new-launches/baygrove-residences",
+                                               "https://www.nakheel.com/en/media-centre/press-releases/news-detail/2024/10/14/nakheel-unveils-bay-grove-residences--a-tranquil-beachfront-development-in-the-heart-of-dubai-islands"
+                                           ]
+                     },
+                     {
+                         "original_slug":  "la-tilia-at-villanova",
+                         "final_slug":  "la-tilia-at-villanova",
+                         "project_name":  "La Tilia at Villanova",
+                         "developer":  "Dubai Properties",
+                         "implementation_status":  "blocked",
+                         "blocking_reasons":  [
+                                                  "No verified nearby destinations are recorded."
+                                              ],
+                         "official_urls":  [
+                                               "https://villanova.dp.ae/"
+                                           ]
+                     },
+                     {
+                         "original_slug":  "sobha-central",
+                         "final_slug":  "sobha-central",
+                         "project_name":  "Sobha Central",
+                         "developer":  "Sobha Realty",
+                         "implementation_status":  "ready",
+                         "blocking_reasons":  [
+
+                                              ],
+                         "official_urls":  [
+                                               "https://sobharealty.com/properties-in-dubai/sobha-central",
+                                               "https://sobharealty.com/sites/default/files/2025-05/Sobha%20Central%20Brochure.pdf%202.pdf"
+                                           ]
+                     },
+                     {
+                         "original_slug":  "the-acres-estates",
+                         "final_slug":  "the-acres-estates",
+                         "project_name":  "The Acres Estates",
+                         "developer":  "Meraas",
+                         "implementation_status":  "ready",
+                         "blocking_reasons":  [
+
+                                              ],
+                         "official_urls":  [
+                                               "https://theacres.meraas.com/",
+                                               "https://meraas.com/sites/default/files/2025-01/The%20Acres%20Estates%20Digital%20Brochure%20English.pdf"
+                                           ]
+                     },
+                     {
+                         "original_slug":  "binghatti-aquarise",
+                         "final_slug":  "binghatti-aquarise",
+                         "project_name":  "Binghatti Aquarise",
+                         "developer":  "Binghatti Developers",
+                         "implementation_status":  "blocked",
+                         "blocking_reasons":  [
+                                                  "No verified amenities are recorded.",
+                                                  "No verified nearby destinations are recorded."
+                                              ],
+                         "official_urls":  [
+                                               "https://www.binghatti.com/en-uk/projects/binghatti-aquarise",
+                                               "https://www.binghatti.com/en-uk/pr/terry-crews-buys-apartment-binghatti-aquarise-dubai"
+                                           ]
+                     },
+                     {
+                         "original_slug":  "sparklz-by-danube",
+                         "final_slug":  "sparklz-by-danube",
+                         "project_name":  "Sparklz by Danube",
+                         "developer":  "Danube Properties",
+                         "implementation_status":  "blocked",
+                         "blocking_reasons":  [
+                                                  "No verified nearby destinations are recorded."
+                                              ],
+                         "official_urls":  [
+                                               "https://promotions.danubeproperties.com/sparklz_int/",
+                                               "https://danubeproperties.com/wp-content/uploads/2025/04/Sparklz_brochure_EN_compressed-1.pdf"
+                                           ]
+                     },
+                     {
+                         "original_slug":  "azizi-milan",
+                         "final_slug":  "azizi-milan",
+                         "project_name":  "Azizi Milan",
+                         "developer":  "Azizi Developments",
+                         "implementation_status":  "blocked",
+                         "blocking_reasons":  [
+                                                  "Official project identity is not confirmed: Partially verified.",
+                                                  "Only a developer homepage is present; no official project URL is verified.",
+                                                  "No official source exists in the approved source set.",
+                                                  "No verified amenities are recorded.",
+                                                  "No verified nearby destinations are recorded."
+                                              ],
+                         "official_urls":  [
+                                               null
+                                           ]
+                     },
+                     {
+                         "original_slug":  "keturah-ardh",
+                         "final_slug":  "",
+                         "project_name":  "Keturah Ardh",
+                         "developer":  "MAG Group Holding",
+                         "implementation_status":  "blocked",
+                         "blocking_reasons":  [
+                                                  "Official project identity is not confirmed: Partially verified.",
+                                                  "UAE location is not confirmed: Unresolved.",
+                                                  "Official project URL is missing.",
+                                                  "Community, city, and emirate are not all verified.",
+                                                  "Verified project overview is missing.",
+                                                  "Final slug is not approved.",
+                                                  "SEO title is not finalized.",
+                                                  "Meta description is not finalized.",
+                                                  "No verified amenities are recorded.",
+                                                  "No verified nearby destinations are recorded."
+                                              ],
+                         "official_urls":  [
+                                               "https://keturah.global/terms/"
+                                           ]
+                     },
+                     {
+                         "original_slug":  "everly-place",
+                         "final_slug":  "everly-place",
+                         "project_name":  "Everly Place",
+                         "developer":  "Ellington Properties",
+                         "implementation_status":  "ready",
+                         "blocking_reasons":  [
+
+                                              ],
+                         "official_urls":  [
+                                               "https://everly-place.ellingtonproperties.ae/",
+                                               "https://ellingtonproperties.ae/en/media-center/news/ellington-properties-unveils-everly-place"
+                                           ]
+                     },
+                     {
+                         "original_slug":  "samana-ocean-views",
+                         "final_slug":  "",
+                         "project_name":  "Samana Ocean Views",
+                         "developer":  "Samana Developers",
+                         "implementation_status":  "blocked",
+                         "blocking_reasons":  [
+                                                  "Official project identity is not confirmed: Non-UAE project.",
+                                                  "UAE location is not confirmed: Rejected â€” Maldives.",
+                                                  "Community, city, and emirate are not all verified.",
+                                                  "Verified project overview is missing.",
+                                                  "Final slug is not approved.",
+                                                  "SEO title is not finalized.",
+                                                  "Meta description is not finalized.",
+                                                  "No verified amenities are recorded.",
+                                                  "No verified nearby destinations are recorded."
+                                              ],
+                         "official_urls":  [
+                                               "https://www.samanadevelopers.com/projects/samana-ocean-views?lang=en"
+                                           ]
+                     },
+                     {
+                         "original_slug":  "downtown-residences",
+                         "final_slug":  "downtown-residences",
+                         "project_name":  "Downtown Residences",
+                         "developer":  "Deyaar Development",
+                         "implementation_status":  "blocked",
+                         "blocking_reasons":  [
+                                                  "No verified nearby destinations are recorded."
+                                              ],
+                         "official_urls":  [
+                                               "https://www.deyaar.ae/en/media_center/deyaar-unveils-downtown-residences-in-dubai-one-of-the-worlds-tallest-vertical-residential-communities/"
+                                           ]
+                     },
+                     {
+                         "original_slug":  "lumena",
+                         "final_slug":  "lumena",
+                         "project_name":  "LUMENA",
+                         "developer":  "Omniyat",
+                         "implementation_status":  "blocked",
+                         "blocking_reasons":  [
+                                                  "No verified nearby destinations are recorded."
+                                              ],
+                         "official_urls":  [
+                                               "https://www.omniyat.com/commercial/lumena-by-omniyat",
+                                               "https://www.omniyat.com/news/lumena-by-omniyat-sets-a-new-benchmark-with-business-bays-highest-sales-value-and-complete-sell-out"
+                                           ]
+                     },
+                     {
+                         "original_slug":  "one-park-central",
+                         "final_slug":  "one-park-central",
+                         "project_name":  "One Park Central",
+                         "developer":  "Iman Developers",
+                         "implementation_status":  "blocked",
+                         "blocking_reasons":  [
+                                                  "No verified nearby destinations are recorded."
+                                              ],
+                         "official_urls":  [
+                                               "https://www.imandevelopers.com/media-centers/groundbreaking-ceremony-of-one-park-central-launch",
+                                               "https://www.imandevelopers.com/wp-content/uploads/2024/02/ONE-PARK-CENTRAL-BROCHURE.pdf"
+                                           ]
+                     },
+                     {
+                         "original_slug":  "verdana-empire",
+                         "final_slug":  "verdana-empire",
+                         "project_name":  "Verdana Empire",
+                         "developer":  "Reportage Properties",
+                         "implementation_status":  "blocked",
+                         "blocking_reasons":  [
+                                                  "No verified amenities are recorded.",
+                                                  "No verified nearby destinations are recorded."
+                                              ],
+                         "official_urls":  [
+                                               "https://reportageempire.com/en/project-details/verdana-empire"
+                                           ]
+                     },
+                     {
+                         "original_slug":  "tiger-sky-tower",
+                         "final_slug":  "tiger-sky-tower",
+                         "project_name":  "Tiger Sky Tower",
+                         "developer":  "Tiger Properties",
+                         "implementation_status":  "blocked",
+                         "blocking_reasons":  [
+                                                  "Official project identity is not confirmed: Partially verified.",
+                                                  "Only a developer homepage is present; no official project URL is verified.",
+                                                  "No official source exists in the approved source set.",
+                                                  "No verified amenities are recorded.",
+                                                  "No verified nearby destinations are recorded."
+                                              ],
+                         "official_urls":  [
+                                               null
+                                           ]
+                     },
+                     {
+                         "original_slug":  "pantheon-elysee-heights",
+                         "final_slug":  "elysee-heights",
+                         "project_name":  "Elysee Heights",
+                         "developer":  "Pantheon Development",
+                         "implementation_status":  "blocked",
+                         "blocking_reasons":  [
+                                                  "No verified nearby destinations are recorded."
+                                              ],
+                         "official_urls":  [
+                                               "https://pantheondevelopment.ae/projects/"
+                                           ]
+                     },
+                     {
+                         "original_slug":  "six-senses-residences-dubai-marina",
+                         "final_slug":  "six-senses-residences-dubai-marina",
+                         "project_name":  "Six Senses Residences Dubai Marina",
+                         "developer":  "Select Group",
+                         "implementation_status":  "ready",
+                         "blocking_reasons":  [
+
+                                              ],
+                         "official_urls":  [
+                                               "https://www.select-group.ae/developments/six-senses-residences-dubai-marina"
+                                           ]
+                     }
+                 ],
+    "cross_project_validation":  {
+                                     "result":  "PASS",
+                                     "duplicate_projects":  [
+
+                                                            ],
+                                     "duplicate_slugs":  [
+
+                                                         ],
+                                     "duplicate_official_urls":  [
+
+                                                                 ],
+                                     "projects_duplicated_under_two_developers":  [
+
+                                                                                  ],
+                                     "phase_merge_conflicts":  [
+
+                                                               ],
+                                     "notes":  [
+                                                   "All 20 project names, final slugs, approved official URLs, and developer pairings were compared.",
+                                                   "Bay Grove Residences phase-specific figures remain identified as final-phase figures; no separate phase records were merged."
+                                               ]
+                                 }
+}
