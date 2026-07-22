@@ -82,6 +82,23 @@
   font-style: italic;
 }
 
+/* Compact per-developer project list — name links to its project page,
+   with a short muted location/property-type line underneath. */
+.dev-card__project-list { display: grid; gap: 8px; }
+.dev-card__project-list a {
+  font-size: 0.875rem; font-weight: 600; color: var(--navy);
+  overflow-wrap: anywhere;
+}
+.dev-card__project-list a:hover { color: var(--gold-dark); }
+.dev-card__project-meta {
+  display: block; font-size: 0.75rem; color: var(--text-muted);
+  font-style: italic; overflow-wrap: anywhere;
+}
+
+/* Keeps a developer card's anchor target clear of the fixed header when
+   navigated to directly (e.g. from a project card's developer link). */
+[id^="developer-"] { scroll-margin-top: calc(var(--header-h) + 24px); }
+
 @media (min-width: 768px) { .devs__grid { grid-template-columns: repeat(2, 1fr); gap: 32px; } }
 
 /* ---------- Why these developers (6-item criteria grid) ---------- */

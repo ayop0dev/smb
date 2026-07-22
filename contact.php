@@ -31,10 +31,9 @@ require __DIR__ . '/header.php';
               <li><span aria-current="page">Contact</span></li>
             </ol>
           </nav>
-          <h1 id="hero-title">Let's discuss your property&nbsp;goals</h1>
+          <h1 id="hero-title">A considered decision starts here</h1>
           <p class="hero__description">
-            Contact SMB Real Estate Brokers for property enquiries, buying, selling,
-            managing or investment support in Dubai.
+            Speak with an adviser about buying, selling, managing or investing in property anywhere in the UAE.
           </p>
         </div>
       </div>
@@ -74,10 +73,10 @@ require __DIR__ . '/header.php';
     <section class="enquire section section--gray" id="enquire" aria-labelledby="enquire-title">
       <div class="container">
         <div class="section-head" data-reveal>
-          <p class="eyebrow">Send an Enquiry</p>
-          <h2 id="enquire-title">Tell us how we can help</h2>
+          <p class="eyebrow">Request a Consultation</p>
+          <h2 id="enquire-title">Tell us what you are considering</h2>
           <p class="section-head__sub">
-            Fill out the form and a property consultant will get back to you shortly.
+            A few details are enough to begin. An adviser will respond with a relevant and considered next step.
           </p>
         </div>
         <div class="contact-layout">
@@ -120,11 +119,11 @@ require __DIR__ . '/header.php';
                 <p class="field__error" id="cf-message-error" aria-live="polite"></p>
               </div>
               <button type="submit" class="btn btn--accent btn--block btn--lg">Send Enquiry</button>
-              <p class="lead-form__privacy">Our team will contact you shortly.</p>
+              <p class="lead-form__privacy">Our team will contact you to understand your needs and agree the next step.</p>
             </form>
             <div class="lead-form__success lead-form__success--card" hidden>
               <p class="lead-form__success-title">Thank you</p>
-              <p>Your enquiry has been received. A property consultant from SMB Real Estate Brokers will contact you shortly.</p>
+              <p>Your enquiry has been received. An SMB property consultant will contact you to understand your goals and guide the next step.</p>
             </div>
           </div>
 
@@ -195,15 +194,14 @@ require __DIR__ . '/header.php';
     <section class="visit section section--gray" aria-labelledby="visit-title">
       <div class="container visit__inner">
         <p class="eyebrow" data-reveal>Prefer to Talk?</p>
-        <h2 id="visit-title" data-reveal>Speak with a consultant or visit our office</h2>
+        <h2 id="visit-title" data-reveal>A direct conversation, in person or by phone</h2>
         <p data-reveal>
-          Some conversations are easier in person or over the phone. Call us or send a
-          WhatsApp message to arrange a time that suits you.
+          Call, message or arrange a meeting at our Business Bay office. The conversation starts with your plans&mdash;not with a project presentation.
         </p>
         <div class="visit__buttons" data-reveal>
           <a class="btn btn--primary btn--lg" href="tel:+971504217299">
             <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
-            Call +971 50 421 7299
+            Speak With an Adviser
           </a>
           <a class="btn btn--accent btn--lg" href="https://wa.me/971504217299" target="_blank" rel="noopener">
             <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
@@ -218,13 +216,12 @@ require __DIR__ . '/header.php';
       <img class="cta-final__bg" src="assets/images/hero-lagoon-aerial.jpg" alt="" loading="lazy" aria-hidden="true">
       <div class="container cta-final__inner">
         <p class="eyebrow eyebrow--gold" data-reveal>One Step Away</p>
-        <h2 id="cta-title" data-reveal>Ready to make your next property move?</h2>
+        <h2 id="cta-title" data-reveal>Ready for a clearer next step?</h2>
         <p class="cta-final__sub" data-reveal>
-          Send us an enquiry and start the conversation — honest guidance from the
-          first message.
+          Send an enquiry and receive advice shaped around your interests from the outset.
         </p>
         <div class="cta-final__buttons" data-reveal>
-          <a class="btn btn--accent btn--lg" href="#enquire">Send an Enquiry</a>
+          <a class="btn btn--accent btn--lg" href="#enquire">Request a Consultation</a>
           <a class="btn btn--ghost btn--lg" href="https://wa.me/971504217299" target="_blank" rel="noopener">
             <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
             WhatsApp Us

@@ -47,12 +47,21 @@
 .comm-card h3 { font-size: 1.25rem; }
 .comm-card__desc { font-size: 0.9375rem; color: var(--text-muted); }
 
+/* Developer name links to its matching card on developers.php — kept the
+   same size/weight as the surrounding text, colored to read as a link. */
+.comm-card__dev-link { color: var(--navy); font-weight: 600; }
+.comm-card__dev-link:hover { color: var(--gold-dark); text-decoration: underline; }
+
 .comm-card__types { display: flex; flex-wrap: wrap; gap: 8px; }
 .comm-card__types li {
+  display: inline-flex; align-items: center; gap: 6px;
   font-size: 0.75rem; font-weight: 700; color: var(--navy);
   background: var(--bg-section-alt); border-radius: 999px;
   padding: 5px 14px;
 }
+/* Property-type icon reused from the removed larger project card — sized
+   down to sit comfortably inside the compact pill. */
+.comm-card__types .icon { width: 14px; height: 14px; flex-shrink: 0; }
 
 .comm-card__link {
   display: inline-flex; align-items: center; gap: 8px;

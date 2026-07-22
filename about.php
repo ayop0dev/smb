@@ -32,9 +32,7 @@ require __DIR__ . '/header.php';
           </nav>
           <h1 id="hero-title">Serving, Managing &amp;&nbsp;Beyond</h1>
           <p class="hero__description">
-            SMB Real Estate Brokers helps clients buy, sell, manage and invest in
-            residential and commercial properties across Dubai — with honest guidance
-            at every step.
+            SMB is a UAE real estate advisory built around a simple principle: the right decision matters more than the quickest transaction.
           </p>
         </div>
       </div>
@@ -45,23 +43,16 @@ require __DIR__ . '/header.php';
       <div class="container split split--media-right">
         <div class="split__text" data-reveal>
           <p class="eyebrow">Who We Are</p>
-          <h2 id="intro-title">A client-first brokerage in the heart of Dubai</h2>
+          <h2 id="intro-title">Advice with your interests at its centre</h2>
           <p>
-            SMB Real Estate Brokers L.L.C is a Dubai-based brokerage established in 2021
-            and headquartered in Business Bay. We assist individual buyers, families,
-            investors and businesses with residential, commercial and off-plan
-            properties across the city.
+            Established in 2021 and headquartered in Business Bay, SMB advises buyers, families, investors and businesses throughout the UAE. Our reach spans major city markets, established residential communities and the Northern Emirates' growing coastal destinations.
           </p>
           <p>
-            Our work is built on local market knowledge and transparent advice. We take
-            the time to understand each client's goals, explain options clearly, and
-            stay involved from the first conversation to the final signature — and
-            beyond. Most of our business comes from repeat clients and referrals, which
-            is how we prefer to grow.
+            Our work starts with careful listening. Market knowledge then narrows the field, while independent judgement keeps the recommendation aligned with the client&mdash;not the transaction. Strengths and compromises are made clear. A reliable point of contact remains in place long after the paperwork is signed. Repeat business and referrals are the measure we value most.
           </p>
           <ul class="intro-facts" aria-label="Company facts">
             <li>Established 2021</li>
-            <li>Business Bay, Dubai</li>
+            <li>Serving all seven emirates</li>
             <li>Residential &amp; Commercial</li>
             <li>Off-Plan Advisory</li>
           </ul>
@@ -82,8 +73,7 @@ require __DIR__ . '/header.php';
             <p class="eyebrow">Our Team</p>
             <h2 id="team-title">The people behind SMB</h2>
             <p class="section-head__sub">
-              A small, dedicated team — so every client works directly with the people
-              responsible for the result.
+              Experienced advisers, direct access and personal accountability from the first meeting onwards.
             </p>
           </div>
           <article class="team-card" data-reveal>
@@ -102,9 +92,9 @@ require __DIR__ . '/header.php';
                 long-term relationships. Having held leadership roles with renowned
                 companies including DAMAC Properties and Royal Oasis Real Estate, he
                 combines strategic market knowledge with a hands-on approach to
-                helping clients make confident property decisions. His leadership is
-                built on transparency, professionalism, and a commitment to
-                delivering exceptional service in Dubai's dynamic real estate market.
+                helping clients make confident property decisions. He leads with sound
+                judgement, direct communication and a belief that trusted relationships
+                are built over time.
               </p>
             </div>
           </article>
@@ -119,14 +109,13 @@ require __DIR__ . '/header.php';
               <p class="team-card__role">Managing Director</p>
               <p class="team-card__bio">
                 Saddam Barakat brings over 18 years of experience in banking and real
-                estate, helping investors and homebuyers navigate Dubai's property
+                estate, helping investors and homebuyers navigate the UAE's property
                 market with confidence. Before joining SMB Real Estate Brokers, he
-                built an impressive career with leading organizations including
-                Emaar, DAMAC Properties, Emirates NBD, and Mashreq Bank. His deep
-                understanding of market trends, investment opportunities, and client
-                needs enables him to provide practical advice and tailored property
-                solutions while ensuring every transaction is handled with integrity
-                and care.
+                built an impressive career with recognised organisations including
+                Emaar, DAMAC Properties, Emirates NBD and Mashreq Bank. His understanding
+                of finance, market cycles and client priorities brings a measured
+                perspective to every brief, while his attention to detail keeps each
+                transaction in capable hands.
               </p>
             </div>
           </article>
@@ -144,20 +133,16 @@ require __DIR__ . '/header.php';
         <div class="mv__grid">
           <div class="mv-block" data-reveal>
             <p class="eyebrow">Mission</p>
-            <h3>Informed decisions, every time</h3>
+            <h3>Clarity before commitment</h3>
             <p>
-              To help clients make informed property decisions through honest guidance,
-              genuine market knowledge and dedicated support at every stage of the
-              transaction.
+              To give clients the context, judgement and personal attention required to make sound property decisions.
             </p>
           </div>
           <div class="mv-block" data-reveal>
             <p class="eyebrow">Vision</p>
-            <h3>Dubai's trusted property partner</h3>
+            <h3>A relationship built for the long term</h3>
             <p>
-              To become a trusted real estate partner for buyers, sellers, landlords
-              and investors in Dubai — known for transparency and long-term
-              relationships.
+              To build lasting client relationships by placing sound advice ahead of short-term transactions across the UAE.
             </p>
           </div>
         </div>
@@ -185,7 +170,7 @@ require __DIR__ . '/header.php';
           <div class="why-item" data-reveal>
             <span class="why-item__num" aria-hidden="true">03</span>
             <h3>Market Knowledge</h3>
-            <p>We follow Dubai's communities, developers and values closely, so our advice reflects the market as it is today.</p>
+            <p>We follow communities, developers and values across the Emirates, so our advice reflects current market conditions.</p>
           </div>
           <div class="why-item" data-reveal>
             <span class="why-item__num" aria-hidden="true">04</span>
@@ -201,42 +186,41 @@ require __DIR__ . '/header.php';
       <div class="container choose__grid">
         <div class="choose__intro" data-reveal>
           <p class="eyebrow">Why Clients Choose SMB</p>
-          <h2 id="choose-title">Practical value at every step</h2>
+          <h2 id="choose-title">What client-first advice looks like</h2>
           <p>
-            Values matter most when they show up in the day-to-day work. Here is what
-            working with SMB looks like in practice.
+            Our principles are visible in the work: candid recommendations, selective shortlists and careful attention to the details that affect your outcome.
           </p>
-          <a class="btn btn--primary" href="#enquire">Speak With Our Team</a>
+          <a class="btn btn--primary" href="#enquire">Meet Our Advisers</a>
         </div>
         <ol class="choose__list">
           <li data-reveal>
             <div>
               <h3>Honest, clear property guidance</h3>
-              <p>Straight answers about pricing, payment plans and trade-offs — before you commit to anything.</p>
+              <p>A candid view of pricing, terms and compromises before any commitment is made.</p>
             </div>
           </li>
           <li data-reveal>
             <div>
               <h3>Access to selected opportunities</h3>
-              <p>We shortlist properties and off-plan releases that genuinely fit your brief, rather than sending everything on the market.</p>
+              <p>A disciplined selection shaped by your brief, rather than a stream of whatever happens to be available.</p>
             </div>
           </li>
           <li data-reveal>
             <div>
               <h3>Support from enquiry to transaction</h3>
-              <p>Viewings, negotiation, paperwork and coordination are managed for you, end to end.</p>
+              <p>Close management of viewings, negotiation, paperwork and coordination from one accountable contact.</p>
             </div>
           </li>
           <li data-reveal>
             <div>
               <h3>Knowledge of communities and developers</h3>
-              <p>Practical insight into Dubai's neighbourhoods and developer track records informs every recommendation.</p>
+              <p>A practical understanding of UAE locations and developer track records gives each recommendation proper context.</p>
             </div>
           </li>
           <li data-reveal>
             <div>
               <h3>Responsive, personal communication</h3>
-              <p>You deal with a person who knows your file — and who answers when you call.</p>
+              <p>You deal with an adviser who knows the brief, remembers the detail and remains accessible.</p>
             </div>
           </li>
         </ol>
@@ -248,28 +232,28 @@ require __DIR__ . '/header.php';
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">How We Work</p>
-          <h2 id="steps-title">A simple, considered approach</h2>
+          <h2 id="steps-title">Deliberate from the outset</h2>
         </div>
         <ol class="steps__grid">
           <li class="step" data-reveal>
             <span class="step__num" aria-hidden="true">1</span>
             <h3>Understand</h3>
-            <p>We start with your goals, budget and timeline — not with a sales pitch.</p>
+            <p>The brief begins with your priorities, budget and timeline.</p>
           </li>
           <li class="step" data-reveal>
             <span class="step__num" aria-hidden="true">2</span>
             <h3>Advise</h3>
-            <p>You get a clear picture of the market, realistic values and the options that fit.</p>
+            <p>Market context and realistic values reveal where the strongest fit lies.</p>
           </li>
           <li class="step" data-reveal>
             <span class="step__num" aria-hidden="true">3</span>
             <h3>Shortlist</h3>
-            <p>We narrow the market to a focused shortlist worth your time to view and compare.</p>
+            <p>Only a focused set of credible options earns your time and attention.</p>
           </li>
           <li class="step" data-reveal>
             <span class="step__num" aria-hidden="true">4</span>
             <h3>Support</h3>
-            <p>From offer to handover, we manage the process and stay available afterwards.</p>
+            <p>From offer to handover, the process remains closely managed; the relationship continues afterwards.</p>
           </li>
         </ol>
       </div>
@@ -288,14 +272,10 @@ require __DIR__ . '/header.php';
           <h2 id="commitment-title">Relationships that outlast transactions</h2>
           <div class="commitment__rule" aria-hidden="true"></div>
           <p>
-            We measure our work by what happens after the deal closes. That means
-            long-term client relationships, transparent communication throughout, and
-            property decisions aligned with each client's goals — not with a quick
-            commission.
+            The quality of our work is often clearest after the deal closes: in the decisions that still feel sound, the questions that still receive an answer and the relationships that endure. Client interests come before a quick commission.
           </p>
           <p>
-            It is the reason clients come back, and the reason they send the people
-            they care about to us.
+            That is why clients return&mdash;and why they refer people whose interests matter to them.
           </p>
         </div>
       </div>
@@ -306,15 +286,14 @@ require __DIR__ . '/header.php';
       <img class="cta-final__bg" src="assets/images/hero-villa-pool.jpg" alt="" loading="lazy" aria-hidden="true">
       <div class="container cta-final__inner">
         <p class="eyebrow eyebrow--gold" data-reveal>Get in Touch</p>
-        <h2 id="cta-title" data-reveal>Let's discuss your property goals in Dubai</h2>
+        <h2 id="cta-title" data-reveal>Let good advice shape the next move</h2>
         <p class="cta-final__sub" data-reveal>
-          Whether you are buying your first home, selling, or building a portfolio,
-          a conversation with our team is the right place to start.
+          Whether the next move is a home, a sale or a portfolio decision, begin with a considered conversation.
         </p>
         <div class="cta-final__buttons" data-reveal>
           <a class="btn btn--accent btn--lg" href="tel:+971504217299">
             <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
-            Call +971 50 421 7299
+            Meet Our Advisers
           </a>
           <a class="btn btn--ghost btn--lg" href="https://wa.me/971504217299" target="_blank" rel="noopener">
             <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>

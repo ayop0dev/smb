@@ -4,8 +4,8 @@
  * The sticky CTA text can be overridden per page (see damac-islands2.php).
  */
 $sticky_href = $sticky_href ?? '#enquire';
-$sticky_label = $sticky_label ?? 'Buy · Sell · Invest';
-$sticky_value = $sticky_value ?? 'Talk to an expert';
+$sticky_label = $sticky_label ?? 'UAE Property Advisory';
+$sticky_value = $sticky_value ?? 'Start a Conversation';
 $sticky_action = $sticky_action ?? 'Contact us';
 ?>
 
@@ -13,11 +13,10 @@ $sticky_action = $sticky_action ?? 'Contact us';
   <footer class="footer">
     <div class="container footer__grid">
       <div class="footer__brand">
-        <img src="assets/images/smb-logo-horizontal.png" alt="SMB Real Estate Brokers logo" width="97" height="56" loading="lazy">
+        <img src="assets/images/smb-logo-horizontal.png" alt="SMB Real Estate Brokers — Serving, Managing &amp; Beyond" width="97" height="56" loading="lazy">
         <p class="footer__tagline">Serving, Managing &amp; Beyond</p>
         <p class="footer__about">
-          SMB Real Estate Brokers L.L.C is a Dubai-based brokerage assisting clients with
-          selling, managing and investing in residential and commercial properties.
+          SMB Real Estate Brokers L.L.C is a UAE property advisory for residential and commercial clients, known for independent judgement, attentive execution and relationships that continue beyond completion.
         </p>
         <div class="footer__social">
           <a href="#" aria-label="SMB Real Estate Brokers on Instagram"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a>
@@ -60,7 +59,7 @@ $sticky_action = $sticky_action ?? 'Contact us';
     "@context": "https://schema.org",
     "@type": "RealEstateAgent",
     "name": "SMB Real Estate Brokers L.L.C",
-    "description": "SMB Real Estate Brokers L.L.C is a Dubai-based brokerage assisting clients with selling, managing and investing in residential and commercial properties.",
+    "description": "SMB Real Estate Brokers L.L.C is a UAE property advisory for residential and commercial clients, known for independent judgement, attentive execution and relationships that continue beyond completion.",
     "url": "<?= smb_e($site_url) ?>/",
     "logo": "<?= smb_e($site_url) ?>/assets/images/smb-logo-horizontal.png",
     "image": "<?= smb_e($site_url) ?>/assets/images/smb-logo-horizontal.png",

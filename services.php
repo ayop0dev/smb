@@ -31,10 +31,9 @@ require __DIR__ . '/header.php';
               <li><span aria-current="page">Services</span></li>
             </ol>
           </nav>
-          <h1 id="hero-title">Guidance for every property decision</h1>
+          <h1 id="hero-title">Advice for the decisions that matter</h1>
           <p class="hero__description">
-            From off-plan launches to ready homes and commercial space, SMB supports
-            buyers, sellers and investors through every stage of the transaction.
+            Residential, commercial, ready or off-plan: each brief receives independent thought, careful execution and continuity after completion.
           </p>
         </div>
       </div>
@@ -45,17 +44,12 @@ require __DIR__ . '/header.php';
       <div class="container split split--media-right">
         <div class="split__text" data-reveal>
           <p class="eyebrow">What We Do</p>
-          <h2 id="intro-title">One brokerage, the full transaction</h2>
+          <h2 id="intro-title">One standard across every service</h2>
           <p>
-            SMB Real Estate Brokers works across Dubai's residential and commercial
-            market. Whether you are buying, selling, leasing or investing, we provide
-            the market knowledge, professional representation and expert advice to
-            move from intention to a completed transaction.
+            SMB works across the UAE's residential and commercial markets, but the service is never generic. Each brief is examined on its own terms, represented professionally and carried through with close attention to execution.
           </p>
           <p>
-            Every engagement follows the same principle: understand your goal first,
-            then recommend only what serves it. The services below cover the ways we
-            most often help our clients.
+            We do not begin with a list of properties. We begin with the decision in front of you: what needs to change, what cannot be compromised and what a successful outcome would look like. The work is shaped from there.
           </p>
         </div>
         <div class="split__media" data-reveal>
@@ -74,30 +68,27 @@ require __DIR__ . '/header.php';
           <span class="offplan__tag">Core Focus</span>
           <h2 id="offplan-title">Off-Plan Property Advisory</h2>
           <p>
-            Off-plan is where SMB does its most important work. Buying before
-            completion can offer attractive entry prices and payment plans — but it
-            requires careful judgement about location, timing and the terms behind
-            the brochure.
+            Off-plan may offer a useful payment structure or early entry into a developing location. Those benefits need context. Delivery history, pricing, contract terms and future supply matter long after launch-day interest has passed.
           </p>
           <ul class="offplan__list">
             <li>
               <svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>
-              <span>Guidance on new launches across Dubai's master-planned communities</span>
+              <span>A filtered view of launches with a credible place in the market</span>
             </li>
             <li>
               <svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>
-              <span>Payment plans, fees and handover timelines explained before you commit</span>
+              <span>Payment plans, total costs and handover assumptions examined in full</span>
             </li>
             <li>
               <svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>
-              <span>Honest assessment of how each opportunity fits your budget and goals</span>
+              <span>A candid view of suitability, value and the compromises involved</span>
             </li>
             <li>
               <svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>
-              <span>Support with reservation, documentation and every milestone to handover</span>
+              <span>Continuity across reservation, documentation, construction updates and handover</span>
             </li>
           </ul>
-          <a class="btn btn--accent btn--lg" href="#enquire">Discuss Off-Plan Opportunities</a>
+          <a class="btn btn--accent btn--lg" href="#enquire">Review Off-Plan Options</a>
         </div>
         <div class="offplan__media" data-reveal>
           <img src="assets/images/gallery-villa-dusk.jpg"
@@ -112,13 +103,13 @@ require __DIR__ . '/header.php';
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">All Services</p>
-          <h2 id="services-title">How we help our clients</h2>
+          <h2 id="services-title">Expertise applied to your brief</h2>
         </div>
         <div class="services__grid">
           <article class="service-card" data-reveal>
             <span class="service-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg></span>
             <h3>Residential Property Sales</h3>
-            <p>Buying or selling apartments, villas and townhouses — accurate valuations, qualified buyers and professional representation throughout.</p>
+            <p>Advice and representation for buyers and sellers, grounded in realistic values, relevant opportunities and careful negotiation.</p>
             <a class="service-card__link" href="#enquire">
               Enquire
               <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
@@ -127,7 +118,7 @@ require __DIR__ . '/header.php';
           <article class="service-card" data-reveal>
             <span class="service-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg></span>
             <h3>Commercial Property Sales</h3>
-            <p>Offices, retail and commercial space for businesses and investors, matched to operational needs and long-term plans.</p>
+            <p>Commercial property considered against operating needs, location, tenure and the longer-term case for the asset.</p>
             <a class="service-card__link" href="#enquire">
               Enquire
               <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
@@ -136,7 +127,7 @@ require __DIR__ . '/header.php';
           <article class="service-card" data-reveal>
             <span class="service-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg></span>
             <h3>Investment Guidance</h3>
-            <p>Practical advice on where and how to invest in Dubai real estate, aligned with your budget, horizon and appetite for risk.</p>
+            <p>Decisions framed around capital, time horizon, income expectations and risk&mdash;not a fashionable launch or headline return.</p>
             <a class="service-card__link" href="#enquire">
               Enquire
               <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
@@ -145,7 +136,7 @@ require __DIR__ . '/header.php';
           <article class="service-card" data-reveal>
             <span class="service-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-deed"/></svg></span>
             <h3>Transaction Support</h3>
-            <p>Negotiation, paperwork and coordination handled end to end, so your transaction moves forward without stress or surprises.</p>
+            <p>Negotiation, documentation and coordination managed with a clear view of what is due, from whom and by when.</p>
             <a class="service-card__link" href="#enquire">
               Enquire
               <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
@@ -160,10 +151,9 @@ require __DIR__ . '/header.php';
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Who We Serve</p>
-          <h2 id="audience-title">Built around different goals</h2>
+          <h2 id="audience-title">Different briefs. The same care.</h2>
           <p class="section-head__sub">
-            The service is the same standard — the advice is shaped around who you are
-            and what you are trying to achieve.
+            A first home calls for different judgement from a business premises or portfolio acquisition. Each receives the same care, but never the same formula.
           </p>
         </div>
         <div class="audience__grid">
@@ -171,7 +161,7 @@ require __DIR__ . '/header.php';
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-key"/></svg></span>
             <span class="category-card__text">
               <h3>First-Time Buyers</h3>
-              <p>Clear explanations of every step, from budgeting to title deed</p>
+              <p>Context and reassurance from initial budgeting to title deed</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
@@ -179,7 +169,7 @@ require __DIR__ . '/header.php';
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg></span>
             <span class="category-card__text">
               <h3>Owners &amp; Sellers</h3>
-              <p>Realistic valuations and qualified buyers for your property</p>
+              <p>Evidence-based pricing, considered positioning and qualified interest</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
@@ -187,7 +177,7 @@ require __DIR__ . '/header.php';
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg></span>
             <span class="category-card__text">
               <h3>Investors</h3>
-              <p>Off-plan and ready opportunities assessed against your goals</p>
+              <p>Ready and off-plan opportunities tested against a defined strategy</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
@@ -195,7 +185,7 @@ require __DIR__ . '/header.php';
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-bag"/></svg></span>
             <span class="category-card__text">
               <h3>Businesses</h3>
-              <p>Commercial premises found and negotiated for your operations</p>
+              <p>Premises assessed and negotiated around operational priorities</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
@@ -218,10 +208,7 @@ require __DIR__ . '/header.php';
             </summary>
             <div class="faq-item__body">
               <p>
-                We help you compare current launches, understand payment plans, fees and
-                expected handover timelines, and assess how each opportunity fits your
-                budget and goals. Once you decide, we manage the reservation and
-                documentation, and stay involved through to handover.
+                The service covers launch selection, payment plans, total fees, delivery assumptions and fit with your wider objectives. Once a project is chosen, reservation and documentation are managed through to handover.
               </p>
             </div>
           </details>
@@ -232,35 +219,29 @@ require __DIR__ . '/header.php';
             </summary>
             <div class="faq-item__body">
               <p>
-                Both — as well as landlords, investors and businesses. We represent
-                buyers looking for the right property and owners who want realistic
-                valuations and qualified interest in what they are selling.
+                Both, alongside landlords, investors and businesses. Buyers receive an independent view of the market; owners receive realistic pricing and considered representation.
               </p>
             </div>
           </details>
           <details class="faq-item" data-reveal>
             <summary>
-              Can international buyers purchase property in Dubai?
+              Can international buyers purchase property in the UAE?
               <span class="faq-item__indicator" aria-hidden="true"></span>
             </summary>
             <div class="faq-item__body">
               <p>
-                Yes. Dubai's freehold areas allow ownership for all nationalities. We
-                regularly assist overseas buyers and can guide you through the process
-                remotely, from shortlisting to completion.
+                Yes. International buyers may own property in designated UAE freehold areas, subject to the rules of the relevant emirate. The process can be handled remotely, with the ownership framework and each required step set out clearly.
               </p>
             </div>
           </details>
           <details class="faq-item" data-reveal>
             <summary>
-              Which areas of Dubai do you cover?
+              Which areas of the UAE do you cover?
               <span class="faq-item__indicator" aria-hidden="true"></span>
             </summary>
             <div class="faq-item__body">
               <p>
-                We work across Dubai's residential and commercial communities, with
-                particular depth in off-plan and master-planned developments. Tell us
-                where you are looking — or let us suggest areas that fit your brief.
+                Our coverage spans all seven emirates. Where a broader search serves the brief, locations are considered across emirate boundaries rather than in isolation.
               </p>
             </div>
           </details>
@@ -271,9 +252,7 @@ require __DIR__ . '/header.php';
             </summary>
             <div class="faq-item__body">
               <p>
-                It depends on the service and the transaction. Fees are always explained
-                clearly and agreed before any engagement begins — transparency on costs
-                is part of how we work.
+                Fees depend on the service and transaction. They are set out and agreed before an engagement begins, so the commercial basis is clear from the outset.
               </p>
             </div>
           </details>
@@ -283,11 +262,11 @@ require __DIR__ . '/header.php';
         '@context' => 'https://schema.org',
         '@type' => 'FAQPage',
         'mainEntity' => [
-          ['@type' => 'Question', 'name' => 'What does your off-plan advisory service include?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'We help you compare current launches, understand payment plans, fees and expected handover timelines, and assess how each opportunity fits your budget and goals. Once you decide, we manage the reservation and documentation, and stay involved through to handover.']],
-          ['@type' => 'Question', 'name' => 'Do you work with buyers, sellers, or both?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Both — as well as landlords, investors and businesses. We represent buyers looking for the right property and owners who want realistic valuations and qualified interest in what they are selling.']],
-          ['@type' => 'Question', 'name' => 'Can international buyers purchase property in Dubai?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => "Yes. Dubai's freehold areas allow ownership for all nationalities. We regularly assist overseas buyers and can guide you through the process remotely, from shortlisting to completion."]],
-          ['@type' => 'Question', 'name' => 'Which areas of Dubai do you cover?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => "We work across Dubai's residential and commercial communities, with particular depth in off-plan and master-planned developments. Tell us where you are looking — or let us suggest areas that fit your brief."]],
-          ['@type' => 'Question', 'name' => 'How are your services charged?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'It depends on the service and the transaction. Fees are always explained clearly and agreed before any engagement begins — transparency on costs is part of how we work.']],
+          ['@type' => 'Question', 'name' => 'What does your off-plan advisory service include?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'The service covers launch selection, payment plans, total fees, delivery assumptions and fit with your wider objectives. Once a project is chosen, reservation and documentation are managed through to handover.']],
+          ['@type' => 'Question', 'name' => 'Do you work with buyers, sellers, or both?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Both, alongside landlords, investors and businesses. Buyers receive an independent view of the market; owners receive realistic pricing and considered representation.']],
+          ['@type' => 'Question', 'name' => 'Can international buyers purchase property in the UAE?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Yes. International buyers may own property in designated UAE freehold areas, subject to the rules of the relevant emirate. The process can be handled remotely, with the ownership framework and each required step set out clearly.']],
+          ['@type' => 'Question', 'name' => 'Which areas of the UAE do you cover?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Our coverage spans all seven emirates. Where a broader search serves the brief, locations are considered across emirate boundaries rather than in isolation.']],
+          ['@type' => 'Question', 'name' => 'How are your services charged?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Fees depend on the service and transaction. They are set out and agreed before an engagement begins, so the commercial basis is clear from the outset.']],
         ],
       ], JSON_UNESCAPED_SLASHES) ?></script>
     </section>
@@ -297,15 +276,14 @@ require __DIR__ . '/header.php';
       <img class="cta-final__bg" src="assets/images/gallery-resort-pool.jpg" alt="" loading="lazy" aria-hidden="true">
       <div class="container cta-final__inner">
         <p class="eyebrow eyebrow--gold" data-reveal>Get in Touch</p>
-        <h2 id="cta-title" data-reveal>Tell us what you're trying to achieve</h2>
+        <h2 id="cta-title" data-reveal>Bring us the decision you are considering</h2>
         <p class="cta-final__sub" data-reveal>
-          A short conversation is enough to point you in the right direction — and to
-          see whether we are the right partner for it.
+          A focused conversation is usually enough to define the requirement, establish what is realistic and decide whether SMB is the right adviser for the work.
         </p>
         <div class="cta-final__buttons" data-reveal>
           <a class="btn btn--accent btn--lg" href="tel:+971504217299">
             <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
-            Call +971 50 421 7299
+            Discuss Your Requirements
           </a>
           <a class="btn btn--ghost btn--lg" href="https://wa.me/971504217299" target="_blank" rel="noopener">
             <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>

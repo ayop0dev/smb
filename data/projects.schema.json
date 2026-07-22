@@ -1,0 +1,847 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://smb-realestate.local/schemas/projects.schema.json",
+  "title": "Frozen project implementation dataset",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "generated_at",
+    "status",
+    "source",
+    "projects"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "2.0"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "const": "frozen"
+    },
+    "source": {
+      "const": "Audited project research normalized to the DAMAC Islands 2 template"
+    },
+    "projects": {
+      "type": "array",
+      "minItems": 18,
+      "maxItems": 18,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "slug",
+          "name",
+          "developer",
+          "location_label",
+          "seo",
+          "hero",
+          "sticky_cta",
+          "structured_data",
+          "districts",
+          "facts",
+          "overview",
+          "gallery",
+          "amenities",
+          "location",
+          "cta"
+        ],
+        "properties": {
+          "slug": {
+            "type": "string",
+            "enum": [
+              "grand-polo-club-resort",
+              "fahid-island",
+              "damac-riverside-views",
+              "bay-grove-residences",
+              "la-tilia-at-villanova",
+              "sobha-central",
+              "the-acres-estates",
+              "binghatti-aquarise",
+              "sparklz-by-danube",
+              "azizi-milan",
+              "everly-place",
+              "downtown-residences",
+              "lumena",
+              "one-park-central",
+              "verdana-empire",
+              "tiger-sky-tower",
+              "elysee-heights",
+              "six-senses-residences-dubai-marina"
+            ]
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "developer": {
+            "type": "string",
+            "minLength": 1
+          },
+          "location_label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "seo": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "page_title",
+              "page_description",
+              "og_title",
+              "og_description",
+              "og_image"
+            ],
+            "properties": {
+              "page_title": {
+                "type": "string"
+              },
+              "page_description": {
+                "type": "string"
+              },
+              "og_title": {
+                "type": "string"
+              },
+              "og_description": {
+                "type": "string"
+              },
+              "og_image": {
+                "type": "string",
+                "pattern": "^(?!https?://)"
+              }
+            }
+          },
+          "hero": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "headline",
+              "description",
+              "image",
+              "starting_price",
+              "price_note",
+              "trust_badges"
+            ],
+            "properties": {
+              "headline": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "image": {
+                "type": "string",
+                "pattern": "^(?!https?://)"
+              },
+              "starting_price": {
+                "type": "string"
+              },
+              "price_note": {
+                "type": "string"
+              },
+              "trust_badges": {
+                "type": "array",
+                "maxItems": 3,
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "sticky_cta": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value"
+            ],
+            "properties": {
+              "value": {
+                "type": "string"
+              }
+            }
+          },
+          "structured_data": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "type",
+              "name",
+              "description",
+              "image",
+              "price",
+              "currency",
+              "address_locality"
+            ],
+            "properties": {
+              "type": {
+                "enum": [
+                  "Residence",
+                  "OfficeBuilding"
+                ]
+              },
+              "name": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "image": {
+                "type": "string",
+                "pattern": "^(?!https?://)"
+              },
+              "price": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "currency": {
+                "const": "AED"
+              },
+              "address_locality": {
+                "type": "string"
+              }
+            }
+          },
+          "districts": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "enabled",
+              "intro",
+              "items"
+            ],
+            "properties": {
+              "enabled": {
+                "type": "boolean"
+              },
+              "intro": {
+                "type": "string"
+              },
+              "items": {
+                "type": "array"
+              }
+            }
+          },
+          "facts": {
+            "type": "array",
+            "minItems": 4,
+            "maxItems": 4,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "label",
+                "icon"
+              ],
+              "properties": {
+                "value": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "icon": {
+                  "enum": [
+                    "deed",
+                    "home",
+                    "calendar",
+                    "expand",
+                    "bed",
+                    "plan",
+                    "sparkles",
+                    "waves",
+                    "dumbbell",
+                    "heart",
+                    "users",
+                    "balloon",
+                    "bag",
+                    "leaf",
+                    "shield",
+                    "building",
+                    "anchor",
+                    "plane",
+                    "clock",
+                    "pin",
+                    "info"
+                  ]
+                }
+              }
+            }
+          },
+          "overview": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "title",
+              "paragraphs",
+              "cards"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "paragraphs": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 2,
+                "items": {
+                  "type": "string"
+                }
+              },
+              "cards": {
+                "type": "array",
+                "minItems": 3,
+                "maxItems": 3,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "value",
+                    "label",
+                    "icon"
+                  ],
+                  "properties": {
+                    "value": {
+                      "type": "string"
+                    },
+                    "label": {
+                      "type": "string"
+                    },
+                    "icon": {
+                      "enum": [
+                        "deed",
+                        "home",
+                        "calendar",
+                        "expand",
+                        "bed",
+                        "plan",
+                        "sparkles",
+                        "waves",
+                        "dumbbell",
+                        "heart",
+                        "users",
+                        "balloon",
+                        "bag",
+                        "leaf",
+                        "shield",
+                        "building",
+                        "anchor",
+                        "plane",
+                        "clock",
+                        "pin",
+                        "info"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "gallery": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "title",
+              "images"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "images": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^(?!https?://)"
+                }
+              }
+            }
+          },
+          "amenities": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "title",
+              "items"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "items": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "title",
+                    "description",
+                    "icon"
+                  ],
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "icon": {
+                      "enum": [
+                        "deed",
+                        "home",
+                        "calendar",
+                        "expand",
+                        "bed",
+                        "plan",
+                        "sparkles",
+                        "waves",
+                        "dumbbell",
+                        "heart",
+                        "users",
+                        "balloon",
+                        "bag",
+                        "leaf",
+                        "shield",
+                        "building",
+                        "anchor",
+                        "plane",
+                        "clock",
+                        "pin",
+                        "info"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "location": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "title",
+              "description",
+              "background_image",
+              "places"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "background_image": {
+                "type": "string",
+                "pattern": "^(?!https?://)"
+              },
+              "places": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 4,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "name",
+                    "time",
+                    "icon"
+                  ],
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "time": {
+                      "type": "string"
+                    },
+                    "icon": {
+                      "enum": [
+                        "deed",
+                        "home",
+                        "calendar",
+                        "expand",
+                        "bed",
+                        "plan",
+                        "sparkles",
+                        "waves",
+                        "dumbbell",
+                        "heart",
+                        "users",
+                        "balloon",
+                        "bag",
+                        "leaf",
+                        "shield",
+                        "building",
+                        "anchor",
+                        "plane",
+                        "clock",
+                        "pin",
+                        "info"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "cta": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {}
+          }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "properties": {
+        "projects": {
+          "contains": {
+            "type": "object",
+            "required": [
+              "slug"
+            ],
+            "properties": {
+              "slug": {
+                "const": "grand-polo-club-resort"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "projects": {
+          "contains": {
+            "type": "object",
+            "required": [
+              "slug"
+            ],
+            "properties": {
+              "slug": {
+                "const": "fahid-island"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "projects": {
+          "contains": {
+            "type": "object",
+            "required": [
+              "slug"
+            ],
+            "properties": {
+              "slug": {
+                "const": "damac-riverside-views"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "projects": {
+          "contains": {
+            "type": "object",
+            "required": [
+              "slug"
+            ],
+            "properties": {
+              "slug": {
+                "const": "bay-grove-residences"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "projects": {
+          "contains": {
+            "type": "object",
+            "required": [
+              "slug"
+            ],
+            "properties": {
+              "slug": {
+                "const": "la-tilia-at-villanova"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "projects": {
+          "contains": {
+            "type": "object",
+            "required": [
+              "slug"
+            ],
+            "properties": {
+              "slug": {
+                "const": "sobha-central"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "projects": {
+          "contains": {
+            "type": "object",
+            "required": [
+              "slug"
+            ],
+            "properties": {
+              "slug": {
+                "const": "the-acres-estates"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "projects": {
+          "contains": {
+            "type": "object",
+            "required": [
+              "slug"
+            ],
+            "properties": {
+              "slug": {
+                "const": "binghatti-aquarise"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "projects": {
+          "contains": {
+            "type": "object",
+            "required": [
+              "slug"
+            ],
+            "properties": {
+              "slug": {
+                "const": "sparklz-by-danube"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "projects": {
+          "contains": {
+            "type": "object",
+            "required": [
+              "slug"
+            ],
+            "properties": {
+              "slug": {
+                "const": "azizi-milan"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "projects": {
+          "contains": {
+            "type": "object",
+            "required": [
+              "slug"
+            ],
+            "properties": {
+              "slug": {
+                "const": "everly-place"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "projects": {
+          "contains": {
+            "type": "object",
+            "required": [
+              "slug"
+            ],
+            "properties": {
+              "slug": {
+                "const": "downtown-residences"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "projects": {
+          "contains": {
+            "type": "object",
+            "required": [
+              "slug"
+            ],
+            "properties": {
+              "slug": {
+                "const": "lumena"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "projects": {
+          "contains": {
+            "type": "object",
+            "required": [
+              "slug"
+            ],
+            "properties": {
+              "slug": {
+                "const": "one-park-central"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "projects": {
+          "contains": {
+            "type": "object",
+            "required": [
+              "slug"
+            ],
+            "properties": {
+              "slug": {
+                "const": "verdana-empire"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "projects": {
+          "contains": {
+            "type": "object",
+            "required": [
+              "slug"
+            ],
+            "properties": {
+              "slug": {
+                "const": "tiger-sky-tower"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "projects": {
+          "contains": {
+            "type": "object",
+            "required": [
+              "slug"
+            ],
+            "properties": {
+              "slug": {
+                "const": "elysee-heights"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "projects": {
+          "contains": {
+            "type": "object",
+            "required": [
+              "slug"
+            ],
+            "properties": {
+              "slug": {
+                "const": "six-senses-residences-dubai-marina"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    }
+  ]
+}

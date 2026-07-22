@@ -47,15 +47,13 @@ require __DIR__ . '/header.php';
         <div class="hero__content">
           <p class="eyebrow eyebrow--light">By DAMAC Properties &middot; Dubailand, Dubai</p>
           <h1 id="hero-title">DAMAC Islands&nbsp;2</h1>
-          <p class="hero__headline">Luxury Waterfront Villas &amp; Townhouses</p>
+          <p class="hero__headline">High-End Waterfront Villas &amp; Townhouses</p>
           <p class="hero__description">
-            A master-planned waterfront community offering luxury villas and townhouses in
-            Dubailand, Dubai. Crystal lagoons, water features and resort-style amenities,
-            designed for a premium island lifestyle.
+            A large-scale Dubailand community of villas and townhouses organised around water, landscaping and shared leisure spaces. This page sets out the current release, setting and practical considerations.
           </p>
           <div class="hero__cta">
             <a class="btn btn--accent btn--lg" href="#enquire">Enquire Now</a>
-            <a class="btn btn--ghost btn--lg" href="#overview">Explore the Project</a>
+            <a class="btn btn--ghost btn--lg" href="#overview">Review Project Details</a>
           </div>
           <ul class="hero__badges" aria-label="Trust indicators">
             <li>Developed by DAMAC Properties</li>
@@ -85,11 +83,11 @@ require __DIR__ . '/header.php';
               <p class="field__error" id="hf-email-error" aria-live="polite"></p>
             </div>
             <button type="submit" class="btn btn--accent btn--block">Enquire Now</button>
-            <p class="lead-form__privacy">Our team will contact you shortly.</p>
+            <p class="lead-form__privacy">Our team will contact you to understand your needs and agree the next step.</p>
           </form>
           <div class="lead-form__success" hidden>
             <p class="lead-form__success-title">Thank you</p>
-            <p>Your enquiry has been received. A property consultant from SMB Real Estate Brokers will contact you shortly.</p>
+            <p>Your enquiry has been received. An SMB property consultant will contact you to understand your goals and guide the next step.</p>
           </div>
         </div>
       </div>
@@ -106,8 +104,8 @@ require __DIR__ . '/header.php';
           <li>Barbados</li>
           <li>Cuba</li>
           <li>Maui</li>
-          <li class="is-launching">Mauritius</li>
-          <li class="is-launching">Antigua</li>
+          <li class="is-launching">Mauritius (Now launching)</li>
+          <li class="is-launching">Antigua (Now launching)</li>
         </ul>
         <p class="districts__legend"><span class="districts__dot" aria-hidden="true"></span> Now launching</p>
       </div>
@@ -155,20 +153,14 @@ require __DIR__ . '/header.php';
       <div class="container overview__grid">
         <div class="overview__text" data-reveal>
           <p class="eyebrow">Project Overview</p>
-          <h2 id="overview-title">Island living in the heart of Dubailand</h2>
+          <h2 id="overview-title">A waterfront community taking shape in Dubailand</h2>
           <p>
-            DAMAC Islands 2 is a master-planned waterfront community offering luxury villas
-            and townhouses in Dubailand, Dubai. The project features a lagoon, water features,
-            and a range of amenities for a premium lifestyle. Residents can enjoy a serene
-            environment with easy access to key destinations in Dubai.
+            DAMAC Islands 2 brings villas and townhouses into a water-led master plan in Dubailand. The proposition is straightforward: larger homes, a broad amenity programme and a suburban setting connected to Dubai's main road network.
           </p>
           <p>
-            The second phase of the DAMAC Islands master community is inspired by eight of the
-            world's most recognisable tropical island destinations and is designed around
-            nature, wellness, recreation, and luxury family living — from crystal lagoons and
-            sandy beaches to landscaped parks and waterfront promenades.
+            Eight island themes give the districts their individual identity. Across them, the plan combines lagoons, landscaped parks, walking routes and family recreation. Buyers should consider that environment alongside the 2029 handover horizon and the scale of the wider community.
           </p>
-          <a class="btn btn--primary" href="#enquire">Speak with a Property Consultant</a>
+          <a class="btn btn--primary" href="#enquire">Discuss DAMAC Islands 2</a>
         </div>
         <div class="overview__cards">
           <article class="stat-card" data-reveal>
@@ -233,48 +225,48 @@ require __DIR__ . '/header.php';
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Features &amp; Amenities</p>
-          <h2 id="amenities-title">A resort lifestyle, every day</h2>
+          <h2 id="amenities-title">Amenities organised around everyday life</h2>
         </div>
         <ul class="amenities__grid">
           <li class="amenity-card" data-reveal>
             <span class="amenity-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-waves"/></svg></span>
             <h3>Water Features</h3>
-            <p>Crystal lagoons, sandy beaches, swimming pools and waterfront parks.</p>
+            <p>Lagoons, sandy edges, swimming pools and waterfront parks.</p>
           </li>
           <li class="amenity-card" data-reveal>
             <span class="amenity-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-dumbbell"/></svg></span>
             <h3>Sports &amp; Fitness</h3>
-            <p>Fitness centers, sports courts, running and cycling tracks, mini golf.</p>
+            <p>Fitness centres, sports courts, running and cycling tracks, and mini golf.</p>
           </li>
           <li class="amenity-card" data-reveal>
             <span class="amenity-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-heart"/></svg></span>
             <h3>Wellness</h3>
-            <p>Wellness areas, spa facilities and outdoor yoga spaces.</p>
+            <p>Spa facilities, quieter wellness areas and outdoor yoga spaces.</p>
           </li>
           <li class="amenity-card" data-reveal>
             <span class="amenity-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-users"/></svg></span>
             <h3>Family</h3>
-            <p>Community parks, BBQ areas and social spaces for gathering.</p>
+            <p>Community parks, barbecue areas and shared gathering spaces.</p>
           </li>
           <li class="amenity-card" data-reveal>
             <span class="amenity-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-balloon"/></svg></span>
             <h3>Kids</h3>
-            <p>Children's playgrounds and dedicated kids activity areas.</p>
+            <p>Playgrounds and dedicated activity areas for children.</p>
           </li>
           <li class="amenity-card" data-reveal>
             <span class="amenity-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-bag"/></svg></span>
             <h3>Dining &amp; Retail</h3>
-            <p>Retail boulevard, shopping areas, restaurants and caf&eacute;s.</p>
+            <p>A planned retail boulevard with shops, restaurants and caf&eacute;s.</p>
           </li>
           <li class="amenity-card" data-reveal>
             <span class="amenity-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-leaf"/></svg></span>
             <h3>Nature</h3>
-            <p>Botanical gardens, eco parks, walking trails and green areas.</p>
+            <p>Botanical gardens, ecological parks, walking trails and planted open space.</p>
           </li>
           <li class="amenity-card" data-reveal>
             <span class="amenity-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg></span>
             <h3>Security</h3>
-            <p>Gated community with dedicated community security.</p>
+            <p>Controlled community access and dedicated security.</p>
           </li>
         </ul>
       </div>
@@ -289,8 +281,7 @@ require __DIR__ . '/header.php';
           <p class="eyebrow eyebrow--gold">Location &amp; Connectivity</p>
           <h2 id="location-title">Minutes from Dubai's key destinations</h2>
           <p class="section-head__sub">
-            Set in Dubailand with convenient access to Al Qudra Road (D63), Emirates Road (E611)
-            and Sheikh Mohammed Bin Zayed Road (E311).
+            The site connects with Al Qudra Road (D63), Emirates Road (E611) and Sheikh Mohammed Bin Zayed Road (E311), placing it within reach of Dubai's principal business, leisure and airport districts.
           </p>
         </div>
         <ul class="location__grid">
@@ -327,7 +318,7 @@ require __DIR__ . '/header.php';
             </p>
           </li>
         </ul>
-        <p class="location__note">Approximate driving times.</p>
+        <p class="location__note">Indicative driving times; actual journeys will vary with traffic and route conditions.</p>
       </div>
     </section>
 
@@ -338,7 +329,7 @@ require __DIR__ . '/header.php';
           <p class="eyebrow">Contact</p>
           <h2 id="enquire-title">Enquire Now</h2>
           <p class="enquire__sub">
-            Fill out the form and our team will get back to you shortly.
+            Share your details to discuss the current release, payment terms and whether the project suits your plans.
           </p>
           <div class="enquire__buttons">
             <a class="btn btn--accent" href="https://wa.me/971504217299" target="_blank" rel="noopener">
@@ -389,7 +380,7 @@ require __DIR__ . '/header.php';
           </form>
           <div class="lead-form__success lead-form__success--card" hidden>
             <p class="lead-form__success-title">Thank you</p>
-            <p>Your enquiry has been received. A property consultant from SMB Real Estate Brokers will contact you shortly.</p>
+            <p>Your enquiry has been received. An SMB property consultant will contact you to understand your goals and guide the next step.</p>
           </div>
         </div>
       </div>

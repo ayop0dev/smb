@@ -36,11 +36,11 @@ require __DIR__ . '/header.php';
       <div class="container hero__inner">
         <div class="hero__content">
           <p class="eyebrow eyebrow--light">SMB Real Estate L.L.C &middot; UAE</p>
-          <h1 id="hero-title">Your Trusted Partner in Dubai Real&nbsp;Estate</h1>
-          <p class="hero__headline">Residential &middot; Commercial &middot; Off-Plan Investment</p>
+          <h1 id="hero-title">Property decisions, considered properly</h1>
+          <p class="hero__headline">Independent advice across the UAE</p>
           <div class="hero__cta">
-            <a class="btn btn--accent btn--lg" href="#projects">Explore Featured Projects</a>
-            <a class="btn btn--ghost btn--lg" href="#enquire">Speak to a Consultant</a>
+            <a class="btn btn--accent btn--lg" href="#projects">Review Selected Opportunities</a>
+            <a class="btn btn--ghost btn--lg" href="#enquire">Start a Private Conversation</a>
           </div>
           <div class="hero__search" role="search" aria-label="Browse properties by type">
             <span class="hero__search-icon" aria-hidden="true">
@@ -63,9 +63,9 @@ require __DIR__ . '/header.php';
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Featured Projects</p>
-          <h2 id="projects-title">A curated selection of Dubai's finest</h2>
+          <h2 id="projects-title">Properties selected with purpose</h2>
           <p class="section-head__sub">
-            Hand-picked off-plan and ready developments from Dubai's most trusted developers.
+            Off-plan and ready properties chosen for their relevance to your brief&mdash;not for the convenience of the sale.
           </p>
         </div>
         <div class="projects__grid">
@@ -177,31 +177,31 @@ require __DIR__ . '/header.php';
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Why SMB</p>
-          <h2 id="why-title">A brokerage built on trust</h2>
+          <h2 id="why-title">Your interests set the direction</h2>
           <p class="section-head__sub">
-            Serving, Managing &amp; Beyond — a client-first approach to every transaction since 2021.
+            The brief begins with what matters to you. Everything that follows&mdash;research, recommendation and execution&mdash;must answer to it.
           </p>
         </div>
         <div class="why__grid">
           <div class="why-item" data-reveal>
             <span class="why-item__num" aria-hidden="true">01</span>
             <h3>Local Market Expertise</h3>
-            <p>Deep, up-to-date knowledge of Dubai's communities, developers and market values — so you decide with confidence.</p>
+            <p>Market judgement grounded in current values, local context and a clear view of the opportunities across the Emirates.</p>
           </div>
           <div class="why-item" data-reveal>
             <span class="why-item__num" aria-hidden="true">02</span>
             <h3>Verified Projects</h3>
-            <p>We present opportunities from Dubai's leading and government-backed developers, carefully reviewed before we recommend them.</p>
+            <p>A project earns consideration through its fundamentals: developer, location, terms, delivery outlook and fit with your plans.</p>
           </div>
           <div class="why-item" data-reveal>
             <span class="why-item__num" aria-hidden="true">03</span>
             <h3>Transparent Guidance</h3>
-            <p>Honest advice and clear communication at every step — no pressure, no surprises, just informed decisions.</p>
+            <p>Merits are presented alongside limitations and trade-offs, before any commitment is made.</p>
           </div>
           <div class="why-item" data-reveal>
             <span class="why-item__num" aria-hidden="true">04</span>
             <h3>End-to-End Support</h3>
-            <p>From the first viewing to handover and beyond, a dedicated consultant manages the entire process for you.</p>
+            <p>One adviser holds the detail throughout&mdash;from the early search to handover and the practical matters that follow.</p>
           </div>
         </div>
       </div>
@@ -219,7 +219,7 @@ require __DIR__ . '/header.php';
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg></span>
             <span class="category-card__text">
               <h3>Apartments</h3>
-              <p>City living in Dubai's landmark towers</p>
+              <p>Well-connected homes in established and emerging city districts</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
@@ -227,7 +227,7 @@ require __DIR__ . '/header.php';
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg></span>
             <span class="category-card__text">
               <h3>Villas</h3>
-              <p>Private family homes in gated communities</p>
+              <p>Privacy, space and continuity for family life</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
@@ -235,7 +235,7 @@ require __DIR__ . '/header.php';
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-key"/></svg></span>
             <span class="category-card__text">
               <h3>Townhouses</h3>
-              <p>Space and value in master-planned districts</p>
+              <p>A practical balance of space, community and value</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
@@ -243,7 +243,7 @@ require __DIR__ . '/header.php';
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-waves"/></svg></span>
             <span class="category-card__text">
               <h3>Waterfront</h3>
-              <p>Beachfront, marina and lagoon-side living</p>
+              <p>Coastal homes shaped by setting, access and outlook</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
@@ -259,7 +259,7 @@ require __DIR__ . '/header.php';
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-sparkles"/></svg></span>
             <span class="category-card__text">
               <h3>Investment</h3>
-              <p>Off-plan and high-yield opportunities</p>
+              <p>Off-plan and ready assets selected against your strategy</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
@@ -272,9 +272,9 @@ require __DIR__ . '/header.php';
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Featured Communities</p>
-          <h2 id="communities-title">Where Dubai lives</h2>
+          <h2 id="communities-title">A location that works for you</h2>
           <p class="section-head__sub">
-            Explore the neighbourhoods our clients ask about most.
+            From mature city districts to quieter coastal destinations, the right setting depends on how you plan to live or invest.
           </p>
         </div>
         <div class="communities__grid">
@@ -288,35 +288,35 @@ require __DIR__ . '/header.php';
           <a class="community-card" href="#enquire" data-reveal>
             <img src="assets/images/gallery-resort-pool.jpg" alt="" loading="lazy" width="900" height="1200">
             <span class="community-card__content">
-              <h3>Dubai Marina</h3>
+              <h3>Saadiyat Island, Abu Dhabi</h3>
               <span class="community-card__cta">Explore <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
             </span>
           </a>
           <a class="community-card" href="#enquire" data-reveal>
             <img src="assets/images/hero-lagoon-aerial.jpg" alt="" loading="lazy" width="1800" height="1200">
             <span class="community-card__content">
-              <h3>Business Bay</h3>
+              <h3>Al Marjan Island, Ras Al Khaimah</h3>
               <span class="community-card__cta">Explore <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
             </span>
           </a>
           <a class="community-card" href="#enquire" data-reveal>
             <img src="assets/images/gallery-villa-dusk.jpg" alt="" loading="lazy" width="1800" height="1200">
             <span class="community-card__content">
-              <h3>Dubai Hills</h3>
+              <h3>Aljada, Sharjah</h3>
               <span class="community-card__cta">Explore <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
             </span>
           </a>
           <a class="community-card" href="#enquire" data-reveal>
             <img src="assets/images/gallery-lagoon-beach.jpg" alt="" loading="lazy" width="900" height="1200">
             <span class="community-card__content">
-              <h3>Palm Jumeirah</h3>
+              <h3>Al Zorah, Ajman</h3>
               <span class="community-card__cta">Explore <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
             </span>
           </a>
           <a class="community-card" href="#enquire" data-reveal>
             <img src="assets/images/hero-villa-pool.jpg" alt="" loading="lazy" width="1800" height="1200">
             <span class="community-card__content">
-              <h3>Dubai Creek Harbour</h3>
+              <h3>Fujairah Waterfront</h3>
               <span class="community-card__cta">Explore <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
             </span>
           </a>
@@ -329,28 +329,28 @@ require __DIR__ . '/header.php';
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">How It Works</p>
-          <h2 id="steps-title">A clear path from search to keys</h2>
+          <h2 id="steps-title">A measured route to the right decision</h2>
         </div>
         <ol class="steps__grid">
           <li class="step" data-reveal>
             <span class="step__num" aria-hidden="true">1</span>
             <h3>Discover</h3>
-            <p>Tell us what you are looking for and we shortlist the properties and projects that truly fit.</p>
+            <p>Your priorities, budget and timing give the search its direction.</p>
           </li>
           <li class="step" data-reveal>
             <span class="step__num" aria-hidden="true">2</span>
             <h3>Consult</h3>
-            <p>Meet your dedicated consultant to review options, market values and payment plans.</p>
+            <p>Your adviser tests the strongest options against value, location, terms and long-term suitability.</p>
           </li>
           <li class="step" data-reveal>
             <span class="step__num" aria-hidden="true">3</span>
             <h3>Reserve</h3>
-            <p>We negotiate on your behalf and manage the paperwork, so reserving is simple and secure.</p>
+            <p>When the choice is made, negotiation, reservation and documentation are handled with care.</p>
           </li>
           <li class="step" data-reveal>
             <span class="step__num" aria-hidden="true">4</span>
             <h3>Own</h3>
-            <p>From signing to handover, we stay by your side — and beyond, whenever you need us.</p>
+            <p>The relationship continues through signing and handover, with practical assistance available afterwards.</p>
           </li>
         </ol>
       </div>
@@ -361,7 +361,7 @@ require __DIR__ . '/header.php';
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Client Stories</p>
-          <h2 id="testimonials-title">Trusted by buyers and investors</h2>
+          <h2 id="testimonials-title">Confidence built over the whole journey</h2>
         </div>
         <div class="testimonials__grid">
           <figure class="testimonial-card" data-reveal>
@@ -403,7 +403,7 @@ require __DIR__ . '/header.php';
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Latest Insights</p>
-          <h2 id="insights-title">From our journal</h2>
+          <h2 id="insights-title">Perspective for better decisions</h2>
         </div>
         <div class="insights__grid">
           <article class="insight-card" data-reveal>
@@ -412,7 +412,7 @@ require __DIR__ . '/header.php';
                    alt="" loading="lazy" width="1800" height="1200">
             </a>
             <p class="insight-card__tag">Market Insights</p>
-            <h3><a href="#" aria-label="Dubai off-plan in 2026: what buyers should know before reserving (article to be added)">Dubai off-plan in 2026: what buyers should know before reserving</a></h3>
+            <h3><a href="#" aria-label="Dubai off-plan in 2026: what buyers should know before reserving (article to be added)">UAE off-plan in 2026: what buyers should know before reserving</a></h3>
             <p class="insight-card__excerpt">Payment plans, handover timelines and how to evaluate a developer's track record.</p>
             <p class="insight-card__date">July 2026 &middot; 6 min read</p>
           </article>
@@ -422,8 +422,8 @@ require __DIR__ . '/header.php';
                    alt="" loading="lazy" width="900" height="1200">
             </a>
             <p class="insight-card__tag">Buying Guides</p>
-            <h3><a href="#" aria-label="Freehold ownership in Dubai: a practical guide for international buyers (article to be added)">Freehold ownership in Dubai: a practical guide for international buyers</a></h3>
-            <p class="insight-card__excerpt">What freehold means, where you can buy and the steps from offer to title deed.</p>
+            <h3><a href="#" aria-label="Freehold ownership in Dubai: a practical guide for international buyers (article to be added)">Freehold ownership in the UAE: a practical guide for international buyers</a></h3>
+            <p class="insight-card__excerpt">What freehold means, where international buyers can purchase and the steps from offer to title deed.</p>
             <p class="insight-card__date">June 2026 &middot; 5 min read</p>
           </article>
           <article class="insight-card" data-reveal>
@@ -432,8 +432,8 @@ require __DIR__ . '/header.php';
                    alt="" loading="lazy" width="1800" height="1200">
             </a>
             <p class="insight-card__tag">Communities</p>
-            <h3><a href="#" aria-label="Five Dubai communities families are choosing in 2026 (article to be added)">Five Dubai communities families are choosing in 2026</a></h3>
-            <p class="insight-card__excerpt">Schools, parks and connectivity — how Dubai's family neighbourhoods compare.</p>
+            <h3><a href="#" aria-label="Five Dubai communities families are choosing in 2026 (article to be added)">UAE communities families are considering in 2026</a></h3>
+            <p class="insight-card__excerpt">Schools, parks and connectivity &mdash; how family communities across the Emirates compare.</p>
             <p class="insight-card__date">June 2026 &middot; 4 min read</p>
           </article>
         </div>
@@ -445,15 +445,14 @@ require __DIR__ . '/header.php';
       <img class="cta-final__bg" src="assets/images/gallery-lagoon-beach.jpg" alt="" loading="lazy" aria-hidden="true">
       <div class="container cta-final__inner">
         <p class="eyebrow eyebrow--gold" data-reveal>Get in Touch</p>
-        <h2 id="cta-title" data-reveal>Let's find the right property for you</h2>
+        <h2 id="cta-title" data-reveal>Begin with the right conversation</h2>
         <p class="cta-final__sub" data-reveal>
-          Speak with a property consultant today. Whether you are buying, selling or
-          investing, we will guide you from the first conversation to the keys in your hand.
+          Tell us what the property needs to achieve. We will bring perspective to the decision, discipline to the search and care to the work that follows.
         </p>
         <div class="cta-final__buttons" data-reveal>
           <a class="btn btn--accent btn--lg" href="tel:+971504217299">
             <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
-            Call +971 50 421 7299
+            Start Your Property Conversation
           </a>
           <a class="btn btn--ghost btn--lg" href="https://wa.me/971504217299" target="_blank" rel="noopener">
             <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
