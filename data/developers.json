@@ -1,0 +1,144 @@
+{
+  "developers": [
+    {
+      "slug": "emaar-properties",
+      "display_name": "Emaar",
+      "canonical_name": "Emaar Properties",
+      "biography": "Known for large-scale, master-planned communities that combine homes, amenities and long-term placemaking.",
+      "logo": "/assets/images/developers/Emaar_logo.svg"
+    },
+    {
+      "slug": "aldar-properties",
+      "display_name": "Aldar",
+      "canonical_name": "Aldar Properties",
+      "biography": "An Abu Dhabi-based developer with a wide portfolio of residential, cultural and leisure destinations across the emirate.",
+      "logo": "/assets/images/developers/aldar.png"
+    },
+    {
+      "slug": "damac-properties",
+      "display_name": "DAMAC Properties",
+      "canonical_name": "DAMAC Properties",
+      "biography": "Luxury Dubai developer renowned for high-end residential towers and branded, amenity-rich communities.",
+      "logo": "/assets/images/developers/damac.svg"
+    },
+    {
+      "slug": "nakheel",
+      "display_name": "Nakheel",
+      "canonical_name": "Nakheel",
+      "biography": "A Dubai developer whose portfolio includes established residential communities, waterfront destinations and major land reclamation projects.",
+      "logo": "/assets/images/developers/nakheel.svg"
+    },
+    {
+      "slug": "dubai-properties",
+      "display_name": "Dubai Properties",
+      "canonical_name": "Dubai Properties",
+      "biography": "Diversified Dubai developer delivering residential, retail and hospitality projects across established city communities.",
+      "logo": "/assets/images/developers/dubai-properties.png"
+    },
+    {
+      "slug": "sobha-realty",
+      "display_name": "Sobha Realty",
+      "canonical_name": "Sobha Realty",
+      "biography": "Premium developer recognised for meticulous craftsmanship and high-quality residential communities across Dubai.",
+      "logo": "/assets/images/developers/sobha.svg"
+    },
+    {
+      "slug": "meraas",
+      "display_name": "Meraas",
+      "canonical_name": "Meraas",
+      "biography": "Focused on urban neighbourhoods and destination-led developments with a strong emphasis on public realm and everyday experience.",
+      "logo": "/assets/images/developers/Meraas-logo.svg"
+    },
+    {
+      "slug": "binghatti-developers",
+      "display_name": "Binghatti Developers",
+      "canonical_name": "Binghatti Developers",
+      "biography": "Fast-growing Dubai developer recognised for bold architectural designs and distinctive, branded residential towers.",
+      "logo": "/assets/images/developers/binghatti.svg"
+    },
+    {
+      "slug": "danube-properties",
+      "display_name": "Danube Properties",
+      "canonical_name": "Danube Properties",
+      "biography": "Value-driven Dubai developer offering affordable, amenity-rich residences with flexible, investor-friendly payment plans.",
+      "logo": "/assets/images/developers/danube.png"
+    },
+    {
+      "slug": "azizi-developments",
+      "display_name": "Azizi Developments",
+      "canonical_name": "Azizi Developments",
+      "biography": "Dubai developer delivering accessible, well-located residential communities across several of the city's key districts.",
+      "logo": "/assets/images/developers/Azizi_Developments.svg"
+    },
+    {
+      "slug": "mag-group-holding",
+      "display_name": "MAG Group Holding",
+      "canonical_name": "MAG Group Holding",
+      "biography": "Diversified UAE developer with a growing portfolio of residential, hospitality and mixed-use projects.",
+      "logo": "/assets/images/developers/MAG-GROUP-HOLDING-logo.png"
+    },
+    {
+      "slug": "ellington-properties",
+      "display_name": "Ellington Properties",
+      "canonical_name": "Ellington Properties",
+      "biography": "Boutique Dubai developer celebrated for design-led residences and thoughtfully curated architectural details.",
+      "logo": "/assets/images/developers/ellington.svg"
+    },
+    {
+      "slug": "samana-developers",
+      "display_name": "Samana Developers",
+      "canonical_name": "Samana Developers",
+      "biography": "Dubai developer known for amenity-packed residences and attractive, investor-friendly payment structures.",
+      "logo": "/assets/images/developers/samana.png"
+    },
+    {
+      "slug": "deyaar-development",
+      "display_name": "Deyaar Development",
+      "canonical_name": "Deyaar Development",
+      "biography": "Established Dubai developer delivering residential and commercial projects across key city locations.",
+      "logo": "/assets/images/developers/deyaar.svg"
+    },
+    {
+      "slug": "omniyat",
+      "display_name": "Omniyat",
+      "canonical_name": "Omniyat",
+      "biography": "Ultra-luxury Dubai developer crafting architecturally distinctive, branded residences in prime waterfront locations.",
+      "logo": "/assets/images/developers/omniyat.svg"
+    },
+    {
+      "slug": "iman-developers",
+      "display_name": "Iman Developers",
+      "canonical_name": "Iman Developers",
+      "biography": "Dubai developer focused on quality residential projects designed for comfortable, connected community living.",
+      "logo": "/assets/images/developers/iman.png"
+    },
+    {
+      "slug": "reportage-properties",
+      "display_name": "Reportage Properties",
+      "canonical_name": "Reportage Properties",
+      "biography": "UAE-wide developer delivering large-scale residential communities across Dubai and several other emirates.",
+      "logo": "/assets/images/developers/reportage.svg"
+    },
+    {
+      "slug": "tiger-properties",
+      "display_name": "Tiger Properties",
+      "canonical_name": "Tiger Properties",
+      "biography": "Dubai developer with a diverse portfolio of residential and commercial towers across the city.",
+      "logo": "/assets/images/developers/tiger.png"
+    },
+    {
+      "slug": "pantheon-development",
+      "display_name": "Pantheon Development",
+      "canonical_name": "Pantheon Development",
+      "biography": "Dubai developer delivering design-focused residential projects with an emphasis on quality finishes.",
+      "logo": "/assets/images/developers/pantheon.png"
+    },
+    {
+      "slug": "select-group",
+      "display_name": "Select Group",
+      "canonical_name": "Select Group",
+      "biography": "Award-winning Dubai developer known for premium waterfront residences and landmark hospitality projects.",
+      "logo": "/assets/images/developers/select-group.svg"
+    }
+  ]
+}

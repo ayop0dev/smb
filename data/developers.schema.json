@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://smb-realestate.local/schemas/developers.schema.json",
+  "title": "Developer archive metadata dataset",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "developers"
+  ],
+  "properties": {
+    "developers": {
+      "type": "array",
+      "minItems": 20,
+      "maxItems": 20,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "slug",
+          "display_name",
+          "canonical_name",
+          "biography",
+          "logo"
+        ],
+        "properties": {
+          "slug": {
+            "type": "string",
+            "minLength": 1
+          },
+          "display_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "canonical_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "biography": {
+            "type": "string",
+            "minLength": 1
+          },
+          "logo": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

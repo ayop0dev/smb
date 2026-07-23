@@ -1,0 +1,19 @@
+# Preserves the site's original flat public URLs (e.g. /about.php,
+# /aldar-properties.php, /azizi-milan.php) after the internal reorganization
+# that moved page files into pages/, developers/, projects/. These are
+# internal rewrites (no redirect, no visible URL change) — the browser and
+# search engines keep seeing the same original address, and PHP's
+# REQUEST_URI (used by includes/header.php for canonical/OG/Twitter URLs)
+# still reflects that original address regardless of this rewrite.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Top-level standalone pages
+  RewriteRule ^(about|services|developers|communities|contact)\.php$ pages/$1.php [L]
+
+  # Developer archive pages
+  RewriteRule ^(aldar-properties|azizi-developments|binghatti-developers|damac-properties|danube-properties|deyaar-development|dubai-properties|ellington-properties|emaar-properties|iman-developers|mag-group-holding|meraas|nakheel|omniyat|pantheon-development|reportage-properties|samana-developers|select-group|sobha-realty|tiger-properties)\.php$ developers/$1.php [L]
+
+  # Project pages
+  RewriteRule ^(azizi-milan|bay-grove-residences|binghatti-aquarise|damac-islands2|damac-riverside-views|downtown-residences|elysee-heights|everly-place|fahid-island|grand-polo-club-resort|la-tilia-at-villanova|lumena|one-park-central|six-senses-residences-dubai-marina|sobha-central|sparklz-by-danube|the-acres-estates|tiger-sky-tower|verdana-empire)\.php$ projects/$1.php [L]
+</IfModule>

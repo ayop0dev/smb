@@ -8,9 +8,12 @@ $current_page = 'home';
 $skip_link = '#projects';
 $page_styles = [
     'assets/css/home.css',
+    'assets/css/communities.css',
 ];
 
-require __DIR__ . '/header.php';
+require __DIR__ . '/includes/project-data.php';
+require __DIR__ . '/includes/developer-data.php';
+require __DIR__ . '/includes/header.php';
 ?>
 
   <script type="application/ld+json"><?= json_encode([
@@ -29,8 +32,7 @@ require __DIR__ . '/header.php';
            fetchpriority="high">
       <video class="hero__bg hero__bg--video" autoplay muted loop playsinline webkit-playsinline
              preload="auto" poster="assets/images/hero-lagoon-aerial.jpg" aria-hidden="true" tabindex="-1">
-        <source src="assets/videos/hero.webm" type="video/webm">
-        <source src="assets/videos/hero.mp4" type="video/mp4">
+        <source src="assets/videos/202607192044.mp4" type="video/mp4">
       </video>
       <div class="hero__scrim" aria-hidden="true"></div>
       <div class="container hero__inner">
@@ -59,6 +61,22 @@ require __DIR__ . '/header.php';
     </section>
 
     <!-- ============ Featured projects ============ -->
+    <?php
+      require_once __DIR__ . '/includes/project-card-helpers.php';
+
+      $comm_project_placeholder = 'assets/images/projects/grand-polo-club-resort/webp/01-exterior.webp';
+      $comm_project_fallback_image = is_file(__DIR__ . '/' . $comm_project_placeholder)
+          ? $comm_project_placeholder
+          : 'assets/images/projects/grand-polo-club-resort/webp/01-exterior.webp';
+
+      $all_home_projects = get_all_projects_safe();
+      $home_projects = $all_home_projects !== null ? array_slice($all_home_projects, 0, 6) : [];
+
+      $project_card_fallback_image = $comm_project_fallback_image;
+      $project_card_dev_href_fallback = static function (string $developerName): string {
+          return 'developers.php#developer-' . developer_slug($developerName);
+      };
+    ?>
     <section class="projects section" id="projects" aria-labelledby="projects-title">
       <div class="container">
         <div class="section-head" data-reveal>
@@ -68,107 +86,15 @@ require __DIR__ . '/header.php';
             Off-plan and ready properties chosen for their relevance to your brief&mdash;not for the convenience of the sale.
           </p>
         </div>
-        <div class="projects__grid">
-          <article class="project-card" data-reveal>
-            <div class="project-card__media">
-              <img src="assets/images/hero-villa-pool.jpg"
-                   alt="Modern luxury villa with a private pool in DAMAC Islands 2"
-                   loading="lazy" width="1800" height="1200">
-            </div>
-            <div class="project-card__body">
-              <h3 class="project-card__name">DAMAC Islands 2</h3>
-              <ul class="project-card__meta">
-                <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg> Dubailand, Dubai</li>
-                <li><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg> DAMAC Properties</li>
-              </ul>
-              <div class="project-card__foot">
-                <div>
-                  <p class="project-card__price-label">Starting from</p>
-                  <p class="project-card__price">AED 1.9M</p>
-                </div>
-                <a class="project-card__link" href="damac-islands2.php">
-                  View Project
-                  <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card" data-reveal>
-            <div class="project-card__media">
-              <img src="assets/images/gallery-lagoon-beach.jpg"
-                   alt="Turquoise lagoon meeting a sandy beach in a waterfront community"
-                   loading="lazy" width="900" height="1200">
-            </div>
-            <div class="project-card__body">
-              <h3 class="project-card__name">Creek Waterfront Residences</h3>
-              <ul class="project-card__meta">
-                <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg> Dubai Creek Harbour</li>
-                <li><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg> Emaar</li>
-              </ul>
-              <div class="project-card__foot">
-                <div>
-                  <p class="project-card__price-label">Starting from</p>
-                  <p class="project-card__price">AED 1.6M</p>
-                </div>
-                <a class="project-card__link" href="#enquire">
-                  Enquire
-                  <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card" data-reveal>
-            <div class="project-card__media">
-              <img src="assets/images/gallery-villa-dusk.jpg"
-                   alt="Contemporary two-storey villa with floor-to-ceiling glazing at dusk"
-                   loading="lazy" width="1800" height="1200">
-            </div>
-            <div class="project-card__body">
-              <h3 class="project-card__name">Hillside Villa Collection</h3>
-              <ul class="project-card__meta">
-                <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg> Dubai Hills Estate</li>
-                <li><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg> Emaar</li>
-              </ul>
-              <div class="project-card__foot">
-                <div>
-                  <p class="project-card__price-label">Starting from</p>
-                  <p class="project-card__price">AED 5.2M</p>
-                </div>
-                <a class="project-card__link" href="#enquire">
-                  Enquire
-                  <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card" data-reveal>
-            <div class="project-card__media">
-              <img src="assets/images/gallery-resort-pool.jpg"
-                   alt="Resort-style swimming pool surrounded by palm trees by the sea"
-                   loading="lazy" width="900" height="1200">
-            </div>
-            <div class="project-card__body">
-              <h3 class="project-card__name">Island Coast Townhouses</h3>
-              <ul class="project-card__meta">
-                <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg> Palm Jebel Ali</li>
-                <li><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg> Nakheel</li>
-              </ul>
-              <div class="project-card__foot">
-                <div>
-                  <p class="project-card__price-label">Starting from</p>
-                  <p class="project-card__price">AED 2.8M</p>
-                </div>
-                <a class="project-card__link" href="#enquire">
-                  Enquire
-                  <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
-                </a>
-              </div>
-            </div>
-          </article>
+<?php if (empty($home_projects)): ?>
+        <p class="section-head__sub">Project listings are currently unavailable.</p>
+<?php else: ?>
+        <div class="comms__grid">
+<?php foreach ($home_projects as $project): ?>
+<?php require __DIR__ . '/template-parts/project-card.php'; ?>
+<?php endforeach; ?>
         </div>
+<?php endif; ?>
       </div>
     </section>
 
@@ -177,31 +103,31 @@ require __DIR__ . '/header.php';
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Why SMB</p>
-          <h2 id="why-title">Your interests set the direction</h2>
+          <h2 id="why-title">Your investment protected at every step</h2>
           <p class="section-head__sub">
-            The brief begins with what matters to you. Everything that follows&mdash;research, recommendation and execution&mdash;must answer to it.
+            SMB is a UAE real estate advisory built around a simple principle: the right investment decision matters more than the quickest transaction.
           </p>
         </div>
         <div class="why__grid">
           <div class="why-item" data-reveal>
             <span class="why-item__num" aria-hidden="true">01</span>
-            <h3>Local Market Expertise</h3>
-            <p>Market judgement grounded in current values, local context and a clear view of the opportunities across the Emirates.</p>
+            <h3>Right Decision First</h3>
+            <p>SMB is a UAE real estate advisory built around a simple principle: the right investment decision matters more than the quickest transaction.</p>
           </div>
           <div class="why-item" data-reveal>
             <span class="why-item__num" aria-hidden="true">02</span>
-            <h3>Verified Projects</h3>
-            <p>A project earns consideration through its fundamentals: developer, location, terms, delivery outlook and fit with your plans.</p>
+            <h3>Every Step of the Journey</h3>
+            <p>We don't just help you buy a property—we stand by your side every step of the journey. From negotiating with leading developers on your behalf and guiding you through the entire purchasing process to assisting with mortgage financing upon handover, our team ensures a seamless experience.</p>
           </div>
           <div class="why-item" data-reveal>
             <span class="why-item__num" aria-hidden="true">03</span>
-            <h3>Transparent Guidance</h3>
-            <p>Merits are presented alongside limitations and trade-offs, before any commitment is made.</p>
+            <h3>Ongoing Commitment</h3>
+            <p>Our commitment doesn't end once you own the property. We can help you resell it at the right time, lease it to qualified tenants, and maximize its long-term value.</p>
           </div>
           <div class="why-item" data-reveal>
             <span class="why-item__num" aria-hidden="true">04</span>
-            <h3>End-to-End Support</h3>
-            <p>One adviser holds the detail throughout&mdash;from the early search to handover and the practical matters that follow.</p>
+            <h3>Investment Ecosystem</h3>
+            <p>At SMB, we don't simply sell real estate—we create a complete investment ecosystem designed to protect your investment and help you achieve the highest possible return with confidence.</p>
           </div>
         </div>
       </div>
@@ -466,4 +392,4 @@ require __DIR__ . '/header.php';
     </section>
   </main>
 
-<?php require __DIR__ . '/footer.php'; ?>
+<?php require __DIR__ . '/includes/footer.php'; ?>
