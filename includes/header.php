@@ -24,6 +24,7 @@ $current_file = basename($request_path);
 $current_file = $current_file !== '' ? $current_file : 'index.php';
 $canonical_url = $site_url . ($current_file === 'index.php' ? '/' : '/' . $current_file);
 $page_og_image_url = $site_url . '/' . ltrim($page_og_image, '/');
+$main_css_version = (string) filemtime(__DIR__ . '/../assets/css/main.css');
 
 $nav_items = [
     'home' => ['index.php', 'Home'],
@@ -98,7 +99,7 @@ if (!empty($breadcrumb_trail)) {
 <?php endif; ?>
   <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
   <link rel="preload" href="assets/fonts/Manrope-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/main.css?v=<?= smb_e($main_css_version) ?>">
 <?php foreach ($page_styles as $style): ?>
   <link rel="stylesheet" href="<?= smb_e($style) ?>">
 <?php endforeach; ?>
