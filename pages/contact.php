@@ -11,43 +11,39 @@ $page_styles = [
     'assets/css/about.css',
     'assets/css/contact.css',
 ];
+$breadcrumb_trail = [
+    ['label' => 'Contact'],
+];
 
 require __DIR__ . '/../includes/header.php';
 ?>
 
   <main id="top">
 
-    <!-- ============ Inner page hero ============ -->
     <section class="hero hero--page" aria-labelledby="hero-title">
       <img class="hero__bg" src="assets/images/projects/bay-grove-residences/webp/01-exterior.webp"
-           alt="Modern luxury villa with a private pool under a clear sky in Dubai"
+           alt="Modern Luxury Villa With A Private Pool Under A Clear Sky In Dubai"
            fetchpriority="high">
       <div class="hero__scrim" aria-hidden="true"></div>
       <div class="container hero__inner">
         <div class="hero__content">
-          <nav class="breadcrumb" aria-label="Breadcrumb">
-            <ol>
-              <li><a href="index.php">Home</a></li>
-              <li><span aria-current="page">Contact</span></li>
-            </ol>
-          </nav>
-          <h1 id="hero-title">A considered decision starts here</h1>
+          <?php require __DIR__ . '/../template-parts/breadcrumb.php'; ?>
+          <h1 id="hero-title">A Considered Decision Starts Here</h1>
           <p class="hero__description">
-            Speak with an adviser about buying, selling, managing or investing in property anywhere in the UAE.
+            Speak With An Adviser About Buying, Selling, Managing Or Investing In Property Anywhere In The UAE.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- ============ Contact overview ============ -->
     <section class="methods section" id="methods" aria-labelledby="methods-title">
       <div class="container">
-        <h2 class="visually-hidden" id="methods-title">Ways to contact us</h2>
+        <h2 class="visually-hidden" id="methods-title">Ways To Contact Us</h2>
         <div class="methods__grid">
           <a class="method-card" href="tel:+971504217299" data-reveal>
             <span class="method-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></span>
             <span>
-              <span class="method-card__label">Call us</span>
+              <span class="method-card__label">Call Us</span>
               <span class="method-card__value">+971 50 421 7299</span>
             </span>
           </a>
@@ -55,7 +51,7 @@ require __DIR__ . '/../includes/header.php';
             <span class="method-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg></span>
             <span>
               <span class="method-card__label">WhatsApp</span>
-              <span class="method-card__value">Message us directly</span>
+              <span class="method-card__value">Message Us Directly</span>
             </span>
           </a>
           <a class="method-card" href="mailto:info@smbdubai.net" data-reveal>
@@ -69,14 +65,13 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <!-- ============ Contact form + office information ============ -->
     <section class="enquire section section--gray" id="enquire" aria-labelledby="enquire-title">
       <div class="container">
         <div class="section-head" data-reveal>
-          <p class="eyebrow">Request a Consultation</p>
-          <h2 id="enquire-title">Tell us what you are considering</h2>
+          <p class="eyebrow">Request A Consultation</p>
+          <h2 id="enquire-title">Tell Us What You Are Considering</h2>
           <p class="section-head__sub">
-            A few details are enough to begin. An adviser will respond with a relevant and considered next step.
+            A Few Details Are Enough To Begin. An Adviser Will Respond With A Relevant And Considered Next Step.
           </p>
         </div>
         <div class="contact-layout">
@@ -84,7 +79,7 @@ require __DIR__ . '/../includes/header.php';
             <form class="lead-form lead-form--card" id="main-form" novalidate>
               <div class="field">
                 <label for="cf-name">Full Name</label>
-                <input type="text" id="cf-name" name="name" autocomplete="name" placeholder="Your full name" required aria-describedby="cf-name-error">
+                <input type="text" id="cf-name" name="name" autocomplete="name" placeholder="Your Full Name" required aria-describedby="cf-name-error">
                 <p class="field__error" id="cf-name-error" aria-live="polite"></p>
               </div>
               <div class="field">
@@ -115,15 +110,15 @@ require __DIR__ . '/../includes/header.php';
               </fieldset>
               <div class="field">
                 <label for="cf-message">Message</label>
-                <textarea id="cf-message" name="message" rows="4" placeholder="Tell us what you are looking for" required aria-describedby="cf-message-error"></textarea>
+                <textarea id="cf-message" name="message" rows="4" placeholder="Tell Us What You Are Looking For" required aria-describedby="cf-message-error"></textarea>
                 <p class="field__error" id="cf-message-error" aria-live="polite"></p>
               </div>
               <button type="submit" class="btn btn--accent btn--block btn--lg">Send Enquiry</button>
-              <p class="lead-form__privacy">Our team will contact you to understand your needs and agree the next step.</p>
+              <p class="lead-form__privacy">Our Team Will Contact You To Understand Your Needs And Agree The Next Step.</p>
             </form>
             <div class="lead-form__success lead-form__success--card" hidden>
-              <p class="lead-form__success-title">Thank you</p>
-              <p>Your enquiry has been received. An SMB property consultant will contact you to understand your goals and guide the next step.</p>
+              <p class="lead-form__success-title">Thank You</p>
+              <p>Your Enquiry Has Been Received. An SMB Property Consultant Will Contact You To Understand Your Goals And Guide The Next Step.</p>
             </div>
           </div>
 
@@ -155,53 +150,30 @@ require __DIR__ . '/../includes/header.php';
                 <svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>
                 <div>
                   <p class="office-card__label">Working Hours</p>
-                  <p class="office-card__value">To be confirmed</p>
-                  <span class="office-card__temp">Temporary — final schedule to be provided.</span>
+                  <p class="office-card__value">10 AM &ndash; 5 PM</p>
                 </div>
               </li>
             </ul>
             <p class="office-card__note">
-              Enquiries are handled by our team during business hours, and we aim to
-              respond to every message as soon as possible.
+              Enquiries Are Handled By Our Team During Business Hours, And We Aim To
+              Respond To Every Message As Soon As Possible.
             </p>
           </aside>
         </div>
       </div>
     </section>
 
-    <!-- ============ Map ============ -->
-    <section class="map section" aria-labelledby="map-title">
-      <div class="container">
-        <div class="section-head" data-reveal>
-          <p class="eyebrow">Find Us</p>
-          <h2 id="map-title">Business Bay, Dubai</h2>
-        </div>
-        <div class="map__frame" data-reveal>
-          <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
-          <p class="map__placeholder-title">Map placeholder</p>
-          <p class="map__placeholder-text">
-            An interactive map will be embedded here once the verified office location
-            pin is available. In the meantime, open the address directly in Google Maps.
-          </p>
-          <a class="btn btn--primary" href="https://www.google.com/maps/search/?api=1&amp;query=Westburry+Tower+Business+Bay+Dubai" target="_blank" rel="noopener">
-            Open in Google Maps
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ Visit or speak with us ============ -->
     <section class="visit section section--gray" aria-labelledby="visit-title">
       <div class="container visit__inner">
-        <p class="eyebrow" data-reveal>Prefer to Talk?</p>
-        <h2 id="visit-title" data-reveal>A direct conversation, in person or by phone</h2>
+        <p class="eyebrow" data-reveal>Prefer To Talk?</p>
+        <h2 id="visit-title" data-reveal>A Direct Conversation, In Person Or By Phone</h2>
         <p data-reveal>
-          Call, message or arrange a meeting at our Business Bay office. The conversation starts with your plans&mdash;not with a project presentation.
+          Call, Message Or Arrange A Meeting At Our Business Bay Office. The Conversation Starts With Your Plans&mdash;Not With A Project Presentation.
         </p>
         <div class="visit__buttons" data-reveal>
           <a class="btn btn--primary btn--lg" href="tel:+971504217299">
             <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
-            Speak With an Adviser
+            Speak With An Adviser
           </a>
           <a class="btn btn--accent btn--lg" href="https://wa.me/971504217299" target="_blank" rel="noopener">
             <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
@@ -211,24 +183,23 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <!-- ============ Final call to action ============ -->
     <section class="cta-final section" aria-labelledby="cta-title">
       <img class="cta-final__bg" src="assets/images/projects/fahid-island/webp/02-aerial-view.webp" alt="" loading="lazy" aria-hidden="true">
       <div class="container cta-final__inner">
         <p class="eyebrow eyebrow--gold" data-reveal>One Step Away</p>
-        <h2 id="cta-title" data-reveal>Ready for a clearer next step?</h2>
+        <h2 id="cta-title" data-reveal>Ready For A Clearer Next Step?</h2>
         <p class="cta-final__sub" data-reveal>
-          Send an enquiry and receive advice shaped around your interests from the outset.
+          Send An Enquiry And Receive Advice Shaped Around Your Interests From The Outset.
         </p>
         <div class="cta-final__buttons" data-reveal>
-          <a class="btn btn--accent btn--lg" href="#enquire">Request a Consultation</a>
+          <a class="btn btn--accent btn--lg" href="#enquire">Request A Consultation</a>
           <a class="btn btn--ghost btn--lg" href="https://wa.me/971504217299" target="_blank" rel="noopener">
             <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
             WhatsApp Us
           </a>
         </div>
         <p class="cta-final__contact" data-reveal>
-          Prefer email? Write to <a href="mailto:info@smbdubai.net">info@smbdubai.net</a>
+          Prefer Email? Write To <a href="mailto:info@smbdubai.net">info@smbdubai.net</a>
         </p>
       </div>
     </section>

@@ -26,9 +26,9 @@ if ($developer === null) {
         <section class="section" id="not-found" aria-labelledby="not-found-title">
           <div class="container" style="text-align:center; max-width:640px;">
             <p class="eyebrow">Developer Not Found</p>
-            <h1 id="not-found-title">We couldn't find that developer</h1>
+            <h1 id="not-found-title">We Couldn't Find That Developer</h1>
             <p style="margin: 0 auto 32px; max-width: 60ch;">
-              The developer page you're looking for may have been renamed or is no longer available. Explore our current developers or get in touch with our team.
+              The Developer Page You're Looking For May Have Been Renamed Or Is No Longer Available. Explore Our Current Developers Or Get In Touch With Our Team.
             </p>
             <div class="hero__cta" style="justify-content:center;">
               <a class="btn btn--primary" href="developers.php">Browse Developers</a>
@@ -48,6 +48,18 @@ require_once __DIR__ . '/../includes/project-card-helpers.php';
 $developer_display_name = (string) ($developer['display_name'] ?? '');
 $developer_canonical_name = (string) ($developer['canonical_name'] ?? '');
 $developer_biography = (string) ($developer['biography'] ?? '');
+
+/* ---------- Logo: validated path, cleanly omitted (never a broken <img>)
+   when the record has no usable logo file ---------- */
+$developer_logo_raw = trim((string) ($developer['logo'] ?? ''));
+$developer_logo = '';
+if ($developer_logo_raw !== ''
+    && preg_match('#^([a-z]+:)?//#i', $developer_logo_raw) !== 1
+    && !str_contains($developer_logo_raw, '..')
+    && is_file(dirname(__DIR__) . '/' . $developer_logo_raw)
+) {
+    $developer_logo = $developer_logo_raw;
+}
 
 /* ---------- Projects filtering ---------- */
 $developer_projects = get_projects_by_developer($developer_canonical_name);
@@ -92,10 +104,10 @@ if ($developer_image === '') {
     $developer_image = $developer_fallback_image;
     $developer_image_project = null;
     $developer_image_is_placeholder = true;
-    $developer_image_alt = 'Placeholder image for ' . $developer_display_name;
+    $developer_image_alt = 'Placeholder Image For ' . $developer_display_name;
 } else {
     $proj_name = (string) ($developer_image_project['name'] ?? '');
-    $developer_image_alt = $proj_name . ' by ' . $developer_display_name;
+    $developer_image_alt = $proj_name . ' By ' . $developer_display_name;
 }
 
 /* ---------- Global page and SEO variables ---------- */
@@ -112,91 +124,65 @@ $page_styles = [
     'assets/css/services.css',
     'assets/css/contact.css',
     'assets/css/communities.css',
+    'assets/css/developers.css',
 ];
 $sticky_href = 'contact.php';
 $sticky_label = 'UAE Property Advisory';
-$sticky_value = 'Start a Conversation';
-$sticky_action = 'Contact us';
+$sticky_value = 'Start A Conversation';
+$sticky_action = 'Contact Us';
+$breadcrumb_trail = [
+    ['label' => 'Developers', 'url' => 'developers.php'],
+    ['label' => $developer_display_name],
+];
 
 require __DIR__ . '/../includes/header.php';
 ?>
 
-<script type="application/ld+json">
-<?= json_encode([
-    '@context' => 'https://schema.org',
-    '@type' => 'BreadcrumbList',
-    'itemListElement' => [
-        [
-            '@type' => 'ListItem',
-            'position' => 1,
-            'name' => 'Home',
-            'item' => $site_url . '/',
-        ],
-        [
-            '@type' => 'ListItem',
-            'position' => 2,
-            'name' => 'Developers',
-            'item' => $site_url . '/developers.php',
-        ],
-        [
-            '@type' => 'ListItem',
-            'position' => 3,
-            'name' => $developer_display_name,
-            'item' => $canonical_url,
-        ],
-    ],
-], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) ?>
-</script>
-
   <main id="top">
 
-    <!-- ============ Inner page hero ============ -->
     <section class="hero hero--page" aria-labelledby="hero-title">
-      <img class="hero__bg" src="<?= htmlspecialchars($developer_image, ENT_QUOTES, 'UTF-8') ?>"
-           alt="<?= htmlspecialchars($developer_image_alt, ENT_QUOTES, 'UTF-8') ?>"
+      <img class="hero__bg" src="<?= smb_e($developer_image) ?>"
+           alt="<?= smb_e($developer_image_alt) ?>"
            fetchpriority="high">
       <div class="hero__scrim" aria-hidden="true"></div>
       <div class="container hero__inner">
         <div class="hero__content">
-          <nav class="breadcrumb" aria-label="Breadcrumb">
-            <ol>
-              <li><a href="index.php">Home</a></li>
-              <li><a href="developers.php">Developers</a></li>
-              <li><span aria-current="page"><?= htmlspecialchars($developer_display_name, ENT_QUOTES, 'UTF-8') ?></span></li>
-            </ol>
-          </nav>
-          <h1 id="hero-title"><?= htmlspecialchars($developer_display_name, ENT_QUOTES, 'UTF-8') ?></h1>
+          <?php require __DIR__ . '/../template-parts/breadcrumb.php'; ?>
+          <h1 id="hero-title"><?= smb_e($developer_display_name) ?></h1>
           <p class="hero__description">
-            <?= htmlspecialchars($developer_biography, ENT_QUOTES, 'UTF-8') ?>
+            <?= smb_e($developer_biography) ?>
           </p>
         </div>
       </div>
     </section>
 
-    <!-- ============ Developer Overview ============ -->
     <section class="section" id="overview" aria-labelledby="overview-title">
       <div class="container">
         <div class="split">
           <div class="split__media" data-reveal>
-            <img src="<?= htmlspecialchars($developer_image, ENT_QUOTES, 'UTF-8') ?>"
-                 alt="<?= htmlspecialchars($developer_image_alt, ENT_QUOTES, 'UTF-8') ?>"
+            <img src="<?= smb_e($developer_image) ?>"
+                 alt="<?= smb_e($developer_image_alt) ?>"
                  loading="lazy" width="900" height="675">
           </div>
           <div class="split__text" data-reveal>
             <p class="eyebrow">Developer Overview</p>
-            <h2 id="overview-title"><?= htmlspecialchars($developer_display_name, ENT_QUOTES, 'UTF-8') ?></h2>
-            <p><?= htmlspecialchars($developer_biography, ENT_QUOTES, 'UTF-8') ?></p>
+<?php if ($developer_logo !== ''): ?>
+            <div class="developer-logo-frame">
+              <img src="<?= smb_e($developer_logo) ?>" alt="<?= smb_e($developer_display_name . ' Logo') ?>" loading="lazy">
+            </div>
+<?php endif; ?>
+            <h2 id="overview-title"><?= smb_e($developer_display_name) ?></h2>
+            <p><?= smb_e($developer_biography) ?></p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ============ Projects ============ -->
     <section class="comms section section--gray" id="projects" aria-labelledby="projects-title">
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Projects</p>
-          <h2 id="projects-title"><?= htmlspecialchars('Projects by ' . $developer_display_name, ENT_QUOTES, 'UTF-8') ?></h2>
+          <h2 id="projects-title"><?= smb_e('Projects By ' . $developer_display_name) ?></h2>
         </div>
 <?php if (empty($developer_projects)): ?>
         <p class="section-head__sub">Coming Soon</p>

@@ -25,26 +25,26 @@ require __DIR__ . '/includes/header.php';
 
   <main id="top">
 
-    <!-- ============ Hero ============ -->
     <section class="hero hero--home" aria-labelledby="hero-title">
       <img class="hero__bg hero__bg--fallback" src="assets/images/hero-lagoon-aerial.jpg"
-           alt="Aerial view of a Dubai waterfront community with turquoise lagoons and villas"
+           alt="Aerial View Of A Dubai Waterfront Community With Turquoise Lagoons And Villas"
            fetchpriority="high">
       <video class="hero__bg hero__bg--video" autoplay muted loop playsinline webkit-playsinline
-             preload="auto" poster="assets/images/hero-lagoon-aerial.jpg" aria-hidden="true" tabindex="-1">
-        <source src="assets/videos/202607192044.mp4" type="video/mp4">
+             preload="metadata" poster="assets/images/hero-lagoon-aerial.jpg" aria-hidden="true" tabindex="-1">
+        <source src="assets/videos/hero.webm" type="video/webm">
+        <source src="assets/videos/hero.mp4" type="video/mp4">
       </video>
       <div class="hero__scrim" aria-hidden="true"></div>
       <div class="container hero__inner">
         <div class="hero__content">
           <p class="eyebrow eyebrow--light">SMB Real Estate L.L.C &middot; UAE</p>
-          <h1 id="hero-title">Property decisions, considered properly</h1>
-          <p class="hero__headline">Independent advice across the UAE</p>
+          <h1 id="hero-title">Property Decisions, Considered Properly</h1>
+          <p class="hero__headline">Independent Advice Across The UAE</p>
           <div class="hero__cta">
             <a class="btn btn--accent btn--lg" href="#projects">Review Selected Opportunities</a>
-            <a class="btn btn--ghost btn--lg" href="#enquire">Start a Private Conversation</a>
+            <a class="btn btn--ghost btn--lg" href="#enquire">Start A Private Conversation</a>
           </div>
-          <div class="hero__search" role="search" aria-label="Browse properties by type">
+          <div class="hero__search" role="search" aria-label="Browse Properties By Type">
             <span class="hero__search-icon" aria-hidden="true">
               <svg class="icon icon--sm" aria-hidden="true"><use href="#i-search"/></svg>
             </span>
@@ -60,7 +60,6 @@ require __DIR__ . '/includes/header.php';
       </div>
     </section>
 
-    <!-- ============ Featured projects ============ -->
     <?php
       require_once __DIR__ . '/includes/project-card-helpers.php';
 
@@ -81,13 +80,13 @@ require __DIR__ . '/includes/header.php';
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Featured Projects</p>
-          <h2 id="projects-title">Properties selected with purpose</h2>
+          <h2 id="projects-title">Properties Selected With Purpose</h2>
           <p class="section-head__sub">
-            Off-plan and ready properties chosen for their relevance to your brief&mdash;not for the convenience of the sale.
+            Off-Plan And Ready Properties Chosen For Their Relevance To Your Brief&mdash;Not For The Convenience Of The Sale.
           </p>
         </div>
 <?php if (empty($home_projects)): ?>
-        <p class="section-head__sub">Project listings are currently unavailable.</p>
+        <p class="section-head__sub">Project Listings Are Currently Unavailable.</p>
 <?php else: ?>
         <div class="comms__grid">
 <?php foreach ($home_projects as $project): ?>
@@ -98,54 +97,18 @@ require __DIR__ . '/includes/header.php';
       </div>
     </section>
 
-    <!-- ============ Why SMB ============ -->
-    <section class="why section section--gray" id="why-smb" aria-labelledby="why-title">
-      <div class="container">
-        <div class="section-head" data-reveal>
-          <p class="eyebrow">Why SMB</p>
-          <h2 id="why-title">Your investment protected at every step</h2>
-          <p class="section-head__sub">
-            SMB is a UAE real estate advisory built around a simple principle: the right investment decision matters more than the quickest transaction.
-          </p>
-        </div>
-        <div class="why__grid">
-          <div class="why-item" data-reveal>
-            <span class="why-item__num" aria-hidden="true">01</span>
-            <h3>Right Decision First</h3>
-            <p>SMB is a UAE real estate advisory built around a simple principle: the right investment decision matters more than the quickest transaction.</p>
-          </div>
-          <div class="why-item" data-reveal>
-            <span class="why-item__num" aria-hidden="true">02</span>
-            <h3>Every Step of the Journey</h3>
-            <p>We don't just help you buy a property—we stand by your side every step of the journey. From negotiating with leading developers on your behalf and guiding you through the entire purchasing process to assisting with mortgage financing upon handover, our team ensures a seamless experience.</p>
-          </div>
-          <div class="why-item" data-reveal>
-            <span class="why-item__num" aria-hidden="true">03</span>
-            <h3>Ongoing Commitment</h3>
-            <p>Our commitment doesn't end once you own the property. We can help you resell it at the right time, lease it to qualified tenants, and maximize its long-term value.</p>
-          </div>
-          <div class="why-item" data-reveal>
-            <span class="why-item__num" aria-hidden="true">04</span>
-            <h3>Investment Ecosystem</h3>
-            <p>At SMB, we don't simply sell real estate—we create a complete investment ecosystem designed to protect your investment and help you achieve the highest possible return with confidence.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ Property categories ============ -->
     <section class="categories section" id="categories" aria-labelledby="categories-title">
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Property Types</p>
-          <h2 id="categories-title">Browse by category</h2>
+          <h2 id="categories-title">Browse By Category</h2>
         </div>
         <div class="categories__grid">
           <a class="category-card" href="#enquire" data-reveal>
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg></span>
             <span class="category-card__text">
               <h3>Apartments</h3>
-              <p>Well-connected homes in established and emerging city districts</p>
+              <p>Well-Connected Homes In Established And Emerging City Districts</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
@@ -153,7 +116,7 @@ require __DIR__ . '/includes/header.php';
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg></span>
             <span class="category-card__text">
               <h3>Villas</h3>
-              <p>Privacy, space and continuity for family life</p>
+              <p>Privacy, Space And Continuity For Family Life</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
@@ -161,7 +124,7 @@ require __DIR__ . '/includes/header.php';
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-key"/></svg></span>
             <span class="category-card__text">
               <h3>Townhouses</h3>
-              <p>A practical balance of space, community and value</p>
+              <p>A Practical Balance Of Space, Community And Value</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
@@ -169,7 +132,7 @@ require __DIR__ . '/includes/header.php';
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-waves"/></svg></span>
             <span class="category-card__text">
               <h3>Waterfront</h3>
-              <p>Coastal homes shaped by setting, access and outlook</p>
+              <p>Coastal Homes Shaped By Setting, Access And Outlook</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
@@ -177,7 +140,7 @@ require __DIR__ . '/includes/header.php';
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-bag"/></svg></span>
             <span class="category-card__text">
               <h3>Commercial</h3>
-              <p>Offices and retail for growing businesses</p>
+              <p>Offices And Retail For Growing Businesses</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
@@ -185,7 +148,7 @@ require __DIR__ . '/includes/header.php';
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-sparkles"/></svg></span>
             <span class="category-card__text">
               <h3>Investment</h3>
-              <p>Off-plan and ready assets selected against your strategy</p>
+              <p>Off-Plan And Ready Assets Selected Against Your Strategy</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
@@ -193,14 +156,44 @@ require __DIR__ . '/includes/header.php';
       </div>
     </section>
 
-    <!-- ============ Featured communities ============ -->
+    <section class="steps section" aria-labelledby="steps-title">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">How It Works</p>
+          <h2 id="steps-title">A Measured Route To The Right Decision</h2>
+        </div>
+        <ol class="steps__grid">
+          <li class="step" data-reveal>
+            <span class="step__num" aria-hidden="true">1</span>
+            <h3>Discover</h3>
+            <p>Your Priorities, Budget And Timing Give The Search Its Direction.</p>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__num" aria-hidden="true">2</span>
+            <h3>Consult</h3>
+            <p>Your Adviser Tests The Strongest Options Against Value, Location, Terms And Long-Term Suitability.</p>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__num" aria-hidden="true">3</span>
+            <h3>Reserve</h3>
+            <p>When The Choice Is Made, Negotiation, Reservation And Documentation Are Handled With Care.</p>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__num" aria-hidden="true">4</span>
+            <h3>Own</h3>
+            <p>The Relationship Continues Through Signing And Handover, With Practical Assistance Available Afterwards.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
     <section class="communities section section--gray" id="communities" aria-labelledby="communities-title">
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Featured Communities</p>
-          <h2 id="communities-title">A location that works for you</h2>
+          <h2 id="communities-title">A Location That Works For You</h2>
           <p class="section-head__sub">
-            From mature city districts to quieter coastal destinations, the right setting depends on how you plan to live or invest.
+            From Mature City Districts To Quieter Coastal Destinations, The Right Setting Depends On How You Plan To Live Or Invest.
           </p>
         </div>
         <div class="communities__grid">
@@ -250,50 +243,17 @@ require __DIR__ . '/includes/header.php';
       </div>
     </section>
 
-    <!-- ============ Buying process ============ -->
-    <section class="steps section" aria-labelledby="steps-title">
-      <div class="container">
-        <div class="section-head" data-reveal>
-          <p class="eyebrow">How It Works</p>
-          <h2 id="steps-title">A measured route to the right decision</h2>
-        </div>
-        <ol class="steps__grid">
-          <li class="step" data-reveal>
-            <span class="step__num" aria-hidden="true">1</span>
-            <h3>Discover</h3>
-            <p>Your priorities, budget and timing give the search its direction.</p>
-          </li>
-          <li class="step" data-reveal>
-            <span class="step__num" aria-hidden="true">2</span>
-            <h3>Consult</h3>
-            <p>Your adviser tests the strongest options against value, location, terms and long-term suitability.</p>
-          </li>
-          <li class="step" data-reveal>
-            <span class="step__num" aria-hidden="true">3</span>
-            <h3>Reserve</h3>
-            <p>When the choice is made, negotiation, reservation and documentation are handled with care.</p>
-          </li>
-          <li class="step" data-reveal>
-            <span class="step__num" aria-hidden="true">4</span>
-            <h3>Own</h3>
-            <p>The relationship continues through signing and handover, with practical assistance available afterwards.</p>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <!-- ============ Testimonials ============ -->
     <section class="testimonials section section--gray" aria-labelledby="testimonials-title">
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Client Stories</p>
-          <h2 id="testimonials-title">Confidence built over the whole journey</h2>
+          <h2 id="testimonials-title">Confidence Built Over The Whole Journey</h2>
         </div>
         <div class="testimonials__grid">
           <figure class="testimonial-card" data-reveal>
             <span class="testimonial-card__mark" aria-hidden="true">&ldquo;</span>
             <blockquote>
-              <p>The team was responsive from the first call and negotiated a better payment plan than I expected. Everything was explained clearly — no surprises.</p>
+              <p>The Team Was Responsive From The First Call And Negotiated A Better Payment Plan Than I Expected. Everything Was Explained Clearly — No Surprises.</p>
             </blockquote>
             <figcaption>
               <p class="testimonial-card__name">Ahmed R.</p>
@@ -303,7 +263,7 @@ require __DIR__ . '/includes/header.php';
           <figure class="testimonial-card" data-reveal>
             <span class="testimonial-card__mark" aria-hidden="true">&ldquo;</span>
             <blockquote>
-              <p>As first-time buyers we had endless questions. Our consultant walked us through every step, from viewings to handover. We felt supported the whole way.</p>
+              <p>As First-Time Buyers We Had Endless Questions. Our Consultant Walked Us Through Every Step, From Viewings To Handover. We Felt Supported The Whole Way.</p>
             </blockquote>
             <figcaption>
               <p class="testimonial-card__name">Sarah M.</p>
@@ -313,7 +273,7 @@ require __DIR__ . '/includes/header.php';
           <figure class="testimonial-card" data-reveal>
             <span class="testimonial-card__mark" aria-hidden="true">&ldquo;</span>
             <blockquote>
-              <p>Professional, honest and genuinely knowledgeable about the market. They helped us find the right commercial space and handled the details end to end.</p>
+              <p>Professional, Honest And Genuinely Knowledgeable About The Market. They Helped Us Find The Right Commercial Space And Handled The Details End To End.</p>
             </blockquote>
             <figcaption>
               <p class="testimonial-card__name">Daniel K.</p>
@@ -324,7 +284,6 @@ require __DIR__ . '/includes/header.php';
       </div>
     </section>
 
-    <!-- ============ Latest insights ============ -->
     <section class="insights section" id="insights" aria-labelledby="insights-title">
       <div class="container">
         <div class="section-head" data-reveal>
@@ -366,14 +325,13 @@ require __DIR__ . '/includes/header.php';
       </div>
     </section>
 
-    <!-- ============ Final call to action ============ -->
     <section class="cta-final section" id="enquire" aria-labelledby="cta-title">
       <img class="cta-final__bg" src="assets/images/gallery-lagoon-beach.jpg" alt="" loading="lazy" aria-hidden="true">
       <div class="container cta-final__inner">
         <p class="eyebrow eyebrow--gold" data-reveal>Get in Touch</p>
-        <h2 id="cta-title" data-reveal>Begin with the right conversation</h2>
+        <h2 id="cta-title" data-reveal>Begin With The Right Conversation</h2>
         <p class="cta-final__sub" data-reveal>
-          Tell us what the property needs to achieve. We will bring perspective to the decision, discipline to the search and care to the work that follows.
+          Tell Us What The Property Needs To Achieve. We Will Bring Perspective To The Decision, Discipline To The Search And Care To The Work That Follows.
         </p>
         <div class="cta-final__buttons" data-reveal>
           <a class="btn btn--accent btn--lg" href="tel:+971504217299">
@@ -386,7 +344,7 @@ require __DIR__ . '/includes/header.php';
           </a>
         </div>
         <p class="cta-final__contact" data-reveal>
-          Prefer email? Write to <a href="mailto:info@smbdubai.net">info@smbdubai.net</a>
+          Prefer Email? Write To <a href="mailto:info@smbdubai.net">info@smbdubai.net</a>
         </p>
       </div>
     </section>

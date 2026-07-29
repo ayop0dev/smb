@@ -24,30 +24,30 @@ $card_types = comm_parse_property_types((string) ($project['hero']['headline'] ?
 $card_href = (string) ($project['slug'] ?? '') . '.php';
 ?>
           <article class="comm-card" data-reveal>
-            <div class="comm-card__media">
-              <img src="<?= htmlspecialchars($card_image['src'], ENT_QUOTES, 'UTF-8') ?>"
-                   alt="<?= htmlspecialchars('Project image for ' . $card_name, ENT_QUOTES, 'UTF-8') ?>"
+            <a class="comm-card__media" href="<?= smb_e($card_href) ?>" aria-label="<?= smb_e('View ' . $card_name) ?>">
+              <img src="<?= smb_e($card_image['src']) ?>"
+                   alt=""
                    loading="lazy" width="900" height="563">
-            </div>
+            </a>
             <div class="comm-card__body">
-              <h3><?= htmlspecialchars($card_name, ENT_QUOTES, 'UTF-8') ?></h3>
+              <h3><a href="<?= smb_e($card_href) ?>"><?= smb_e($card_name) ?></a></h3>
 <?php if ($card_developer !== '' || $card_location !== ''): ?>
               <p class="comm-card__desc">
 <?php if ($card_developer !== ''): ?>
-                <a class="comm-card__dev-link" href="<?= htmlspecialchars($card_dev_href, ENT_QUOTES, 'UTF-8') ?>"><?= htmlspecialchars($card_developer, ENT_QUOTES, 'UTF-8') ?></a>
+                <a class="comm-card__dev-link" href="<?= smb_e($card_dev_href) ?>"><?= smb_e($card_developer) ?></a>
 <?php endif; ?>
 <?php if ($card_developer !== '' && $card_location !== ''): ?> &middot; <?php endif; ?>
-<?= htmlspecialchars($card_location, ENT_QUOTES, 'UTF-8') ?>
+<?= smb_e($card_location) ?>
               </p>
 <?php endif; ?>
 <?php if (!empty($card_types)): ?>
-              <ul class="comm-card__types" aria-label="Property types">
+              <ul class="comm-card__types" aria-label="Property Types">
 <?php foreach ($card_types as $type): ?>
-                <li><svg class="icon" aria-hidden="true"><use href="<?= htmlspecialchars(comm_property_type_icon($type), ENT_QUOTES, 'UTF-8') ?>"/></svg><?= htmlspecialchars($type, ENT_QUOTES, 'UTF-8') ?></li>
+                <li><svg class="icon" aria-hidden="true"><use href="<?= smb_e(comm_property_type_icon($type)) ?>"/></svg><?= smb_e($type) ?></li>
 <?php endforeach; ?>
               </ul>
 <?php endif; ?>
-              <a class="comm-card__link" href="<?= htmlspecialchars($card_href, ENT_QUOTES, 'UTF-8') ?>" aria-label="<?= htmlspecialchars('View ' . $card_name . ' project details', ENT_QUOTES, 'UTF-8') ?>">
+              <a class="comm-card__link" href="<?= smb_e($card_href) ?>" aria-label="<?= smb_e('View ' . $card_name . ' Project Details') ?>">
                 View Project
                 <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
               </a>

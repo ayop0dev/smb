@@ -1,0 +1,162 @@
+- generic [active] [ref=f12e1]:
+  - link "Skip To Content" [ref=f12e2] [cursor=pointer]:
+    - /url: "#methods"
+  - banner [ref=f12e3]:
+    - generic [ref=f12e4]:
+      - link "SMB Real Estate Brokers — Home" [ref=f12e5] [cursor=pointer]:
+        - /url: index.php
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f12e6]
+      - generic [ref=f12e7]:
+        - link "+971 50 421 7299" [ref=f12e8] [cursor=pointer]:
+          - /url: tel:+971504217299
+        - button "Open Menu" [ref=f12e12] [cursor=pointer]
+  - main [ref=f12e16]:
+    - region [ref=f12e17]:
+      - img "Modern Luxury Villa With A Private Pool Under A Clear Sky In Dubai" [ref=f12e18]
+      - generic [ref=f12e21]:
+        - navigation "Breadcrumb" [ref=f12e22]:
+          - list [ref=f12e23]:
+            - listitem [ref=f12e24]:
+              - link "Home" [ref=f12e25] [cursor=pointer]:
+                - /url: index.php
+            - listitem [ref=f12e26]:
+              - text: /
+              - generic [ref=f12e27]: Contact
+        - heading "A Considered Decision Starts Here" [level=1] [ref=f12e28]
+        - paragraph [ref=f12e29]: Speak With An Adviser About Buying, Selling, Managing Or Investing In Property Anywhere In The UAE.
+    - region [ref=f12e30]:
+      - generic [ref=f12e31]:
+        - heading "Ways To Contact Us" [level=2] [ref=f12e32]
+        - generic [ref=f12e33]:
+          - link "Call Us +971 50 421 7299" [ref=f12e34] [cursor=pointer]:
+            - /url: tel:+971504217299
+          - link "WhatsApp Message Us Directly" [ref=f12e39] [cursor=pointer]:
+            - /url: https://wa.me/971504217299
+          - link "Email info@smbdubai.net" [ref=f12e44] [cursor=pointer]:
+            - /url: mailto:info@smbdubai.net
+    - region [ref=f12e49]:
+      - generic [ref=f12e50]:
+        - generic [ref=f12e51]:
+          - paragraph [ref=f12e52]: Request A Consultation
+          - heading "Tell Us What You Are Considering" [level=2] [ref=f12e53]
+          - paragraph [ref=f12e54]: A Few Details Are Enough To Begin. An Adviser Will Respond With A Relevant And Considered Next Step.
+        - generic [ref=f12e55]:
+          - generic [ref=f12e57]:
+            - generic [ref=f12e58]:
+              - generic [ref=f12e59]: Full Name
+              - textbox "Full Name" [ref=f12e60]:
+                - /placeholder: Your Full Name
+            - generic [ref=f12e61]:
+              - generic [ref=f12e62]: Phone Number
+              - textbox "Phone Number" [ref=f12e63]:
+                - /placeholder: +971 50 000 0000
+            - generic [ref=f12e64]:
+              - generic [ref=f12e65]: Email Address
+              - textbox "Email Address" [ref=f12e66]:
+                - /placeholder: name@example.com
+            - group "Enquiry Type" [ref=f12e67]:
+              - generic [ref=f12e69]:
+                - radio "Buying Property" [ref=f12e70]
+                - generic [ref=f12e71] [cursor=pointer]: Buying Property
+                - radio "Selling Property" [ref=f12e72]
+                - generic [ref=f12e73] [cursor=pointer]: Selling Property
+                - radio "Property Investment" [ref=f12e74]
+                - generic [ref=f12e75] [cursor=pointer]: Property Investment
+                - radio "Property Management" [ref=f12e76]
+                - generic [ref=f12e77] [cursor=pointer]: Property Management
+                - radio "General Enquiry" [checked] [ref=f12e78]
+                - generic [ref=f12e79] [cursor=pointer]: General Enquiry
+            - generic [ref=f12e80]:
+              - generic [ref=f12e81]: Message
+              - textbox "Message" [ref=f12e82]:
+                - /placeholder: Tell Us What You Are Looking For
+            - button "Send Enquiry" [ref=f12e83] [cursor=pointer]
+            - paragraph [ref=f12e84]: Our Team Will Contact You To Understand Your Needs And Agree The Next Step.
+          - complementary [ref=f12e85]:
+            - heading "Office Information" [level=3] [ref=f12e86]
+            - list [ref=f12e87]:
+              - listitem [ref=f12e88]:
+                - generic [ref=f12e91]:
+                  - paragraph [ref=f12e92]: Address
+                  - paragraph [ref=f12e93]: 3002 Westburry Tower Office,Business Bay, Dubai, UAE
+              - listitem [ref=f12e94]:
+                - generic [ref=f12e97]:
+                  - paragraph [ref=f12e98]: Phone
+                  - paragraph [ref=f12e99]:
+                    - link "+971 50 421 7299" [ref=f12e100] [cursor=pointer]:
+                      - /url: tel:+971504217299
+              - listitem [ref=f12e101]:
+                - generic [ref=f12e104]:
+                  - paragraph [ref=f12e105]: Email
+                  - paragraph [ref=f12e106]:
+                    - link "info@smbdubai.net" [ref=f12e107] [cursor=pointer]:
+                      - /url: mailto:info@smbdubai.net
+              - listitem [ref=f12e108]:
+                - generic [ref=f12e111]:
+                  - paragraph [ref=f12e112]: Working Hours
+                  - paragraph [ref=f12e113]: 10 AM – 5 PM
+            - paragraph [ref=f12e114]: Enquiries Are Handled By Our Team During Business Hours, And We Aim To Respond To Every Message As Soon As Possible.
+    - region [ref=f12e115]:
+      - generic [ref=f12e116]:
+        - paragraph [ref=f12e117]: Prefer To Talk?
+        - heading "A Direct Conversation, In Person Or By Phone" [level=2] [ref=f12e118]
+        - paragraph [ref=f12e119]: Call, Message Or Arrange A Meeting At Our Business Bay Office. The Conversation Starts With Your Plans—Not With A Project Presentation.
+        - generic [ref=f12e120]:
+          - link "Speak With An Adviser" [ref=f12e121] [cursor=pointer]:
+            - /url: tel:+971504217299
+          - link "WhatsApp Us" [ref=f12e124] [cursor=pointer]:
+            - /url: https://wa.me/971504217299
+    - region [ref=f12e127]:
+      - generic [ref=f12e129]:
+        - paragraph [ref=f12e130]: One Step Away
+        - heading "Ready For A Clearer Next Step?" [level=2] [ref=f12e131]
+        - paragraph [ref=f12e132]: Send An Enquiry And Receive Advice Shaped Around Your Interests From The Outset.
+        - generic [ref=f12e133]:
+          - link "Request A Consultation" [ref=f12e134] [cursor=pointer]:
+            - /url: "#enquire"
+          - link "WhatsApp Us" [ref=f12e135] [cursor=pointer]:
+            - /url: https://wa.me/971504217299
+        - paragraph [ref=f12e138]:
+          - text: Prefer Email? Write To
+          - link "info@smbdubai.net" [ref=f12e139] [cursor=pointer]:
+            - /url: mailto:info@smbdubai.net
+  - contentinfo [ref=f12e140]:
+    - generic [ref=f12e141]:
+      - generic [ref=f12e142]:
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f12e143]
+        - paragraph [ref=f12e144]: Serving, Managing & Beyond
+        - paragraph [ref=f12e145]: SMB Real Estate Brokers L.L.C Is A UAE Property Advisory For Residential And Commercial Clients, Known For Independent Judgement, Attentive Execution And Relationships That Continue Beyond Completion.
+      - generic [ref=f12e146]:
+        - heading "Quick Links" [level=3] [ref=f12e147]
+        - list [ref=f12e148]:
+          - listitem [ref=f12e149]:
+            - link "Home" [ref=f12e150] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f12e151]:
+            - link "About" [ref=f12e152] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f12e153]:
+            - link "Services" [ref=f12e154] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f12e155]:
+            - link "Developers" [ref=f12e156] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f12e157]:
+            - link "Communities" [ref=f12e158] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f12e159]:
+            - link "Contact" [ref=f12e160] [cursor=pointer]:
+              - /url: contact.php
+      - generic [ref=f12e161]:
+        - heading "Contact" [level=3] [ref=f12e162]
+        - list [ref=f12e164]:
+          - listitem [ref=f12e165]:
+            - link "+971 50 421 7299" [ref=f12e166] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - listitem [ref=f12e167]:
+            - link "info@smbdubai.net" [ref=f12e168] [cursor=pointer]:
+              - /url: mailto:info@smbdubai.net
+          - listitem [ref=f12e169]: 3002 Westburry Tower Office,Business Bay, Dubai, UAE
+    - generic [ref=f12e170]:
+      - paragraph [ref=f12e171]: © 2026 SMB Real Estate Brokers L.L.C. All Rights Reserved.
+      - paragraph [ref=f12e172]: Prices, Availability And Handover Dates Are Indicative And Subject To Change By The Developer.

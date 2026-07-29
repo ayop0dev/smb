@@ -171,6 +171,48 @@ function developer_slug(string $developer): string
 }
 
 /**
+ * Resolves a project's starting-price display and structured-data value from
+ * hero.starting_price_million_aed / hero.available_on_request — the single
+ * source every price-showing component (hero card, sticky CTA, project
+ * cards, JSON-LD offer) reads from, so they can never disagree with each
+ * other. The stored value is normalized to at most 2 decimal places
+ * (enforced by projects.schema.json's multipleOf:0.01); formatting to 2
+ * decimals here (rather than rounding) matches that data contract instead
+ * of silently absorbing precision the data is no longer allowed to carry.
+ *
+ * Returns:
+ * - available    bool    true when a real numeric price exists
+ * - label        string  short caption ("Starting From" / "Pricing")
+ * - value        string  human-readable price ("AED 1.5 Million" / "Available On Request")
+ * - numeric_aed  ?int    whole-AED price for structured data, or null when unavailable
+ */
+function project_price_info(array $project): array
+{
+    $hero = $project['hero'] ?? [];
+    $availableOnRequest = (bool) ($hero['available_on_request'] ?? true);
+    $millionAed = $hero['starting_price_million_aed'] ?? null;
+
+    if (!$availableOnRequest && (is_int($millionAed) || is_float($millionAed)) && (float) $millionAed > 0) {
+        $million = (float) $millionAed;
+        $formatted = rtrim(rtrim(number_format($million, 2, '.', ''), '0'), '.');
+
+        return [
+            'available' => true,
+            'label' => 'Starting From',
+            'value' => 'AED ' . $formatted . ' Million',
+            'numeric_aed' => (int) round($million * 1_000_000),
+        ];
+    }
+
+    return [
+        'available' => false,
+        'label' => 'Pricing',
+        'value' => 'Available On Request',
+        'numeric_aed' => null,
+    ];
+}
+
+/**
  * Controlled failure path for unrecoverable data problems (missing file,
  * unreadable file, malformed JSON). Logs the real cause internally and
  * returns a generic 500 to the client — no paths or stack traces exposed.

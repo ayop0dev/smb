@@ -5,24 +5,18 @@
  */
 $sticky_href = $sticky_href ?? '#enquire';
 $sticky_label = $sticky_label ?? 'UAE Property Advisory';
-$sticky_value = $sticky_value ?? 'Start a Conversation';
-$sticky_action = $sticky_action ?? 'Contact us';
+$sticky_value = $sticky_value ?? 'Start A Conversation';
+$sticky_action = $sticky_action ?? 'Contact Us';
 ?>
 
-  <!-- ============ Footer ============ -->
   <footer class="footer">
     <div class="container footer__grid">
       <div class="footer__brand">
         <img src="assets/images/smb-logo-horizontal.png" alt="SMB Real Estate Brokers — Serving, Managing &amp; Beyond" width="97" height="56" loading="lazy">
         <p class="footer__tagline">Serving, Managing &amp; Beyond</p>
         <p class="footer__about">
-          SMB Real Estate Brokers L.L.C is a UAE property advisory for residential and commercial clients, known for independent judgement, attentive execution and relationships that continue beyond completion.
+          SMB Real Estate Brokers L.L.C Is A UAE Property Advisory For Residential And Commercial Clients, Known For Independent Judgement, Attentive Execution And Relationships That Continue Beyond Completion.
         </p>
-        <div class="footer__social">
-          <a href="#" aria-label="SMB Real Estate Brokers on Instagram"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a>
-          <a href="#" aria-label="SMB Real Estate Brokers on LinkedIn"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg></a>
-          <a href="#" aria-label="SMB Real Estate Brokers on Facebook"><svg class="icon" aria-hidden="true"><use href="#i-facebook"/></svg></a>
-        </div>
       </div>
       <div class="footer__col">
         <h3>Quick Links</h3>
@@ -47,9 +41,9 @@ $sticky_action = $sticky_action ?? 'Contact us';
       </div>
     </div>
     <div class="container footer__bottom">
-      <p>&copy; <span id="year">2026</span> SMB Real Estate Brokers L.L.C. All rights reserved.</p>
+      <p>&copy; <span id="year">2026</span> SMB Real Estate Brokers L.L.C. All Rights Reserved.</p>
       <p class="footer__disclaimer">
-        Prices, availability and handover dates are indicative and subject to change by the developer.
+        Prices, Availability And Handover Dates Are Indicative And Subject To Change By The Developer.
       </p>
     </div>
   </footer>
@@ -82,7 +76,6 @@ $sticky_action = $sticky_action ?? 'Contact us';
   }
   </script>
 
-  <!-- ============ Sticky CTA ============ -->
   <a class="sticky-cta" id="sticky-cta" href="<?= smb_e($sticky_href) ?>" aria-hidden="true" tabindex="-1">
     <span class="sticky-cta__text">
       <span class="sticky-cta__label"><?= smb_e($sticky_label) ?></span>

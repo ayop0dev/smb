@@ -1,0 +1,101 @@
+- generic [active] [ref=f22e1]:
+  - link "Skip To Content" [ref=f22e2] [cursor=pointer]:
+    - /url: "#overview"
+  - banner [ref=f22e3]:
+    - generic [ref=f22e4]:
+      - link "SMB Real Estate Brokers — Home" [ref=f22e5] [cursor=pointer]:
+        - /url: index.php
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f22e6]
+      - generic [ref=f22e7]:
+        - link "+971 50 421 7299" [ref=f22e8] [cursor=pointer]:
+          - /url: tel:+971504217299
+        - button "Open Menu" [ref=f22e12] [cursor=pointer]
+  - main [ref=f22e16]:
+    - region [ref=f22e17]:
+      - img "Fahid Island By Aldar" [ref=f22e18]
+      - generic [ref=f22e21]:
+        - navigation "Breadcrumb" [ref=f22e22]:
+          - list [ref=f22e23]:
+            - listitem [ref=f22e24]:
+              - link "Home" [ref=f22e25] [cursor=pointer]:
+                - /url: index.php
+            - listitem [ref=f22e26]:
+              - text: /
+              - link "Developers" [ref=f22e27] [cursor=pointer]:
+                - /url: developers.php
+            - listitem [ref=f22e28]:
+              - text: /
+              - generic [ref=f22e29]: Aldar
+        - heading "Aldar" [level=1] [ref=f22e30]
+        - paragraph [ref=f22e31]: An Abu Dhabi-based developer with a wide portfolio of residential, cultural and leisure destinations across the emirate.
+    - region [ref=f22e32]:
+      - generic [ref=f22e34]:
+        - img "Fahid Island By Aldar" [ref=f22e36]
+        - generic [ref=f22e37]:
+          - paragraph [ref=f22e38]: Developer Overview
+          - img "Aldar Logo" [ref=f22e40]
+          - heading "Aldar" [level=2] [ref=f22e41]
+          - paragraph [ref=f22e42]: An Abu Dhabi-based developer with a wide portfolio of residential, cultural and leisure destinations across the emirate.
+    - region [ref=f22e43]:
+      - generic [ref=f22e44]:
+        - generic [ref=f22e45]:
+          - paragraph [ref=f22e46]: Projects
+          - heading "Projects By Aldar" [level=2] [ref=f22e47]
+        - article [ref=f22e49]:
+          - link "View Fahid Island" [ref=f22e50] [cursor=pointer]:
+            - /url: fahid-island.php
+          - generic [ref=f22e51]:
+            - heading [level=3] [ref=f22e52]:
+              - link "Fahid Island" [ref=f22e53] [cursor=pointer]:
+                - /url: fahid-island.php
+            - paragraph [ref=f22e54]:
+              - link "Aldar Properties" [ref=f22e55] [cursor=pointer]:
+                - /url: aldar-properties.php
+              - text: · Fahid Island, Abu Dhabi
+            - list "Property Types" [ref=f22e56]:
+              - listitem [ref=f22e57]: Apartments
+              - listitem [ref=f22e60]: Townhouses
+              - listitem [ref=f22e63]: Villas
+            - link "View Fahid Island Project Details" [ref=f22e66] [cursor=pointer]:
+              - /url: fahid-island.php
+              - text: View Project
+  - contentinfo [ref=f22e69]:
+    - generic [ref=f22e70]:
+      - generic [ref=f22e71]:
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f22e72]
+        - paragraph [ref=f22e73]: Serving, Managing & Beyond
+        - paragraph [ref=f22e74]: SMB Real Estate Brokers L.L.C Is A UAE Property Advisory For Residential And Commercial Clients, Known For Independent Judgement, Attentive Execution And Relationships That Continue Beyond Completion.
+      - generic [ref=f22e75]:
+        - heading "Quick Links" [level=3] [ref=f22e76]
+        - list [ref=f22e77]:
+          - listitem [ref=f22e78]:
+            - link "Home" [ref=f22e79] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f22e80]:
+            - link "About" [ref=f22e81] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f22e82]:
+            - link "Services" [ref=f22e83] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f22e84]:
+            - link "Developers" [ref=f22e85] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f22e86]:
+            - link "Communities" [ref=f22e87] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f22e88]:
+            - link "Contact" [ref=f22e89] [cursor=pointer]:
+              - /url: contact.php
+      - generic [ref=f22e90]:
+        - heading "Contact" [level=3] [ref=f22e91]
+        - list [ref=f22e93]:
+          - listitem [ref=f22e94]:
+            - link "+971 50 421 7299" [ref=f22e95] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - listitem [ref=f22e96]:
+            - link "info@smbdubai.net" [ref=f22e97] [cursor=pointer]:
+              - /url: mailto:info@smbdubai.net
+          - listitem [ref=f22e98]: 3002 Westburry Tower Office,Business Bay, Dubai, UAE
+    - generic [ref=f22e99]:
+      - paragraph [ref=f22e100]: © 2026 SMB Real Estate Brokers L.L.C. All Rights Reserved.
+      - paragraph [ref=f22e101]: Prices, Availability And Handover Dates Are Indicative And Subject To Change By The Developer.

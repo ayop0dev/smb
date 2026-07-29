@@ -1,12 +1,5 @@
-/* ==========================================================================
-   SMB Real Estate Brokers — Communities Page (communities.php)
-   Extends main.css (tokens/core), home.css (project/category cards, cta-final),
-   about.css (inner hero, breadcrumb, choose list), services.css (FAQ)
-   and contact.css (map placeholder frame).
-   Loaded after all five, on communities.php only.
-   ========================================================================== */
+/* Loaded after main.css, home.css, about.css and services.css, on communities.php only. */
 
-/* ---------- Introduction ---------- */
 .comm-intro__inner { max-width: 720px; }
 .comm-intro__inner p { font-size: 1.0625rem; }
 
@@ -21,7 +14,6 @@
   .comm-intro__inner { text-align: center; }
 }
 
-/* ---------- Featured community cards ---------- */
 .comms__grid { display: grid; gap: 24px; grid-template-columns: 1fr; }
 
 .comm-card {
@@ -33,7 +25,7 @@
 }
 .comm-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
 
-.comm-card__media { aspect-ratio: 16 / 10; overflow: hidden; }
+.comm-card__media { display: block; aspect-ratio: 16 / 10; overflow: hidden; }
 .comm-card__media img {
   width: 100%; height: 100%; object-fit: cover;
   transition: transform 0.8s ease;
@@ -45,6 +37,7 @@
   padding: 24px; flex: 1;
 }
 .comm-card h3 { font-size: 1.25rem; }
+.comm-card h3 a:hover { color: var(--gold-dark); }
 .comm-card__desc { font-size: 0.9375rem; color: var(--text-muted); }
 
 /* Developer name links to its matching card on developers.php — kept the
@@ -59,8 +52,7 @@
   background: var(--bg-section-alt); border-radius: 999px;
   padding: 5px 14px;
 }
-/* Property-type icon reused from the removed larger project card — sized
-   down to sit comfortably inside the compact pill. */
+/* Sized down to sit comfortably inside the compact pill. */
 .comm-card__types .icon { width: 14px; height: 14px; flex-shrink: 0; }
 
 .comm-card__link {
@@ -74,31 +66,3 @@
 
 @media (min-width: 640px) { .comms__grid { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 1100px) { .comms__grid { grid-template-columns: repeat(3, 1fr); gap: 32px; } }
-
-/* ---------- Browse all communities (compact rows) ---------- */
-.comm-rows { display: grid; gap: 20px; grid-template-columns: 1fr; }
-
-.comm-row {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 20px;
-  background: var(--white); border-radius: var(--r-lg);
-  border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);
-  padding: 20px 24px;
-  transition: transform var(--transition-base), box-shadow var(--transition-base);
-}
-.comm-row:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
-
-.comm-row__thumb {
-  width: 64px; height: 64px; border-radius: var(--r-md);
-  object-fit: cover; flex-shrink: 0;
-}
-
-.comm-row__text { flex: 1; min-width: 200px; }
-.comm-row h3 { font-size: 1.0625rem; margin-bottom: 2px; }
-.comm-row p { font-size: 0.875rem; color: var(--text-muted); }
-.comm-row__cats {
-  display: block; margin-top: 4px;
-  font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em;
-  text-transform: uppercase; color: var(--navy);
-}
-
-@media (min-width: 768px) { .comm-rows { grid-template-columns: repeat(2, 1fr); gap: 24px; } }

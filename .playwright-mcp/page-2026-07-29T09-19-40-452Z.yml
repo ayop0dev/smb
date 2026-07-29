@@ -1,0 +1,99 @@
+- generic [active] [ref=f21e1]:
+  - link "Skip To Content" [ref=f21e2] [cursor=pointer]:
+    - /url: "#overview"
+  - banner [ref=f21e3]:
+    - generic [ref=f21e4]:
+      - link "SMB Real Estate Brokers — Home" [ref=f21e5] [cursor=pointer]:
+        - /url: index.php
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f21e6]
+      - generic [ref=f21e7]:
+        - link "+971 50 421 7299" [ref=f21e8] [cursor=pointer]:
+          - /url: tel:+971504217299
+        - button "Open Menu" [ref=f21e12] [cursor=pointer]
+  - main [ref=f21e16]:
+    - region [ref=f21e17]:
+      - img "Grand Polo Club & Resort By Emaar" [ref=f21e18]
+      - generic [ref=f21e21]:
+        - navigation "Breadcrumb" [ref=f21e22]:
+          - list [ref=f21e23]:
+            - listitem [ref=f21e24]:
+              - link "Home" [ref=f21e25] [cursor=pointer]:
+                - /url: index.php
+            - listitem [ref=f21e26]:
+              - text: /
+              - link "Developers" [ref=f21e27] [cursor=pointer]:
+                - /url: developers.php
+            - listitem [ref=f21e28]:
+              - text: /
+              - generic [ref=f21e29]: Emaar
+        - heading "Emaar" [level=1] [ref=f21e30]
+        - paragraph [ref=f21e31]: Known for large-scale, master-planned communities that combine homes, amenities and long-term placemaking.
+    - region [ref=f21e32]:
+      - generic [ref=f21e34]:
+        - img "Grand Polo Club & Resort By Emaar" [ref=f21e36]
+        - generic [ref=f21e37]:
+          - paragraph [ref=f21e38]: Developer Overview
+          - img "Emaar Logo" [ref=f21e40]
+          - heading "Emaar" [level=2] [ref=f21e41]
+          - paragraph [ref=f21e42]: Known for large-scale, master-planned communities that combine homes, amenities and long-term placemaking.
+    - region [ref=f21e43]:
+      - generic [ref=f21e44]:
+        - generic [ref=f21e45]:
+          - paragraph [ref=f21e46]: Projects
+          - heading "Projects By Emaar" [level=2] [ref=f21e47]
+        - article [ref=f21e49]:
+          - link "View Grand Polo Club & Resort" [ref=f21e50] [cursor=pointer]:
+            - /url: grand-polo-club-resort.php
+          - generic [ref=f21e51]:
+            - heading [level=3] [ref=f21e52]:
+              - link "Grand Polo Club & Resort" [ref=f21e53] [cursor=pointer]:
+                - /url: grand-polo-club-resort.php
+            - paragraph [ref=f21e54]:
+              - link "Emaar Properties" [ref=f21e55] [cursor=pointer]:
+                - /url: emaar-properties.php
+              - text: · Dubai South, Dubai
+            - list "Property Types" [ref=f21e56]:
+              - listitem [ref=f21e57]: Villas
+            - link "View Grand Polo Club & Resort Project Details" [ref=f21e60] [cursor=pointer]:
+              - /url: grand-polo-club-resort.php
+              - text: View Project
+  - contentinfo [ref=f21e63]:
+    - generic [ref=f21e64]:
+      - generic [ref=f21e65]:
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f21e66]
+        - paragraph [ref=f21e67]: Serving, Managing & Beyond
+        - paragraph [ref=f21e68]: SMB Real Estate Brokers L.L.C Is A UAE Property Advisory For Residential And Commercial Clients, Known For Independent Judgement, Attentive Execution And Relationships That Continue Beyond Completion.
+      - generic [ref=f21e69]:
+        - heading "Quick Links" [level=3] [ref=f21e70]
+        - list [ref=f21e71]:
+          - listitem [ref=f21e72]:
+            - link "Home" [ref=f21e73] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f21e74]:
+            - link "About" [ref=f21e75] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f21e76]:
+            - link "Services" [ref=f21e77] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f21e78]:
+            - link "Developers" [ref=f21e79] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f21e80]:
+            - link "Communities" [ref=f21e81] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f21e82]:
+            - link "Contact" [ref=f21e83] [cursor=pointer]:
+              - /url: contact.php
+      - generic [ref=f21e84]:
+        - heading "Contact" [level=3] [ref=f21e85]
+        - list [ref=f21e87]:
+          - listitem [ref=f21e88]:
+            - link "+971 50 421 7299" [ref=f21e89] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - listitem [ref=f21e90]:
+            - link "info@smbdubai.net" [ref=f21e91] [cursor=pointer]:
+              - /url: mailto:info@smbdubai.net
+          - listitem [ref=f21e92]: 3002 Westburry Tower Office,Business Bay, Dubai, UAE
+    - generic [ref=f21e93]:
+      - paragraph [ref=f21e94]: © 2026 SMB Real Estate Brokers L.L.C. All Rights Reserved.
+      - paragraph [ref=f21e95]: Prices, Availability And Handover Dates Are Indicative And Subject To Change By The Developer.

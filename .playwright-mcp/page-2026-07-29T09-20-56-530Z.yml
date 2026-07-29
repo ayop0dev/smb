@@ -1,0 +1,234 @@
+- generic [active] [ref=f26e1]:
+  - link "Skip To Content" [ref=f26e2] [cursor=pointer]:
+    - /url: "#overview"
+  - banner [ref=f26e3]:
+    - generic [ref=f26e4]:
+      - link "SMB Real Estate Brokers — Home" [ref=f26e5] [cursor=pointer]:
+        - /url: index.php
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f26e6]
+      - generic [ref=f26e7]:
+        - link "+971 50 421 7299" [ref=f26e8] [cursor=pointer]:
+          - /url: tel:+971504217299
+        - button "Open Menu" [ref=f26e12] [cursor=pointer]
+  - main [ref=f26e16]:
+    - region [ref=f26e17]:
+      - img "Sobha Central — Apartments" [ref=f26e18]
+      - generic [ref=f26e20]:
+        - generic [ref=f26e21]:
+          - navigation "Breadcrumb" [ref=f26e22]:
+            - list [ref=f26e23]:
+              - listitem [ref=f26e24]:
+                - link "Home" [ref=f26e25] [cursor=pointer]:
+                  - /url: index.php
+              - listitem [ref=f26e26]:
+                - text: /
+                - link "Sobha Realty" [ref=f26e27] [cursor=pointer]:
+                  - /url: sobha-realty.php
+              - listitem [ref=f26e28]:
+                - text: /
+                - generic [ref=f26e29]: Sobha Central
+          - heading "Sobha Central" [level=1] [ref=f26e30]
+          - paragraph [ref=f26e31]: Apartments
+          - paragraph [ref=f26e32]: A six-tower mixed-use community on Sheikh Zayed Road combining residences with elevated parks, retail and offices.
+          - generic [ref=f26e33]:
+            - link "Enquire Now" [ref=f26e34] [cursor=pointer]:
+              - /url: "#enquire"
+            - link "Explore The Project" [ref=f26e35] [cursor=pointer]:
+              - /url: "#overview"
+          - list "Trust Indicators" [ref=f26e36]:
+            - listitem [ref=f26e37]: Developed by Sobha Realty
+            - listitem [ref=f26e38]: Located in Sheikh Zayed Road
+            - listitem [ref=f26e39]: Off-plan Development
+        - generic [ref=f26e40]:
+          - paragraph [ref=f26e41]: Starting From
+          - paragraph [ref=f26e42]: AED 1.78 Million*
+          - paragraph [ref=f26e43]: "*Prices are subject to change by the developer."
+          - generic [ref=f26e44]:
+            - generic [ref=f26e45]:
+              - generic [ref=f26e46]: Full Name
+              - textbox "Full Name" [ref=f26e47]:
+                - /placeholder: Your Full Name
+            - generic [ref=f26e48]:
+              - generic [ref=f26e49]: Phone Number
+              - textbox "Phone Number" [ref=f26e50]:
+                - /placeholder: +971 50 000 0000
+            - generic [ref=f26e51]:
+              - generic [ref=f26e52]: Email Address
+              - textbox "Email Address" [ref=f26e53]:
+                - /placeholder: name@example.com
+            - button "Enquire Now" [ref=f26e54] [cursor=pointer]
+            - paragraph [ref=f26e55]: Our Team Will Contact You Shortly.
+    - region [ref=f26e56]:
+      - heading "Key Facts" [level=2] [ref=f26e57]
+      - list [ref=f26e59]:
+        - listitem [ref=f26e60]:
+          - generic [ref=f26e64]:
+            - paragraph [ref=f26e65]: Apartments
+            - paragraph [ref=f26e66]: Property type
+        - listitem [ref=f26e67]:
+          - generic [ref=f26e71]:
+            - paragraph [ref=f26e72]: 1, 2 and 3
+            - paragraph [ref=f26e73]: Bedrooms
+        - listitem [ref=f26e74]:
+          - generic [ref=f26e78]:
+            - paragraph [ref=f26e79]: December 2030 (latest listed tower)
+            - paragraph [ref=f26e80]: Handover
+        - listitem [ref=f26e81]:
+          - generic [ref=f26e85]:
+            - paragraph [ref=f26e86]: From AED 1.78M
+            - paragraph [ref=f26e87]: Starting price
+    - region [ref=f26e88]:
+      - generic [ref=f26e89]:
+        - generic [ref=f26e90]:
+          - paragraph [ref=f26e91]: Project Overview
+          - heading "Discover Sobha Central" [level=2] [ref=f26e92]
+          - paragraph [ref=f26e93]: A six-tower mixed-use community on Sheikh Zayed Road combining residences with elevated parks, retail and offices.
+          - link "Speak With A Property Consultant" [ref=f26e94] [cursor=pointer]:
+            - /url: "#enquire"
+        - generic [ref=f26e95]:
+          - article [ref=f26e96]:
+            - generic [ref=f26e100]:
+              - paragraph [ref=f26e101]: "6"
+              - paragraph [ref=f26e102]: Towers
+          - article [ref=f26e103]:
+            - generic [ref=f26e107]:
+              - paragraph [ref=f26e108]: 564.8-1554 sq.ft
+              - paragraph [ref=f26e109]: Built-up area
+          - article [ref=f26e110]:
+            - generic [ref=f26e114]:
+              - paragraph [ref=f26e115]: Apartments
+              - paragraph [ref=f26e116]: Property type
+    - region [ref=f26e117]:
+      - generic [ref=f26e118]:
+        - generic [ref=f26e119]:
+          - paragraph [ref=f26e120]: Lifestyle Gallery
+          - heading "A closer look at Sobha Central" [level=2] [ref=f26e121]
+        - generic [ref=f26e122]:
+          - figure [ref=f26e123]:
+            - 'button "View Larger: Sobha Central — Lifestyle Image 1" [ref=f26e124] [cursor=pointer]':
+              - img "Sobha Central — Lifestyle Image 1" [ref=f26e125]
+          - figure [ref=f26e126]:
+            - 'button "View Larger: Sobha Central — Lifestyle Image 2" [ref=f26e127] [cursor=pointer]':
+              - img "Sobha Central — Lifestyle Image 2" [ref=f26e128]
+          - figure [ref=f26e129]:
+            - 'button "View Larger: Sobha Central — Lifestyle Image 3" [ref=f26e130] [cursor=pointer]':
+              - img "Sobha Central — Lifestyle Image 3" [ref=f26e131]
+          - figure [ref=f26e132]:
+            - 'button "View Larger: Sobha Central — Lifestyle Image 4" [ref=f26e133] [cursor=pointer]':
+              - img "Sobha Central — Lifestyle Image 4" [ref=f26e134]
+    - region [ref=f26e135]:
+      - generic [ref=f26e136]:
+        - generic [ref=f26e137]:
+          - paragraph [ref=f26e138]: Features & Amenities
+          - heading "Amenities at Sobha Central" [level=2] [ref=f26e139]
+        - list [ref=f26e140]:
+          - listitem [ref=f26e141]:
+            - heading "Elevated parks" [level=3] [ref=f26e145]
+            - paragraph [ref=f26e146]: Landscaped space for outdoor leisure and relaxation.
+          - listitem [ref=f26e147]:
+            - heading "Retail mall" [level=3] [ref=f26e151]
+            - paragraph [ref=f26e152]: Convenient retail space within the development.
+          - listitem [ref=f26e153]:
+            - heading "Fitness facilities" [level=3] [ref=f26e157]
+            - paragraph [ref=f26e158]: A dedicated setting for exercise and active recreation.
+          - listitem [ref=f26e159]:
+            - heading "Outdoor cinema" [level=3] [ref=f26e163]
+            - paragraph [ref=f26e164]: A dedicated space for resident entertainment.
+          - listitem [ref=f26e165]:
+            - heading "Childrens play area" [level=3] [ref=f26e169]
+            - paragraph [ref=f26e170]: A dedicated area designed for family recreation.
+    - region [ref=f26e171]:
+      - generic [ref=f26e173]:
+        - generic [ref=f26e174]:
+          - paragraph [ref=f26e175]: Location & Connectivity
+          - heading "Connected living in Sheikh Zayed Road, Dubai" [level=2] [ref=f26e176]
+          - paragraph [ref=f26e177]: Sobha Central is located in Sheikh Zayed Road, Dubai.
+        - list [ref=f26e178]:
+          - listitem [ref=f26e179]:
+            - heading "Business Bay" [level=3] [ref=f26e183]
+            - paragraph [ref=f26e184]: 10 minutes
+          - listitem [ref=f26e187]:
+            - heading "Downtown Dubai" [level=3] [ref=f26e191]
+            - paragraph [ref=f26e192]: 10 minutes
+          - listitem [ref=f26e195]:
+            - heading "Dubai Marina" [level=3] [ref=f26e199]
+            - paragraph [ref=f26e200]: 12 minutes
+          - listitem [ref=f26e203]:
+            - heading "Key Destination" [level=3] [ref=f26e207]
+            - paragraph [ref=f26e208]: Travel Details Available On Request
+        - paragraph [ref=f26e211]: Approximate Driving Times.
+    - region [ref=f26e212]:
+      - generic [ref=f26e213]:
+        - generic [ref=f26e214]:
+          - paragraph [ref=f26e215]: Contact
+          - heading "Enquire Now" [level=2] [ref=f26e216]
+          - paragraph [ref=f26e217]: Fill Out The Form And Our Team Will Get Back To You Shortly.
+          - generic [ref=f26e218]:
+            - link "WhatsApp" [ref=f26e219] [cursor=pointer]:
+              - /url: https://wa.me/971504217299
+            - link "Call +971 50 421 7299" [ref=f26e222] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - list [ref=f26e226]:
+            - listitem [ref=f26e227]:
+              - link "info@smbdubai.net" [ref=f26e230] [cursor=pointer]:
+                - /url: mailto:info@smbdubai.net
+            - listitem [ref=f26e231]:
+              - generic [ref=f26e234]: 3002 Westburry Tower Office, Business Bay, Dubai, UAE
+        - generic [ref=f26e236]:
+          - generic [ref=f26e237]:
+            - generic [ref=f26e238]: Full Name
+            - textbox "Full Name" [ref=f26e239]:
+              - /placeholder: Your Full Name
+          - generic [ref=f26e240]:
+            - generic [ref=f26e241]: Phone Number
+            - textbox "Phone Number" [ref=f26e242]:
+              - /placeholder: +971 50 000 0000
+          - generic [ref=f26e243]:
+            - generic [ref=f26e244]: Email Address
+            - textbox "Email Address" [ref=f26e245]:
+              - /placeholder: name@example.com
+          - generic [ref=f26e246]:
+            - generic [ref=f26e247]: Message (Optional)
+            - textbox "Message (Optional)" [ref=f26e248]:
+              - /placeholder: Tell Us What You Are Looking For
+          - button "Send Enquiry" [ref=f26e249] [cursor=pointer]
+  - contentinfo [ref=f26e250]:
+    - generic [ref=f26e251]:
+      - generic [ref=f26e252]:
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f26e253]
+        - paragraph [ref=f26e254]: Serving, Managing & Beyond
+        - paragraph [ref=f26e255]: SMB Real Estate Brokers L.L.C Is A UAE Property Advisory For Residential And Commercial Clients, Known For Independent Judgement, Attentive Execution And Relationships That Continue Beyond Completion.
+      - generic [ref=f26e256]:
+        - heading "Quick Links" [level=3] [ref=f26e257]
+        - list [ref=f26e258]:
+          - listitem [ref=f26e259]:
+            - link "Home" [ref=f26e260] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f26e261]:
+            - link "About" [ref=f26e262] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f26e263]:
+            - link "Services" [ref=f26e264] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f26e265]:
+            - link "Developers" [ref=f26e266] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f26e267]:
+            - link "Communities" [ref=f26e268] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f26e269]:
+            - link "Contact" [ref=f26e270] [cursor=pointer]:
+              - /url: contact.php
+      - generic [ref=f26e271]:
+        - heading "Contact" [level=3] [ref=f26e272]
+        - list [ref=f26e274]:
+          - listitem [ref=f26e275]:
+            - link "+971 50 421 7299" [ref=f26e276] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - listitem [ref=f26e277]:
+            - link "info@smbdubai.net" [ref=f26e278] [cursor=pointer]:
+              - /url: mailto:info@smbdubai.net
+          - listitem [ref=f26e279]: 3002 Westburry Tower Office,Business Bay, Dubai, UAE
+    - generic [ref=f26e280]:
+      - paragraph [ref=f26e281]: © 2026 SMB Real Estate Brokers L.L.C. All Rights Reserved.
+      - paragraph [ref=f26e282]: Prices, Availability And Handover Dates Are Indicative And Subject To Change By The Developer.

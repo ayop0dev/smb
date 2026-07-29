@@ -39,18 +39,37 @@ function smb_e(string $value): string
     return htmlspecialchars($value, ENT_QUOTES, 'UTF-8');
 }
 
-/* BreadcrumbList structured data, matching the visible "Home / X" breadcrumb
-   nav rendered on every inner page. Home has no visible breadcrumb, so it
-   (and pages outside $nav_items, e.g. the DAMAC project page) get none. */
+/* ---------- Unified breadcrumb mechanism (single source for every page type) ----------
+   A page sets $breadcrumb_trail before requiring this file: an array of
+   ['label' => string, 'url' => string|null] segments AFTER Home (Home is
+   added automatically, both here and by template-parts/breadcrumb.php). The
+   final segment should omit 'url' (or set it to null) to mark the current,
+   non-linked page — its schema.org "item" falls back to $canonical_url.
+   Pages that don't set $breadcrumb_trail (the homepage) get no breadcrumb,
+   matching the existing "Home has no visible breadcrumb" design. */
+$breadcrumb_trail = $breadcrumb_trail ?? [];
 $breadcrumb_json = null;
-if ($current_page !== '' && $current_page !== 'home' && isset($nav_items[$current_page])) {
+if (!empty($breadcrumb_trail)) {
+    $breadcrumb_items = [
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $site_url . '/'],
+    ];
+    $breadcrumb_position = 2;
+    foreach ($breadcrumb_trail as $crumb) {
+        $crumb_url = !empty($crumb['url'])
+            ? $site_url . '/' . ltrim((string) $crumb['url'], '/')
+            : $canonical_url;
+        $breadcrumb_items[] = [
+            '@type' => 'ListItem',
+            'position' => $breadcrumb_position,
+            'name' => (string) $crumb['label'],
+            'item' => $crumb_url,
+        ];
+        $breadcrumb_position++;
+    }
     $breadcrumb_json = json_encode([
         '@context' => 'https://schema.org',
         '@type' => 'BreadcrumbList',
-        'itemListElement' => [
-            ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $site_url . '/'],
-            ['@type' => 'ListItem', 'position' => 2, 'name' => $nav_items[$current_page][1], 'item' => $canonical_url],
-        ],
+        'itemListElement' => $breadcrumb_items,
     ], JSON_UNESCAPED_SLASHES);
 }
 ?>
@@ -86,7 +105,6 @@ if ($current_page !== '' && $current_page !== 'home' && isset($nav_items[$curren
 </head>
 <body>
 
-  <!-- SVG icon sprite (shared: union of all page symbols) -->
   <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
     <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 9.6V20h13V9.6"/><path d="M10 20v-5.5h4V20"/></symbol>
     <symbol id="i-building" viewBox="0 0 24 24"><rect x="6" y="3.5" width="12" height="17" rx="1.5"/><path d="M10 7.5h1.5M13.5 7.5H15M10 11h1.5M13.5 11H15M10 14.5h1.5M13.5 14.5H15M10.5 20.5v-3h3v3"/></symbol>
@@ -120,19 +138,21 @@ if ($current_page !== '' && $current_page !== 'home' && isset($nav_items[$curren
     <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7 2.8v5.4c0 4.6-3 7.6-7 9.8-4-2.2-7-5.2-7-9.8V5.8z"/><path d="M9 11.5l2.2 2.2 4-4.5"/></symbol>
     <symbol id="i-anchor" viewBox="0 0 24 24"><circle cx="12" cy="5.5" r="2"/><path d="M12 7.5V20M12 20c-4.4 0-8-3.6-8-8h2.5M12 20c4.4 0 8-3.6 8-8h-2.5M9 9.5h6"/></symbol>
     <symbol id="i-plane" viewBox="0 0 24 24"><path d="M2.5 19.5h19"/><path d="M3.8 13l4.3 1.1 8.7-5.6c1.3-.8 2.8-.5 3.4.5-.3 1-1.2 1.8-2.6 2.1L9.3 14.7l-4.3-.6z"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+    <symbol id="i-zoom-in" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M19.5 19.5 15.3 15.3M10.5 7.5v6M7.5 10.5h6"/></symbol>
+    <symbol id="i-zoom-out" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M19.5 19.5 15.3 15.3M7.5 10.5h6"/></symbol>
   </svg>
 
-  <a class="skip-link" href="<?= smb_e($skip_link) ?>">Skip to content</a>
+  <a class="skip-link" href="<?= smb_e($skip_link) ?>">Skip To Content</a>
 
-  <!-- ============ Header ============ -->
   <header class="header" id="header">
     <div class="header__overlay" id="nav-overlay" aria-hidden="true"></div>
     <div class="container header__inner">
-      <a class="header__logo" href="index.php" aria-label="SMB Real Estate Brokers — home">
+      <a class="header__logo" href="index.php" aria-label="SMB Real Estate Brokers — Home">
         <img src="assets/images/smb-logo-horizontal.png" alt="SMB Real Estate Brokers — Serving, Managing &amp; Beyond" width="80" height="46">
       </a>
-      <nav class="header__nav" id="main-nav" aria-label="Main navigation">
-        <button type="button" class="header__close" id="nav-close" aria-label="Close menu">
+      <nav class="header__nav" id="main-nav" aria-label="Main Navigation">
+        <button type="button" class="header__close" id="nav-close" aria-label="Close Menu">
           <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
         </button>
         <ul>
@@ -152,7 +172,7 @@ if ($current_page !== '' && $current_page !== 'home' && isset($nav_items[$curren
           <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
           <span class="header__phone-text">+971 50 421 7299</span>
         </a>
-        <button type="button" class="header__burger" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
+        <button type="button" class="header__burger" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open Menu">
           <span></span><span></span><span></span>
         </button>
       </div>

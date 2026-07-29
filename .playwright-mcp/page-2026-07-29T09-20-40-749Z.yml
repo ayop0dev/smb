@@ -1,0 +1,230 @@
+- generic [active] [ref=f25e1]:
+  - link "Skip To Content" [ref=f25e2] [cursor=pointer]:
+    - /url: "#overview"
+  - banner [ref=f25e3]:
+    - generic [ref=f25e4]:
+      - link "SMB Real Estate Brokers — Home" [ref=f25e5] [cursor=pointer]:
+        - /url: index.php
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f25e6]
+      - generic [ref=f25e7]:
+        - link "+971 50 421 7299" [ref=f25e8] [cursor=pointer]:
+          - /url: tel:+971504217299
+        - button "Open Menu" [ref=f25e12] [cursor=pointer]
+  - main [ref=f25e16]:
+    - region [ref=f25e17]:
+      - img "Grand Polo Club & Resort — Villas" [ref=f25e18]
+      - generic [ref=f25e20]:
+        - generic [ref=f25e21]:
+          - navigation "Breadcrumb" [ref=f25e22]:
+            - list [ref=f25e23]:
+              - listitem [ref=f25e24]:
+                - link "Home" [ref=f25e25] [cursor=pointer]:
+                  - /url: index.php
+              - listitem [ref=f25e26]:
+                - text: /
+                - link "Emaar" [ref=f25e27] [cursor=pointer]:
+                  - /url: emaar-properties.php
+              - listitem [ref=f25e28]:
+                - text: /
+                - generic [ref=f25e29]: Grand Polo Club & Resort
+          - heading "Grand Polo Club & Resort" [level=1] [ref=f25e30]
+          - paragraph [ref=f25e31]: Villas
+          - paragraph [ref=f25e32]: An equestrian-led villa master community by Emaar, planned around polo facilities, landscaped open space, wellness and recreation.
+          - generic [ref=f25e33]:
+            - link "Enquire Now" [ref=f25e34] [cursor=pointer]:
+              - /url: "#enquire"
+            - link "Explore The Project" [ref=f25e35] [cursor=pointer]:
+              - /url: "#overview"
+          - list "Trust Indicators" [ref=f25e36]:
+            - listitem [ref=f25e37]: Developed by Emaar Properties
+            - listitem [ref=f25e38]: Located in Dubai South
+            - listitem [ref=f25e39]: Off-plan Development
+        - generic [ref=f25e40]:
+          - paragraph [ref=f25e41]: Pricing
+          - paragraph [ref=f25e42]: Available On Request
+          - generic [ref=f25e43]:
+            - generic [ref=f25e44]:
+              - generic [ref=f25e45]: Full Name
+              - textbox "Full Name" [ref=f25e46]:
+                - /placeholder: Your Full Name
+            - generic [ref=f25e47]:
+              - generic [ref=f25e48]: Phone Number
+              - textbox "Phone Number" [ref=f25e49]:
+                - /placeholder: +971 50 000 0000
+            - generic [ref=f25e50]:
+              - generic [ref=f25e51]: Email Address
+              - textbox "Email Address" [ref=f25e52]:
+                - /placeholder: name@example.com
+            - button "Enquire Now" [ref=f25e53] [cursor=pointer]
+            - paragraph [ref=f25e54]: Our Team Will Contact You Shortly.
+    - region [ref=f25e55]:
+      - heading "Key Facts" [level=2] [ref=f25e56]
+      - list [ref=f25e58]:
+        - listitem [ref=f25e59]:
+          - generic [ref=f25e63]:
+            - paragraph [ref=f25e64]: Villas
+            - paragraph [ref=f25e65]: Property type
+        - listitem [ref=f25e66]:
+          - generic [ref=f25e70]:
+            - paragraph [ref=f25e71]: 3, 4 and 5
+            - paragraph [ref=f25e72]: Bedrooms
+        - listitem [ref=f25e73]:
+          - generic [ref=f25e77]:
+            - paragraph [ref=f25e78]: "5599"
+            - paragraph [ref=f25e79]: Total units
+        - listitem [ref=f25e80]:
+          - generic [ref=f25e84]:
+            - paragraph [ref=f25e85]: Off-plan master community
+            - paragraph [ref=f25e86]: Project status
+    - region [ref=f25e87]:
+      - generic [ref=f25e88]:
+        - generic [ref=f25e89]:
+          - paragraph [ref=f25e90]: Project Overview
+          - heading "Discover Grand Polo Club & Resort" [level=2] [ref=f25e91]
+          - paragraph [ref=f25e92]: An equestrian-led villa master community by Emaar, planned around polo facilities, landscaped open space, wellness and recreation.
+          - link "Speak With A Property Consultant" [ref=f25e93] [cursor=pointer]:
+            - /url: "#enquire"
+        - generic [ref=f25e94]:
+          - article [ref=f25e95]:
+            - generic [ref=f25e99]:
+              - paragraph [ref=f25e100]: "5599"
+              - paragraph [ref=f25e101]: Total units
+          - article [ref=f25e102]:
+            - generic [ref=f25e106]:
+              - paragraph [ref=f25e107]: Villas
+              - paragraph [ref=f25e108]: Property type
+          - article [ref=f25e109]:
+            - generic [ref=f25e113]:
+              - paragraph [ref=f25e114]: 3, 4 and 5
+              - paragraph [ref=f25e115]: Bedrooms
+    - region [ref=f25e116]:
+      - generic [ref=f25e117]:
+        - generic [ref=f25e118]:
+          - paragraph [ref=f25e119]: Lifestyle Gallery
+          - heading "A closer look at Grand Polo Club & Resort" [level=2] [ref=f25e120]
+        - generic [ref=f25e121]:
+          - figure [ref=f25e122]:
+            - 'button "View Larger: Grand Polo Club & Resort — Lifestyle Image 1" [ref=f25e123] [cursor=pointer]':
+              - img "Grand Polo Club & Resort — Lifestyle Image 1" [ref=f25e124]
+          - figure [ref=f25e125]:
+            - 'button "View Larger: Grand Polo Club & Resort — Lifestyle Image 2" [ref=f25e126] [cursor=pointer]':
+              - img "Grand Polo Club & Resort — Lifestyle Image 2" [ref=f25e127]
+          - figure [ref=f25e128]:
+            - 'button "View Larger: Grand Polo Club & Resort — Lifestyle Image 3" [ref=f25e129] [cursor=pointer]':
+              - img "Grand Polo Club & Resort — Lifestyle Image 3" [ref=f25e130]
+          - figure [ref=f25e131]:
+            - 'button "View Larger: Grand Polo Club & Resort — Lifestyle Image 4" [ref=f25e132] [cursor=pointer]':
+              - img "Grand Polo Club & Resort — Lifestyle Image 4" [ref=f25e133]
+    - region [ref=f25e134]:
+      - generic [ref=f25e135]:
+        - generic [ref=f25e136]:
+          - paragraph [ref=f25e137]: Features & Amenities
+          - heading "Amenities at Grand Polo Club & Resort" [level=2] [ref=f25e138]
+        - list [ref=f25e139]:
+          - listitem [ref=f25e140]:
+            - heading "Polo fields and stables" [level=3] [ref=f25e144]
+            - paragraph [ref=f25e145]: A dedicated setting for equestrian and leisure activities.
+          - listitem [ref=f25e146]:
+            - heading "Clubhouse" [level=3] [ref=f25e150]
+            - paragraph [ref=f25e151]: A shared space for residents to relax and socialise.
+          - listitem [ref=f25e152]:
+            - heading "Landscaped open spaces" [level=3] [ref=f25e156]
+            - paragraph [ref=f25e157]: A dedicated space supporting wellness and relaxation.
+          - listitem [ref=f25e158]:
+            - heading "Wellness and recreation facilities" [level=3] [ref=f25e162]
+            - paragraph [ref=f25e163]: A dedicated space supporting wellness and relaxation.
+    - region [ref=f25e164]:
+      - generic [ref=f25e166]:
+        - generic [ref=f25e167]:
+          - paragraph [ref=f25e168]: Location & Connectivity
+          - heading "Connected living in Dubai South, Dubai" [level=2] [ref=f25e169]
+          - paragraph [ref=f25e170]: The Grand Polo Club & Resort is located in Dubai South, Dubai.
+        - list [ref=f25e171]:
+          - listitem [ref=f25e172]:
+            - heading "Al Maktoum International Airport" [level=3] [ref=f25e176]
+            - paragraph [ref=f25e177]: 5 minutes
+          - listitem [ref=f25e180]:
+            - heading "Dubai Hills Estate" [level=3] [ref=f25e184]
+            - paragraph [ref=f25e185]: 20 minutes
+          - listitem [ref=f25e188]:
+            - heading "Dubai Marina" [level=3] [ref=f25e192]
+            - paragraph [ref=f25e193]: 28 minutes
+          - listitem [ref=f25e196]:
+            - heading "Downtown Dubai" [level=3] [ref=f25e200]
+            - paragraph [ref=f25e201]: 35 minutes
+        - paragraph [ref=f25e204]: Approximate Driving Times.
+    - region [ref=f25e205]:
+      - generic [ref=f25e206]:
+        - generic [ref=f25e207]:
+          - paragraph [ref=f25e208]: Contact
+          - heading "Enquire Now" [level=2] [ref=f25e209]
+          - paragraph [ref=f25e210]: Fill Out The Form And Our Team Will Get Back To You Shortly.
+          - generic [ref=f25e211]:
+            - link "WhatsApp" [ref=f25e212] [cursor=pointer]:
+              - /url: https://wa.me/971504217299
+            - link "Call +971 50 421 7299" [ref=f25e215] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - list [ref=f25e219]:
+            - listitem [ref=f25e220]:
+              - link "info@smbdubai.net" [ref=f25e223] [cursor=pointer]:
+                - /url: mailto:info@smbdubai.net
+            - listitem [ref=f25e224]:
+              - generic [ref=f25e227]: 3002 Westburry Tower Office, Business Bay, Dubai, UAE
+        - generic [ref=f25e229]:
+          - generic [ref=f25e230]:
+            - generic [ref=f25e231]: Full Name
+            - textbox "Full Name" [ref=f25e232]:
+              - /placeholder: Your Full Name
+          - generic [ref=f25e233]:
+            - generic [ref=f25e234]: Phone Number
+            - textbox "Phone Number" [ref=f25e235]:
+              - /placeholder: +971 50 000 0000
+          - generic [ref=f25e236]:
+            - generic [ref=f25e237]: Email Address
+            - textbox "Email Address" [ref=f25e238]:
+              - /placeholder: name@example.com
+          - generic [ref=f25e239]:
+            - generic [ref=f25e240]: Message (Optional)
+            - textbox "Message (Optional)" [ref=f25e241]:
+              - /placeholder: Tell Us What You Are Looking For
+          - button "Send Enquiry" [ref=f25e242] [cursor=pointer]
+  - contentinfo [ref=f25e243]:
+    - generic [ref=f25e244]:
+      - generic [ref=f25e245]:
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f25e246]
+        - paragraph [ref=f25e247]: Serving, Managing & Beyond
+        - paragraph [ref=f25e248]: SMB Real Estate Brokers L.L.C Is A UAE Property Advisory For Residential And Commercial Clients, Known For Independent Judgement, Attentive Execution And Relationships That Continue Beyond Completion.
+      - generic [ref=f25e249]:
+        - heading "Quick Links" [level=3] [ref=f25e250]
+        - list [ref=f25e251]:
+          - listitem [ref=f25e252]:
+            - link "Home" [ref=f25e253] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f25e254]:
+            - link "About" [ref=f25e255] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f25e256]:
+            - link "Services" [ref=f25e257] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f25e258]:
+            - link "Developers" [ref=f25e259] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f25e260]:
+            - link "Communities" [ref=f25e261] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f25e262]:
+            - link "Contact" [ref=f25e263] [cursor=pointer]:
+              - /url: contact.php
+      - generic [ref=f25e264]:
+        - heading "Contact" [level=3] [ref=f25e265]
+        - list [ref=f25e267]:
+          - listitem [ref=f25e268]:
+            - link "+971 50 421 7299" [ref=f25e269] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - listitem [ref=f25e270]:
+            - link "info@smbdubai.net" [ref=f25e271] [cursor=pointer]:
+              - /url: mailto:info@smbdubai.net
+          - listitem [ref=f25e272]: 3002 Westburry Tower Office,Business Bay, Dubai, UAE
+    - generic [ref=f25e273]:
+      - paragraph [ref=f25e274]: © 2026 SMB Real Estate Brokers L.L.C. All Rights Reserved.
+      - paragraph [ref=f25e275]: Prices, Availability And Handover Dates Are Indicative And Subject To Change By The Developer.

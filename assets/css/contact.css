@@ -1,11 +1,7 @@
-/* ==========================================================================
-   SMB Real Estate Brokers — Contact Page (contact.php)
-   Extends main.css (tokens/forms), home.css (cta-final, social, sticky text)
-   and about.css (inner hero, breadcrumb).
-   Loaded after all three, on contact.php only.
-   ========================================================================== */
+/* Extends main.css (forms), home.css (cta-final, social, sticky text) and
+   about.css (inner hero, breadcrumb). Loaded after all three, on
+   contact.php only. */
 
-/* ---------- Contact overview ---------- */
 .methods__grid { display: grid; gap: 20px; grid-template-columns: 1fr; }
 
 .method-card {
@@ -39,14 +35,12 @@
   .method-card { flex-direction: row; align-items: center; gap: 20px; }
 }
 
-/* ---------- Form + office information layout ---------- */
 .contact-layout { display: grid; gap: 48px; align-items: start; }
 
 @media (min-width: 992px) {
   .contact-layout { grid-template-columns: 1.15fr 0.85fr; gap: 64px; }
 }
 
-/* Enquiry type selector (radio pills) */
 fieldset.field { border: 0; min-width: 0; }
 fieldset.field legend {
   font-size: 0.875rem; font-weight: 600; color: var(--navy);
@@ -72,10 +66,9 @@ fieldset.field legend {
   background: var(--navy); border-color: var(--navy); color: var(--white);
 }
 .pill-group input:focus-visible + label {
-  outline: 2px solid var(--gold); outline-offset: 3px;
+  outline: 2px solid var(--navy); outline-offset: 3px;
 }
 
-/* Office information */
 .office-card {
   background: var(--white); border-radius: var(--r-xl);
   border: 1px solid var(--border-light); box-shadow: var(--shadow-soft);
@@ -95,32 +88,11 @@ fieldset.field legend {
 .office-card__value a { font-weight: 600; color: var(--navy); }
 .office-card__value a:hover { color: var(--gold-dark); }
 
-.office-card__temp {
-  display: inline-block; margin-top: 4px;
-  font-size: 0.8125rem; font-style: italic; color: var(--text-muted);
-}
-
 .office-card__note {
   margin-top: 28px; padding-top: 22px; border-top: 1px solid var(--border-light);
   font-size: 0.9375rem; color: var(--text-muted);
 }
 
-/* ---------- Map ---------- */
-.map__frame {
-  position: relative; border-radius: var(--r-xl); overflow: hidden;
-  border: 1px solid var(--border-light); background: var(--bg-section-alt);
-  min-height: 300px;
-  display: flex; flex-direction: column; align-items: center; justify-content: center;
-  gap: 16px; text-align: center; padding: 48px 24px;
-}
-.map__frame .icon { width: 48px; height: 48px; color: var(--navy); opacity: 0.4; stroke-width: 1.2; }
-
-.map__placeholder-title { font-size: 1.0625rem; font-weight: 700; color: var(--navy); }
-.map__placeholder-text { font-size: 0.9375rem; color: var(--text-muted); max-width: 46ch; }
-
-@media (min-width: 992px) { .map__frame { min-height: 360px; } }
-
-/* ---------- Visit or speak with us ---------- */
 .visit__inner { max-width: 640px; margin-inline: auto; text-align: center; }
 .visit__inner h2 { margin-bottom: 16px; }
 .visit__inner > p { margin: 0 auto 32px; font-size: 1.0625rem; }

@@ -1,10 +1,5 @@
-/* ==========================================================================
-   SMB Real Estate Brokers — Corporate Homepage (index.php)
-   Extends the shared component system in main.css.
-   Loaded after main.css on index.php only.
-   ========================================================================== */
+/* Loaded after main.css, on index.php only. */
 
-/* ---------- Hero (corporate variant) ---------- */
 /* Exactly one viewport tall on every real device. 560px is a defensive floor,
    well below any realistic phone/tablet/desktop viewport height, that only
    engages on pathologically short viewports (e.g. landscape phones) so the
@@ -90,7 +85,6 @@
   .hero--home .hero__inner { grid-template-columns: 1fr; }
 }
 
-/* ---------- Featured projects ---------- */
 /* Wider than the shared .section-head cap (640px) so the heading and
    description each fit on a single line at desktop; mobile/tablet keep the
    default width and wrap naturally. Scoped to this section only. */
@@ -106,76 +100,6 @@
   .testimonials .section-head { max-width: 680px; }
 }
 
-.projects__grid { display: grid; gap: 24px; grid-template-columns: 1fr; }
-
-.project-card {
-  display: flex; flex-direction: column;
-  background: var(--white); border-radius: var(--r-lg);
-  border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);
-  overflow: hidden;
-  transition: transform var(--transition-base), box-shadow var(--transition-base);
-}
-.project-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
-
-.project-card__media { aspect-ratio: 4 / 3; overflow: hidden; }
-.project-card__media img {
-  width: 100%; height: 100%; object-fit: cover;
-  transition: transform 0.8s ease;
-}
-.project-card:hover .project-card__media img { transform: scale(1.03); }
-
-.project-card__body {
-  display: flex; flex-direction: column; gap: 12px;
-  padding: 24px; flex: 1;
-}
-
-.project-card__name { font-size: 1.125rem; }
-
-.project-card__meta { display: grid; gap: 6px; }
-.project-card__meta li {
-  display: flex; align-items: center; gap: 8px;
-  font-size: 0.875rem; color: var(--text-muted);
-}
-.project-card__meta .icon { width: 16px; height: 16px; color: var(--navy); }
-
-.project-card__foot {
-  display: flex; align-items: flex-end; justify-content: space-between; gap: 16px;
-  margin-top: auto; padding-top: 16px;
-  border-top: 1px solid var(--border-light);
-}
-.project-card__price-label {
-  font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.12em;
-  text-transform: uppercase; color: var(--text-muted); margin-bottom: 2px;
-}
-.project-card__price {
-  font-size: 1.125rem; font-weight: 800; color: var(--navy); line-height: 1.2;
-}
-.project-card__link {
-  display: inline-flex; align-items: center; gap: 8px;
-  font-size: 0.875rem; font-weight: 700; color: var(--navy);
-  white-space: nowrap;
-}
-.project-card__link .icon { width: 16px; height: 16px; transition: transform var(--transition-fast); }
-.project-card__link:hover { color: var(--gold-dark); }
-.project-card__link:hover .icon { transform: translateX(3px); }
-
-@media (min-width: 640px) { .projects__grid { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 1100px) { .projects__grid { grid-template-columns: repeat(4, 1fr); } }
-
-/* ---------- Why SMB ---------- */
-.why__grid { display: grid; gap: 40px; grid-template-columns: 1fr; }
-
-.why-item__num {
-  display: block; font-size: 0.875rem; font-weight: 800;
-  letter-spacing: 0.15em; color: var(--navy); margin-bottom: 16px;
-}
-.why-item h3 { font-size: 1.125rem; margin-bottom: 12px; }
-.why-item p { font-size: 0.9375rem; color: var(--text-muted); }
-
-@media (min-width: 600px) { .why__grid { grid-template-columns: repeat(2, 1fr); gap: 48px; } }
-@media (min-width: 992px) { .why__grid { grid-template-columns: repeat(4, 1fr); gap: 40px; } }
-
-/* ---------- Property categories ---------- */
 .categories__grid { display: grid; gap: 20px; grid-template-columns: 1fr; }
 
 .category-card {
@@ -207,7 +131,6 @@
 @media (min-width: 600px) { .categories__grid { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 992px) { .categories__grid { grid-template-columns: repeat(3, 1fr); gap: 24px; } }
 
-/* ---------- Featured communities ---------- */
 .communities__grid { display: grid; gap: 24px; grid-template-columns: 1fr; }
 
 .community-card {
@@ -242,7 +165,6 @@
 @media (min-width: 600px) { .communities__grid { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 992px) { .communities__grid { grid-template-columns: repeat(3, 1fr); } }
 
-/* ---------- Buying process ---------- */
 .steps__grid { display: grid; gap: 40px; grid-template-columns: 1fr; list-style: none; }
 
 .step { position: relative; }
@@ -267,7 +189,6 @@
   }
 }
 
-/* ---------- Testimonials ---------- */
 .testimonials__grid { display: grid; gap: 24px; grid-template-columns: 1fr; }
 
 .testimonial-card {
@@ -287,7 +208,6 @@
 
 @media (min-width: 992px) { .testimonials__grid { grid-template-columns: repeat(3, 1fr); gap: 32px; } }
 
-/* ---------- Latest insights ---------- */
 .insights__grid { display: grid; gap: 32px; grid-template-columns: 1fr; }
 
 .insight-card { display: flex; flex-direction: column; }
@@ -312,7 +232,6 @@
 
 @media (min-width: 768px) { .insights__grid { grid-template-columns: repeat(3, 1fr); } }
 
-/* ---------- Final CTA ---------- */
 .cta-final { position: relative; background: var(--bg-dark); overflow: hidden; }
 .cta-final__bg {
   position: absolute; inset: 0; width: 100%; height: 100%;
@@ -349,8 +268,5 @@
   .cta-final__inner { max-width: 1100px; }
 }
 
-/* ---------- Sticky CTA (text-based variant) ---------- */
 .sticky-cta__price { font-size: 1.0625rem; white-space: nowrap; }
 .sticky-cta__action { white-space: nowrap; }
-
-/* Footer social link styles now live in main.css (shared by all pages) */

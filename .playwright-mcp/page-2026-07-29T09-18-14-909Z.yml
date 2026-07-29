@@ -1,0 +1,175 @@
+- generic [active] [ref=f17e1]:
+  - link "Skip To Content" [ref=f17e2] [cursor=pointer]:
+    - /url: "#intro"
+  - banner [ref=f17e3]:
+    - generic [ref=f17e4]:
+      - link "SMB Real Estate Brokers — Home" [ref=f17e5] [cursor=pointer]:
+        - /url: index.php
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f17e6]
+      - generic [ref=f17e7]:
+        - link "+971 50 421 7299" [ref=f17e8] [cursor=pointer]:
+          - /url: tel:+971504217299
+        - button "Open Menu" [ref=f17e12] [cursor=pointer]
+  - main [ref=f17e16]:
+    - region [ref=f17e17]:
+      - img "Turquoise Lagoon Water Meeting A Sandy Beach In Dubai" [ref=f17e18]
+      - generic [ref=f17e21]:
+        - navigation "Breadcrumb" [ref=f17e22]:
+          - list [ref=f17e23]:
+            - listitem [ref=f17e24]:
+              - link "Home" [ref=f17e25] [cursor=pointer]:
+                - /url: index.php
+            - listitem [ref=f17e26]:
+              - text: /
+              - generic [ref=f17e27]: Services
+        - heading "Advice For The Decisions That Matter" [level=1] [ref=f17e28]
+        - paragraph [ref=f17e29]: Off-Plan Advisory, Residential And Commercial Sales, And Full Transaction Support—Matched To What You Are Trying To Achieve, Not What Is Easiest To Sell.
+    - region [ref=f17e30]:
+      - generic [ref=f17e31]:
+        - generic [ref=f17e32]:
+          - paragraph [ref=f17e33]: What We Do
+          - heading "One Standard Across Every Service" [level=2] [ref=f17e34]
+          - paragraph [ref=f17e35]: "Every Service Follows The Same Standard: A Clear View Of The Market, Honest Guidance On Trade-Offs, And Continuity From The First Conversation Through To Handover And Beyond."
+          - paragraph [ref=f17e36]: That Starts With Off-Plan Advisory—Assessing Launches, Payment Plans And Developer Track Records—And Extends To Residential And Commercial Sales, Where Listings Are Matched To Your Budget And Intended Use Rather Than To What Happens To Be Available.
+          - paragraph [ref=f17e37]: "For Investors, The Same Standard Applies To Portfolio Decisions: Weighing Income, Growth And Risk Before Recommending Where Capital Should Go."
+          - paragraph [ref=f17e38]: Once A Decision Is Made, Our Team Manages Negotiation, Documentation And Coordination Through To Handover, And Remains Available For Resale, Leasing Or Portfolio Support Afterward.
+        - img "Modern Luxury Villa With A Private Pool Representing Dubai's Property Market" [ref=f17e40]
+    - region [ref=f17e41]:
+      - generic [ref=f17e43]:
+        - generic [ref=f17e44]:
+          - generic [ref=f17e45]: Core Focus
+          - heading "A Journey Shaped Around You" [level=2] [ref=f17e46]
+          - paragraph [ref=f17e47]: Every Engagement Starts With Your Goals, Not A Shortlist Of Listings. Before Any Option Is Presented, We Take The Time To Understand What You Are Trying To Achieve And What Would Make The Decision A Good One.
+          - list [ref=f17e48]:
+            - listitem [ref=f17e49]:
+              - generic [ref=f17e52]: Understanding Your Goals, Priorities And Timeline From The Outset
+            - listitem [ref=f17e53]:
+              - generic [ref=f17e56]: Reviewing Opportunities That Genuinely Fit Your Brief
+            - listitem [ref=f17e57]:
+              - generic [ref=f17e60]: Comparing Options Objectively On Value, Terms And Long-Term Fit
+            - listitem [ref=f17e61]:
+              - generic [ref=f17e64]: Supporting The Decision And The Transaction Through To Handover
+            - listitem [ref=f17e65]:
+              - generic [ref=f17e68]: Remaining Available Afterward For Resale, Leasing Or Portfolio Support
+          - link "Discuss Your Goals" [ref=f17e69] [cursor=pointer]:
+            - /url: "#enquire"
+        - img "Newly Completed Contemporary Villa At Dusk" [ref=f17e71]
+    - region [ref=f17e72]:
+      - generic [ref=f17e73]:
+        - generic [ref=f17e74]:
+          - paragraph [ref=f17e75]: How We Work
+          - heading "Deliberate From The Outset" [level=2] [ref=f17e76]
+        - list [ref=f17e77]:
+          - listitem [ref=f17e78]:
+            - generic [ref=f17e79]: "1"
+            - heading "Understand" [level=3] [ref=f17e80]
+            - paragraph [ref=f17e81]: The Brief Begins With Your Priorities, Budget And Timeline.
+          - listitem [ref=f17e82]:
+            - generic [ref=f17e83]: "2"
+            - heading "Advise" [level=3] [ref=f17e84]
+            - paragraph [ref=f17e85]: Market Context And Realistic Values Reveal Where The Strongest Fit Lies.
+          - listitem [ref=f17e86]:
+            - generic [ref=f17e87]: "3"
+            - heading "Shortlist" [level=3] [ref=f17e88]
+            - paragraph [ref=f17e89]: Only A Focused Set Of Credible Options Earns Your Time And Attention.
+          - listitem [ref=f17e90]:
+            - generic [ref=f17e91]: "4"
+            - heading "Support" [level=3] [ref=f17e92]
+            - paragraph [ref=f17e93]: From Offer To Handover, The Process Remains Closely Managed; The Relationship Continues Afterwards.
+    - region [ref=f17e94]:
+      - generic [ref=f17e95]:
+        - generic [ref=f17e96]:
+          - paragraph [ref=f17e97]: Who We Serve
+          - heading "Different Briefs. The Same Care." [level=2] [ref=f17e98]
+          - paragraph [ref=f17e99]: A First Home Calls For Different Judgement From A Business Premises Or Portfolio Acquisition. Each Receives The Same Care, But Never The Same Formula.
+        - generic [ref=f17e100]:
+          - link [ref=f17e101] [cursor=pointer]:
+            - /url: "#enquire"
+            - generic [ref=f17e105]:
+              - heading "First-Time Buyers" [level=3] [ref=f17e106]
+              - paragraph [ref=f17e107]: Context And Reassurance From Initial Budgeting To Title Deed
+          - link [ref=f17e111] [cursor=pointer]:
+            - /url: "#enquire"
+            - generic [ref=f17e115]:
+              - heading "Owners & Sellers" [level=3] [ref=f17e116]
+              - paragraph [ref=f17e117]: Evidence-Based Pricing, Considered Positioning And Qualified Interest
+          - link [ref=f17e121] [cursor=pointer]:
+            - /url: "#enquire"
+            - generic [ref=f17e125]:
+              - heading "Investors" [level=3] [ref=f17e126]
+              - paragraph [ref=f17e127]: Ready And Off-Plan Opportunities Tested Against A Defined Strategy
+          - link [ref=f17e131] [cursor=pointer]:
+            - /url: "#enquire"
+            - generic [ref=f17e135]:
+              - heading "Businesses" [level=3] [ref=f17e136]
+              - paragraph [ref=f17e137]: Premises Assessed And Negotiated Around Operational Priorities
+    - region [ref=f17e141]:
+      - generic [ref=f17e142]:
+        - generic [ref=f17e143]:
+          - paragraph [ref=f17e144]: Common Questions
+          - heading "Before You Get In Touch" [level=2] [ref=f17e145]
+        - generic [ref=f17e146]:
+          - group [ref=f17e147]:
+            - generic "What Does Your Off-Plan Advisory Service Include?" [ref=f17e148] [cursor=pointer]
+          - group [ref=f17e150]:
+            - generic "Do You Work With Buyers, Sellers, Or Both?" [ref=f17e151] [cursor=pointer]
+          - group [ref=f17e153]:
+            - generic "Can International Buyers Purchase Property In The UAE?" [ref=f17e154] [cursor=pointer]
+          - group [ref=f17e156]:
+            - generic "Which Areas Of The UAE Do You Cover?" [ref=f17e157] [cursor=pointer]
+          - group [ref=f17e159]:
+            - generic "How Are Your Services Charged?" [ref=f17e160] [cursor=pointer]
+    - region [ref=f17e162]:
+      - generic [ref=f17e164]:
+        - paragraph [ref=f17e165]: Get In Touch
+        - heading "Bring Us The Decision You Are Considering" [level=2] [ref=f17e166]
+        - paragraph [ref=f17e167]: A Focused Conversation Is Usually Enough To Define The Requirement, Establish What Is Realistic And Decide Whether SMB Is The Right Adviser For The Work.
+        - generic [ref=f17e168]:
+          - link "Discuss Your Requirements" [ref=f17e169] [cursor=pointer]:
+            - /url: tel:+971504217299
+          - link "WhatsApp Us" [ref=f17e172] [cursor=pointer]:
+            - /url: https://wa.me/971504217299
+        - paragraph [ref=f17e175]:
+          - text: Prefer Email? Write To
+          - link "info@smbdubai.net" [ref=f17e176] [cursor=pointer]:
+            - /url: mailto:info@smbdubai.net
+  - contentinfo [ref=f17e177]:
+    - generic [ref=f17e178]:
+      - generic [ref=f17e179]:
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f17e180]
+        - paragraph [ref=f17e181]: Serving, Managing & Beyond
+        - paragraph [ref=f17e182]: SMB Real Estate Brokers L.L.C Is A UAE Property Advisory For Residential And Commercial Clients, Known For Independent Judgement, Attentive Execution And Relationships That Continue Beyond Completion.
+      - generic [ref=f17e183]:
+        - heading "Quick Links" [level=3] [ref=f17e184]
+        - list [ref=f17e185]:
+          - listitem [ref=f17e186]:
+            - link "Home" [ref=f17e187] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f17e188]:
+            - link "About" [ref=f17e189] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f17e190]:
+            - link "Services" [ref=f17e191] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f17e192]:
+            - link "Developers" [ref=f17e193] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f17e194]:
+            - link "Communities" [ref=f17e195] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f17e196]:
+            - link "Contact" [ref=f17e197] [cursor=pointer]:
+              - /url: contact.php
+      - generic [ref=f17e198]:
+        - heading "Contact" [level=3] [ref=f17e199]
+        - list [ref=f17e201]:
+          - listitem [ref=f17e202]:
+            - link "+971 50 421 7299" [ref=f17e203] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - listitem [ref=f17e204]:
+            - link "info@smbdubai.net" [ref=f17e205] [cursor=pointer]:
+              - /url: mailto:info@smbdubai.net
+          - listitem [ref=f17e206]: 3002 Westburry Tower Office,Business Bay, Dubai, UAE
+    - generic [ref=f17e207]:
+      - paragraph [ref=f17e208]: © 2026 SMB Real Estate Brokers L.L.C. All Rights Reserved.
+      - paragraph [ref=f17e209]: Prices, Availability And Handover Dates Are Indicative And Subject To Change By The Developer.

@@ -1,134 +1,103 @@
-/* ==========================================================================
-   SMB Real Estate Brokers — Developers Page (developers.php)
-   Extends main.css (tokens/core), home.css (why-item, cta-final, social),
-   about.css (inner hero, breadcrumb, choose list) and services.css (FAQ).
-   Loaded after all four, on developers.php only.
-   ========================================================================== */
+/* Loaded after main.css, home.css, about.css and services.css, on developers.php only. */
 
-/* ---------- Introduction ---------- */
-.dev-intro__inner { max-width: 720px; }
-.dev-intro__inner p { font-size: 1.0625rem; }
-
-/* Desktop-only: gives the heading enough room to fit on a single line
-   (single-column block, no competing content beside it). */
-@media (min-width: 992px) {
-  .dev-intro__inner { max-width: 830px; }
+/* Deliberately not another card grid — with ~19 developers, a wall of
+   identical white boxes reads as filler. A rule-divided directory list
+   (numbered index, wordmark, running bio, trailing meta) reads closer to
+   an auction-house catalogue: calmer, more premium, and one continuous
+   rhythm instead of nineteen repeated shadows. */
+.devs__grid {
+  border-top: 1px solid var(--border-light);
+  counter-reset: devrow;
 }
 
-/* Mobile only: center this section's intro text (label, heading, paragraph). */
-@media (max-width: 767.98px) {
-  .dev-intro__inner { text-align: center; }
+.dev-row {
+  counter-increment: devrow;
+  display: flex; flex-direction: column; gap: 12px;
+  padding-block: 24px;
+  border-bottom: 1px solid var(--border-light);
+  transition: background-color var(--transition-base);
 }
+.dev-row:hover { background: var(--bg-section-alt); }
 
-/* ---------- Developer logo placeholder (monogram) ---------- */
-.dev-logo {
-  display: inline-flex; align-items: center; justify-content: center;
-  width: 64px; height: 64px; border-radius: var(--r-md);
-  background: var(--bg-section-alt); border: 1px solid var(--border-light);
-  font-size: 1.5rem; font-weight: 800; color: var(--navy);
-  flex-shrink: 0;
+.dev-row__head { display: flex; align-items: center; gap: 16px; }
+
+.dev-row__index {
+  width: 30px; flex-shrink: 0;
+  font-size: 0.75rem; font-weight: 700; color: var(--text-muted);
+  letter-spacing: 0.05em; font-variant-numeric: tabular-nums;
 }
+.dev-row__index::before { content: counter(devrow, decimal-leading-zero); }
 
-.dev-logo-note {
-  font-size: 0.75rem; font-style: italic; color: var(--text-muted);
-}
-
-/* ---------- Featured developer cards ---------- */
-.devs__grid { display: grid; gap: 24px; grid-template-columns: 1fr; }
-
-.dev-card {
-  display: flex; flex-direction: column; gap: 16px;
-  background: var(--white); border-radius: var(--r-lg);
-  border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);
-  padding: 32px;
-  transition: transform var(--transition-base), box-shadow var(--transition-base);
-}
-.dev-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
-
-/* Uniform logo stage: same footprint for every card regardless of whether
-   the source logo is a wide horizontal lockup or a tall/square mark.
-   Left-aligned (not centered) so it lines up with the name/description below,
-   with generous padding so logos never touch the container edges. */
-.dev-card__logo {
-  display: flex; align-items: center; justify-content: flex-start;
-  height: 108px; padding: 24px 28px;
-  background: var(--bg-section-alt); border: 1px solid var(--border-light);
-  border-radius: var(--r-md);
+/* Uniform logo stage: same footprint for every row regardless of whether
+   the source logo is a wide horizontal lockup or a tall/square mark. */
+.dev-row__logo {
+  display: flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px; flex-shrink: 0;
 }
 
 /* Logo files ship in a mix of colors (some white-on-transparent, some
    dark/branded) — masking each shape with the source file and filling it
-   with brand navy gives every card the same single-color treatment without
-   touching the source assets. --logo-src is set per-instance inline. */
-.dev-card__logo-mark {
+   with brand navy gives every row the same single-color treatment without
+   touching the source assets. */
+.dev-row__logo-mark {
   display: block; width: 100%; height: 100%;
   background-color: var(--navy);
   -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
-  -webkit-mask-position: left center; mask-position: left center;
+  -webkit-mask-position: center; mask-position: center;
   -webkit-mask-size: contain; mask-size: contain;
 }
 
-.dev-card h3 { font-size: 1.25rem; }
-.dev-card__desc { font-size: 0.9375rem; color: var(--text-muted); }
+.dev-row h3 { font-size: 1.0625rem; }
+.dev-row h3 a:hover { color: var(--gold-dark); }
 
-.dev-card__projects {
-  display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px;
-  margin-top: auto; padding-top: 16px; border-top: 1px solid var(--border-light);
-  font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.1em;
-  text-transform: uppercase; color: var(--text-muted);
-}
-.dev-card__projects span {
-  font-weight: 500; letter-spacing: normal; text-transform: none;
-  font-style: italic;
+.dev-row__desc {
+  padding-left: 60px;
+  font-size: 0.875rem; color: var(--text-muted);
+  overflow: hidden; display: -webkit-box;
+  -webkit-line-clamp: 2; -webkit-box-orient: vertical;
 }
 
-/* Compact per-developer project list — name links to its project page,
-   with a short muted location/property-type line underneath. */
-.dev-card__project-list { display: grid; gap: 8px; }
-.dev-card__project-list a {
-  font-size: 0.875rem; font-weight: 600; color: var(--navy);
-  overflow-wrap: anywhere;
+.dev-row__meta {
+  padding-left: 60px;
+  display: flex; align-items: center; flex-wrap: wrap; gap: 16px;
 }
-.dev-card__project-list a:hover { color: var(--gold-dark); }
-.dev-card__project-meta {
-  display: block; font-size: 0.75rem; color: var(--text-muted);
-  font-style: italic; overflow-wrap: anywhere;
+.dev-row__count {
+  font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--navy);
 }
+.dev-row__link {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 0.8125rem; font-weight: 700; color: var(--navy);
+}
+.dev-row__link .icon { width: 14px; height: 14px; transition: transform var(--transition-fast); }
+.dev-row:hover .dev-row__link .icon { transform: translateX(3px); }
 
-/* Keeps a developer card's anchor target clear of the fixed header when
+/* Keeps a developer row's anchor target clear of the fixed header when
    navigated to directly (e.g. from a project card's developer link). */
 [id^="developer-"] { scroll-margin-top: calc(var(--header-h) + 24px); }
 
-@media (min-width: 768px) { .devs__grid { grid-template-columns: repeat(2, 1fr); gap: 32px; } }
-
-/* ---------- Why these developers (6-item criteria grid) ---------- */
-/* Desktop-only: the heading wraps by a narrow margin (~5px) at the shared
-   640px cap — a small bump is enough to fit it on one line. */
-@media (min-width: 992px) {
-  .criteria .section-head { max-width: 680px; }
+/* ---------- Developer overview logo ---------- */
+/* A neutral frame (rather than the logo sitting directly on the page
+   background) keeps every logo readable regardless of its own colors —
+   some ship dark-on-transparent, others light-on-transparent. */
+.developer-logo-frame {
+  display: inline-flex; align-items: center; justify-content: center;
+  max-width: 220px; margin-bottom: 20px;
+  padding: 16px 24px;
+  background: var(--bg-section-alt); border: 1px solid var(--border-light);
+  border-radius: var(--r-md);
+}
+.developer-logo-frame img {
+  max-width: 100%; max-height: 56px; width: auto; height: auto;
+  object-fit: contain;
 }
 
-.criteria__grid { display: grid; gap: 40px; grid-template-columns: 1fr; }
-
-@media (min-width: 600px) { .criteria__grid { grid-template-columns: repeat(2, 1fr); gap: 48px; } }
-@media (min-width: 992px) { .criteria__grid { grid-template-columns: repeat(3, 1fr); gap: 48px 40px; } }
-
-/* ---------- Browse by developer ---------- */
-.browse__grid { display: grid; gap: 20px; grid-template-columns: 1fr; }
-
-.browse-item {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 20px;
-  background: var(--white); border-radius: var(--r-lg);
-  border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);
-  padding: 24px 28px;
-  transition: transform var(--transition-base), box-shadow var(--transition-base);
+@media (min-width: 768px) {
+  .dev-row {
+    flex-direction: row; align-items: center; gap: 24px;
+    padding-block: 26px;
+  }
+  .dev-row__head { flex: 0 0 340px; }
+  .dev-row__desc { flex: 1; padding-left: 0; -webkit-line-clamp: 1; }
+  .dev-row__meta { flex: 0 0 auto; padding-left: 0; }
 }
-.browse-item:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
-
-.browse-item .dev-logo { width: 56px; height: 56px; font-size: 1.25rem; }
-
-.browse-item__text { flex: 1; min-width: 180px; }
-.browse-item h3 { font-size: 1.0625rem; margin-bottom: 2px; }
-.browse-item p { font-size: 0.875rem; color: var(--text-muted); }
-
-@media (min-width: 768px) { .browse__grid { grid-template-columns: repeat(2, 1fr); gap: 24px; } }

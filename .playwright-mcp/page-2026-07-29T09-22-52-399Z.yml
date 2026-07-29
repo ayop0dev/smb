@@ -1,0 +1,371 @@
+- generic [active] [ref=f28e1]:
+  - link "Skip To Content" [ref=f28e2] [cursor=pointer]:
+    - /url: "#projects"
+  - banner [ref=f28e3]:
+    - generic [ref=f28e4]:
+      - link "SMB Real Estate Brokers — Home" [ref=f28e5] [cursor=pointer]:
+        - /url: index.php
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f28e6]
+      - navigation "Main Navigation" [ref=f28e7]:
+        - list [ref=f28e8]:
+          - listitem [ref=f28e9]:
+            - link "Home" [ref=f28e10] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f28e11]:
+            - link "About" [ref=f28e12] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f28e13]:
+            - link "Services" [ref=f28e14] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f28e15]:
+            - link "Developers" [ref=f28e16] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f28e17]:
+            - link "Communities" [ref=f28e18] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f28e19]:
+            - link "Contact" [ref=f28e20] [cursor=pointer]:
+              - /url: contact.php
+      - link "+971 50 421 7299" [ref=f28e22] [cursor=pointer]:
+        - /url: tel:+971504217299
+  - main [ref=f28e26]:
+    - region [ref=f28e27]:
+      - img "Aerial View Of A Dubai Waterfront Community With Turquoise Lagoons And Villas" [ref=f28e28]
+      - generic [ref=f28e32]:
+        - paragraph [ref=f28e33]: SMB Real Estate L.L.C · UAE
+        - heading "Property Decisions, Considered Properly" [level=1] [ref=f28e34]
+        - paragraph [ref=f28e35]: Independent Advice Across The UAE
+        - generic [ref=f28e36]:
+          - link "Review Selected Opportunities" [ref=f28e37] [cursor=pointer]:
+            - /url: "#projects"
+          - link "Start A Private Conversation" [ref=f28e38] [cursor=pointer]:
+            - /url: "#enquire"
+        - search "Browse Properties By Type" [ref=f28e39]:
+          - generic [ref=f28e44]:
+            - link "Apartments" [ref=f28e45] [cursor=pointer]:
+              - /url: "#categories"
+            - link "Villas" [ref=f28e46] [cursor=pointer]:
+              - /url: "#categories"
+            - link "Townhouses" [ref=f28e47] [cursor=pointer]:
+              - /url: "#categories"
+            - link "Commercial" [ref=f28e48] [cursor=pointer]:
+              - /url: "#categories"
+    - region [ref=f28e49]:
+      - generic [ref=f28e50]:
+        - generic [ref=f28e51]:
+          - paragraph [ref=f28e52]: Featured Projects
+          - heading "Properties Selected With Purpose" [level=2] [ref=f28e53]
+          - paragraph [ref=f28e54]: Off-Plan And Ready Properties Chosen For Their Relevance To Your Brief—Not For The Convenience Of The Sale.
+        - generic [ref=f28e55]:
+          - article [ref=f28e56]:
+            - link "View Grand Polo Club & Resort" [ref=f28e57] [cursor=pointer]:
+              - /url: grand-polo-club-resort.php
+            - generic [ref=f28e58]:
+              - heading [level=3] [ref=f28e59]:
+                - link "Grand Polo Club & Resort" [ref=f28e60] [cursor=pointer]:
+                  - /url: grand-polo-club-resort.php
+              - paragraph [ref=f28e61]:
+                - link "Emaar Properties" [ref=f28e62] [cursor=pointer]:
+                  - /url: emaar-properties.php
+                - text: · Dubai South, Dubai
+              - list "Property Types" [ref=f28e63]:
+                - listitem [ref=f28e64]: Villas
+              - link "View Grand Polo Club & Resort Project Details" [ref=f28e67] [cursor=pointer]:
+                - /url: grand-polo-club-resort.php
+                - text: View Project
+          - article [ref=f28e70]:
+            - link "View Fahid Island" [ref=f28e71] [cursor=pointer]:
+              - /url: fahid-island.php
+            - generic [ref=f28e72]:
+              - heading [level=3] [ref=f28e73]:
+                - link "Fahid Island" [ref=f28e74] [cursor=pointer]:
+                  - /url: fahid-island.php
+              - paragraph [ref=f28e75]:
+                - link "Aldar Properties" [ref=f28e76] [cursor=pointer]:
+                  - /url: aldar-properties.php
+                - text: · Fahid Island, Abu Dhabi
+              - list "Property Types" [ref=f28e77]:
+                - listitem [ref=f28e78]: Apartments
+                - listitem [ref=f28e81]: Townhouses
+                - listitem [ref=f28e84]: Villas
+              - link "View Fahid Island Project Details" [ref=f28e87] [cursor=pointer]:
+                - /url: fahid-island.php
+                - text: View Project
+          - article [ref=f28e90]:
+            - link "View DAMAC Riverside Views" [ref=f28e91] [cursor=pointer]:
+              - /url: damac-riverside-views.php
+            - generic [ref=f28e92]:
+              - heading [level=3] [ref=f28e93]:
+                - link "DAMAC Riverside Views" [ref=f28e94] [cursor=pointer]:
+                  - /url: damac-riverside-views.php
+              - paragraph [ref=f28e95]:
+                - link "DAMAC Properties" [ref=f28e96] [cursor=pointer]:
+                  - /url: damac-properties.php
+                - text: · Dubai Investments Park, Dubai
+              - list "Property Types" [ref=f28e97]:
+                - listitem [ref=f28e98]: Apartments
+              - link "View DAMAC Riverside Views Project Details" [ref=f28e101] [cursor=pointer]:
+                - /url: damac-riverside-views.php
+                - text: View Project
+          - article [ref=f28e104]:
+            - link "View Bay Grove Residences" [ref=f28e105] [cursor=pointer]:
+              - /url: bay-grove-residences.php
+            - generic [ref=f28e106]:
+              - heading [level=3] [ref=f28e107]:
+                - link "Bay Grove Residences" [ref=f28e108] [cursor=pointer]:
+                  - /url: bay-grove-residences.php
+              - paragraph [ref=f28e109]:
+                - link "Nakheel" [ref=f28e110] [cursor=pointer]:
+                  - /url: nakheel.php
+                - text: · Dubai Islands, Dubai
+              - list "Property Types" [ref=f28e111]:
+                - listitem [ref=f28e112]: Apartments
+                - listitem [ref=f28e115]: Duplexes
+                - listitem [ref=f28e118]: Penthouses
+              - link "View Bay Grove Residences Project Details" [ref=f28e121] [cursor=pointer]:
+                - /url: bay-grove-residences.php
+                - text: View Project
+          - article [ref=f28e124]:
+            - link "View La Tilia at Villanova" [ref=f28e125] [cursor=pointer]:
+              - /url: la-tilia-at-villanova.php
+            - generic [ref=f28e126]:
+              - heading [level=3] [ref=f28e127]:
+                - link "La Tilia at Villanova" [ref=f28e128] [cursor=pointer]:
+                  - /url: la-tilia-at-villanova.php
+              - paragraph [ref=f28e129]:
+                - link "Dubai Properties" [ref=f28e130] [cursor=pointer]:
+                  - /url: dubai-properties.php
+                - text: · Villanova, Dubailand, Dubai
+              - list "Property Types" [ref=f28e131]:
+                - listitem [ref=f28e132]: Townhouses
+              - link "View La Tilia at Villanova Project Details" [ref=f28e135] [cursor=pointer]:
+                - /url: la-tilia-at-villanova.php
+                - text: View Project
+          - article [ref=f28e138]:
+            - link "View Sobha Central" [ref=f28e139] [cursor=pointer]:
+              - /url: sobha-central.php
+            - generic [ref=f28e140]:
+              - heading [level=3] [ref=f28e141]:
+                - link "Sobha Central" [ref=f28e142] [cursor=pointer]:
+                  - /url: sobha-central.php
+              - paragraph [ref=f28e143]:
+                - link "Sobha Realty" [ref=f28e144] [cursor=pointer]:
+                  - /url: sobha-realty.php
+                - text: · Sheikh Zayed Road, Dubai
+              - list "Property Types" [ref=f28e145]:
+                - listitem [ref=f28e146]: Apartments
+              - link "View Sobha Central Project Details" [ref=f28e149] [cursor=pointer]:
+                - /url: sobha-central.php
+                - text: View Project
+    - region [ref=f28e152]:
+      - generic [ref=f28e153]:
+        - generic [ref=f28e154]:
+          - paragraph [ref=f28e155]: Property Types
+          - heading "Browse By Category" [level=2] [ref=f28e156]
+        - generic [ref=f28e157]:
+          - link [ref=f28e158] [cursor=pointer]:
+            - /url: "#enquire"
+            - generic [ref=f28e162]:
+              - heading "Apartments" [level=3] [ref=f28e163]
+              - paragraph [ref=f28e164]: Well-Connected Homes In Established And Emerging City Districts
+          - link [ref=f28e168] [cursor=pointer]:
+            - /url: "#enquire"
+            - generic [ref=f28e172]:
+              - heading "Villas" [level=3] [ref=f28e173]
+              - paragraph [ref=f28e174]: Privacy, Space And Continuity For Family Life
+          - link [ref=f28e178] [cursor=pointer]:
+            - /url: "#enquire"
+            - generic [ref=f28e182]:
+              - heading "Townhouses" [level=3] [ref=f28e183]
+              - paragraph [ref=f28e184]: A Practical Balance Of Space, Community And Value
+          - link [ref=f28e188] [cursor=pointer]:
+            - /url: "#enquire"
+            - generic [ref=f28e192]:
+              - heading "Waterfront" [level=3] [ref=f28e193]
+              - paragraph [ref=f28e194]: Coastal Homes Shaped By Setting, Access And Outlook
+          - link [ref=f28e198] [cursor=pointer]:
+            - /url: "#enquire"
+            - generic [ref=f28e202]:
+              - heading "Commercial" [level=3] [ref=f28e203]
+              - paragraph [ref=f28e204]: Offices And Retail For Growing Businesses
+          - link [ref=f28e208] [cursor=pointer]:
+            - /url: "#enquire"
+            - generic [ref=f28e212]:
+              - heading "Investment" [level=3] [ref=f28e213]
+              - paragraph [ref=f28e214]: Off-Plan And Ready Assets Selected Against Your Strategy
+    - region [ref=f28e218]:
+      - generic [ref=f28e219]:
+        - generic [ref=f28e220]:
+          - paragraph [ref=f28e221]: How It Works
+          - heading "A Measured Route To The Right Decision" [level=2] [ref=f28e222]
+        - list [ref=f28e223]:
+          - listitem [ref=f28e224]:
+            - generic [ref=f28e225]: "1"
+            - heading "Discover" [level=3] [ref=f28e226]
+            - paragraph [ref=f28e227]: Your Priorities, Budget And Timing Give The Search Its Direction.
+          - listitem [ref=f28e228]:
+            - generic [ref=f28e229]: "2"
+            - heading "Consult" [level=3] [ref=f28e230]
+            - paragraph [ref=f28e231]: Your Adviser Tests The Strongest Options Against Value, Location, Terms And Long-Term Suitability.
+          - listitem [ref=f28e232]:
+            - generic [ref=f28e233]: "3"
+            - heading "Reserve" [level=3] [ref=f28e234]
+            - paragraph [ref=f28e235]: When The Choice Is Made, Negotiation, Reservation And Documentation Are Handled With Care.
+          - listitem [ref=f28e236]:
+            - generic [ref=f28e237]: "4"
+            - heading "Own" [level=3] [ref=f28e238]
+            - paragraph [ref=f28e239]: The Relationship Continues Through Signing And Handover, With Practical Assistance Available Afterwards.
+    - region [ref=f28e240]:
+      - generic [ref=f28e241]:
+        - generic [ref=f28e242]:
+          - paragraph [ref=f28e243]: Featured Communities
+          - heading "A Location That Works For You" [level=2] [ref=f28e244]
+          - paragraph [ref=f28e245]: From Mature City Districts To Quieter Coastal Destinations, The Right Setting Depends On How You Plan To Live Or Invest.
+        - generic [ref=f28e246]:
+          - link [ref=f28e247] [cursor=pointer]:
+            - /url: "#enquire"
+            - generic [ref=f28e248]:
+              - heading "Downtown Dubai" [level=3] [ref=f28e249]
+              - generic [ref=f28e250]: Explore
+          - link [ref=f28e253] [cursor=pointer]:
+            - /url: "#enquire"
+            - generic [ref=f28e254]:
+              - heading "Saadiyat Island, Abu Dhabi" [level=3] [ref=f28e255]
+              - generic [ref=f28e256]: Explore
+          - link [ref=f28e259] [cursor=pointer]:
+            - /url: "#enquire"
+            - generic [ref=f28e260]:
+              - heading "Al Marjan Island, Ras Al Khaimah" [level=3] [ref=f28e261]
+              - generic [ref=f28e262]: Explore
+          - link [ref=f28e265] [cursor=pointer]:
+            - /url: "#enquire"
+            - generic [ref=f28e266]:
+              - heading "Aljada, Sharjah" [level=3] [ref=f28e267]
+              - generic [ref=f28e268]: Explore
+          - link [ref=f28e271] [cursor=pointer]:
+            - /url: "#enquire"
+            - generic [ref=f28e272]:
+              - heading "Al Zorah, Ajman" [level=3] [ref=f28e273]
+              - generic [ref=f28e274]: Explore
+          - link [ref=f28e277] [cursor=pointer]:
+            - /url: "#enquire"
+            - generic [ref=f28e278]:
+              - heading "Fujairah Waterfront" [level=3] [ref=f28e279]
+              - generic [ref=f28e280]: Explore
+    - region [ref=f28e283]:
+      - generic [ref=f28e284]:
+        - generic [ref=f28e285]:
+          - paragraph [ref=f28e286]: Client Stories
+          - heading "Confidence Built Over The Whole Journey" [level=2] [ref=f28e287]
+        - generic [ref=f28e288]:
+          - figure [ref=f28e289]:
+            - generic [ref=f28e290]: “
+            - blockquote [ref=f28e291]:
+              - paragraph [ref=f28e292]: The Team Was Responsive From The First Call And Negotiated A Better Payment Plan Than I Expected. Everything Was Explained Clearly — No Surprises.
+            - generic [ref=f28e293]:
+              - paragraph [ref=f28e294]: Ahmed R.
+              - paragraph [ref=f28e295]: Property Investor
+          - figure [ref=f28e296]:
+            - generic [ref=f28e297]: “
+            - blockquote [ref=f28e298]:
+              - paragraph [ref=f28e299]: As First-Time Buyers We Had Endless Questions. Our Consultant Walked Us Through Every Step, From Viewings To Handover. We Felt Supported The Whole Way.
+            - generic [ref=f28e300]:
+              - paragraph [ref=f28e301]: Sarah M.
+              - paragraph [ref=f28e302]: Homeowner, Dubai Hills
+          - figure [ref=f28e303]:
+            - generic [ref=f28e304]: “
+            - blockquote [ref=f28e305]:
+              - paragraph [ref=f28e306]: Professional, Honest And Genuinely Knowledgeable About The Market. They Helped Us Find The Right Commercial Space And Handled The Details End To End.
+            - generic [ref=f28e307]:
+              - paragraph [ref=f28e308]: Daniel K.
+              - paragraph [ref=f28e309]: Business Owner
+    - region [ref=f28e310]:
+      - generic [ref=f28e311]:
+        - generic [ref=f28e312]:
+          - paragraph [ref=f28e313]: Latest Insights
+          - heading "Perspective for better decisions" [level=2] [ref=f28e314]
+        - generic [ref=f28e315]:
+          - article [ref=f28e316]:
+            - link [ref=f28e317] [cursor=pointer]:
+              - /url: "#"
+            - paragraph [ref=f28e318]: Market Insights
+            - heading [level=3] [ref=f28e319]:
+              - 'link "Dubai off-plan in 2026: what buyers should know before reserving (article to be added)" [ref=f28e320] [cursor=pointer]':
+                - /url: "#"
+                - text: "UAE off-plan in 2026: what buyers should know before reserving"
+            - paragraph [ref=f28e321]: Payment plans, handover timelines and how to evaluate a developer's track record.
+            - paragraph [ref=f28e322]: July 2026 · 6 min read
+          - article [ref=f28e323]:
+            - link [ref=f28e324] [cursor=pointer]:
+              - /url: "#"
+            - paragraph [ref=f28e325]: Buying Guides
+            - heading [level=3] [ref=f28e326]:
+              - 'link "Freehold ownership in Dubai: a practical guide for international buyers (article to be added)" [ref=f28e327] [cursor=pointer]':
+                - /url: "#"
+                - text: "Freehold ownership in the UAE: a practical guide for international buyers"
+            - paragraph [ref=f28e328]: What freehold means, where international buyers can purchase and the steps from offer to title deed.
+            - paragraph [ref=f28e329]: June 2026 · 5 min read
+          - article [ref=f28e330]:
+            - link [ref=f28e331] [cursor=pointer]:
+              - /url: "#"
+            - paragraph [ref=f28e332]: Communities
+            - heading [level=3] [ref=f28e333]:
+              - link "Five Dubai communities families are choosing in 2026 (article to be added)" [ref=f28e334] [cursor=pointer]:
+                - /url: "#"
+                - text: UAE communities families are considering in 2026
+            - paragraph [ref=f28e335]: Schools, parks and connectivity — how family communities across the Emirates compare.
+            - paragraph [ref=f28e336]: June 2026 · 4 min read
+    - region [ref=f28e337]:
+      - generic [ref=f28e339]:
+        - paragraph [ref=f28e340]: Get in Touch
+        - heading "Begin With The Right Conversation" [level=2] [ref=f28e341]
+        - paragraph [ref=f28e342]: Tell Us What The Property Needs To Achieve. We Will Bring Perspective To The Decision, Discipline To The Search And Care To The Work That Follows.
+        - generic [ref=f28e343]:
+          - link "Start Your Property Conversation" [ref=f28e344] [cursor=pointer]:
+            - /url: tel:+971504217299
+          - link "WhatsApp Us" [ref=f28e347] [cursor=pointer]:
+            - /url: https://wa.me/971504217299
+        - paragraph [ref=f28e350]:
+          - text: Prefer Email? Write To
+          - link "info@smbdubai.net" [ref=f28e351] [cursor=pointer]:
+            - /url: mailto:info@smbdubai.net
+  - contentinfo [ref=f28e352]:
+    - generic [ref=f28e353]:
+      - generic [ref=f28e354]:
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f28e355]
+        - paragraph [ref=f28e356]: Serving, Managing & Beyond
+        - paragraph [ref=f28e357]: SMB Real Estate Brokers L.L.C Is A UAE Property Advisory For Residential And Commercial Clients, Known For Independent Judgement, Attentive Execution And Relationships That Continue Beyond Completion.
+      - generic [ref=f28e358]:
+        - heading "Quick Links" [level=3] [ref=f28e359]
+        - list [ref=f28e360]:
+          - listitem [ref=f28e361]:
+            - link "Home" [ref=f28e362] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f28e363]:
+            - link "About" [ref=f28e364] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f28e365]:
+            - link "Services" [ref=f28e366] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f28e367]:
+            - link "Developers" [ref=f28e368] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f28e369]:
+            - link "Communities" [ref=f28e370] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f28e371]:
+            - link "Contact" [ref=f28e372] [cursor=pointer]:
+              - /url: contact.php
+      - generic [ref=f28e373]:
+        - heading "Contact" [level=3] [ref=f28e374]
+        - list [ref=f28e376]:
+          - listitem [ref=f28e377]:
+            - link "+971 50 421 7299" [ref=f28e378] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - listitem [ref=f28e379]:
+            - link "info@smbdubai.net" [ref=f28e380] [cursor=pointer]:
+              - /url: mailto:info@smbdubai.net
+          - listitem [ref=f28e381]: 3002 Westburry Tower Office,Business Bay, Dubai, UAE
+    - generic [ref=f28e382]:
+      - paragraph [ref=f28e383]: © 2026 SMB Real Estate Brokers L.L.C. All Rights Reserved.
+      - paragraph [ref=f28e384]: Prices, Availability And Handover Dates Are Indicative And Subject To Change By The Developer.

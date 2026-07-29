@@ -3,7 +3,13 @@
 Static preview of the DAMAC Islands 2 landing page for **SMB Real Estate Brokers L.L.C**,
 built with HTML5, CSS3 and vanilla JavaScript per `docs/implementation-rules.md`.
 The site uses shared PHP includes (`header.php` / `footer.php`). Serve it locally with
-`php -S localhost:8000` from the project root, then open `http://localhost:8000/index.php`.
+`php -S localhost:8000 router.php` from the project root, then open `http://localhost:8000/`.
+
+Pages live in `pages/`, `developers/` and `projects/` and are reached through flat URLs
+(e.g. `/developers.php`, `/aldar-properties.php`) via a `.htaccess` rewrite in production.
+PHP's built-in server doesn't read `.htaccess`, so `router.php` reproduces the same
+flat-URL routing for local preview only — always pass it as the router argument, otherwise
+every flat URL other than `/index.php` will 404.
 
 ---
 

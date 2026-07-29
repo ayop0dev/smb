@@ -27,8 +27,8 @@
     },
     "projects": {
       "type": "array",
-      "minItems": 18,
-      "maxItems": 18,
+      "minItems": 19,
+      "maxItems": 19,
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -39,15 +39,13 @@
           "location_label",
           "seo",
           "hero",
-          "sticky_cta",
           "structured_data",
           "districts",
           "facts",
           "overview",
           "gallery",
           "amenities",
-          "location",
-          "cta"
+          "location"
         ],
         "properties": {
           "slug": {
@@ -70,7 +68,8 @@
               "verdana-empire",
               "tiger-sky-tower",
               "elysee-heights",
-              "six-senses-residences-dubai-marina"
+              "six-senses-residences-dubai-marina",
+              "damac-islands2"
             ]
           },
           "name": {
@@ -121,7 +120,8 @@
               "headline",
               "description",
               "image",
-              "starting_price",
+              "starting_price_million_aed",
+              "available_on_request",
               "price_note",
               "trust_badges"
             ],
@@ -136,8 +136,15 @@
                 "type": "string",
                 "pattern": "^(?!https?://)"
               },
-              "starting_price": {
-                "type": "string"
+              "starting_price_million_aed": {
+                "type": ["number", "null"],
+                "exclusiveMinimum": 0,
+                "multipleOf": 0.01,
+                "description": "Starting price in millions of AED (e.g. 1.5 = AED 1.5 Million), maximum two decimal places. Must be null when available_on_request is true, and a positive number when it is false. Validate with an arbitrary-precision/Decimal-aware JSON number parser — validators that parse JSON numbers as native float64 can misround multipleOf:0.01 for some values (e.g. 19.99) due to IEEE-754 representation error, independent of this schema."
+              },
+              "available_on_request": {
+                "type": "boolean",
+                "description": "True when no reliable numeric starting price exists yet. Mutually exclusive with starting_price_million_aed."
               },
               "price_note": {
                 "type": "string"
@@ -149,19 +156,25 @@
                   "type": "string"
                 }
               }
-            }
-          },
-          "sticky_cta": {
-            "type": "object",
-            "additionalProperties": false,
-            "required": [
-              "value"
-            ],
-            "properties": {
-              "value": {
-                "type": "string"
+            },
+            "allOf": [
+              {
+                "if": {
+                  "properties": { "available_on_request": { "const": true } }
+                },
+                "then": {
+                  "properties": { "starting_price_million_aed": { "type": "null" } }
+                }
+              },
+              {
+                "if": {
+                  "properties": { "available_on_request": { "const": false } }
+                },
+                "then": {
+                  "properties": { "starting_price_million_aed": { "type": "number", "exclusiveMinimum": 0, "multipleOf": 0.01 } }
+                }
               }
-            }
+            ]
           },
           "structured_data": {
             "type": "object",
@@ -171,8 +184,6 @@
               "name",
               "description",
               "image",
-              "price",
-              "currency",
               "address_locality"
             ],
             "properties": {
@@ -191,16 +202,6 @@
               "image": {
                 "type": "string",
                 "pattern": "^(?!https?://)"
-              },
-              "price": {
-                "type": [
-                  "number",
-                  "null"
-                ],
-                "minimum": 0
-              },
-              "currency": {
-                "const": "AED"
               },
               "address_locality": {
                 "type": "string"
@@ -490,11 +491,6 @@
                 }
               }
             }
-          },
-          "cta": {
-            "type": "object",
-            "additionalProperties": false,
-            "properties": {}
           }
         }
       }
@@ -835,6 +831,25 @@
             "properties": {
               "slug": {
                 "const": "six-senses-residences-dubai-marina"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "projects": {
+          "contains": {
+            "type": "object",
+            "required": [
+              "slug"
+            ],
+            "properties": {
+              "slug": {
+                "const": "damac-islands2"
               }
             }
           },

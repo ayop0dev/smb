@@ -10,8 +10,10 @@ $page_styles = [
     'assets/css/home.css',
     'assets/css/about.css',
     'assets/css/services.css',
-    'assets/css/contact.css',
     'assets/css/communities.css',
+];
+$breadcrumb_trail = [
+    ['label' => 'Communities'],
 ];
 
 require __DIR__ . '/../includes/project-data.php';
@@ -21,42 +23,34 @@ require __DIR__ . '/../includes/header.php';
 
   <main id="top">
 
-    <!-- ============ Inner page hero ============ -->
     <section class="hero hero--page" aria-labelledby="hero-title">
       <img class="hero__bg" src="assets/images/projects/damac-riverside-views/webp/01-aerial-view.webp"
-           alt="Resort-style pool and palm trees overlooking the sea in Dubai"
+           alt="Resort-Style Pool And Palm Trees Overlooking The Sea In Dubai"
            fetchpriority="high">
       <div class="hero__scrim" aria-hidden="true"></div>
       <div class="container hero__inner">
         <div class="hero__content">
-          <nav class="breadcrumb" aria-label="Breadcrumb">
-            <ol>
-              <li><a href="index.php">Home</a></li>
-              <li><span aria-current="page">Communities</span></li>
-            </ol>
-          </nav>
-          <h1 id="hero-title">The right property begins with place</h1>
+          <?php require __DIR__ . '/../template-parts/breadcrumb.php'; ?>
+          <h1 id="hero-title">The Right Property Begins With Place</h1>
           <p class="hero__description">
-            A property can be changed. Its setting cannot. We look across the UAE for locations that make sense both on an ordinary day and over the years ahead.
+            A Property Can Be Changed. Its Setting Cannot. We Look Across The UAE For Locations That Make Sense Both On An Ordinary Day And Over The Years Ahead.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- ============ Communities introduction ============ -->
     <section class="comm-intro section" id="intro" aria-labelledby="intro-title">
       <div class="container comm-intro__inner">
         <div data-reveal>
           <p class="eyebrow">Why Location Matters</p>
-          <h2 id="intro-title">Place changes the whole equation</h2>
+          <h2 id="intro-title">Place Changes The Whole Equation</h2>
           <p>
-            A city address, an island home and a quieter coastal community each change the rhythm of daily life. They also carry different patterns of demand, supply and future growth. Good location advice holds the emotional and practical questions together.
+            A City Address, An Island Home And A Quieter Coastal Community Each Change The Rhythm Of Daily Life. They Also Carry Different Patterns Of Demand, Supply And Future Growth. Good Location Advice Holds The Emotional And Practical Questions Together.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- ============ Featured communities: real project archive ============ -->
     <?php
       /* Data-driven project archive. Image precedence: hero.image, then the
          first valid gallery image, then the same centralized local
@@ -82,10 +76,10 @@ require __DIR__ . '/../includes/header.php';
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Featured Communities</p>
-          <h2 id="comms-title">A cross-section of UAE living</h2>
+          <h2 id="comms-title">A Cross-Section Of UAE Living</h2>
         </div>
 <?php if (empty($comm_projects)): ?>
-        <p class="section-head__sub">Project listings are currently unavailable.</p>
+        <p class="section-head__sub">Project Listings Are Currently Unavailable.</p>
 <?php else: ?>
         <div class="comms__grid">
 <?php foreach ($comm_projects as $project): ?>
@@ -96,59 +90,58 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <!-- ============ Explore by lifestyle ============ -->
     <section class="lifestyle section section--gray" aria-labelledby="lifestyle-title">
       <div class="container">
         <div class="section-head" data-reveal>
-          <p class="eyebrow">Explore by Lifestyle</p>
-          <h2 id="lifestyle-title">Begin with the life&mdash;or outcome&mdash;you want</h2>
+          <p class="eyebrow">Explore By Lifestyle</p>
+          <h2 id="lifestyle-title">Begin With The Life&mdash;Or Outcome&mdash;You Want</h2>
         </div>
         <div class="categories__grid">
-          <a class="category-card" href="#" data-reveal aria-label="Waterfront Living communities (filtered view to be added)">
+          <a class="category-card" href="#" data-reveal aria-label="Waterfront Living Communities (Filtered View To Be Added)">
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-waves"/></svg></span>
             <span class="category-card__text">
               <h3>Waterfront Living</h3>
-              <p>Beaches, marinas and lagoon communities</p>
+              <p>Beaches, Marinas And Lagoon Communities</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
-          <a class="category-card" href="#" data-reveal aria-label="Family Communities (filtered view to be added)">
+          <a class="category-card" href="#" data-reveal aria-label="Family Communities (Filtered View To Be Added)">
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-users"/></svg></span>
             <span class="category-card__text">
               <h3>Family Communities</h3>
-              <p>Parks, schools and villa neighbourhoods</p>
+              <p>Parks, Schools And Villa Neighbourhoods</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
-          <a class="category-card" href="#" data-reveal aria-label="City Living communities (filtered view to be added)">
+          <a class="category-card" href="#" data-reveal aria-label="City Living Communities (Filtered View To Be Added)">
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg></span>
             <span class="category-card__text">
               <h3>City Living</h3>
-              <p>Towers and districts at the centre of it all</p>
+              <p>Towers And Districts At The Centre Of It All</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
-          <a class="category-card" href="#" data-reveal aria-label="Luxury Destinations (filtered view to be added)">
+          <a class="category-card" href="#" data-reveal aria-label="Luxury Destinations (Filtered View To Be Added)">
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-sparkles"/></svg></span>
             <span class="category-card__text">
               <h3>Distinguished Destinations</h3>
-              <p>Distinguished addresses across the UAE</p>
+              <p>Distinguished Addresses Across The UAE</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
-          <a class="category-card" href="#" data-reveal aria-label="Investment Areas (filtered view to be added)">
+          <a class="category-card" href="#" data-reveal aria-label="Investment Areas (Filtered View To Be Added)">
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg></span>
             <span class="category-card__text">
               <h3>Investment Areas</h3>
-              <p>Areas assessed for sustainable rental demand</p>
+              <p>Areas Assessed For Sustainable Rental Demand</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
-          <a class="category-card" href="#" data-reveal aria-label="Emerging Communities (filtered view to be added)">
+          <a class="category-card" href="#" data-reveal aria-label="Emerging Communities (Filtered View To Be Added)">
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-leaf"/></svg></span>
             <span class="category-card__text">
               <h3>Emerging Communities</h3>
-              <p>New districts taking shape across the Emirates</p>
+              <p>New Districts Taking Shape Across The Emirates</p>
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
@@ -156,129 +149,127 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <!-- ============ Choosing the right community ============ -->
     <section class="choose section" aria-labelledby="choose-title">
       <div class="container choose__grid">
         <div class="choose__intro" data-reveal>
-          <p class="eyebrow">Choosing the Right Community</p>
-          <h2 id="choose-title">A location decision grounded in evidence</h2>
+          <p class="eyebrow">Choosing The Right Community</p>
+          <h2 id="choose-title">A Location Decision Grounded In Evidence</h2>
           <p>
-            A render cannot tell you how a weekday commute feels, whether future supply may alter the market or if the neighbourhood suits your routines. Those realities belong in the decision from the beginning.
+            A Render Cannot Tell You How A Weekday Commute Feels, Whether Future Supply May Alter The Market Or If The Neighbourhood Suits Your Routines. Those Realities Belong In The Decision From The Beginning.
           </p>
-          <a class="btn btn--primary" href="contact.php">Discuss the Right Location</a>
+          <a class="btn btn--primary" href="contact.php">Discuss The Right Location</a>
         </div>
         <ol class="choose__list">
           <li data-reveal>
             <div>
-              <h3>Define the purpose</h3>
-              <p>A home, an investment or both&mdash;the answer changes the search.</p>
+              <h3>Define The Purpose</h3>
+              <p>A Home, An Investment Or Both&mdash;The Answer Changes The Search.</p>
             </div>
           </li>
           <li data-reveal>
             <div>
-              <h3>Balance use and return</h3>
-              <p>Daily convenience and investment performance do not always point to the same place.</p>
+              <h3>Balance Use And Return</h3>
+              <p>Daily Convenience And Investment Performance Do Not Always Point To The Same Place.</p>
             </div>
           </li>
           <li data-reveal>
             <div>
-              <h3>Test the connections</h3>
-              <p>Consider real travel times to work, schools and airports, not distance on a map.</p>
+              <h3>Test The Connections</h3>
+              <p>Consider Real Travel Times To Work, Schools And Airports, Not Distance On A Map.</p>
             </div>
           </li>
           <li data-reveal>
             <div>
-              <h3>Examine what the budget buys</h3>
-              <p>Establish what the same capital secures in ready and off-plan markets.</p>
+              <h3>Examine What The Budget Buys</h3>
+              <p>Establish What The Same Capital Secures In Ready And Off-Plan Markets.</p>
             </div>
           </li>
           <li data-reveal>
             <div>
-              <h3>Set a realistic shortlist</h3>
-              <p>Keep only the locations where lifestyle, value and timing make a coherent case.</p>
+              <h3>Set A Realistic Shortlist</h3>
+              <p>Keep Only The Locations Where Lifestyle, Value And Timing Make A Coherent Case.</p>
             </div>
           </li>
           <li data-reveal>
             <div>
-              <h3>Move forward with certainty</h3>
-              <p>Take the chosen location through viewings, due diligence and documentation.</p>
+              <h3>Move Forward With Certainty</h3>
+              <p>Take The Chosen Location Through Viewings, Due Diligence And Documentation.</p>
             </div>
           </li>
         </ol>
       </div>
     </section>
 
-    <!-- ============ FAQ ============ -->
-    <section class="faq section section--gray" aria-labelledby="faq-title">
+    <section class="faq faq--centered section section--gray" aria-labelledby="faq-title">
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Common Questions</p>
-          <h2 id="faq-title">Choosing a community, explained</h2>
+          <h2 id="faq-title">Choosing A Community, Explained</h2>
         </div>
         <div class="faq__list">
           <details class="faq-item" data-reveal>
             <summary>
-              Which UAE communities are well suited to families?
+              Which UAE Communities Are Well Suited To Families?
               <span class="faq-item__indicator" aria-hidden="true"></span>
             </summary>
             <div class="faq-item__body">
               <p>
-                Families often favour master-planned communities with schools, parks and practical connections. The right answer may sit in Dubai, Abu Dhabi, Sharjah, Ajman or elsewhere in the Northern Emirates; daily routines and budget will narrow the field.
+                Families Often Favour Master-Planned Communities With Schools, Parks And Practical Connections. The Right Answer May Sit In Dubai, Abu Dhabi, Sharjah, Ajman Or Elsewhere In The Northern Emirates; Daily Routines And Budget Will Narrow The Field.
               </p>
             </div>
           </details>
           <details class="faq-item" data-reveal>
             <summary>
-              What are my options for waterfront living?
+              What Are My Options For Waterfront Living?
               <span class="faq-item__indicator" aria-hidden="true"></span>
             </summary>
             <div class="faq-item__body">
               <p>
-                Waterfront living in the UAE ranges from marina towers and island addresses to quieter coastal communities. Each brings a different relationship with access, amenities, price and future supply.
+                Waterfront Living In The UAE Ranges From Marina Towers And Island Addresses To Quieter Coastal Communities. Each Brings A Different Relationship With Access, Amenities, Price And Future Supply.
               </p>
             </div>
           </details>
           <details class="faq-item" data-reveal>
             <summary>
-              How do I compare two communities properly?
+              How Do I Compare Two Communities Properly?
               <span class="faq-item__indicator" aria-hidden="true"></span>
             </summary>
             <div class="faq-item__body">
               <p>
-                Start with real travel times, the homes available within budget, amenities you will use and the maturity of the wider neighbourhood. These factors create a more useful basis for a viewing than renders alone.
+                Start With Real Travel Times, The Homes Available Within Budget, Amenities You Will Use And The Maturity Of The Wider Neighbourhood. These Factors Create A More Useful Basis For A Viewing Than Renders Alone.
               </p>
             </div>
           </details>
           <details class="faq-item" data-reveal>
             <summary>
-              Can I find both ready and off-plan properties in these areas?
+              Can I Find Both Ready And Off-Plan Properties In These Areas?
               <span class="faq-item__indicator" aria-hidden="true"></span>
             </summary>
             <div class="faq-item__body">
               <p>
-                Yes. Established communities often provide ready homes, while newer districts may have more off-plan supply and staged payment plans. The choice depends on timing, certainty and the role of the property in your plans.
+                Yes. Established Communities Often Provide Ready Homes, While Newer Districts May Have More Off-Plan Supply And Staged Payment Plans. The Choice Depends On Timing, Certainty And The Role Of The Property In Your Plans.
               </p>
             </div>
           </details>
           <details class="faq-item" data-reveal>
             <summary>
-              Which areas are well suited to investors?
+              Which Areas Are Well Suited To Investors?
               <span class="faq-item__indicator" aria-hidden="true"></span>
             </summary>
             <div class="faq-item__body">
               <p>
-                That depends on whether the priority is income, capital growth or a balance of both. Established central districts and emerging waterfront markets behave differently, so budget and time horizon must be considered together.
+                That Depends On Whether The Priority Is Income, Capital Growth Or A Balance Of Both. Established Central Districts And Emerging Waterfront Markets Behave Differently, So Budget And Time Horizon Must Be Considered Together.
               </p>
             </div>
           </details>
           <details class="faq-item" data-reveal>
             <summary>
-              How do I get help choosing?
+              How Do I Get Help Choosing?
               <span class="faq-item__indicator" aria-hidden="true"></span>
             </summary>
             <div class="faq-item__body">
               <p>
-                Arrange a short consultation by phone, WhatsApp or at our Business Bay office. We will turn the brief into a focused location shortlist, with no obligation to proceed.
+                Arrange A Short Consultation By Phone, WhatsApp Or At Our Business Bay Office. We Will Turn The Brief Into A Focused Location Shortlist, With No Obligation To Proceed.
               </p>
             </div>
           </details>
@@ -298,14 +289,13 @@ require __DIR__ . '/../includes/header.php';
       ], JSON_UNESCAPED_SLASHES) ?></script>
     </section>
 
-    <!-- ============ Final call to action ============ -->
     <section class="cta-final section" id="enquire" aria-labelledby="cta-title">
       <img class="cta-final__bg" src="assets/images/projects/fahid-island/webp/01-exterior.webp" alt="" loading="lazy" aria-hidden="true">
       <div class="container cta-final__inner">
-        <p class="eyebrow eyebrow--gold" data-reveal>Get in Touch</p>
-        <h2 id="cta-title" data-reveal>Find the location that fits the brief</h2>
+        <p class="eyebrow eyebrow--gold" data-reveal>Get In Touch</p>
+        <h2 id="cta-title" data-reveal>Find The Location That Fits The Brief</h2>
         <p class="cta-final__sub" data-reveal>
-          Share the practical needs as well as the longer-term ambition. We will identify the UAE locations that warrant a closer look.
+          Share The Practical Needs As Well As The Longer-Term Ambition. We Will Identify The UAE Locations That Warrant A Closer Look.
         </p>
         <div class="cta-final__buttons" data-reveal>
           <a class="btn btn--accent btn--lg" href="contact.php#enquire">Build Your Location Shortlist</a>
@@ -315,7 +305,7 @@ require __DIR__ . '/../includes/header.php';
           </a>
         </div>
         <p class="cta-final__contact" data-reveal>
-          Prefer email? Write to <a href="mailto:info@smbdubai.net">info@smbdubai.net</a>
+          Prefer Email? Write To <a href="mailto:info@smbdubai.net">info@smbdubai.net</a>
         </p>
       </div>
     </section>
