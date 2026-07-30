@@ -24,8 +24,8 @@ if ($project === null) {
     $skip_link = '#not-found';
     require __DIR__ . '/../includes/header.php';
     ?>
-      <main id="top">
-        <section class="section" id="not-found" aria-labelledby="not-found-title">
+      <main id="top" data-neutral-sequence>
+        <section class="section" id="not-found" aria-labelledby="not-found-title" data-neutral-section>
           <div class="container" style="text-align:center; max-width:640px;">
             <p class="eyebrow">Project Not Found</p>
             <h1 id="not-found-title">We Couldn't Find That Project</h1>
@@ -180,12 +180,12 @@ $enquiry_form_context = [
     'project_slug' => $project['slug'],
     'developer_name' => $project['developer'],
 ];
-$enquiry_form_success_message = 'Your Enquiry Has Been Received. A Property Consultant From SMB Real Estate Brokers Will Contact You Shortly.';
+$enquiry_form_success_message = 'Thank You For Your Interest. The Enquiry System Is Currently Being Connected To The Backend. Form Submission Will Become Available In The Upcoming WordPress Version.';
 ?>
 
   <script type="application/ld+json"><?= json_encode($json_ld, JSON_UNESCAPED_SLASHES) ?></script>
 
-  <main id="top">
+  <main id="top" data-neutral-sequence>
 
     <?php
       $hero_alt = $hero_image_is_placeholder
@@ -292,7 +292,7 @@ $enquiry_form_success_message = 'Your Enquiry Has Been Received. A Property Cons
         $facts[] = ['value' => '', 'label' => '', 'icon' => 'info'];
     }
 ?>
-    <section class="facts" aria-labelledby="facts-title">
+    <section class="facts" aria-labelledby="facts-title" data-neutral-section>
       <h2 class="visually-hidden" id="facts-title">Key Facts</h2>
       <div class="container">
         <ul class="facts__row">
@@ -325,7 +325,7 @@ $enquiry_form_success_message = 'Your Enquiry Has Been Received. A Property Cons
         $overview_cards[] = ['value' => '', 'label' => '', 'icon' => 'info'];
     }
 ?>
-    <section class="overview section section--gray" id="overview" aria-labelledby="overview-title">
+    <section class="overview section" id="overview" aria-labelledby="overview-title" data-neutral-section>
       <div class="container overview__grid">
         <div class="overview__text" data-reveal>
           <p class="eyebrow">Project Overview</p>
@@ -361,7 +361,7 @@ $enquiry_form_success_message = 'Your Enquiry Has Been Received. A Property Cons
         $gallery_images[] = null; // null marks a render-time placeholder slot
     }
 ?>
-    <section class="gallery section" id="gallery" aria-labelledby="gallery-title">
+    <section class="gallery section" id="gallery" aria-labelledby="gallery-title" data-neutral-section>
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Lifestyle Gallery</p>
@@ -424,7 +424,7 @@ $enquiry_form_success_message = 'Your Enquiry Has Been Received. A Property Cons
     }
     $amenities_title = trim($project['amenities']['title']) !== '' ? $project['amenities']['title'] : ('Amenities at ' . $project['name']);
 ?>
-    <section class="amenities section section--gray" id="amenities" aria-labelledby="amenities-title">
+    <section class="amenities section" id="amenities" aria-labelledby="amenities-title" data-neutral-section>
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Features &amp; Amenities</p>
@@ -497,7 +497,7 @@ $enquiry_form_success_message = 'Your Enquiry Has Been Received. A Property Cons
       </div>
     </section>
 
-    <section class="enquire section section--gray" id="enquire" aria-labelledby="enquire-title">
+    <section class="enquire section" id="enquire" aria-labelledby="enquire-title" data-neutral-section>
       <div class="container enquire__grid">
         <div class="enquire__text" data-reveal>
           <p class="eyebrow">Contact</p>

@@ -1,0 +1,164 @@
+- generic [active] [ref=f8e1]:
+  - link "Skip To Content" [ref=f8e2] [cursor=pointer]:
+    - /url: "#articles"
+  - banner [ref=f8e3]:
+    - generic [ref=f8e4]:
+      - link "SMB Real Estate Brokers — Home" [ref=f8e5] [cursor=pointer]:
+        - /url: index.php
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f8e6]
+      - navigation "Main Navigation" [ref=f8e7]:
+        - list [ref=f8e8]:
+          - listitem [ref=f8e9]:
+            - link "Home" [ref=f8e10] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f8e11]:
+            - link "About" [ref=f8e12] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f8e13]:
+            - link "Services" [ref=f8e14] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f8e15]:
+            - link "Developers" [ref=f8e16] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f8e17]:
+            - link "Communities" [ref=f8e18] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f8e19]:
+            - link "Contact" [ref=f8e20] [cursor=pointer]:
+              - /url: contact.php
+      - link "+971 50 421 7299" [ref=f8e22] [cursor=pointer]:
+        - /url: tel:+971504217299
+  - main [ref=f8e26]:
+    - region [ref=f8e27]:
+      - img "Aerial view of a waterfront residential community in Dubai" [ref=f8e28]
+      - generic [ref=f8e31]:
+        - navigation "Breadcrumb" [ref=f8e32]:
+          - list [ref=f8e33]:
+            - listitem [ref=f8e34]:
+              - link "Home" [ref=f8e35] [cursor=pointer]:
+                - /url: index.php
+            - listitem [ref=f8e36]:
+              - text: /
+              - generic [ref=f8e37]: Articles
+        - heading "Perspective For Better Property Decisions" [level=1] [ref=f8e38]
+        - paragraph [ref=f8e39]: Practical notes on buying, investing and choosing a place to live in the UAE.
+    - region [ref=f8e40]:
+      - generic [ref=f8e41]:
+        - generic [ref=f8e42]:
+          - paragraph [ref=f8e43]: SMB Articles
+          - heading "Useful context for the next conversation" [level=2] [ref=f8e44]
+          - paragraph [ref=f8e45]: Clear, considered guidance for buyers, investors and families weighing their options across the UAE.
+        - generic [ref=f8e46]:
+          - article [ref=f8e47]:
+            - link "Read How To Assess A Dubai Off-Plan Investment Before You Reserve" [ref=f8e48] [cursor=pointer]:
+              - /url: article.php?slug=how-to-assess-a-dubai-off-plan-investment
+              - img "Aerial view of a waterfront residential community in Dubai" [ref=f8e49]
+            - paragraph [ref=f8e50]: Buying Guides
+            - heading [level=3] [ref=f8e51]:
+              - link "How To Assess A Dubai Off-Plan Investment Before You Reserve" [ref=f8e52] [cursor=pointer]:
+                - /url: article.php?slug=how-to-assess-a-dubai-off-plan-investment
+            - paragraph [ref=f8e53]: A practical way to compare payment plans, delivery assumptions and the quality of a developer before committing capital.
+            - generic [ref=f8e54]:
+              - paragraph [ref=f8e55]:
+                - time [ref=f8e56]: July 18, 2026
+                - generic [ref=f8e57]: ·
+                - text: 8 min read
+              - link "Read More" [ref=f8e58] [cursor=pointer]:
+                - /url: article.php?slug=how-to-assess-a-dubai-off-plan-investment
+                - text: Read More
+                - generic [ref=f8e59]: →
+          - article [ref=f8e60]:
+            - 'link "Read Freehold Ownership In The UAE: A Practical Guide For International Buyers" [ref=f8e61] [cursor=pointer]':
+              - /url: article.php?slug=freehold-ownership-in-the-uae
+              - img "Contemporary interior in a Dubai residence" [ref=f8e62]
+            - paragraph [ref=f8e63]: Market Insights
+            - heading [level=3] [ref=f8e64]:
+              - 'link "Freehold Ownership In The UAE: A Practical Guide For International Buyers" [ref=f8e65] [cursor=pointer]':
+                - /url: article.php?slug=freehold-ownership-in-the-uae
+            - paragraph [ref=f8e66]: The key questions international buyers should ask about locations, ownership, costs and the journey from offer to title deed.
+            - generic [ref=f8e67]:
+              - paragraph [ref=f8e68]:
+                - time [ref=f8e69]: June 27, 2026
+                - generic [ref=f8e70]: ·
+                - text: 6 min read
+              - link "Read More" [ref=f8e71] [cursor=pointer]:
+                - /url: article.php?slug=freehold-ownership-in-the-uae
+                - text: Read More
+                - generic [ref=f8e72]: →
+          - article [ref=f8e73]:
+            - link "Read What Families Should Compare When Choosing A Dubai Community" [ref=f8e74] [cursor=pointer]:
+              - /url: article.php?slug=dubai-communities-for-families
+              - img "Villa community at dusk in the UAE" [ref=f8e75]
+            - paragraph [ref=f8e76]: Communities
+            - heading [level=3] [ref=f8e77]:
+              - link "What Families Should Compare When Choosing A Dubai Community" [ref=f8e78] [cursor=pointer]:
+                - /url: article.php?slug=dubai-communities-for-families
+            - paragraph [ref=f8e79]: A grounded way to compare schools, daily connections, outdoor space and the character of family-oriented communities.
+            - generic [ref=f8e80]:
+              - paragraph [ref=f8e81]:
+                - time [ref=f8e82]: June 11, 2026
+                - generic [ref=f8e83]: ·
+                - text: 5 min read
+              - link "Read More" [ref=f8e84] [cursor=pointer]:
+                - /url: article.php?slug=dubai-communities-for-families
+                - text: Read More
+                - generic [ref=f8e85]: →
+        - navigation "Article Pagination" [ref=f8e86]:
+          - generic [ref=f8e87]: Article pagination
+          - generic [ref=f8e88]: "1"
+          - generic [ref=f8e89]: "2"
+          - generic [ref=f8e90]: "3"
+    - region [ref=f8e91]:
+      - generic [ref=f8e93]:
+        - paragraph [ref=f8e94]: Get In Touch
+        - heading "Begin With The Right Conversation" [level=2] [ref=f8e95]
+        - paragraph [ref=f8e96]: Bring us the property decision you are considering. We will help you make the next step clearer.
+        - generic [ref=f8e97]:
+          - link "Start A Conversation" [ref=f8e98] [cursor=pointer]:
+            - /url: tel:+971504217299
+          - link "WhatsApp Us" [ref=f8e101] [cursor=pointer]:
+            - /url: https://wa.me/971504217299
+        - paragraph [ref=f8e104]:
+          - text: Prefer Email? Write To
+          - link "info@smbdubai.net" [ref=f8e105] [cursor=pointer]:
+            - /url: mailto:info@smbdubai.net
+  - contentinfo [ref=f8e106]:
+    - generic [ref=f8e107]:
+      - generic [ref=f8e108]:
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f8e109]
+        - paragraph [ref=f8e110]: Serving, Managing & Beyond
+        - paragraph [ref=f8e111]: SMB Real Estate Brokers L.L.C Is A UAE Property Advisory For Residential And Commercial Clients, Known For Independent Judgement, Attentive Execution And Relationships That Continue Beyond Completion.
+      - generic [ref=f8e112]:
+        - heading "Quick Links" [level=3] [ref=f8e113]
+        - list [ref=f8e114]:
+          - listitem [ref=f8e115]:
+            - link "Home" [ref=f8e116] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f8e117]:
+            - link "About" [ref=f8e118] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f8e119]:
+            - link "Services" [ref=f8e120] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f8e121]:
+            - link "Developers" [ref=f8e122] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f8e123]:
+            - link "Communities" [ref=f8e124] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f8e125]:
+            - link "Contact" [ref=f8e126] [cursor=pointer]:
+              - /url: contact.php
+      - generic [ref=f8e127]:
+        - heading "Contact" [level=3] [ref=f8e128]
+        - list [ref=f8e130]:
+          - listitem [ref=f8e131]:
+            - link "+971 50 421 7299" [ref=f8e132] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - listitem [ref=f8e133]:
+            - link "info@smbdubai.net" [ref=f8e134] [cursor=pointer]:
+              - /url: mailto:info@smbdubai.net
+          - listitem [ref=f8e135]: 3002 Westburry Tower Office,Business Bay, Dubai, UAE
+    - generic [ref=f8e136]:
+      - paragraph [ref=f8e137]: © 2026 SMB Real Estate Brokers L.L.C. All Rights Reserved.
+      - paragraph [ref=f8e138]: Prices, Availability And Handover Dates Are Indicative

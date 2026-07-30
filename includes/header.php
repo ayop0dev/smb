@@ -23,6 +23,9 @@ $request_path = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
 $current_file = basename($request_path);
 $current_file = $current_file !== '' ? $current_file : 'index.php';
 $canonical_url = $site_url . ($current_file === 'index.php' ? '/' : '/' . $current_file);
+if ($current_file === 'article.php' && !empty($_GET['slug'])) {
+    $canonical_url .= '?slug=' . preg_replace('/[^a-z0-9-]/', '', strtolower((string) $_GET['slug']));
+}
 $page_og_image_url = $site_url . '/' . ltrim($page_og_image, '/');
 $main_css_version = (string) filemtime(__DIR__ . '/../assets/css/main.css');
 

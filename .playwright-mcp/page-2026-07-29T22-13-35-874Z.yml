@@ -1,0 +1,146 @@
+- generic [active] [ref=f20e1]:
+  - link "Skip To Content" [ref=f20e2] [cursor=pointer]:
+    - /url: "#articles"
+  - banner [ref=f20e3]:
+    - generic [ref=f20e4]:
+      - link "SMB Real Estate Brokers — Home" [ref=f20e5] [cursor=pointer]:
+        - /url: index.php
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f20e6]
+      - generic [ref=f20e7]:
+        - link "+971 50 421 7299" [ref=f20e8] [cursor=pointer]:
+          - /url: tel:+971504217299
+        - button "Open Menu" [ref=f20e12] [cursor=pointer]
+  - main [ref=f20e16]:
+    - region [ref=f20e17]:
+      - img "Aerial view of a waterfront residential community in Dubai" [ref=f20e18]
+      - generic [ref=f20e21]:
+        - navigation "Breadcrumb" [ref=f20e22]:
+          - list [ref=f20e23]:
+            - listitem [ref=f20e24]:
+              - link "Home" [ref=f20e25] [cursor=pointer]:
+                - /url: index.php
+            - listitem [ref=f20e26]:
+              - text: /
+              - generic [ref=f20e27]: Articles
+        - heading "Perspective For Better Property Decisions" [level=1] [ref=f20e28]
+        - paragraph [ref=f20e29]: Practical notes on buying, investing and choosing a place to live in the UAE.
+    - region [ref=f20e30]:
+      - generic [ref=f20e31]:
+        - generic [ref=f20e32]:
+          - paragraph [ref=f20e33]: SMB Articles
+          - heading "Useful context for the next conversation" [level=2] [ref=f20e34]
+          - paragraph [ref=f20e35]: Clear, considered guidance for buyers, investors and families weighing their options across the UAE.
+        - generic [ref=f20e36]:
+          - article [ref=f20e37]:
+            - link "Read How To Assess A Dubai Off-Plan Investment Before You Reserve" [ref=f20e38] [cursor=pointer]:
+              - /url: article.php?slug=how-to-assess-a-dubai-off-plan-investment
+              - img "Aerial view of a waterfront residential community in Dubai" [ref=f20e39]
+            - paragraph [ref=f20e40]: Buying Guides
+            - heading [level=3] [ref=f20e41]:
+              - link "How To Assess A Dubai Off-Plan Investment Before You Reserve" [ref=f20e42] [cursor=pointer]:
+                - /url: article.php?slug=how-to-assess-a-dubai-off-plan-investment
+            - paragraph [ref=f20e43]: A practical way to compare payment plans, delivery assumptions and the quality of a developer before committing capital.
+            - generic [ref=f20e44]:
+              - paragraph [ref=f20e45]:
+                - time [ref=f20e46]: July 18, 2026
+                - generic [ref=f20e47]: ·
+                - text: 8 min read
+              - link "Read More" [ref=f20e48] [cursor=pointer]:
+                - /url: article.php?slug=how-to-assess-a-dubai-off-plan-investment
+                - text: Read More
+                - generic [ref=f20e49]: →
+          - article [ref=f20e50]:
+            - 'link "Read Freehold Ownership In The UAE: A Practical Guide For International Buyers" [ref=f20e51] [cursor=pointer]':
+              - /url: article.php?slug=freehold-ownership-in-the-uae
+              - img "Contemporary interior in a Dubai residence" [ref=f20e52]
+            - paragraph [ref=f20e53]: Market Insights
+            - heading [level=3] [ref=f20e54]:
+              - 'link "Freehold Ownership In The UAE: A Practical Guide For International Buyers" [ref=f20e55] [cursor=pointer]':
+                - /url: article.php?slug=freehold-ownership-in-the-uae
+            - paragraph [ref=f20e56]: The key questions international buyers should ask about locations, ownership, costs and the journey from offer to title deed.
+            - generic [ref=f20e57]:
+              - paragraph [ref=f20e58]:
+                - time [ref=f20e59]: June 27, 2026
+                - generic [ref=f20e60]: ·
+                - text: 6 min read
+              - link "Read More" [ref=f20e61] [cursor=pointer]:
+                - /url: article.php?slug=freehold-ownership-in-the-uae
+                - text: Read More
+                - generic [ref=f20e62]: →
+          - article [ref=f20e63]:
+            - link "Read What Families Should Compare When Choosing A Dubai Community" [ref=f20e64] [cursor=pointer]:
+              - /url: article.php?slug=dubai-communities-for-families
+              - img "Villa community at dusk in the UAE" [ref=f20e65]
+            - paragraph [ref=f20e66]: Communities
+            - heading [level=3] [ref=f20e67]:
+              - link "What Families Should Compare When Choosing A Dubai Community" [ref=f20e68] [cursor=pointer]:
+                - /url: article.php?slug=dubai-communities-for-families
+            - paragraph [ref=f20e69]: A grounded way to compare schools, daily connections, outdoor space and the character of family-oriented communities.
+            - generic [ref=f20e70]:
+              - paragraph [ref=f20e71]:
+                - time [ref=f20e72]: June 11, 2026
+                - generic [ref=f20e73]: ·
+                - text: 5 min read
+              - link "Read More" [ref=f20e74] [cursor=pointer]:
+                - /url: article.php?slug=dubai-communities-for-families
+                - text: Read More
+                - generic [ref=f20e75]: →
+        - navigation "Article Pagination" [ref=f20e76]:
+          - generic [ref=f20e77]: Article pagination
+          - generic [ref=f20e78]: "1"
+          - generic [ref=f20e79]: "2"
+          - generic [ref=f20e80]: "3"
+    - region [ref=f20e81]:
+      - generic [ref=f20e83]:
+        - paragraph [ref=f20e84]: Get In Touch
+        - heading "Begin With The Right Conversation" [level=2] [ref=f20e85]
+        - paragraph [ref=f20e86]: Bring us the property decision you are considering. We will help you make the next step clearer.
+        - generic [ref=f20e87]:
+          - link "Start A Conversation" [ref=f20e88] [cursor=pointer]:
+            - /url: tel:+971504217299
+          - link "WhatsApp Us" [ref=f20e91] [cursor=pointer]:
+            - /url: https://wa.me/971504217299
+        - paragraph [ref=f20e94]:
+          - text: Prefer Email? Write To
+          - link "info@smbdubai.net" [ref=f20e95] [cursor=pointer]:
+            - /url: mailto:info@smbdubai.net
+  - contentinfo [ref=f20e96]:
+    - generic [ref=f20e97]:
+      - generic [ref=f20e98]:
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f20e99]
+        - paragraph [ref=f20e100]: Serving, Managing & Beyond
+        - paragraph [ref=f20e101]: SMB Real Estate Brokers L.L.C Is A UAE Property Advisory For Residential And Commercial Clients, Known For Independent Judgement, Attentive Execution And Relationships That Continue Beyond Completion.
+      - generic [ref=f20e102]:
+        - heading "Quick Links" [level=3] [ref=f20e103]
+        - list [ref=f20e104]:
+          - listitem [ref=f20e105]:
+            - link "Home" [ref=f20e106] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f20e107]:
+            - link "About" [ref=f20e108] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f20e109]:
+            - link "Services" [ref=f20e110] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f20e111]:
+            - link "Developers" [ref=f20e112] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f20e113]:
+            - link "Communities" [ref=f20e114] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f20e115]:
+            - link "Contact" [ref=f20e116] [cursor=pointer]:
+              - /url: contact.php
+      - generic [ref=f20e117]:
+        - heading "Contact" [level=3] [ref=f20e118]
+        - list [ref=f20e120]:
+          - listitem [ref=f20e121]:
+            - link "+971 50 421 7299" [ref=f20e122] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - listitem [ref=f20e123]:
+            - link "info@smbdubai.net" [ref=f20e124] [cursor=pointer]:
+              - /url: mailto:info@smbdubai.net
+          - listitem [ref=f20e125]: 3002 Westburry Tower Office,Business Bay, Dubai, UAE
+    - generic [ref=f20e126]:
+      - paragraph [ref=f20e127]: © 2026 SMB Real Estate Brokers L.L.C. All Rights Reserved.
+      - paragraph [ref=f20e128]: Prices, Availability And Handover Dates Are Indicative

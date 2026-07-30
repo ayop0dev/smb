@@ -17,7 +17,7 @@ $breadcrumb_trail = [
 require __DIR__ . '/../includes/header.php';
 ?>
 
-  <main id="top">
+  <main id="top" data-neutral-sequence>
 
     <section class="hero hero--page" aria-labelledby="hero-title">
       <img class="hero__bg" src="assets/images/projects/the-acres-estates/webp/01-exterior.webp"
@@ -35,7 +35,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="intro section" id="intro" aria-labelledby="intro-title">
+    <section class="intro section" id="intro" aria-labelledby="intro-title" data-neutral-section>
       <div class="container split split--media-right">
         <div class="split__text" data-reveal>
           <p class="eyebrow">Who We Are</p>
@@ -61,7 +61,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="company-facts" aria-labelledby="company-facts-title">
+    <section class="company-facts" aria-labelledby="company-facts-title" data-neutral-section>
       <div class="container">
         <h2 class="visually-hidden" id="company-facts-title">Company Facts</h2>
         <ul class="company-facts__row">
@@ -85,7 +85,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="team section" aria-labelledby="team-title">
+    <section class="team section" aria-labelledby="team-title" data-neutral-section>
       <div class="container">
         <div class="team__grid">
           <div class="section-head" data-reveal>
@@ -127,7 +127,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="mv section section--gray" aria-labelledby="mv-title">
+    <section class="mv section" aria-labelledby="mv-title" data-neutral-section>
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Our Direction</p>
@@ -154,7 +154,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="values section" aria-labelledby="values-title">
+    <section class="values section" aria-labelledby="values-title" data-neutral-section>
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Our Values</p>
@@ -185,7 +185,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="choose section section--gray" aria-labelledby="choose-title">
+    <section class="choose section" aria-labelledby="choose-title" data-neutral-section>
       <div class="container choose__grid">
         <div class="choose__intro" data-reveal>
           <p class="eyebrow">Why Clients Choose SMB</p>

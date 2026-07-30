@@ -1,0 +1,185 @@
+- generic [active] [ref=f1e1]:
+  - link "Skip To Content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#intro"
+  - banner [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - link "SMB Real Estate Brokers — Home" [ref=f1e5] [cursor=pointer]:
+        - /url: index.php
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f1e6]
+      - generic [ref=f1e7]:
+        - link "+971 50 421 7299" [ref=f1e8] [cursor=pointer]:
+          - /url: tel:+971504217299
+        - button "Open Menu" [ref=f1e12] [cursor=pointer]
+  - main [ref=f1e16]:
+    - region [ref=f1e17]:
+      - img "Contemporary Villa With Floor-To-Ceiling Glazing At Dusk In Dubai" [ref=f1e18]
+      - generic [ref=f1e21]:
+        - navigation "Breadcrumb" [ref=f1e22]:
+          - list [ref=f1e23]:
+            - listitem [ref=f1e24]:
+              - link "Home" [ref=f1e25] [cursor=pointer]:
+                - /url: index.php
+            - listitem [ref=f1e26]:
+              - text: /
+              - generic [ref=f1e27]: About
+        - heading "Serving, Managing & Beyond" [level=1] [ref=f1e28]
+        - paragraph [ref=f1e29]: The People, Principles And Everyday Practice Behind SMB Real Estate Brokers.
+    - region [ref=f1e30]:
+      - generic [ref=f1e31]:
+        - generic [ref=f1e32]:
+          - paragraph [ref=f1e33]: Who We Are
+          - heading "Advice With Your Interests At Its Centre" [level=2] [ref=f1e34]
+          - paragraph [ref=f1e35]: "SMB Is A UAE Real Estate Advisory Built Around A Simple Principle: The Right Investment Decision Matters More Than The Quickest Transaction."
+          - paragraph [ref=f1e36]: We Don't Just Help You Buy A Property—We Stand By Your Side Every Step Of The Journey. From Negotiating With Leading Developers On Your Behalf And Guiding You Through The Entire Purchasing Process To Assisting With Mortgage Financing Upon Handover, Our Team Ensures A Seamless Experience.
+          - paragraph [ref=f1e37]: Our Commitment Doesn't End Once You Own The Property. We Can Help You Resell It At The Right Time, Lease It To Qualified Tenants, And Maximize Its Long-Term Value.
+          - paragraph [ref=f1e38]: At SMB, We Don't Simply Sell Real Estate—We Create A Complete Investment Ecosystem Designed To Protect Your Investment And Help You Achieve The Highest Possible Return With Confidence.
+        - img "Bright Open-Plan Living Space Representing The Properties SMB Works With" [ref=f1e40]
+    - region [ref=f1e41]:
+      - generic [ref=f1e42]:
+        - heading "Company Facts" [level=2] [ref=f1e43]
+        - list [ref=f1e44]:
+          - listitem [ref=f1e45]:
+            - paragraph [ref=f1e49]: Established 2021
+          - listitem [ref=f1e50]:
+            - paragraph [ref=f1e54]: Serving All Seven Emirates
+          - listitem [ref=f1e55]:
+            - paragraph [ref=f1e59]: Residential & Commercial
+          - listitem [ref=f1e60]:
+            - paragraph [ref=f1e64]: Off-Plan Advisory
+    - region [ref=f1e65]:
+      - generic [ref=f1e67]:
+        - generic [ref=f1e68]:
+          - paragraph [ref=f1e69]: Our Team
+          - heading "The People Behind SMB" [level=2] [ref=f1e70]
+          - paragraph [ref=f1e71]: Experienced Advisers, Direct Access And Personal Accountability From The First Meeting Onwards.
+        - article [ref=f1e72]:
+          - img "Portrait Of Haitham Mahdy, Managing Director At SMB Real Estate Brokers" [ref=f1e74]
+          - generic [ref=f1e75]:
+            - heading "Haitham Mahdy" [level=3] [ref=f1e76]
+            - paragraph [ref=f1e77]: Managing Director
+            - paragraph [ref=f1e78]: With Over 15 Years Of Experience In Sales, Leadership, And Real Estate, Haitham Mahdy Has Built A Career Centered On Delivering Exceptional Client Experiences And Sustainable Investment Opportunities. As Managing Director Of SMB Real Estate Brokers, He Leads The Company With A Client-First Philosophy, Combining Strategic Market Insight, Strong Negotiation Skills, And A Commitment To Transparency. His Extensive Industry Knowledge Enables Clients To Make Confident Decisions While Receiving Professional Guidance At Every Stage Of Their Real Estate Journey.
+        - article [ref=f1e79]:
+          - img "Portrait Of Saddam Barakat, Managing Director At SMB Real Estate Brokers" [ref=f1e81]
+          - generic [ref=f1e82]:
+            - heading "Saddam Barakat" [level=3] [ref=f1e83]
+            - paragraph [ref=f1e84]: Managing Director
+            - paragraph [ref=f1e85]: Saddam Barakat Is An Experienced Real Estate Professional With Nearly Two Decades Of Expertise In Property Investment, Sales, And Client Advisory. At SMB Real Estate Brokers, He Focuses On Helping Buyers And Investors Identify Opportunities That Align With Their Financial Goals And Long-Term Vision. Known For His Analytical Approach, Market Knowledge, And Dedication To Personalized Service, Saddam Is Committed To Building Lasting Relationships Based On Trust, Integrity, And Consistent Results.
+    - region [ref=f1e86]:
+      - generic [ref=f1e87]:
+        - generic [ref=f1e88]:
+          - paragraph [ref=f1e89]: Our Direction
+          - heading "What Guides Our Work" [level=2] [ref=f1e90]
+        - generic [ref=f1e91]:
+          - generic [ref=f1e92]:
+            - paragraph [ref=f1e94]: Mission
+            - heading "Clarity Before Commitment" [level=3] [ref=f1e95]
+            - paragraph [ref=f1e96]: To Give Clients The Context, Judgement And Personal Attention Required To Make Sound Property Decisions.
+          - generic [ref=f1e97]:
+            - paragraph [ref=f1e99]: Vision
+            - heading "A Relationship Built For The Long Term" [level=3] [ref=f1e100]
+            - paragraph [ref=f1e101]: To Build Lasting Client Relationships By Placing Sound Advice Ahead Of Short-Term Transactions Across The UAE.
+    - region [ref=f1e102]:
+      - generic [ref=f1e103]:
+        - generic [ref=f1e104]:
+          - paragraph [ref=f1e105]: Our Values
+          - heading "How We Work With Every Client" [level=2] [ref=f1e106]
+        - list [ref=f1e107]:
+          - listitem [ref=f1e108]:
+            - generic [ref=f1e109]: "1"
+            - heading "Transparency" [level=3] [ref=f1e110]
+            - paragraph [ref=f1e111]: We Share What We Know — Prices, Risks And Realistic Timelines — So Nothing Important Is Left Unsaid.
+          - listitem [ref=f1e112]:
+            - generic [ref=f1e113]: "2"
+            - heading "Client Commitment" [level=3] [ref=f1e114]
+            - paragraph [ref=f1e115]: Every Recommendation Starts From The Client's Goals, Not From What Is Easiest To Sell.
+          - listitem [ref=f1e116]:
+            - generic [ref=f1e117]: "3"
+            - heading "Market Knowledge" [level=3] [ref=f1e118]
+            - paragraph [ref=f1e119]: We Follow Communities, Developers And Values Across The Emirates, So Our Advice Reflects Current Market Conditions.
+          - listitem [ref=f1e120]:
+            - generic [ref=f1e121]: "4"
+            - heading "Professional Support" [level=3] [ref=f1e122]
+            - paragraph [ref=f1e123]: One Dedicated Point Of Contact Represents You Professionally Through Paperwork, Negotiation And Handover.
+    - region [ref=f1e124]:
+      - generic [ref=f1e125]:
+        - generic [ref=f1e126]:
+          - paragraph [ref=f1e127]: Why Clients Choose SMB
+          - heading "What Client-First Advice Looks Like" [level=2] [ref=f1e128]
+          - paragraph [ref=f1e129]: "Our Principles Are Visible In The Work: Candid Recommendations, Selective Shortlists And Careful Attention To The Details That Affect Your Outcome."
+          - link "Meet Our Advisers" [ref=f1e130] [cursor=pointer]:
+            - /url: "#enquire"
+        - list [ref=f1e131]:
+          - listitem [ref=f1e132]:
+            - generic [ref=f1e133]:
+              - heading "Honest, Clear Property Guidance" [level=3] [ref=f1e134]
+              - paragraph [ref=f1e135]: A Candid View Of Pricing, Terms And Compromises Before Any Commitment Is Made.
+          - listitem [ref=f1e136]:
+            - generic [ref=f1e137]:
+              - heading "Access To Selected Opportunities" [level=3] [ref=f1e138]
+              - paragraph [ref=f1e139]: A Disciplined Selection Shaped By Your Brief, Rather Than A Stream Of Whatever Happens To Be Available.
+          - listitem [ref=f1e140]:
+            - generic [ref=f1e141]:
+              - heading "Support From Enquiry To Transaction" [level=3] [ref=f1e142]
+              - paragraph [ref=f1e143]: Close Management Of Viewings, Negotiation, Paperwork And Coordination From One Accountable Contact.
+          - listitem [ref=f1e144]:
+            - generic [ref=f1e145]:
+              - heading "Knowledge Of Communities And Developers" [level=3] [ref=f1e146]
+              - paragraph [ref=f1e147]: A Practical Understanding Of UAE Locations And Developer Track Records Gives Each Recommendation Proper Context.
+          - listitem [ref=f1e148]:
+            - generic [ref=f1e149]:
+              - heading "Responsive, Personal Communication" [level=3] [ref=f1e150]
+              - paragraph [ref=f1e151]: You Deal With An Adviser Who Knows The Brief, Remembers The Detail And Remains Accessible.
+    - region [ref=f1e152]:
+      - generic [ref=f1e154]:
+        - paragraph [ref=f1e155]: Get In Touch
+        - heading "Let Good Advice Shape The Next Move" [level=2] [ref=f1e156]
+        - paragraph [ref=f1e157]: Whether The Next Move Is A Home, A Sale Or A Portfolio Decision, Begin With A Considered Conversation.
+        - generic [ref=f1e158]:
+          - link "Meet Our Advisers" [ref=f1e159] [cursor=pointer]:
+            - /url: tel:+971504217299
+          - link "WhatsApp Us" [ref=f1e162] [cursor=pointer]:
+            - /url: https://wa.me/971504217299
+        - paragraph [ref=f1e165]:
+          - text: Prefer Email? Write To
+          - link "info@smbdubai.net" [ref=f1e166] [cursor=pointer]:
+            - /url: mailto:info@smbdubai.net
+  - contentinfo [ref=f1e167]:
+    - generic [ref=f1e168]:
+      - generic [ref=f1e169]:
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f1e170]
+        - paragraph [ref=f1e171]: Serving, Managing & Beyond
+        - paragraph [ref=f1e172]: SMB Real Estate Brokers L.L.C Is A UAE Property Advisory For Residential And Commercial Clients, Known For Independent Judgement, Attentive Execution And Relationships That Continue Beyond Completion.
+      - generic [ref=f1e173]:
+        - heading "Quick Links" [level=3] [ref=f1e174]
+        - list [ref=f1e175]:
+          - listitem [ref=f1e176]:
+            - link "Home" [ref=f1e177] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f1e178]:
+            - link "About" [ref=f1e179] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f1e180]:
+            - link "Services" [ref=f1e181] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f1e182]:
+            - link "Developers" [ref=f1e183] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f1e184]:
+            - link "Communities" [ref=f1e185] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f1e186]:
+            - link "Contact" [ref=f1e187] [cursor=pointer]:
+              - /url: contact.php
+      - generic [ref=f1e188]:
+        - heading "Contact" [level=3] [ref=f1e189]
+        - list [ref=f1e191]:
+          - listitem [ref=f1e192]:
+            - link "+971 50 421 7299" [ref=f1e193] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - listitem [ref=f1e194]:
+            - link "info@smbdubai.net" [ref=f1e195] [cursor=pointer]:
+              - /url: mailto:info@smbdubai.net
+          - listitem [ref=f1e196]: 3002 Westburry Tower Office,Business Bay, Dubai, UAE
+    - generic [ref=f1e197]:
+      - paragraph [ref=f1e198]: © 2026 SMB Real Estate Brokers L.L.C. All Rights Reserved.
+      - paragraph [ref=f1e199]: Prices, Availability And Handover Dates Are Indicative

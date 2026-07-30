@@ -1,0 +1,371 @@
+- generic [active] [ref=f19e1]:
+  - link "Skip To Content" [ref=f19e2] [cursor=pointer]:
+    - /url: "#developers"
+  - banner [ref=f19e3]:
+    - generic [ref=f19e4]:
+      - link "SMB Real Estate Brokers — Home" [ref=f19e5] [cursor=pointer]:
+        - /url: index.php
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f19e6]
+      - generic [ref=f19e7]:
+        - link "+971 50 421 7299" [ref=f19e8] [cursor=pointer]:
+          - /url: tel:+971504217299
+        - button "Open Menu" [ref=f19e12] [cursor=pointer]
+  - main [ref=f19e16]:
+    - region [ref=f19e17]:
+      - img "Aerial View Of A Master-Planned Dubai Community With Lagoons And Villas" [ref=f19e18]
+      - generic [ref=f19e21]:
+        - navigation "Breadcrumb" [ref=f19e22]:
+          - list [ref=f19e23]:
+            - listitem [ref=f19e24]:
+              - link "Home" [ref=f19e25] [cursor=pointer]:
+                - /url: index.php
+            - listitem [ref=f19e26]:
+              - text: /
+              - generic [ref=f19e27]: Developers
+        - heading "Choose The Project, Not The Sales Agenda" [level=1] [ref=f19e28]
+        - paragraph [ref=f19e29]: A Broad UAE Developer Portfolio Creates Genuine Choice. Independence Ensures That Choice Is Narrowed In The Client's Interest—Not Around A Sales Target Or Commission.
+    - region [ref=f19e30]:
+      - generic [ref=f19e31]:
+        - generic [ref=f19e32]:
+          - paragraph [ref=f19e33]: Featured Developers
+          - heading "Who We Work With" [level=2] [ref=f19e34]
+        - generic [ref=f19e35]:
+          - article [ref=f19e36]:
+            - generic [ref=f19e37]:
+              - link "View Emaar Developer Archive" [ref=f19e39] [cursor=pointer]:
+                - /url: emaar-properties.php
+              - heading [level=3] [ref=f19e41]:
+                - link "Emaar" [ref=f19e42] [cursor=pointer]:
+                  - /url: emaar-properties.php
+            - paragraph [ref=f19e43]: Known for large-scale, master-planned communities that combine homes, amenities and long-term placemaking.
+            - generic [ref=f19e44]:
+              - generic [ref=f19e45]: 1 Live Project
+              - link "Visit Emaar Developer Archive" [ref=f19e46] [cursor=pointer]:
+                - /url: emaar-properties.php
+                - text: View Developer
+          - article [ref=f19e49]:
+            - generic [ref=f19e50]:
+              - link "View Aldar Developer Archive" [ref=f19e52] [cursor=pointer]:
+                - /url: aldar-properties.php
+              - heading [level=3] [ref=f19e54]:
+                - link "Aldar" [ref=f19e55] [cursor=pointer]:
+                  - /url: aldar-properties.php
+            - paragraph [ref=f19e56]: An Abu Dhabi-based developer with a wide portfolio of residential, cultural and leisure destinations across the emirate.
+            - generic [ref=f19e57]:
+              - generic [ref=f19e58]: 1 Live Project
+              - link "Visit Aldar Developer Archive" [ref=f19e59] [cursor=pointer]:
+                - /url: aldar-properties.php
+                - text: View Developer
+          - article [ref=f19e62]:
+            - generic [ref=f19e63]:
+              - link "View DAMAC Properties Developer Archive" [ref=f19e65] [cursor=pointer]:
+                - /url: damac-properties.php
+              - heading [level=3] [ref=f19e67]:
+                - link "DAMAC Properties" [ref=f19e68] [cursor=pointer]:
+                  - /url: damac-properties.php
+            - paragraph [ref=f19e69]: Luxury Dubai developer renowned for high-end residential towers and branded, amenity-rich communities.
+            - generic [ref=f19e70]:
+              - generic [ref=f19e71]: 2 Live Projects
+              - link "Visit DAMAC Properties Developer Archive" [ref=f19e72] [cursor=pointer]:
+                - /url: damac-properties.php
+                - text: View Developer
+          - article [ref=f19e75]:
+            - generic [ref=f19e76]:
+              - link "View Nakheel Developer Archive" [ref=f19e78] [cursor=pointer]:
+                - /url: nakheel.php
+              - heading [level=3] [ref=f19e80]:
+                - link "Nakheel" [ref=f19e81] [cursor=pointer]:
+                  - /url: nakheel.php
+            - paragraph [ref=f19e82]: A Dubai developer whose portfolio includes established residential communities, waterfront destinations and major land reclamation projects.
+            - generic [ref=f19e83]:
+              - generic [ref=f19e84]: 1 Live Project
+              - link "Visit Nakheel Developer Archive" [ref=f19e85] [cursor=pointer]:
+                - /url: nakheel.php
+                - text: View Developer
+          - article [ref=f19e88]:
+            - generic [ref=f19e89]:
+              - link "View Dubai Properties Developer Archive" [ref=f19e91] [cursor=pointer]:
+                - /url: dubai-properties.php
+              - heading [level=3] [ref=f19e93]:
+                - link "Dubai Properties" [ref=f19e94] [cursor=pointer]:
+                  - /url: dubai-properties.php
+            - paragraph [ref=f19e95]: Diversified Dubai developer delivering residential, retail and hospitality projects across established city communities.
+            - generic [ref=f19e96]:
+              - generic [ref=f19e97]: 1 Live Project
+              - link "Visit Dubai Properties Developer Archive" [ref=f19e98] [cursor=pointer]:
+                - /url: dubai-properties.php
+                - text: View Developer
+          - article [ref=f19e101]:
+            - generic [ref=f19e102]:
+              - link "View Sobha Realty Developer Archive" [ref=f19e104] [cursor=pointer]:
+                - /url: sobha-realty.php
+              - heading [level=3] [ref=f19e106]:
+                - link "Sobha Realty" [ref=f19e107] [cursor=pointer]:
+                  - /url: sobha-realty.php
+            - paragraph [ref=f19e108]: Premium developer recognised for meticulous craftsmanship and high-quality residential communities across Dubai.
+            - generic [ref=f19e109]:
+              - generic [ref=f19e110]: 1 Live Project
+              - link "Visit Sobha Realty Developer Archive" [ref=f19e111] [cursor=pointer]:
+                - /url: sobha-realty.php
+                - text: View Developer
+          - article [ref=f19e114]:
+            - generic [ref=f19e115]:
+              - link "View Meraas Developer Archive" [ref=f19e117] [cursor=pointer]:
+                - /url: meraas.php
+              - heading [level=3] [ref=f19e119]:
+                - link "Meraas" [ref=f19e120] [cursor=pointer]:
+                  - /url: meraas.php
+            - paragraph [ref=f19e121]: Focused on urban neighbourhoods and destination-led developments with a strong emphasis on public realm and everyday experience.
+            - generic [ref=f19e122]:
+              - generic [ref=f19e123]: 1 Live Project
+              - link "Visit Meraas Developer Archive" [ref=f19e124] [cursor=pointer]:
+                - /url: meraas.php
+                - text: View Developer
+          - article [ref=f19e127]:
+            - generic [ref=f19e128]:
+              - link "View Binghatti Developers Developer Archive" [ref=f19e130] [cursor=pointer]:
+                - /url: binghatti-developers.php
+              - heading [level=3] [ref=f19e132]:
+                - link "Binghatti Developers" [ref=f19e133] [cursor=pointer]:
+                  - /url: binghatti-developers.php
+            - paragraph [ref=f19e134]: Fast-growing Dubai developer recognised for bold architectural designs and distinctive, branded residential towers.
+            - generic [ref=f19e135]:
+              - generic [ref=f19e136]: 1 Live Project
+              - link "Visit Binghatti Developers Developer Archive" [ref=f19e137] [cursor=pointer]:
+                - /url: binghatti-developers.php
+                - text: View Developer
+          - article [ref=f19e140]:
+            - generic [ref=f19e141]:
+              - link "View Danube Properties Developer Archive" [ref=f19e143] [cursor=pointer]:
+                - /url: danube-properties.php
+              - heading [level=3] [ref=f19e145]:
+                - link "Danube Properties" [ref=f19e146] [cursor=pointer]:
+                  - /url: danube-properties.php
+            - paragraph [ref=f19e147]: Value-driven Dubai developer offering affordable, amenity-rich residences with flexible, investor-friendly payment plans.
+            - generic [ref=f19e148]:
+              - generic [ref=f19e149]: 1 Live Project
+              - link "Visit Danube Properties Developer Archive" [ref=f19e150] [cursor=pointer]:
+                - /url: danube-properties.php
+                - text: View Developer
+          - article [ref=f19e153]:
+            - generic [ref=f19e154]:
+              - link "View Azizi Developments Developer Archive" [ref=f19e156] [cursor=pointer]:
+                - /url: azizi-developments.php
+              - heading [level=3] [ref=f19e158]:
+                - link "Azizi Developments" [ref=f19e159] [cursor=pointer]:
+                  - /url: azizi-developments.php
+            - paragraph [ref=f19e160]: Dubai developer delivering accessible, well-located residential communities across several of the city's key districts.
+            - generic [ref=f19e161]:
+              - generic [ref=f19e162]: 1 Live Project
+              - link "Visit Azizi Developments Developer Archive" [ref=f19e163] [cursor=pointer]:
+                - /url: azizi-developments.php
+                - text: View Developer
+          - article [ref=f19e166]:
+            - generic [ref=f19e167]:
+              - link "View MAG Group Holding Developer Archive" [ref=f19e169] [cursor=pointer]:
+                - /url: mag-group-holding.php
+              - heading [level=3] [ref=f19e171]:
+                - link "MAG Group Holding" [ref=f19e172] [cursor=pointer]:
+                  - /url: mag-group-holding.php
+            - paragraph [ref=f19e173]: Diversified UAE developer with a growing portfolio of residential, hospitality and mixed-use projects.
+            - link "Visit MAG Group Holding Developer Archive" [ref=f19e175] [cursor=pointer]:
+              - /url: mag-group-holding.php
+              - text: View Developer
+          - article [ref=f19e178]:
+            - generic [ref=f19e179]:
+              - link "View Ellington Properties Developer Archive" [ref=f19e181] [cursor=pointer]:
+                - /url: ellington-properties.php
+              - heading [level=3] [ref=f19e183]:
+                - link "Ellington Properties" [ref=f19e184] [cursor=pointer]:
+                  - /url: ellington-properties.php
+            - paragraph [ref=f19e185]: Boutique Dubai developer celebrated for design-led residences and thoughtfully curated architectural details.
+            - generic [ref=f19e186]:
+              - generic [ref=f19e187]: 1 Live Project
+              - link "Visit Ellington Properties Developer Archive" [ref=f19e188] [cursor=pointer]:
+                - /url: ellington-properties.php
+                - text: View Developer
+          - article [ref=f19e191]:
+            - generic [ref=f19e192]:
+              - link "View Samana Developers Developer Archive" [ref=f19e194] [cursor=pointer]:
+                - /url: samana-developers.php
+              - heading [level=3] [ref=f19e196]:
+                - link "Samana Developers" [ref=f19e197] [cursor=pointer]:
+                  - /url: samana-developers.php
+            - paragraph [ref=f19e198]: Dubai developer known for amenity-packed residences and attractive, investor-friendly payment structures.
+            - link "Visit Samana Developers Developer Archive" [ref=f19e200] [cursor=pointer]:
+              - /url: samana-developers.php
+              - text: View Developer
+          - article [ref=f19e203]:
+            - generic [ref=f19e204]:
+              - link "View Deyaar Development Developer Archive" [ref=f19e206] [cursor=pointer]:
+                - /url: deyaar-development.php
+              - heading [level=3] [ref=f19e208]:
+                - link "Deyaar Development" [ref=f19e209] [cursor=pointer]:
+                  - /url: deyaar-development.php
+            - paragraph [ref=f19e210]: Established Dubai developer delivering residential and commercial projects across key city locations.
+            - generic [ref=f19e211]:
+              - generic [ref=f19e212]: 1 Live Project
+              - link "Visit Deyaar Development Developer Archive" [ref=f19e213] [cursor=pointer]:
+                - /url: deyaar-development.php
+                - text: View Developer
+          - article [ref=f19e216]:
+            - generic [ref=f19e217]:
+              - link "View Omniyat Developer Archive" [ref=f19e219] [cursor=pointer]:
+                - /url: omniyat.php
+              - heading [level=3] [ref=f19e221]:
+                - link "Omniyat" [ref=f19e222] [cursor=pointer]:
+                  - /url: omniyat.php
+            - paragraph [ref=f19e223]: Ultra-luxury Dubai developer crafting architecturally distinctive, branded residences in prime waterfront locations.
+            - generic [ref=f19e224]:
+              - generic [ref=f19e225]: 1 Live Project
+              - link "Visit Omniyat Developer Archive" [ref=f19e226] [cursor=pointer]:
+                - /url: omniyat.php
+                - text: View Developer
+          - article [ref=f19e229]:
+            - generic [ref=f19e230]:
+              - link "View Iman Developers Developer Archive" [ref=f19e232] [cursor=pointer]:
+                - /url: iman-developers.php
+              - heading [level=3] [ref=f19e234]:
+                - link "Iman Developers" [ref=f19e235] [cursor=pointer]:
+                  - /url: iman-developers.php
+            - paragraph [ref=f19e236]: Dubai developer focused on quality residential projects designed for comfortable, connected community living.
+            - generic [ref=f19e237]:
+              - generic [ref=f19e238]: 1 Live Project
+              - link "Visit Iman Developers Developer Archive" [ref=f19e239] [cursor=pointer]:
+                - /url: iman-developers.php
+                - text: View Developer
+          - article [ref=f19e242]:
+            - generic [ref=f19e243]:
+              - link "View Reportage Properties Developer Archive" [ref=f19e245] [cursor=pointer]:
+                - /url: reportage-properties.php
+              - heading [level=3] [ref=f19e247]:
+                - link "Reportage Properties" [ref=f19e248] [cursor=pointer]:
+                  - /url: reportage-properties.php
+            - paragraph [ref=f19e249]: UAE-wide developer delivering large-scale residential communities across Dubai and several other emirates.
+            - generic [ref=f19e250]:
+              - generic [ref=f19e251]: 1 Live Project
+              - link "Visit Reportage Properties Developer Archive" [ref=f19e252] [cursor=pointer]:
+                - /url: reportage-properties.php
+                - text: View Developer
+          - article [ref=f19e255]:
+            - generic [ref=f19e256]:
+              - link "View Tiger Properties Developer Archive" [ref=f19e258] [cursor=pointer]:
+                - /url: tiger-properties.php
+              - heading [level=3] [ref=f19e260]:
+                - link "Tiger Properties" [ref=f19e261] [cursor=pointer]:
+                  - /url: tiger-properties.php
+            - paragraph [ref=f19e262]: Dubai developer with a diverse portfolio of residential and commercial towers across the city.
+            - generic [ref=f19e263]:
+              - generic [ref=f19e264]: 1 Live Project
+              - link "Visit Tiger Properties Developer Archive" [ref=f19e265] [cursor=pointer]:
+                - /url: tiger-properties.php
+                - text: View Developer
+          - article [ref=f19e268]:
+            - generic [ref=f19e269]:
+              - link "View Pantheon Development Developer Archive" [ref=f19e271] [cursor=pointer]:
+                - /url: pantheon-development.php
+              - heading [level=3] [ref=f19e273]:
+                - link "Pantheon Development" [ref=f19e274] [cursor=pointer]:
+                  - /url: pantheon-development.php
+            - paragraph [ref=f19e275]: Dubai developer delivering design-focused residential projects with an emphasis on quality finishes.
+            - generic [ref=f19e276]:
+              - generic [ref=f19e277]: 1 Live Project
+              - link "Visit Pantheon Development Developer Archive" [ref=f19e278] [cursor=pointer]:
+                - /url: pantheon-development.php
+                - text: View Developer
+          - article [ref=f19e281]:
+            - generic [ref=f19e282]:
+              - link "View Select Group Developer Archive" [ref=f19e284] [cursor=pointer]:
+                - /url: select-group.php
+              - heading [level=3] [ref=f19e286]:
+                - link "Select Group" [ref=f19e287] [cursor=pointer]:
+                  - /url: select-group.php
+            - paragraph [ref=f19e288]: Award-winning Dubai developer known for premium waterfront residences and landmark hospitality projects.
+            - generic [ref=f19e289]:
+              - generic [ref=f19e290]: 1 Live Project
+              - link "Visit Select Group Developer Archive" [ref=f19e291] [cursor=pointer]:
+                - /url: select-group.php
+                - text: View Developer
+    - region [ref=f19e294]:
+      - generic [ref=f19e295]:
+        - generic [ref=f19e296]:
+          - paragraph [ref=f19e297]: How SMB Helps
+          - heading "Independent Of Any Developer Agenda" [level=2] [ref=f19e298]
+          - paragraph [ref=f19e299]: Developer Relationships Provide Access. They Do Not Dictate The Advice. Suitability, Value And Risk Determine The Recommendation—Not Ease Of Sale.
+          - link "Compare Developer Options" [ref=f19e300] [cursor=pointer]:
+            - /url: contact.php
+        - list [ref=f19e301]:
+          - listitem [ref=f19e302]:
+            - generic [ref=f19e303]:
+              - heading "Compare Developers Side By Side" [level=3] [ref=f19e304]
+              - paragraph [ref=f19e305]: A Neutral View Of Differences In Delivery History, Finishes, Communities And Terms.
+          - listitem [ref=f19e306]:
+            - generic [ref=f19e307]:
+              - heading "Match Projects To Your Budget" [level=3] [ref=f19e308]
+              - paragraph [ref=f19e309]: The Budget Is Treated As A Boundary, Not An Invitation To Stretch The Brief.
+          - listitem [ref=f19e310]:
+            - generic [ref=f19e311]:
+              - heading "Understand Payment Plans" [level=3] [ref=f19e312]
+              - paragraph [ref=f19e313]: Instalments, Fees, Obligations And Handover Terms Made Clear Before Commitment.
+          - listitem [ref=f19e314]:
+            - generic [ref=f19e315]:
+              - heading "Evaluate Communities Properly" [level=3] [ref=f19e316]
+              - paragraph [ref=f19e317]: Location, Amenities, Connectivity And Day-To-Day Realities Considered Beyond The Brochure.
+          - listitem [ref=f19e318]:
+            - generic [ref=f19e319]:
+              - heading "Support The Complete Buying Journey" [level=3] [ref=f19e320]
+              - paragraph [ref=f19e321]: Continuity Through Reservation, Documentation, Construction Milestones, Handover And Beyond.
+    - region [ref=f19e322]:
+      - generic [ref=f19e324]:
+        - paragraph [ref=f19e325]: Get In Touch
+        - heading "Choose With A Clearer View" [level=2] [ref=f19e326]
+        - paragraph [ref=f19e327]: Bring Us The Shortlist—Or Start With A Blank Page. We Will Assess The Relevant Developers, Terms And Communities Against What You Want To Achieve.
+        - generic [ref=f19e328]:
+          - link "Request An Independent View" [ref=f19e329] [cursor=pointer]:
+            - /url: contact.php#enquire
+          - link "WhatsApp Us" [ref=f19e330] [cursor=pointer]:
+            - /url: https://wa.me/971504217299
+        - paragraph [ref=f19e333]:
+          - text: Prefer Email? Write To
+          - link "info@smbdubai.net" [ref=f19e334] [cursor=pointer]:
+            - /url: mailto:info@smbdubai.net
+  - contentinfo [ref=f19e335]:
+    - generic [ref=f19e336]:
+      - generic [ref=f19e337]:
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f19e338]
+        - paragraph [ref=f19e339]: Serving, Managing & Beyond
+        - paragraph [ref=f19e340]: SMB Real Estate Brokers L.L.C Is A UAE Property Advisory For Residential And Commercial Clients, Known For Independent Judgement, Attentive Execution And Relationships That Continue Beyond Completion.
+      - generic [ref=f19e341]:
+        - heading "Quick Links" [level=3] [ref=f19e342]
+        - list [ref=f19e343]:
+          - listitem [ref=f19e344]:
+            - link "Home" [ref=f19e345] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f19e346]:
+            - link "About" [ref=f19e347] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f19e348]:
+            - link "Services" [ref=f19e349] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f19e350]:
+            - link "Developers" [ref=f19e351] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f19e352]:
+            - link "Communities" [ref=f19e353] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f19e354]:
+            - link "Contact" [ref=f19e355] [cursor=pointer]:
+              - /url: contact.php
+      - generic [ref=f19e356]:
+        - heading "Contact" [level=3] [ref=f19e357]
+        - list [ref=f19e359]:
+          - listitem [ref=f19e360]:
+            - link "+971 50 421 7299" [ref=f19e361] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - listitem [ref=f19e362]:
+            - link "info@smbdubai.net" [ref=f19e363] [cursor=pointer]:
+              - /url: mailto:info@smbdubai.net
+          - listitem [ref=f19e364]: 3002 Westburry Tower Office,Business Bay, Dubai, UAE
+    - generic [ref=f19e365]:
+      - paragraph [ref=f19e366]: © 2026 SMB Real Estate Brokers L.L.C. All Rights Reserved.
+      - paragraph [ref=f19e367]: Prices, Availability And Handover Dates Are Indicative

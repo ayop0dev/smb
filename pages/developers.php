@@ -23,7 +23,7 @@ $breadcrumb_trail = [
 require __DIR__ . '/../includes/header.php';
 ?>
 
-  <main id="top">
+  <main id="top" data-neutral-sequence>
 
     <section class="hero hero--page" aria-labelledby="hero-title">
       <img class="hero__bg" src="assets/images/projects/six-senses-residences-dubai-marina/webp/01-exterior.webp"
@@ -41,7 +41,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="devs section section--gray" id="developers" aria-labelledby="devs-title">
+    <section class="devs section" id="developers" aria-labelledby="devs-title" data-neutral-section>
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Featured Developers</p>
@@ -61,7 +61,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="choose section" aria-labelledby="help-title">
+    <section class="choose section" aria-labelledby="help-title" data-neutral-section>
       <div class="container choose__grid">
         <div class="choose__intro" data-reveal>
           <p class="eyebrow">How SMB Helps</p>

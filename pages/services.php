@@ -18,7 +18,7 @@ $breadcrumb_trail = [
 require __DIR__ . '/../includes/header.php';
 ?>
 
-  <main id="top">
+  <main id="top" data-neutral-sequence>
 
     <section class="hero hero--page" aria-labelledby="hero-title">
       <img class="hero__bg" src="assets/images/projects/six-senses-residences-dubai-marina/webp/01-exterior.webp"
@@ -36,7 +36,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="intro section" id="intro" aria-labelledby="intro-title">
+    <section class="intro section" id="intro" aria-labelledby="intro-title" data-neutral-section>
       <div class="container split split--media-right">
         <div class="split__text" data-reveal>
           <p class="eyebrow">What We Do</p>
@@ -103,7 +103,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="steps section section--gray" aria-labelledby="steps-title">
+    <section class="steps section" aria-labelledby="steps-title" data-neutral-section>
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">How We Work</p>
@@ -134,7 +134,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="audience section" aria-labelledby="audience-title">
+    <section class="audience section" aria-labelledby="audience-title" data-neutral-section>
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Who We Serve</p>
@@ -180,7 +180,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="faq faq--centered section section--gray" aria-labelledby="faq-title">
+    <section class="faq faq--centered section" aria-labelledby="faq-title" data-neutral-section>
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Common Questions</p>

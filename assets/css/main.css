@@ -138,6 +138,12 @@ p { max-width: 65ch; } /* Limit line length for readability */
 .section { padding-block: var(--section-pad); }
 .section--gray { background: var(--bg-section-alt); }
 
+/* Neutral page sections alternate by rendered order. The marker describes
+   participation only; the selector owns the background choice. Special
+   sections stay outside the count and therefore do not reset the rhythm. */
+[data-neutral-sequence] > [data-neutral-section] { background: var(--bg-page); }
+[data-neutral-sequence] > [data-neutral-section]:nth-child(even of [data-neutral-section]) { background: var(--bg-section-alt); }
+
 .section-head { max-width: 640px; margin-bottom: 48px; }
 .section-head--light h2 { color: var(--white); }
 .section-head__sub { margin-top: 16px; font-size: 1.125rem; color: var(--text-muted); }
@@ -816,7 +822,7 @@ body.lightbox-open { overflow: hidden; }
 .sticky-cta__price { font-size: 1.25rem; font-weight: 800; color: var(--gold); line-height: 1.2; }
 
 .sticky-cta__action {
-  display: inline-flex; align-items: center; gap: 8px; font-weight: 700;
+  display: inline-flex; align-items: center; gap: 6px; font-weight: 700;
   font-size: 0.9375rem; color: var(--white); transition: opacity var(--transition-fast);
 }
 .sticky-cta:hover .sticky-cta__action { opacity: 0.8; }

@@ -1,0 +1,102 @@
+- generic [active] [ref=f12e1]:
+  - link "Skip To Content" [ref=f12e2] [cursor=pointer]:
+    - /url: "#overview"
+  - banner [ref=f12e3]:
+    - generic [ref=f12e4]:
+      - link "SMB Real Estate Brokers — Home" [ref=f12e5] [cursor=pointer]:
+        - /url: index.php
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f12e6]
+      - navigation "Main Navigation" [ref=f12e7]:
+        - list [ref=f12e8]:
+          - listitem [ref=f12e9]:
+            - link "Home" [ref=f12e10] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f12e11]:
+            - link "About" [ref=f12e12] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f12e13]:
+            - link "Services" [ref=f12e14] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f12e15]:
+            - link "Developers" [ref=f12e16] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f12e17]:
+            - link "Communities" [ref=f12e18] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f12e19]:
+            - link "Contact" [ref=f12e20] [cursor=pointer]:
+              - /url: contact.php
+      - link "+971 50 421 7299" [ref=f12e22] [cursor=pointer]:
+        - /url: tel:+971504217299
+  - main [ref=f12e26]:
+    - region [ref=f12e27]:
+      - img "Placeholder Image For MAG Group Holding" [ref=f12e28]
+      - generic [ref=f12e31]:
+        - navigation "Breadcrumb" [ref=f12e32]:
+          - list [ref=f12e33]:
+            - listitem [ref=f12e34]:
+              - link "Home" [ref=f12e35] [cursor=pointer]:
+                - /url: index.php
+            - listitem [ref=f12e36]:
+              - text: /
+              - link "Developers" [ref=f12e37] [cursor=pointer]:
+                - /url: developers.php
+            - listitem [ref=f12e38]:
+              - text: /
+              - generic [ref=f12e39]: MAG Group Holding
+        - heading "MAG Group Holding" [level=1] [ref=f12e40]
+        - paragraph [ref=f12e41]: Diversified UAE developer with a growing portfolio of residential, hospitality and mixed-use projects.
+    - region [ref=f12e42]:
+      - generic [ref=f12e44]:
+        - img "Placeholder Image For MAG Group Holding" [ref=f12e46]
+        - generic [ref=f12e47]:
+          - paragraph [ref=f12e48]: Developer Overview
+          - img "MAG Group Holding Logo" [ref=f12e50]
+          - heading "MAG Group Holding" [level=2] [ref=f12e51]
+          - paragraph [ref=f12e52]: Diversified UAE developer with a growing portfolio of residential, hospitality and mixed-use projects.
+    - region [ref=f12e53]:
+      - generic [ref=f12e54]:
+        - generic [ref=f12e55]:
+          - paragraph [ref=f12e56]: Projects
+          - heading "Projects By MAG Group Holding" [level=2] [ref=f12e57]
+        - paragraph [ref=f12e58]: Coming Soon
+  - contentinfo [ref=f12e59]:
+    - generic [ref=f12e60]:
+      - generic [ref=f12e61]:
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f12e62]
+        - paragraph [ref=f12e63]: Serving, Managing & Beyond
+        - paragraph [ref=f12e64]: SMB Real Estate Brokers L.L.C Is A UAE Property Advisory For Residential And Commercial Clients, Known For Independent Judgement, Attentive Execution And Relationships That Continue Beyond Completion.
+      - generic [ref=f12e65]:
+        - heading "Quick Links" [level=3] [ref=f12e66]
+        - list [ref=f12e67]:
+          - listitem [ref=f12e68]:
+            - link "Home" [ref=f12e69] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f12e70]:
+            - link "About" [ref=f12e71] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f12e72]:
+            - link "Services" [ref=f12e73] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f12e74]:
+            - link "Developers" [ref=f12e75] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f12e76]:
+            - link "Communities" [ref=f12e77] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f12e78]:
+            - link "Contact" [ref=f12e79] [cursor=pointer]:
+              - /url: contact.php
+      - generic [ref=f12e80]:
+        - heading "Contact" [level=3] [ref=f12e81]
+        - list [ref=f12e83]:
+          - listitem [ref=f12e84]:
+            - link "+971 50 421 7299" [ref=f12e85] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - listitem [ref=f12e86]:
+            - link "info@smbdubai.net" [ref=f12e87] [cursor=pointer]:
+              - /url: mailto:info@smbdubai.net
+          - listitem [ref=f12e88]: 3002 Westburry Tower Office,Business Bay, Dubai, UAE
+    - generic [ref=f12e89]:
+      - paragraph [ref=f12e90]: © 2026 SMB Real Estate Brokers L.L.C. All Rights Reserved.
+      - paragraph [ref=f12e91]: Prices, Availability And Handover Dates Are Indicative

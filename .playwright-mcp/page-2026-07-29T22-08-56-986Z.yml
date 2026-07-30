@@ -1,0 +1,208 @@
+- generic [active] [ref=f13e1]:
+  - link "Skip To Content" [ref=f13e2] [cursor=pointer]:
+    - /url: "#article-content"
+  - banner [ref=f13e3]:
+    - generic [ref=f13e4]:
+      - link "SMB Real Estate Brokers — Home" [ref=f13e5] [cursor=pointer]:
+        - /url: index.php
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f13e6]
+      - navigation "Main Navigation" [ref=f13e7]:
+        - list [ref=f13e8]:
+          - listitem [ref=f13e9]:
+            - link "Home" [ref=f13e10] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f13e11]:
+            - link "About" [ref=f13e12] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f13e13]:
+            - link "Services" [ref=f13e14] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f13e15]:
+            - link "Developers" [ref=f13e16] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f13e17]:
+            - link "Communities" [ref=f13e18] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f13e19]:
+            - link "Contact" [ref=f13e20] [cursor=pointer]:
+              - /url: contact.php
+      - link "+971 50 421 7299" [ref=f13e22] [cursor=pointer]:
+        - /url: tel:+971504217299
+  - main [ref=f13e26]:
+    - article [ref=f13e27]:
+      - region [ref=f13e28]:
+        - generic [ref=f13e31]:
+          - navigation "Breadcrumb" [ref=f13e32]:
+            - list [ref=f13e33]:
+              - listitem [ref=f13e34]:
+                - link "Home" [ref=f13e35] [cursor=pointer]:
+                  - /url: index.php
+              - listitem [ref=f13e36]:
+                - text: /
+                - link "Articles" [ref=f13e37] [cursor=pointer]:
+                  - /url: articles.php
+              - listitem [ref=f13e38]:
+                - text: /
+                - generic [ref=f13e39]: How To Assess A Dubai Off-Plan Investment Before You Reserve
+          - heading "How To Assess A Dubai Off-Plan Investment Before You Reserve" [level=1] [ref=f13e40]
+      - region "Article information" [ref=f13e41]:
+        - generic [ref=f13e42]:
+          - time [ref=f13e46]: July 18, 2026
+          - generic [ref=f13e47]: 8 min read
+      - region [ref=f13e50]:
+        - generic [ref=f13e51]:
+          - heading "Article Content" [level=2] [ref=f13e52]
+          - paragraph [ref=f13e53]: Off-plan property remains one of the most visible parts of the Dubai market. New launches can offer staged payments, early access to a community and the chance to buy into a project before its full identity is established. Those advantages are real, but they only become useful when the underlying project, developer and payment structure make sense for the buyer.
+          - paragraph [ref=f13e54]: "The most useful question is not whether a launch is popular. It is whether the property still works when you look beyond the brochure: the total amount payable, the timing of each instalment, the likely demand at handover and the alternatives available in the same area. A clear process helps separate a considered purchase from a rushed reservation."
+          - heading "Start With The Decision You Are Trying To Make" [level=2] [ref=f13e55]
+          - paragraph [ref=f13e56]: Before comparing towers or incentives, define the role the property is expected to play. A home for personal use should be judged by its plan, location and day-to-day convenience. An investment needs a different level of attention to rental demand, exit options, service charges and the depth of the future resale market.
+          - paragraph [ref=f13e57]: Write down the non-negotiables first. This might include a maximum cash commitment, a preferred handover period, access to schools or transport, or a minimum level of flexibility for resale. It also helps to decide whether your priority is an established location with visible demand or an emerging community with more development still to come.
+          - blockquote [ref=f13e58]:
+            - paragraph [ref=f13e59]: “A good off-plan decision is not made by the launch price alone. It is made by understanding what the property will ask of you before, during and after handover.”
+          - heading "Read The Payment Plan As A Cash-Flow Document" [level=2] [ref=f13e60]
+          - paragraph [ref=f13e61]: Payment plans are often presented as a simple sequence of percentages, but the percentages only become meaningful when they are mapped against actual dates and amounts. A plan with a manageable reservation payment can still create pressure if several large instalments arrive close together during construction.
+          - paragraph [ref=f13e62]: Build a small cash-flow schedule before reserving. Include the reservation amount, each construction instalment, the final payment, registration costs and a sensible allowance for furnishing or fit-out if the property will be occupied. If you are purchasing from outside the UAE, include transfer costs and the practical cost of moving funds between accounts.
+          - list [ref=f13e63]:
+            - listitem [ref=f13e64]: Translate every percentage into a currency amount.
+            - listitem [ref=f13e65]: Mark the date or construction milestone attached to each instalment.
+            - listitem [ref=f13e66]: Keep a reserve for costs that are outside the advertised price.
+            - listitem [ref=f13e67]: Check what happens if your circumstances change before handover.
+          - paragraph [ref=f13e68]: "The following example shows why two plans with the same headline percentage can feel very different in practice:"
+          - table [ref=f13e69]:
+            - rowgroup [ref=f13e70]:
+              - row [ref=f13e71]:
+                - columnheader "Stage" [ref=f13e72]
+                - columnheader "Example share" [ref=f13e73]
+                - columnheader "What to check" [ref=f13e74]
+            - rowgroup [ref=f13e75]:
+              - row [ref=f13e76]:
+                - cell "Reservation" [ref=f13e77]
+                - cell "10%" [ref=f13e78]
+                - cell "Reservation terms and refund conditions" [ref=f13e79]
+              - row [ref=f13e80]:
+                - cell "Construction" [ref=f13e81]
+                - cell "40%" [ref=f13e82]
+                - cell "Number and timing of instalments" [ref=f13e83]
+              - row [ref=f13e84]:
+                - cell "Handover" [ref=f13e85]
+                - cell "50%" [ref=f13e86]
+                - cell "Funding plan and completion requirements" [ref=f13e87]
+          - heading "Look Beyond The Advertised Price" [level=3] [ref=f13e88]
+          - paragraph [ref=f13e89]: The purchase price is the centre of the decision, but it is not the whole decision. Ask for a written explanation of registration, administration, service-charge expectations and any other costs that will affect ownership. For an investment, estimate the relationship between the total cost and the rent the finished property could reasonably achieve, rather than relying on a headline yield.
+          - heading "Assess The Developer And The Project Separately" [level=2] [ref=f13e90]
+          - paragraph [ref=f13e91]: A developer can have a strong record while a particular project still carries questions. Review completed buildings as well as announced launches. Look at the quality of shared areas, the reliability of handovers and how the finished product compares with the original specification. A site visit, where possible, can reveal more than a launch presentation.
+          - paragraph [ref=f13e92]: For the project itself, examine the plot, surrounding infrastructure and the number of comparable homes that may reach the market at a similar time. A well-designed apartment in a crowded future supply pipeline may have a different resale profile from a similar apartment in a location with more limited choice.
+          - list [ref=f13e93]:
+            - listitem [ref=f13e94]: Confirm the legal project identity and the sales documentation.
+            - listitem [ref=f13e95]: Review the developer's completed and delivered work.
+            - listitem [ref=f13e96]: Compare the specification with nearby completed alternatives.
+            - listitem [ref=f13e97]: Understand the expected service-charge and community obligations.
+            - listitem [ref=f13e98]: Ask how delays, variations and handover procedures are handled.
+          - figure "The finished experience matters as much as the launch presentation." [ref=f13e99]:
+            - img "Bright contemporary living room with views towards the water" [ref=f13e100]
+          - separator [ref=f13e102]
+          - heading "Compare The Future Home With A Current Alternative" [level=2] [ref=f13e103]
+          - paragraph [ref=f13e104]: "One of the most useful checks is to compare the off-plan opportunity with a completed property available today. The comparison does not need to be perfectly like-for-like. It should help answer what the buyer is receiving in exchange for waiting: a better price, a better plan, a stronger location, a more suitable payment structure or the possibility of a more complete community at handover."
+          - paragraph [ref=f13e105]: Consider the journey from the front door to the places that matter in daily life. Commute times, access to major roads, nearby retail, schools, parks and the quality of public space can affect both personal enjoyment and future demand. For an investor, the ease with which a tenant can understand and use the location is often more important than a long list of amenities.
+          - heading "Keep The Reservation Conversation Clear" [level=2] [ref=f13e106]
+          - paragraph [ref=f13e107]: A serious advisor should be able to explain the purchase in plain language, show the full payment sequence and identify what is known, what is estimated and what remains subject to change. You should be comfortable asking for time to review the documents and compare another option. Urgency may be part of a launch, but it should not replace understanding.
+          - paragraph [ref=f13e108]: Before signing, gather the final version of the offer, the payment plan, the reservation terms and the details of the unit itself. Keep your questions in writing and make sure the answers are reflected in the relevant documents. If the purchase is being made remotely, establish who will coordinate each step and how updates will be shared.
+          - heading "A Simple Final Check" [level=3] [ref=f13e109]
+          - paragraph [ref=f13e110]: Run the decision through three tests. First, can you comfortably meet the payment schedule without depending on an optimistic future event? Second, does the property still compare well with a completed alternative after all costs are considered? Third, would you understand why you chose this project if market sentiment changed next month?
+          - paragraph [ref=f13e111]: If the answer to all three is yes, you have a stronger foundation for a reservation. If not, the right next step may be to slow down, ask for clearer information or compare a different project. In Dubai's active market, there is value in acting decisively, but there is equal value in knowing exactly what you are deciding.
+      - region [ref=f13e112]:
+        - generic [ref=f13e113]:
+          - generic [ref=f13e114]:
+            - paragraph [ref=f13e115]: Keep Reading
+            - heading "Related Articles" [level=2] [ref=f13e116]
+          - generic [ref=f13e117]:
+            - article [ref=f13e118]:
+              - 'link "Read Freehold Ownership In The UAE: A Practical Guide For International Buyers" [ref=f13e119] [cursor=pointer]':
+                - /url: article.php?slug=freehold-ownership-in-the-uae
+                - img "Contemporary interior in a Dubai residence" [ref=f13e120]
+              - paragraph [ref=f13e121]: Market Insights
+              - heading [level=3] [ref=f13e122]:
+                - 'link "Freehold Ownership In The UAE: A Practical Guide For International Buyers" [ref=f13e123] [cursor=pointer]':
+                  - /url: article.php?slug=freehold-ownership-in-the-uae
+              - paragraph [ref=f13e124]: The key questions international buyers should ask about locations, ownership, costs and the journey from offer to title deed.
+              - generic [ref=f13e125]:
+                - paragraph [ref=f13e126]:
+                  - time [ref=f13e127]: June 27, 2026
+                  - generic [ref=f13e128]: ·
+                  - text: 6 min read
+                - link "Read More" [ref=f13e129] [cursor=pointer]:
+                  - /url: article.php?slug=freehold-ownership-in-the-uae
+                  - text: Read More
+                  - generic [ref=f13e130]: →
+            - article [ref=f13e131]:
+              - link "Read What Families Should Compare When Choosing A Dubai Community" [ref=f13e132] [cursor=pointer]:
+                - /url: article.php?slug=dubai-communities-for-families
+                - img "Villa community at dusk in the UAE" [ref=f13e133]
+              - paragraph [ref=f13e134]: Communities
+              - heading [level=3] [ref=f13e135]:
+                - link "What Families Should Compare When Choosing A Dubai Community" [ref=f13e136] [cursor=pointer]:
+                  - /url: article.php?slug=dubai-communities-for-families
+              - paragraph [ref=f13e137]: A grounded way to compare schools, daily connections, outdoor space and the character of family-oriented communities.
+              - generic [ref=f13e138]:
+                - paragraph [ref=f13e139]:
+                  - time [ref=f13e140]: June 11, 2026
+                  - generic [ref=f13e141]: ·
+                  - text: 5 min read
+                - link "Read More" [ref=f13e142] [cursor=pointer]:
+                  - /url: article.php?slug=dubai-communities-for-families
+                  - text: Read More
+                  - generic [ref=f13e143]: →
+      - region [ref=f13e144]:
+        - generic [ref=f13e146]:
+          - paragraph [ref=f13e147]: Get In Touch
+          - heading "Bring A Clearer View To Your Next Move" [level=2] [ref=f13e148]
+          - paragraph [ref=f13e149]: Tell us what the property needs to achieve. We will bring perspective to the decision and care to the work that follows.
+          - generic [ref=f13e150]:
+            - link "Start A Conversation" [ref=f13e151] [cursor=pointer]:
+              - /url: tel:+971504217299
+            - link "WhatsApp Us" [ref=f13e154] [cursor=pointer]:
+              - /url: https://wa.me/971504217299
+          - paragraph [ref=f13e157]:
+            - text: Prefer Email? Write To
+            - link "info@smbdubai.net" [ref=f13e158] [cursor=pointer]:
+              - /url: mailto:info@smbdubai.net
+  - contentinfo [ref=f13e159]:
+    - generic [ref=f13e160]:
+      - generic [ref=f13e161]:
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f13e162]
+        - paragraph [ref=f13e163]: Serving, Managing & Beyond
+        - paragraph [ref=f13e164]: SMB Real Estate Brokers L.L.C Is A UAE Property Advisory For Residential And Commercial Clients, Known For Independent Judgement, Attentive Execution And Relationships That Continue Beyond Completion.
+      - generic [ref=f13e165]:
+        - heading "Quick Links" [level=3] [ref=f13e166]
+        - list [ref=f13e167]:
+          - listitem [ref=f13e168]:
+            - link "Home" [ref=f13e169] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f13e170]:
+            - link "About" [ref=f13e171] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f13e172]:
+            - link "Services" [ref=f13e173] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f13e174]:
+            - link "Developers" [ref=f13e175] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f13e176]:
+            - link "Communities" [ref=f13e177] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f13e178]:
+            - link "Contact" [ref=f13e179] [cursor=pointer]:
+              - /url: contact.php
+      - generic [ref=f13e180]:
+        - heading "Contact" [level=3] [ref=f13e181]
+        - list [ref=f13e183]:
+          - listitem [ref=f13e184]:
+            - link "+971 50 421 7299" [ref=f13e185] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - listitem [ref=f13e186]:
+            - link "info@smbdubai.net" [ref=f13e187] [cursor=pointer]:
+              - /url: mailto:info@smbdubai.net
+          - listitem [ref=f13e188]: 3002 Westburry Tower Office,Business Bay, Dubai, UAE
+    - generic [ref=f13e189]:
+      - paragraph [ref=f13e190]: © 2026 SMB Real Estate Brokers L.L.C. All Rights Reserved.
+      - paragraph [ref=f13e191]: Prices, Availability And Handover Dates Are Indicative

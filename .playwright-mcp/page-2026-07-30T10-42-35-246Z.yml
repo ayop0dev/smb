@@ -1,0 +1,84 @@
+- generic [active] [ref=f10e1]:
+  - link "Skip To Content" [ref=f10e2] [cursor=pointer]:
+    - /url: "#overview"
+  - banner [ref=f10e3]:
+    - generic [ref=f10e4]:
+      - link "SMB Real Estate Brokers — Home" [ref=f10e5] [cursor=pointer]:
+        - /url: index.php
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f10e6]
+      - generic [ref=f10e7]:
+        - link "+971 50 421 7299" [ref=f10e8] [cursor=pointer]:
+          - /url: tel:+971504217299
+        - button "Open Menu" [ref=f10e12] [cursor=pointer]
+  - main [ref=f10e16]:
+    - region [ref=f10e17]:
+      - img "Placeholder Image For MAG Group Holding" [ref=f10e18]
+      - generic [ref=f10e21]:
+        - navigation "Breadcrumb" [ref=f10e22]:
+          - list [ref=f10e23]:
+            - listitem [ref=f10e24]:
+              - link "Home" [ref=f10e25] [cursor=pointer]:
+                - /url: index.php
+            - listitem [ref=f10e26]:
+              - text: /
+              - link "Developers" [ref=f10e27] [cursor=pointer]:
+                - /url: developers.php
+            - listitem [ref=f10e28]:
+              - text: /
+              - generic [ref=f10e29]: MAG Group Holding
+        - heading "MAG Group Holding" [level=1] [ref=f10e30]
+        - paragraph [ref=f10e31]: Diversified UAE developer with a growing portfolio of residential, hospitality and mixed-use projects.
+    - region [ref=f10e32]:
+      - generic [ref=f10e34]:
+        - img "Placeholder Image For MAG Group Holding" [ref=f10e36]
+        - generic [ref=f10e37]:
+          - paragraph [ref=f10e38]: Developer Overview
+          - img "MAG Group Holding Logo" [ref=f10e40]
+          - heading "MAG Group Holding" [level=2] [ref=f10e41]
+          - paragraph [ref=f10e42]: Diversified UAE developer with a growing portfolio of residential, hospitality and mixed-use projects.
+    - region [ref=f10e43]:
+      - generic [ref=f10e44]:
+        - generic [ref=f10e45]:
+          - paragraph [ref=f10e46]: Projects
+          - heading "Projects By MAG Group Holding" [level=2] [ref=f10e47]
+        - paragraph [ref=f10e48]: Coming Soon
+  - contentinfo [ref=f10e49]:
+    - generic [ref=f10e50]:
+      - generic [ref=f10e51]:
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f10e52]
+        - paragraph [ref=f10e53]: Serving, Managing & Beyond
+        - paragraph [ref=f10e54]: SMB Real Estate Brokers L.L.C Is A UAE Property Advisory For Residential And Commercial Clients, Known For Independent Judgement, Attentive Execution And Relationships That Continue Beyond Completion.
+      - generic [ref=f10e55]:
+        - heading "Quick Links" [level=3] [ref=f10e56]
+        - list [ref=f10e57]:
+          - listitem [ref=f10e58]:
+            - link "Home" [ref=f10e59] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f10e60]:
+            - link "About" [ref=f10e61] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f10e62]:
+            - link "Services" [ref=f10e63] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f10e64]:
+            - link "Developers" [ref=f10e65] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f10e66]:
+            - link "Communities" [ref=f10e67] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f10e68]:
+            - link "Contact" [ref=f10e69] [cursor=pointer]:
+              - /url: contact.php
+      - generic [ref=f10e70]:
+        - heading "Contact" [level=3] [ref=f10e71]
+        - list [ref=f10e73]:
+          - listitem [ref=f10e74]:
+            - link "+971 50 421 7299" [ref=f10e75] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - listitem [ref=f10e76]:
+            - link "info@smbdubai.net" [ref=f10e77] [cursor=pointer]:
+              - /url: mailto:info@smbdubai.net
+          - listitem [ref=f10e78]: 3002 Westburry Tower Office,Business Bay, Dubai, UAE
+    - generic [ref=f10e79]:
+      - paragraph [ref=f10e80]: © 2026 SMB Real Estate Brokers L.L.C. All Rights Reserved.
+      - paragraph [ref=f10e81]: Prices, Availability And Handover Dates Are Indicative

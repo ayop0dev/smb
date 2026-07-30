@@ -1,0 +1,257 @@
+- generic [active] [ref=f8e1]:
+  - link "Skip To Content" [ref=f8e2] [cursor=pointer]:
+    - /url: "#overview"
+  - banner [ref=f8e3]:
+    - generic [ref=f8e4]:
+      - link "SMB Real Estate Brokers — Home" [ref=f8e5] [cursor=pointer]:
+        - /url: index.php
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f8e6]
+      - generic [ref=f8e7]:
+        - link "+971 50 421 7299" [ref=f8e8] [cursor=pointer]:
+          - /url: tel:+971504217299
+        - button "Open Menu" [ref=f8e12] [cursor=pointer]
+  - main [ref=f8e16]:
+    - region [ref=f8e17]:
+      - img "DAMAC Islands 2 — High-End Waterfront Villas & Townhouses" [ref=f8e18]
+      - generic [ref=f8e20]:
+        - generic [ref=f8e21]:
+          - navigation "Breadcrumb" [ref=f8e22]:
+            - list [ref=f8e23]:
+              - listitem [ref=f8e24]:
+                - link "Home" [ref=f8e25] [cursor=pointer]:
+                  - /url: index.php
+              - listitem [ref=f8e26]:
+                - text: /
+                - link "DAMAC Properties" [ref=f8e27] [cursor=pointer]:
+                  - /url: damac-properties.php
+              - listitem [ref=f8e28]:
+                - text: /
+                - generic [ref=f8e29]: DAMAC Islands 2
+          - heading "DAMAC Islands 2" [level=1] [ref=f8e30]
+          - paragraph [ref=f8e31]: High-End Waterfront Villas & Townhouses
+          - paragraph [ref=f8e32]: A large-scale Dubailand community of villas and townhouses organised around water, landscaping and shared leisure spaces. This page sets out the current release, setting and practical considerations.
+          - generic [ref=f8e33]:
+            - link "Enquire Now" [ref=f8e34] [cursor=pointer]:
+              - /url: "#enquire"
+            - link "Explore The Project" [ref=f8e35] [cursor=pointer]:
+              - /url: "#overview"
+          - list "Trust Indicators" [ref=f8e36]:
+            - listitem [ref=f8e37]: Developed by DAMAC Properties
+            - listitem [ref=f8e38]: Freehold Community
+            - listitem [ref=f8e39]: Master-Planned Development
+        - generic [ref=f8e40]:
+          - paragraph [ref=f8e41]: Starting From
+          - paragraph [ref=f8e42]: AED 1.9 Million*
+          - paragraph [ref=f8e43]: "*Prices are subject to change by the developer."
+          - generic [ref=f8e44]:
+            - generic [ref=f8e45]:
+              - generic [ref=f8e46]: Full Name
+              - textbox "Full Name" [ref=f8e47]:
+                - /placeholder: Your Full Name
+            - generic [ref=f8e48]:
+              - generic [ref=f8e49]: Phone Number
+              - textbox "Phone Number" [ref=f8e50]:
+                - /placeholder: +971 50 000 0000
+            - generic [ref=f8e51]:
+              - generic [ref=f8e52]: Email Address
+              - textbox "Email Address" [ref=f8e53]:
+                - /placeholder: name@example.com
+            - button "Enquire Now" [ref=f8e54] [cursor=pointer]
+            - paragraph [ref=f8e55]: Our Team Will Contact You Shortly.
+    - region "Districts Of The Master Community" [ref=f8e56]:
+      - generic [ref=f8e57]:
+        - paragraph [ref=f8e58]: One master community · Eight island districts
+        - list [ref=f8e59]:
+          - listitem [ref=f8e60]: Bahamas
+          - listitem [ref=f8e61]: Tahiti
+          - listitem [ref=f8e62]: Bermuda
+          - listitem [ref=f8e63]: Barbados
+          - listitem [ref=f8e64]: Cuba
+          - listitem [ref=f8e65]: Maui
+          - listitem [ref=f8e66]: Mauritius
+          - listitem [ref=f8e67]: Antigua
+        - paragraph [ref=f8e68]: Now Launching
+    - region [ref=f8e70]:
+      - heading "Key Facts" [level=2] [ref=f8e71]
+      - list [ref=f8e73]:
+        - listitem [ref=f8e74]:
+          - generic [ref=f8e78]:
+            - paragraph [ref=f8e79]: Freehold
+            - paragraph [ref=f8e80]: Ownership for all nationalities
+        - listitem [ref=f8e81]:
+          - generic [ref=f8e85]:
+            - paragraph [ref=f8e86]: Villas & Townhouses
+            - paragraph [ref=f8e87]: 4–5 bedroom homes
+        - listitem [ref=f8e88]:
+          - generic [ref=f8e92]:
+            - paragraph [ref=f8e93]: Dec 2029
+            - paragraph [ref=f8e94]: Expected handover
+        - listitem [ref=f8e95]:
+          - generic [ref=f8e99]:
+            - paragraph [ref=f8e100]: ~20M sq.ft
+            - paragraph [ref=f8e101]: Master community
+    - region [ref=f8e102]:
+      - generic [ref=f8e103]:
+        - generic [ref=f8e104]:
+          - paragraph [ref=f8e105]: Project Overview
+          - heading "A waterfront community taking shape in Dubailand" [level=2] [ref=f8e106]
+          - paragraph [ref=f8e107]: "DAMAC Islands 2 brings villas and townhouses into a water-led master plan in Dubailand. The proposition is straightforward: larger homes, a broad amenity programme and a suburban setting connected to Dubai's main road network."
+          - paragraph [ref=f8e108]: Eight island themes give the districts their individual identity. Across them, the plan combines lagoons, landscaped parks, walking routes and family recreation. Buyers should consider that environment alongside the 2029 handover horizon and the scale of the wider community.
+          - link "Speak With A Property Consultant" [ref=f8e109] [cursor=pointer]:
+            - /url: "#enquire"
+        - generic [ref=f8e110]:
+          - article [ref=f8e111]:
+            - generic [ref=f8e115]:
+              - paragraph [ref=f8e116]: 4–5
+              - paragraph [ref=f8e117]: Bedrooms in the current release
+          - article [ref=f8e118]:
+            - generic [ref=f8e122]:
+              - paragraph [ref=f8e123]: From 2,180 sq.ft
+              - paragraph [ref=f8e124]: Built-up area, up to approx. 3,160 sq.ft
+          - article [ref=f8e125]:
+            - generic [ref=f8e129]:
+              - paragraph [ref=f8e130]: 20+
+              - paragraph [ref=f8e131]: Features & amenities across the community
+    - region [ref=f8e132]:
+      - generic [ref=f8e133]:
+        - generic [ref=f8e134]:
+          - paragraph [ref=f8e135]: Lifestyle Gallery
+          - heading "Designed around water, nature and light" [level=2] [ref=f8e136]
+        - generic [ref=f8e137]:
+          - figure [ref=f8e138]:
+            - 'button "View Larger: DAMAC Islands 2 — Lifestyle Image 1" [ref=f8e139] [cursor=pointer]':
+              - img "DAMAC Islands 2 — Lifestyle Image 1" [ref=f8e140]
+          - figure [ref=f8e141]:
+            - 'button "View Larger: DAMAC Islands 2 — Lifestyle Image 2" [ref=f8e142] [cursor=pointer]':
+              - img "DAMAC Islands 2 — Lifestyle Image 2" [ref=f8e143]
+          - figure [ref=f8e144]:
+            - 'button "View Larger: DAMAC Islands 2 — Lifestyle Image 3" [ref=f8e145] [cursor=pointer]':
+              - img "DAMAC Islands 2 — Lifestyle Image 3" [ref=f8e146]
+          - figure [ref=f8e147]:
+            - 'button "View Larger: DAMAC Islands 2 — Lifestyle Image 4" [ref=f8e148] [cursor=pointer]':
+              - img "DAMAC Islands 2 — Lifestyle Image 4" [ref=f8e149]
+    - region [ref=f8e150]:
+      - generic [ref=f8e151]:
+        - generic [ref=f8e152]:
+          - paragraph [ref=f8e153]: Features & Amenities
+          - heading "Amenities organised around everyday life" [level=2] [ref=f8e154]
+        - list [ref=f8e155]:
+          - listitem [ref=f8e156]:
+            - heading "Water Features" [level=3] [ref=f8e160]
+            - paragraph [ref=f8e161]: Lagoons, sandy edges, swimming pools and waterfront parks.
+          - listitem [ref=f8e162]:
+            - heading "Sports & Fitness" [level=3] [ref=f8e166]
+            - paragraph [ref=f8e167]: Fitness centres, sports courts, running and cycling tracks, and mini golf.
+          - listitem [ref=f8e168]:
+            - heading "Wellness" [level=3] [ref=f8e172]
+            - paragraph [ref=f8e173]: Spa facilities, quieter wellness areas and outdoor yoga spaces.
+          - listitem [ref=f8e174]:
+            - heading "Family" [level=3] [ref=f8e178]
+            - paragraph [ref=f8e179]: Community parks, barbecue areas and shared gathering spaces.
+          - listitem [ref=f8e180]:
+            - heading "Kids" [level=3] [ref=f8e184]
+            - paragraph [ref=f8e185]: Playgrounds and dedicated activity areas for children.
+          - listitem [ref=f8e186]:
+            - heading "Dining & Retail" [level=3] [ref=f8e190]
+            - paragraph [ref=f8e191]: A planned retail boulevard with shops, restaurants and cafés.
+          - listitem [ref=f8e192]:
+            - heading "Nature" [level=3] [ref=f8e196]
+            - paragraph [ref=f8e197]: Botanical gardens, ecological parks, walking trails and planted open space.
+          - listitem [ref=f8e198]:
+            - heading "Security" [level=3] [ref=f8e202]
+            - paragraph [ref=f8e203]: Controlled community access and dedicated security.
+    - region [ref=f8e204]:
+      - generic [ref=f8e206]:
+        - generic [ref=f8e207]:
+          - paragraph [ref=f8e208]: Location & Connectivity
+          - heading "Minutes from Dubai's key destinations" [level=2] [ref=f8e209]
+          - paragraph [ref=f8e210]: The site connects with Al Qudra Road (D63), Emirates Road (E611) and Sheikh Mohammed Bin Zayed Road (E311), placing it within reach of Dubai's principal business, leisure and airport districts.
+        - list [ref=f8e211]:
+          - listitem [ref=f8e212]:
+            - heading "Downtown Dubai" [level=3] [ref=f8e216]
+            - paragraph [ref=f8e217]: 30–35 minutes
+          - listitem [ref=f8e220]:
+            - heading "Dubai Marina" [level=3] [ref=f8e224]
+            - paragraph [ref=f8e225]: 30 minutes
+          - listitem [ref=f8e228]:
+            - heading "Dubai International Airport" [level=3] [ref=f8e232]
+            - paragraph [ref=f8e233]: 35–40 minutes
+          - listitem [ref=f8e236]:
+            - heading "Al Maktoum International Airport" [level=3] [ref=f8e240]
+            - paragraph [ref=f8e241]: 30 minutes
+        - paragraph [ref=f8e244]: Approximate Driving Times.
+    - region [ref=f8e245]:
+      - generic [ref=f8e246]:
+        - generic [ref=f8e247]:
+          - paragraph [ref=f8e248]: Contact
+          - heading "Enquire Now" [level=2] [ref=f8e249]
+          - paragraph [ref=f8e250]: Fill Out The Form And Our Team Will Get Back To You Shortly.
+          - generic [ref=f8e251]:
+            - link "WhatsApp" [ref=f8e252] [cursor=pointer]:
+              - /url: https://wa.me/971504217299
+            - link "Call +971 50 421 7299" [ref=f8e255] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - list [ref=f8e259]:
+            - listitem [ref=f8e260]:
+              - link "info@smbdubai.net" [ref=f8e263] [cursor=pointer]:
+                - /url: mailto:info@smbdubai.net
+            - listitem [ref=f8e264]:
+              - generic [ref=f8e267]: 3002 Westburry Tower Office, Business Bay, Dubai, UAE
+        - generic [ref=f8e269]:
+          - generic [ref=f8e270]:
+            - generic [ref=f8e271]: Full Name
+            - textbox "Full Name" [ref=f8e272]:
+              - /placeholder: Your Full Name
+          - generic [ref=f8e273]:
+            - generic [ref=f8e274]: Phone Number
+            - textbox "Phone Number" [ref=f8e275]:
+              - /placeholder: +971 50 000 0000
+          - generic [ref=f8e276]:
+            - generic [ref=f8e277]: Email Address
+            - textbox "Email Address" [ref=f8e278]:
+              - /placeholder: name@example.com
+          - generic [ref=f8e279]:
+            - generic [ref=f8e280]: Message (Optional)
+            - textbox "Message (Optional)" [ref=f8e281]:
+              - /placeholder: Tell Us What You Are Looking For
+          - button "Send Enquiry" [ref=f8e282] [cursor=pointer]
+  - contentinfo [ref=f8e283]:
+    - generic [ref=f8e284]:
+      - generic [ref=f8e285]:
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f8e286]
+        - paragraph [ref=f8e287]: Serving, Managing & Beyond
+        - paragraph [ref=f8e288]: SMB Real Estate Brokers L.L.C Is A UAE Property Advisory For Residential And Commercial Clients, Known For Independent Judgement, Attentive Execution And Relationships That Continue Beyond Completion.
+      - generic [ref=f8e289]:
+        - heading "Quick Links" [level=3] [ref=f8e290]
+        - list [ref=f8e291]:
+          - listitem [ref=f8e292]:
+            - link "Home" [ref=f8e293] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f8e294]:
+            - link "About" [ref=f8e295] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f8e296]:
+            - link "Services" [ref=f8e297] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f8e298]:
+            - link "Developers" [ref=f8e299] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f8e300]:
+            - link "Communities" [ref=f8e301] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f8e302]:
+            - link "Contact" [ref=f8e303] [cursor=pointer]:
+              - /url: contact.php
+      - generic [ref=f8e304]:
+        - heading "Contact" [level=3] [ref=f8e305]
+        - list [ref=f8e307]:
+          - listitem [ref=f8e308]:
+            - link "+971 50 421 7299" [ref=f8e309] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - listitem [ref=f8e310]:
+            - link "info@smbdubai.net" [ref=f8e311] [cursor=pointer]:
+              - /url: mailto:info@smbdubai.net
+          - listitem [ref=f8e312]: 3002 Westburry Tower Office,Business Bay, Dubai, UAE
+    - generic [ref=f8e313]:
+      - paragraph [ref=f8e314]: © 2026 SMB Real Estate Brokers L.L.C. All Rights Reserved.
+      - paragraph [ref=f8e315]: Prices, Availability And Handover Dates Are Indicative

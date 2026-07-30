@@ -1,0 +1,251 @@
+- generic [active] [ref=f9e1]:
+  - link "Skip To Content" [ref=f9e2] [cursor=pointer]:
+    - /url: "#overview"
+  - banner [ref=f9e3]:
+    - generic [ref=f9e4]:
+      - link "SMB Real Estate Brokers — Home" [ref=f9e5] [cursor=pointer]:
+        - /url: index.php
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f9e6]
+      - navigation "Main Navigation" [ref=f9e7]:
+        - list [ref=f9e8]:
+          - listitem [ref=f9e9]:
+            - link "Home" [ref=f9e10] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f9e11]:
+            - link "About" [ref=f9e12] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f9e13]:
+            - link "Services" [ref=f9e14] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f9e15]:
+            - link "Developers" [ref=f9e16] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f9e17]:
+            - link "Communities" [ref=f9e18] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f9e19]:
+            - link "Contact" [ref=f9e20] [cursor=pointer]:
+              - /url: contact.php
+      - link "+971 50 421 7299" [ref=f9e22] [cursor=pointer]:
+        - /url: tel:+971504217299
+  - main [ref=f9e26]:
+    - region [ref=f9e27]:
+      - img "Fahid Island — Apartments, Townhouses and Villas" [ref=f9e28]
+      - generic [ref=f9e30]:
+        - generic [ref=f9e31]:
+          - navigation "Breadcrumb" [ref=f9e32]:
+            - list [ref=f9e33]:
+              - listitem [ref=f9e34]:
+                - link "Home" [ref=f9e35] [cursor=pointer]:
+                  - /url: index.php
+              - listitem [ref=f9e36]:
+                - text: /
+                - link "Aldar" [ref=f9e37] [cursor=pointer]:
+                  - /url: aldar-properties.php
+              - listitem [ref=f9e38]:
+                - text: /
+                - generic [ref=f9e39]: Fahid Island
+          - heading "Fahid Island" [level=1] [ref=f9e40]
+          - paragraph [ref=f9e41]: Apartments, Townhouses and Villas
+          - paragraph [ref=f9e42]: Aldars coastal wellness masterplan between Yas Island and Saadiyat Island, with beaches, mangroves, parks and walkable public spaces.
+          - generic [ref=f9e43]:
+            - link "Enquire Now" [ref=f9e44] [cursor=pointer]:
+              - /url: "#enquire"
+            - link "Explore The Project" [ref=f9e45] [cursor=pointer]:
+              - /url: "#overview"
+          - list "Trust Indicators" [ref=f9e46]:
+            - listitem [ref=f9e47]: Developed by Aldar Properties
+            - listitem [ref=f9e48]: Located in Fahid Island
+            - listitem [ref=f9e49]: Waterfront Community
+        - generic [ref=f9e50]:
+          - paragraph [ref=f9e51]: Pricing
+          - paragraph [ref=f9e52]: Available On Request
+          - generic [ref=f9e53]:
+            - generic [ref=f9e54]:
+              - generic [ref=f9e55]: Full Name
+              - textbox "Full Name" [ref=f9e56]:
+                - /placeholder: Your Full Name
+            - generic [ref=f9e57]:
+              - generic [ref=f9e58]: Phone Number
+              - textbox "Phone Number" [ref=f9e59]:
+                - /placeholder: +971 50 000 0000
+            - generic [ref=f9e60]:
+              - generic [ref=f9e61]: Email Address
+              - textbox "Email Address" [ref=f9e62]:
+                - /placeholder: name@example.com
+            - button "Enquire Now" [ref=f9e63] [cursor=pointer]
+            - paragraph [ref=f9e64]: Our Team Will Contact You Shortly.
+    - region [ref=f9e65]:
+      - heading "Key Facts" [level=2] [ref=f9e66]
+      - list [ref=f9e68]:
+        - listitem [ref=f9e69]:
+          - generic [ref=f9e73]:
+            - paragraph [ref=f9e74]: Apartments, Townhouses and Villas
+            - paragraph [ref=f9e75]: Property type
+        - listitem [ref=f9e76]:
+          - generic [ref=f9e80]:
+            - paragraph [ref=f9e81]: "6000"
+            - paragraph [ref=f9e82]: Total units
+        - listitem [ref=f9e83]:
+          - generic [ref=f9e87]:
+            - paragraph [ref=f9e88]: Masterplan announced
+            - paragraph [ref=f9e89]: Project status
+        - listitem [ref=f9e90]:
+          - generic [ref=f9e94]:
+            - paragraph [ref=f9e95]: Fahid Island, Abu Dhabi
+            - paragraph [ref=f9e96]: Location
+    - region [ref=f9e97]:
+      - generic [ref=f9e98]:
+        - generic [ref=f9e99]:
+          - paragraph [ref=f9e100]: Project Overview
+          - heading "Discover Fahid Island" [level=2] [ref=f9e101]
+          - paragraph [ref=f9e102]: Aldars coastal wellness masterplan between Yas Island and Saadiyat Island, with beaches, mangroves, parks and walkable public spaces.
+          - link "Speak With A Property Consultant" [ref=f9e103] [cursor=pointer]:
+            - /url: "#enquire"
+        - generic [ref=f9e104]:
+          - article [ref=f9e105]:
+            - generic [ref=f9e109]:
+              - paragraph [ref=f9e110]: "6000"
+              - paragraph [ref=f9e111]: Total units
+          - article [ref=f9e112]:
+            - generic [ref=f9e116]:
+              - paragraph [ref=f9e117]: Apartments, Townhouses and Villas
+              - paragraph [ref=f9e118]: Property type
+          - article [ref=f9e119]:
+            - generic [ref=f9e123]:
+              - paragraph [ref=f9e124]: Masterplan announced
+              - paragraph [ref=f9e125]: Project status
+    - region [ref=f9e126]:
+      - generic [ref=f9e127]:
+        - generic [ref=f9e128]:
+          - paragraph [ref=f9e129]: Lifestyle Gallery
+          - heading "A closer look at Fahid Island" [level=2] [ref=f9e130]
+        - generic [ref=f9e131]:
+          - figure [ref=f9e132]:
+            - 'button "View Larger: Fahid Island — Lifestyle Image 1" [ref=f9e133] [cursor=pointer]':
+              - img "Fahid Island — Lifestyle Image 1" [ref=f9e134]
+          - figure [ref=f9e135]:
+            - 'button "View Larger: Fahid Island — Lifestyle Image 2" [ref=f9e136] [cursor=pointer]':
+              - img "Fahid Island — Lifestyle Image 2" [ref=f9e137]
+          - figure [ref=f9e138]:
+            - 'button "View Larger: Fahid Island — Lifestyle Image 3" [ref=f9e139] [cursor=pointer]':
+              - img "Fahid Island — Lifestyle Image 3" [ref=f9e140]
+          - figure [ref=f9e141]:
+            - 'button "View Larger: Fahid Island — Lifestyle Image 4" [ref=f9e142] [cursor=pointer]':
+              - img "Fahid Island — Lifestyle Image 4" [ref=f9e143]
+    - region [ref=f9e144]:
+      - generic [ref=f9e145]:
+        - generic [ref=f9e146]:
+          - paragraph [ref=f9e147]: Features & Amenities
+          - heading "Amenities at Fahid Island" [level=2] [ref=f9e148]
+        - list [ref=f9e149]:
+          - listitem [ref=f9e150]:
+            - heading "Beaches" [level=3] [ref=f9e154]
+            - paragraph [ref=f9e155]: A dedicated swimming and relaxation area within the development.
+          - listitem [ref=f9e156]:
+            - heading "Waterfront promenade" [level=3] [ref=f9e160]
+            - paragraph [ref=f9e161]: A dedicated swimming and relaxation area within the development.
+          - listitem [ref=f9e162]:
+            - heading "Berm park" [level=3] [ref=f9e166]
+            - paragraph [ref=f9e167]: Landscaped space for outdoor leisure and relaxation.
+          - listitem [ref=f9e168]:
+            - heading "Running and cycling routes" [level=3] [ref=f9e172]
+            - paragraph [ref=f9e173]: A dedicated running and cycling routes area within the development.
+          - listitem [ref=f9e174]:
+            - heading "Mangrove boardwalk" [level=3] [ref=f9e178]
+            - paragraph [ref=f9e179]: A dedicated mangrove boardwalk area within the development.
+    - region [ref=f9e180]:
+      - generic [ref=f9e182]:
+        - generic [ref=f9e183]:
+          - paragraph [ref=f9e184]: Location & Connectivity
+          - heading "Connected living in Fahid Island, Abu Dhabi" [level=2] [ref=f9e185]
+          - paragraph [ref=f9e186]: Fahid Island is located in Fahid Island, Abu Dhabi.
+        - list [ref=f9e187]:
+          - listitem [ref=f9e188]:
+            - heading "Yas Island" [level=3] [ref=f9e192]
+            - paragraph [ref=f9e193]: Under 15 minutes
+          - listitem [ref=f9e196]:
+            - heading "Saadiyat Island" [level=3] [ref=f9e200]
+            - paragraph [ref=f9e201]: Under 15 minutes
+          - listitem [ref=f9e204]:
+            - heading "Zayed International Airport" [level=3] [ref=f9e208]
+            - paragraph [ref=f9e209]: Under 15 minutes
+          - listitem [ref=f9e212]:
+            - heading "Key Destination" [level=3] [ref=f9e216]
+            - paragraph [ref=f9e217]: Travel Details Available On Request
+        - paragraph [ref=f9e220]: Approximate Driving Times.
+    - region [ref=f9e221]:
+      - generic [ref=f9e222]:
+        - generic [ref=f9e223]:
+          - paragraph [ref=f9e224]: Contact
+          - heading "Enquire Now" [level=2] [ref=f9e225]
+          - paragraph [ref=f9e226]: Fill Out The Form And Our Team Will Get Back To You Shortly.
+          - generic [ref=f9e227]:
+            - link "WhatsApp" [ref=f9e228] [cursor=pointer]:
+              - /url: https://wa.me/971504217299
+            - link "Call +971 50 421 7299" [ref=f9e231] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - list [ref=f9e235]:
+            - listitem [ref=f9e236]:
+              - link "info@smbdubai.net" [ref=f9e239] [cursor=pointer]:
+                - /url: mailto:info@smbdubai.net
+            - listitem [ref=f9e240]:
+              - generic [ref=f9e243]: 3002 Westburry Tower Office, Business Bay, Dubai, UAE
+        - generic [ref=f9e245]:
+          - generic [ref=f9e246]:
+            - generic [ref=f9e247]: Full Name
+            - textbox "Full Name" [ref=f9e248]:
+              - /placeholder: Your Full Name
+          - generic [ref=f9e249]:
+            - generic [ref=f9e250]: Phone Number
+            - textbox "Phone Number" [ref=f9e251]:
+              - /placeholder: +971 50 000 0000
+          - generic [ref=f9e252]:
+            - generic [ref=f9e253]: Email Address
+            - textbox "Email Address" [ref=f9e254]:
+              - /placeholder: name@example.com
+          - generic [ref=f9e255]:
+            - generic [ref=f9e256]: Message (Optional)
+            - textbox "Message (Optional)" [ref=f9e257]:
+              - /placeholder: Tell Us What You Are Looking For
+          - button "Send Enquiry" [ref=f9e258] [cursor=pointer]
+  - contentinfo [ref=f9e259]:
+    - generic [ref=f9e260]:
+      - generic [ref=f9e261]:
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f9e262]
+        - paragraph [ref=f9e263]: Serving, Managing & Beyond
+        - paragraph [ref=f9e264]: SMB Real Estate Brokers L.L.C Is A UAE Property Advisory For Residential And Commercial Clients, Known For Independent Judgement, Attentive Execution And Relationships That Continue Beyond Completion.
+      - generic [ref=f9e265]:
+        - heading "Quick Links" [level=3] [ref=f9e266]
+        - list [ref=f9e267]:
+          - listitem [ref=f9e268]:
+            - link "Home" [ref=f9e269] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f9e270]:
+            - link "About" [ref=f9e271] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f9e272]:
+            - link "Services" [ref=f9e273] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f9e274]:
+            - link "Developers" [ref=f9e275] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f9e276]:
+            - link "Communities" [ref=f9e277] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f9e278]:
+            - link "Contact" [ref=f9e279] [cursor=pointer]:
+              - /url: contact.php
+      - generic [ref=f9e280]:
+        - heading "Contact" [level=3] [ref=f9e281]
+        - list [ref=f9e283]:
+          - listitem [ref=f9e284]:
+            - link "+971 50 421 7299" [ref=f9e285] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - listitem [ref=f9e286]:
+            - link "info@smbdubai.net" [ref=f9e287] [cursor=pointer]:
+              - /url: mailto:info@smbdubai.net
+          - listitem [ref=f9e288]: 3002 Westburry Tower Office,Business Bay, Dubai, UAE
+    - generic [ref=f9e289]:
+      - paragraph [ref=f9e290]: © 2026 SMB Real Estate Brokers L.L.C. All Rights Reserved.
+      - paragraph [ref=f9e291]: Prices, Availability And Handover Dates Are Indicative

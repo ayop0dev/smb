@@ -9,10 +9,13 @@ $skip_link = '#projects';
 $page_styles = [
     'assets/css/home.css',
     'assets/css/communities.css',
+    'assets/css/articles.css',
 ];
 
 require __DIR__ . '/includes/project-data.php';
 require __DIR__ . '/includes/developer-data.php';
+require __DIR__ . '/includes/article-data.php';
+$home_articles = array_slice(get_all_articles(), 0, 3);
 require __DIR__ . '/includes/header.php';
 ?>
 
@@ -23,7 +26,7 @@ require __DIR__ . '/includes/header.php';
     'url' => $site_url . '/',
   ], JSON_UNESCAPED_SLASHES) ?></script>
 
-  <main id="top">
+  <main id="top" data-neutral-sequence>
 
     <section class="hero hero--home" aria-labelledby="hero-title">
       <img class="hero__bg hero__bg--fallback" src="assets/images/hero-lagoon-aerial.jpg"
@@ -76,7 +79,7 @@ require __DIR__ . '/includes/header.php';
           return 'developers.php#developer-' . developer_slug($developerName);
       };
     ?>
-    <section class="projects section" id="projects" aria-labelledby="projects-title">
+    <section class="projects section" id="projects" aria-labelledby="projects-title" data-neutral-section>
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Featured Projects</p>
@@ -97,7 +100,7 @@ require __DIR__ . '/includes/header.php';
       </div>
     </section>
 
-    <section class="categories section" id="categories" aria-labelledby="categories-title">
+    <section class="categories section" id="categories" aria-labelledby="categories-title" data-neutral-section>
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Property Types</p>
@@ -156,7 +159,7 @@ require __DIR__ . '/includes/header.php';
       </div>
     </section>
 
-    <section class="steps section" aria-labelledby="steps-title">
+    <section class="steps section" aria-labelledby="steps-title" data-neutral-section>
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">How It Works</p>
@@ -187,7 +190,7 @@ require __DIR__ . '/includes/header.php';
       </div>
     </section>
 
-    <section class="communities section section--gray" id="communities" aria-labelledby="communities-title">
+    <section class="communities section" id="communities" aria-labelledby="communities-title" data-neutral-section>
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Featured Communities</p>
@@ -243,7 +246,7 @@ require __DIR__ . '/includes/header.php';
       </div>
     </section>
 
-    <section class="testimonials section section--gray" aria-labelledby="testimonials-title">
+    <section class="testimonials section" aria-labelledby="testimonials-title" data-neutral-section>
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Client Stories</p>
@@ -284,43 +287,14 @@ require __DIR__ . '/includes/header.php';
       </div>
     </section>
 
-    <section class="insights section" id="insights" aria-labelledby="insights-title">
+    <section class="insights section" id="insights" aria-labelledby="insights-title" data-neutral-section>
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Latest Insights</p>
           <h2 id="insights-title">Perspective for better decisions</h2>
         </div>
         <div class="insights__grid">
-          <article class="insight-card" data-reveal>
-            <a class="insight-card__media" href="#" aria-hidden="true" tabindex="-1">
-              <img src="assets/images/hero-lagoon-aerial.jpg"
-                   alt="" loading="lazy" width="1800" height="1200">
-            </a>
-            <p class="insight-card__tag">Market Insights</p>
-            <h3><a href="#" aria-label="Dubai off-plan in 2026: what buyers should know before reserving (article to be added)">UAE off-plan in 2026: what buyers should know before reserving</a></h3>
-            <p class="insight-card__excerpt">Payment plans, handover timelines and how to evaluate a developer's track record.</p>
-            <p class="insight-card__date">July 2026 &middot; 6 min read</p>
-          </article>
-          <article class="insight-card" data-reveal>
-            <a class="insight-card__media" href="#" aria-hidden="true" tabindex="-1">
-              <img src="assets/images/gallery-interior.jpg"
-                   alt="" loading="lazy" width="900" height="1200">
-            </a>
-            <p class="insight-card__tag">Buying Guides</p>
-            <h3><a href="#" aria-label="Freehold ownership in Dubai: a practical guide for international buyers (article to be added)">Freehold ownership in the UAE: a practical guide for international buyers</a></h3>
-            <p class="insight-card__excerpt">What freehold means, where international buyers can purchase and the steps from offer to title deed.</p>
-            <p class="insight-card__date">June 2026 &middot; 5 min read</p>
-          </article>
-          <article class="insight-card" data-reveal>
-            <a class="insight-card__media" href="#" aria-hidden="true" tabindex="-1">
-              <img src="assets/images/gallery-villa-dusk.jpg"
-                   alt="" loading="lazy" width="1800" height="1200">
-            </a>
-            <p class="insight-card__tag">Communities</p>
-            <h3><a href="#" aria-label="Five Dubai communities families are choosing in 2026 (article to be added)">UAE communities families are considering in 2026</a></h3>
-            <p class="insight-card__excerpt">Schools, parks and connectivity &mdash; how family communities across the Emirates compare.</p>
-            <p class="insight-card__date">June 2026 &middot; 4 min read</p>
-          </article>
+<?php foreach ($home_articles as $article): require __DIR__ . '/template-parts/article-card.php'; endforeach; ?>
         </div>
       </div>
     </section>

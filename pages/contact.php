@@ -18,7 +18,7 @@ $breadcrumb_trail = [
 require __DIR__ . '/../includes/header.php';
 ?>
 
-  <main id="top">
+  <main id="top" data-neutral-sequence>
 
     <section class="hero hero--page" aria-labelledby="hero-title">
       <img class="hero__bg" src="assets/images/projects/bay-grove-residences/webp/01-exterior.webp"
@@ -36,7 +36,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="methods section" id="methods" aria-labelledby="methods-title">
+    <section class="methods section" id="methods" aria-labelledby="methods-title" data-neutral-section>
       <div class="container">
         <h2 class="visually-hidden" id="methods-title">Ways To Contact Us</h2>
         <div class="methods__grid">
@@ -65,7 +65,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="enquire section section--gray" id="enquire" aria-labelledby="enquire-title">
+    <section class="enquire section" id="enquire" aria-labelledby="enquire-title" data-neutral-section>
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Request A Consultation</p>
@@ -117,8 +117,8 @@ require __DIR__ . '/../includes/header.php';
               <p class="lead-form__privacy">Our Team Will Contact You To Understand Your Needs And Agree The Next Step.</p>
             </form>
             <div class="lead-form__success lead-form__success--card" hidden>
-              <p class="lead-form__success-title">Thank You</p>
-              <p>Your Enquiry Has Been Received. An SMB Property Consultant Will Contact You To Understand Your Goals And Guide The Next Step.</p>
+              <p class="lead-form__success-title">Backend Integration In Progress</p>
+              <p>Thank You For Your Interest. The Enquiry System Is Currently Being Connected To The Backend. Form Submission Will Become Available In The Upcoming WordPress Version.</p>
             </div>
           </div>
 
@@ -163,7 +163,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="visit section section--gray" aria-labelledby="visit-title">
+    <section class="visit section" aria-labelledby="visit-title" data-neutral-section>
       <div class="container visit__inner">
         <p class="eyebrow" data-reveal>Prefer To Talk?</p>
         <h2 id="visit-title" data-reveal>A Direct Conversation, In Person Or By Phone</h2>

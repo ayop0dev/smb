@@ -9,7 +9,7 @@
   RewriteEngine On
 
   # Top-level standalone pages
-  RewriteRule ^(about|services|developers|communities|contact)\.php$ pages/$1.php [L]
+  RewriteRule ^(about|services|developers|communities|contact|articles|article)\.php$ pages/$1.php [L]
 
   # Developer archive pages
   RewriteRule ^(aldar-properties|azizi-developments|binghatti-developers|damac-properties|danube-properties|deyaar-development|dubai-properties|ellington-properties|emaar-properties|iman-developers|mag-group-holding|meraas|nakheel|omniyat|pantheon-development|reportage-properties|samana-developers|select-group|sobha-realty|tiger-properties)\.php$ developers/$1.php [L]

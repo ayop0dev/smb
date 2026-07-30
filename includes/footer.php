@@ -6,7 +6,7 @@
 $sticky_href = $sticky_href ?? '#enquire';
 $sticky_label = $sticky_label ?? 'UAE Property Advisory';
 $sticky_value = $sticky_value ?? 'Start A Conversation';
-$sticky_action = $sticky_action ?? 'Contact Us';
+$sticky_action = $sticky_action ?? '';
 ?>
 
   <footer class="footer">
@@ -43,7 +43,7 @@ $sticky_action = $sticky_action ?? 'Contact Us';
     <div class="container footer__bottom">
       <p>&copy; <span id="year">2026</span> SMB Real Estate Brokers L.L.C. All Rights Reserved.</p>
       <p class="footer__disclaimer">
-        Prices, Availability And Handover Dates Are Indicative And Subject To Change By The Developer.
+        Prices, Availability And Handover Dates Are Indicative
       </p>
     </div>
   </footer>
@@ -82,7 +82,9 @@ $sticky_action = $sticky_action ?? 'Contact Us';
       <span class="sticky-cta__price"><?= smb_e($sticky_value) ?></span>
     </span>
     <span class="sticky-cta__action">
-      <?= smb_e($sticky_action) ?>
+<?php if ($sticky_action !== ''): ?>
+      <span class="sticky-cta__action-label"><?= smb_e($sticky_action) ?></span>
+<?php endif; ?>
       <svg class="icon icon--sm" aria-hidden="true"><use href="#i-arrow"/></svg>
     </span>
   </a>

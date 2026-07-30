@@ -80,6 +80,6 @@ $ef_ctx = $enquiry_form_context;
 <?php endif; ?>
           </form>
           <div class="<?= smb_e($ef_success_class) ?>" hidden>
-            <p class="lead-form__success-title">Thank You</p>
+            <p class="lead-form__success-title">Backend Integration In Progress</p>
             <p><?= smb_e($enquiry_form_success_message) ?></p>
           </div>

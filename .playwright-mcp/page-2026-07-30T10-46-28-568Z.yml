@@ -1,0 +1,117 @@
+- generic [active] [ref=f16e1]:
+  - link "Skip To Content" [ref=f16e2] [cursor=pointer]:
+    - /url: "#overview"
+  - banner [ref=f16e3]:
+    - generic [ref=f16e4]:
+      - link "SMB Real Estate Brokers — Home" [ref=f16e5] [cursor=pointer]:
+        - /url: index.php
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f16e6]
+      - generic [ref=f16e7]:
+        - link "+971 50 421 7299" [ref=f16e8] [cursor=pointer]:
+          - /url: tel:+971504217299
+        - button "Open Menu" [ref=f16e12] [cursor=pointer]
+  - main [ref=f16e16]:
+    - region [ref=f16e17]:
+      - img "DAMAC Riverside Views By DAMAC Properties" [ref=f16e18]
+      - generic [ref=f16e21]:
+        - navigation "Breadcrumb" [ref=f16e22]:
+          - list [ref=f16e23]:
+            - listitem [ref=f16e24]:
+              - link "Home" [ref=f16e25] [cursor=pointer]:
+                - /url: index.php
+            - listitem [ref=f16e26]:
+              - text: /
+              - link "Developers" [ref=f16e27] [cursor=pointer]:
+                - /url: developers.php
+            - listitem [ref=f16e28]:
+              - text: /
+              - generic [ref=f16e29]: DAMAC Properties
+        - heading "DAMAC Properties" [level=1] [ref=f16e30]
+        - paragraph [ref=f16e31]: Luxury Dubai developer renowned for high-end residential towers and branded, amenity-rich communities.
+    - region [ref=f16e32]:
+      - generic [ref=f16e34]:
+        - img "DAMAC Riverside Views By DAMAC Properties" [ref=f16e36]
+        - generic [ref=f16e37]:
+          - paragraph [ref=f16e38]: Developer Overview
+          - generic [ref=f16e39]:
+            - img "DAMAC Properties Logo"
+          - heading "DAMAC Properties" [level=2] [ref=f16e40]
+          - paragraph [ref=f16e41]: Luxury Dubai developer renowned for high-end residential towers and branded, amenity-rich communities.
+    - region [ref=f16e42]:
+      - generic [ref=f16e43]:
+        - generic [ref=f16e44]:
+          - paragraph [ref=f16e45]: Projects
+          - heading "Projects By DAMAC Properties" [level=2] [ref=f16e46]
+        - generic [ref=f16e47]:
+          - article [ref=f16e48]:
+            - link "View DAMAC Riverside Views" [ref=f16e49] [cursor=pointer]:
+              - /url: damac-riverside-views.php
+            - generic [ref=f16e50]:
+              - heading [level=3] [ref=f16e51]:
+                - link "DAMAC Riverside Views" [ref=f16e52] [cursor=pointer]:
+                  - /url: damac-riverside-views.php
+              - paragraph [ref=f16e53]:
+                - link "DAMAC Properties" [ref=f16e54] [cursor=pointer]:
+                  - /url: damac-properties.php
+                - text: · Dubai Investments Park, Dubai
+              - list "Property Types" [ref=f16e55]:
+                - listitem [ref=f16e56]: Apartments
+              - link "View DAMAC Riverside Views Project Details" [ref=f16e59] [cursor=pointer]:
+                - /url: damac-riverside-views.php
+                - text: View Project
+          - article [ref=f16e62]:
+            - link "View DAMAC Islands 2" [ref=f16e63] [cursor=pointer]:
+              - /url: damac-islands2.php
+            - generic [ref=f16e64]:
+              - heading [level=3] [ref=f16e65]:
+                - link "DAMAC Islands 2" [ref=f16e66] [cursor=pointer]:
+                  - /url: damac-islands2.php
+              - paragraph [ref=f16e67]:
+                - link "DAMAC Properties" [ref=f16e68] [cursor=pointer]:
+                  - /url: damac-properties.php
+                - text: · Dubailand, Dubai
+              - list "Property Types" [ref=f16e69]:
+                - listitem [ref=f16e70]: High-End Waterfront Villas & Townhouses
+              - link "View DAMAC Islands 2 Project Details" [ref=f16e73] [cursor=pointer]:
+                - /url: damac-islands2.php
+                - text: View Project
+  - contentinfo [ref=f16e76]:
+    - generic [ref=f16e77]:
+      - generic [ref=f16e78]:
+        - img "SMB Real Estate Brokers — Serving, Managing & Beyond" [ref=f16e79]
+        - paragraph [ref=f16e80]: Serving, Managing & Beyond
+        - paragraph [ref=f16e81]: SMB Real Estate Brokers L.L.C Is A UAE Property Advisory For Residential And Commercial Clients, Known For Independent Judgement, Attentive Execution And Relationships That Continue Beyond Completion.
+      - generic [ref=f16e82]:
+        - heading "Quick Links" [level=3] [ref=f16e83]
+        - list [ref=f16e84]:
+          - listitem [ref=f16e85]:
+            - link "Home" [ref=f16e86] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f16e87]:
+            - link "About" [ref=f16e88] [cursor=pointer]:
+              - /url: about.php
+          - listitem [ref=f16e89]:
+            - link "Services" [ref=f16e90] [cursor=pointer]:
+              - /url: services.php
+          - listitem [ref=f16e91]:
+            - link "Developers" [ref=f16e92] [cursor=pointer]:
+              - /url: developers.php
+          - listitem [ref=f16e93]:
+            - link "Communities" [ref=f16e94] [cursor=pointer]:
+              - /url: communities.php
+          - listitem [ref=f16e95]:
+            - link "Contact" [ref=f16e96] [cursor=pointer]:
+              - /url: contact.php
+      - generic [ref=f16e97]:
+        - heading "Contact" [level=3] [ref=f16e98]
+        - list [ref=f16e100]:
+          - listitem [ref=f16e101]:
+            - link "+971 50 421 7299" [ref=f16e102] [cursor=pointer]:
+              - /url: tel:+971504217299
+          - listitem [ref=f16e103]:
+            - link "info@smbdubai.net" [ref=f16e104] [cursor=pointer]:
+              - /url: mailto:info@smbdubai.net
+          - listitem [ref=f16e105]: 3002 Westburry Tower Office,Business Bay, Dubai, UAE
+    - generic [ref=f16e106]:
+      - paragraph [ref=f16e107]: © 2026 SMB Real Estate Brokers L.L.C. All Rights Reserved.
+      - paragraph [ref=f16e108]: Prices, Availability And Handover Dates Are Indicative

@@ -22,8 +22,8 @@ if ($developer === null) {
     $skip_link = '#not-found';
     require __DIR__ . '/../includes/header.php';
     ?>
-      <main id="top">
-        <section class="section" id="not-found" aria-labelledby="not-found-title">
+      <main id="top" data-neutral-sequence>
+        <section class="section" id="not-found" aria-labelledby="not-found-title" data-neutral-section>
           <div class="container" style="text-align:center; max-width:640px;">
             <p class="eyebrow">Developer Not Found</p>
             <h1 id="not-found-title">We Couldn't Find That Developer</h1>
@@ -138,7 +138,7 @@ $breadcrumb_trail = [
 require __DIR__ . '/../includes/header.php';
 ?>
 
-  <main id="top">
+  <main id="top" data-neutral-sequence>
 
     <section class="hero hero--page" aria-labelledby="hero-title">
       <img class="hero__bg" src="<?= smb_e($developer_image) ?>"
@@ -156,7 +156,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="section" id="overview" aria-labelledby="overview-title">
+    <section class="section" id="overview" aria-labelledby="overview-title" data-neutral-section>
       <div class="container">
         <div class="split">
           <div class="split__media" data-reveal>
@@ -178,7 +178,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="comms section section--gray" id="projects" aria-labelledby="projects-title">
+    <section class="comms section" id="projects" aria-labelledby="projects-title" data-neutral-section>
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Projects</p>

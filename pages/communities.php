@@ -21,7 +21,7 @@ require __DIR__ . '/../includes/developer-data.php';
 require __DIR__ . '/../includes/header.php';
 ?>
 
-  <main id="top">
+  <main id="top" data-neutral-sequence>
 
     <section class="hero hero--page" aria-labelledby="hero-title">
       <img class="hero__bg" src="assets/images/projects/damac-riverside-views/webp/01-aerial-view.webp"
@@ -39,7 +39,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="comm-intro section" id="intro" aria-labelledby="intro-title">
+    <section class="comm-intro section" id="intro" aria-labelledby="intro-title" data-neutral-section>
       <div class="container comm-intro__inner">
         <div data-reveal>
           <p class="eyebrow">Why Location Matters</p>
@@ -72,7 +72,7 @@ require __DIR__ . '/../includes/header.php';
           return 'developers.php#developer-' . developer_slug($developerName);
       };
     ?>
-    <section class="comms section section--gray" id="communities" aria-labelledby="comms-title">
+    <section class="comms section" id="communities" aria-labelledby="comms-title" data-neutral-section>
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Featured Communities</p>
@@ -90,14 +90,14 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="lifestyle section section--gray" aria-labelledby="lifestyle-title">
+    <section class="lifestyle section" aria-labelledby="lifestyle-title" data-neutral-section>
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Explore By Lifestyle</p>
           <h2 id="lifestyle-title">Begin With The Life&mdash;Or Outcome&mdash;You Want</h2>
         </div>
         <div class="categories__grid">
-          <a class="category-card" href="#" data-reveal aria-label="Waterfront Living Communities (Filtered View To Be Added)">
+          <a class="category-card" href="#enquire" data-reveal>
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-waves"/></svg></span>
             <span class="category-card__text">
               <h3>Waterfront Living</h3>
@@ -105,7 +105,7 @@ require __DIR__ . '/../includes/header.php';
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
-          <a class="category-card" href="#" data-reveal aria-label="Family Communities (Filtered View To Be Added)">
+          <a class="category-card" href="#enquire" data-reveal>
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-users"/></svg></span>
             <span class="category-card__text">
               <h3>Family Communities</h3>
@@ -113,7 +113,7 @@ require __DIR__ . '/../includes/header.php';
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
-          <a class="category-card" href="#" data-reveal aria-label="City Living Communities (Filtered View To Be Added)">
+          <a class="category-card" href="#enquire" data-reveal>
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg></span>
             <span class="category-card__text">
               <h3>City Living</h3>
@@ -121,7 +121,7 @@ require __DIR__ . '/../includes/header.php';
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
-          <a class="category-card" href="#" data-reveal aria-label="Luxury Destinations (Filtered View To Be Added)">
+          <a class="category-card" href="#enquire" data-reveal>
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-sparkles"/></svg></span>
             <span class="category-card__text">
               <h3>Distinguished Destinations</h3>
@@ -129,7 +129,7 @@ require __DIR__ . '/../includes/header.php';
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
-          <a class="category-card" href="#" data-reveal aria-label="Investment Areas (Filtered View To Be Added)">
+          <a class="category-card" href="#enquire" data-reveal>
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg></span>
             <span class="category-card__text">
               <h3>Investment Areas</h3>
@@ -137,7 +137,7 @@ require __DIR__ . '/../includes/header.php';
             </span>
             <span class="category-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
-          <a class="category-card" href="#" data-reveal aria-label="Emerging Communities (Filtered View To Be Added)">
+          <a class="category-card" href="#enquire" data-reveal>
             <span class="category-card__icon"><svg class="icon" aria-hidden="true"><use href="#i-leaf"/></svg></span>
             <span class="category-card__text">
               <h3>Emerging Communities</h3>
@@ -149,7 +149,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="choose section" aria-labelledby="choose-title">
+    <section class="choose section" aria-labelledby="choose-title" data-neutral-section>
       <div class="container choose__grid">
         <div class="choose__intro" data-reveal>
           <p class="eyebrow">Choosing The Right Community</p>
@@ -200,7 +200,7 @@ require __DIR__ . '/../includes/header.php';
       </div>
     </section>
 
-    <section class="faq faq--centered section section--gray" aria-labelledby="faq-title">
+    <section class="faq faq--centered section" aria-labelledby="faq-title" data-neutral-section>
       <div class="container">
         <div class="section-head" data-reveal>
           <p class="eyebrow">Common Questions</p>
